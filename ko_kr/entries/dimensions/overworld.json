@@ -1,5 +1,5 @@
 {
-    "name": "오버월드",
+    "name": "오버월드(Overworld)",
     "icon": "minecraft:grass_block",
     "category": "patchouli:dimensions",
 	"sortnum":0,
@@ -10,9 +10,9 @@
 &6&l구역 레벨:&r&r    &n1 - 15 &r
 &6&l강화된 구역 레벨:&r &n50 - 70&r
 &6&l예외:&r  얼음 미궁 레벨 35+
-&6&l퀘스트:&r  Prologue; Act I; part of Act III
-&6&l차원 관문:&r  Act I Gateway; Gateway of the Deep Sea
-&6&l관문 보스:&r   Hermit Abysswalker; Invoker; Frostmaw; Grim Reaper; Eel; Mother of the Maze; Ghost of Captain Cornelia "
+&6&l퀘스트:&r  프롤로그; Act I; Act III의 일부분(후반)
+&6&l차원 관문:&r  Act I 관문; 깊은 바다의 관문
+&6&l관문 보스:&r   은둔하는 심연을 걷는자(Hermit Abysswalker); 인보커(Invoker); 눈물고기(Frostmaw); 저승사자(Grim Reaper); 장어(Eel); 미로의 어미(Mother of the Maze); 선장 코넬리아의 유령(Ghost of Captain Cornelia) "
 		},
 		{
             "type": "patchouli:text",

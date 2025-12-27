@@ -10,8 +10,8 @@
 &6&l구역 레벨:&r&r    &n10 - 30&r
 &6&l강화된 구역 레벨:&r &n55 - 75&r
 &6&l예외:&r  없음
-&6&l퀘스트:&r  Act II;
-&6&l차원 관문:&r  Act II Gateway;
+&6&l퀘스트:&r  Act II
+&6&l차원 관문:&r  Act II 관문
 &6&l관문 보스:&r 뒤틀린 모스코(Warped Mosco), 와일드파이어(Wildfire), 어미 용암 오징어(Mother Lava Squid), 위더(Wither), 끔찍한 가스트(Awful Ghast), 네더 파수꾼(Nether Keeper) "
 		},
 		{
@@ -21,12 +21,12 @@
             "type": "patchouli:spotlight",
 			"title":"네더에 들어가는 방법",
   "item": "minecraft:obsidian,minecraft:flint_and_steel,minecraft:fire_charge",
-  "text": "이 차원에 입장하려면 최소 10개의 흑요석 블록과 부싯돌이나 화염구 같은 불꽃이 필요합니다. 불꽃은 틀의 중앙에 불을 붙이는 데 필요합니다.&r.
+  "text": "이 차원에 입장하려면 &l최소 10개의 흑요석 블록과 부싯돌이나 화염구 같은 불꽃이 필요합니다. 불꽃은 틀의 중앙에 불을 붙이는 데 필요합니다.&r.
   &o모서리 블록은 선택 사항이지만, 만약 존재한다면 &2미적 능력치에 +5를 부여&r합니다."
 		},
 		{
             "type": "patchouli:multiblock",
-			"name":"네더 차원문",
+			"name": "네더 차원문",
 			"text": "눈 모양 아이콘을 클릭하여 게임 내에서 형상을 보세요.",
             "multiblock": {
     "pattern": [

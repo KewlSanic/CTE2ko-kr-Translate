@@ -1,5 +1,5 @@
 {
-    "name": "언더가든",
+    "name": "언더가든(Undergarden)",
     "icon": "undergarden:catalyst",
     "category": "patchouli:dimensions",
 	"sortnum":2,
@@ -10,9 +10,9 @@
 &6&l구역 레벨:&r&r    &n25 - 40 &r&r
 &6&l강화된 구역 레벨:&r &n60 - 80&r
 &6&l예외:&r  없음
-&6&l퀘스트:&r  Act III;
-&6&l차원 관문 :&r  Act III 관문;
-&6&l이 차원의 보스들:&r 거대 연철기사(Ferrous Wroughtnaut); 태양의 새 움브티(Umvuthi, The Sunbird); 조각가 통비(Tongbi, the Sculptor); 잊혀진 수호자(Forgotten Guardian); 장어(Eel)  "
+&6&l퀘스트:&r  Act III
+&6&l차원 관문 :&r  Act III 관문
+&6&l이 차원의 보스들:&r 거대 연철기사(Ferrous Wroughtnaut); 태양의 새, 움브티(Umvuthi, The Sunbird); 조각가 통비(Tongbi, the Sculptor); 잊혀진 수호자(Forgotten Guardian); 장어(Eel)  "
 		},
 		{
             "type": "patchouli:text",
@@ -21,7 +21,7 @@
             "type": "patchouli:spotlight",
 			"title":"언더가든에 들어가는 방법",
   "item": "undergarden:catalyst,minecraft:stone_bricks",
-  "text": "이 차원에 입장하려면 최소 10개의 Stone Bricks(석재 벽돌)과 Nether Star(네더의 별)로 만드는 Catalyst(촉매)(조합법은 EMI/JEI를 참고 하세요)를 준비하면 됩니다 &r.
+  "text": "이 차원에 입장하려면 &l최소 10개의 Stone Bricks(석재 벽돌)과 Nether Star(네더의 별)로 만드는 Catalyst(촉매)(조합법은 EMI/JEI를 참고 하세요)를 준비하면 됩니다 &r.
   &o모서리 블록은 선택 사항이지만, 만약 존재한다면 &2미적 능력치에 +5를 부여&r합니다."
 		},
 		{
