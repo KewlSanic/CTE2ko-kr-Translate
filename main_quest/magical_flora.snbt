@@ -10,7 +10,7 @@
 	quests: [
 		{
 			description: [
-				"The &e보타니아 사전&r은 &2&l보타니아&r&r를 탐색하는 데 도움이 되는 매우 유용한 아이템이자 가이드입니다. 사전을 핫바에 넣어두면 아무 아이템 위에 마우스를 올리고 &eCtrl&r 키를 누른 상태로 보타니아 사전에서 해당 아이템에 대한 문서를 열 수 있습니다."
+				"&e보타니아 사전&r은 &2&l보타니아&r&r를 탐색하는 데 도움이 되는 매우 유용한 아이템이자 가이드입니다. 사전을 핫바에 넣어두면 아무 아이템 위에 마우스를 올리고 &eCtrl&r 키를 누른 상태로 보타니아 사전에서 해당 아이템에 대한 문서를 열 수 있습니다."
 				""
 				"보타니아를 익히고 활용하면 전투와 자동화에 도움이 되는 강력한 장신구와 아이템을 제작할 수 있습니다!"
 				""
@@ -247,7 +247,7 @@
 			description: [
 				"&e마나 공급기&r는 주로 &e마나 웅덩이로&r로 마나 펄스를 전달하는 데 사용됩니다. 또한 마나를 생성해야 하는데, 이는 마나를 생성하는 꽃이 마나 웅덩이로 보내지기 전에 연결된 마나 공급기로 마나를 보내야 하기 때문입니다."
 				""
-				"거리가 마나 전송 속도에 큰 영향을 미친다는 점을 꼭 기억하세요. 마나 공급기는 이전 운반이 적중하기 전까지는 다음 운반을 할 수 없습니다!"
+				"거리가 마나 전송 속도에 큰 영향을 미친다는 점을 꼭 기억하세요. 마나 공급기는 이전 분출이 적중하기 전까지는 다음 분출을 할 수 없습니다!"
 				""
 				"&o한번마다 160의 마나를 운반합니다.&r"
 				""
@@ -732,7 +732,7 @@
 		{
 			dependencies: ["4C947F0DD56C009C"]
 			description: [
-				"핵심 마나 자원에 대량의 마나를 투입하면 일반 &e마나스틸 주괴&r보다 훨씬 강력한 주괴를 만들 수 있습니다. 제작에는 마나 웅덩이의 절반 양이 필요하며, 제작 도중 중단되면 소모된 마나는 완전히 없어지게 되므로 제작이 중단되지 않도록 주의해야 합니다!"
+				"핵심 마나 자원에 대량의 마나를 투입하면 일반 &e마나합금 주괴&r보다 훨씬 강력한 주괴를 만들 수 있습니다. 제작에는 마나 웅덩이의 절반 양이 필요하며, 제작 도중 중단되면 소모된 마나는 완전히 없어지게 되므로 제작이 중단되지 않도록 주의해야 합니다!"
 				""
 				"이 과정을 훨씬 빠르게 진행하려면 집적 판과 마나 웅덩이 양쪽에 스파크를 설치하는 것이 좋습니다. 마나 공급기는 이처럼 복잡한 과정에 비해 너무 느립니다."
 				""
@@ -888,7 +888,7 @@
 		{
 			dependencies: ["29FF9EF35E5B5FC7"]
 			description: [
-				"사전에 표시된 다양한 블록을 결합하고 대량의 마나를 추가하면 &e엘븐 상인들&r과 연결할 수 있는 포탈을 만들 수 있습니다. 연결을 설정하면 그들이 &e보타니아 사전&r에 관심을 가질 수도 있습니다..."
+				"사전에 표시된 다양한 블록을 결합하고 대량의 마나를 추가하면 &e요정 상인들&r과 연결할 수 있는 포탈을 만들 수 있습니다. 연결을 설정하면 그들이 &e보타니아 사전&r에 관심을 가질 수도 있습니다..."
 				"{image:botania:block/alfheim_portal_swirl width:100 height:100 align:center}"
 			]
 			id: "5E33BF5591E1C097"
@@ -947,7 +947,7 @@
 					type: "item"
 				}
 			]
-			title: "엘븐 상인들"
+			title: "요정 상인들"
 			x: -4.0d
 			y: -13.0d
 		}
@@ -1022,7 +1022,7 @@
 		}
 		{
 			dependencies: ["0F4713A9935F369F"]
-			description: ["If you combine &eTerrasteel Ingots&r with &eGaia Spirits&r you can create a stronger metal. This new metal, &eGaia Spirit Ingot&r, can be used for summoning a stronger version of the Guardian!"]
+			description: ["&e테라스틸 주괴&r와 &e영원한 생명의 정수&r를 조합하면 더 강한 금속을 만들 수 있습니다. 이 새로운 금속인 &e가이아 영혼 주괴&r를 사용하면 더욱 강력한 수호자를 소환할 수 있습니다!"]
 			id: "2AA870C10523482D"
 			rewards: [
 				{
@@ -1047,17 +1047,17 @@
 				item: "botania:gaia_ingot"
 				type: "item"
 			}]
-			title: "Overcharged Gaia"
+			title: "과충전된 가이아"
 			x: -1.0d
 			y: -12.0d
 		}
 		{
 			dependencies: ["7E4CDBDAE7BAD2C3"]
 			description: [
-				"If you ignite a TNT block near the &c&lEntropinnyum&r&r it will consume the explosion and convert it into a large amount of mana."
-				"Important note: if it has any mana in its buffer it will ignore any other explosions letting them explode as normal! Timing is vital to prevent catastrophic damage! Emptying this flower as fast as possible is vital, maybe there is a way to upgrade that old mana spreader... The flower seems to be able to detect whether or not the TNT was ethically sourced, incurring an extreme generation penalty if said TNT was sourced via a duplication machine."
+				"&c&l엔트로피늄&r&r 근처에서 TNT 블록에 불을 붙이면 폭발력을 흡수하여 많은 양의 마나로 변환합니다."
+				"중요: 만약 이 꽃에 마나가 조금이라도 있다면, 다른 폭발은 모두 무시하고 정상적으로 폭발합니다! 치명적인 피해를 막으려면 타이밍이 매우 중요합니다! 이 꽃의 마나를 최대한 빨리 빼내는 것이 핵심인데, 혹시 기존 마나 공급기를 업그레이드할 방법이 있을까요? 이 꽃은 TNT가 합법적으로 제조되었는지 여부를 감지할 수 있는 것 같습니다. 복제 기계를 통해 제조된 TNT일 경우, 마나 생산량에 극심한 페널티가 부과됩니다."
 				""
-				"The &c&lThermalilly&r&r is a nether alternative of Hydroangeas that produces mana by consuming lava sources. It has a cooldown for processing lava and if you place another source of lava during this cooldown it will consume it and reset the cooldown without producing any mana. This flower is tricky to automate due to its variable cooldown but can be a powerful mana source!"
+				"&c&l열백합&r&r은 수국의 네더 버전이며, 용암을 소모하여 마나를 생산합니다. 용암을 소모하는 데 쿨다임이 있으며, 쿨타임 중에 다른 용암을 설치하면 해당 용암을 소모하고 쿨타임이 초기화되지만 마나는 생산되지 않습니다. 이 꽃은 쿨타임이 가변적이어서 자동화하기가 까다롭지만, 강력한 마나 공급원이 될 수 있습니다!"
 			]
 			id: "622EF4EBE96C0429"
 			rewards: [
@@ -1095,17 +1095,16 @@
 					type: "item"
 				}
 			]
-			title: "Mature Explosion"
+			title: "성숙한 폭발"
 			x: 4.5d
 			y: -4.0d
 		}
 		{
 			dependencies: ["757C990D0DCFE95B"]
 			description: [
-				"The &2&lGourmaryllis&r&r is a hungry flower that will consume any food its given and turn it"
-				" into mana after digesting it, any food thrown in the time of"
-				" digestion will not yield any mana but still will be consumed. Digestion time and amount of mana directly depends on nutritional value of the given food. This flower prefers a variety and will incur a generation penalty if it eats the same food item too many times in a row."
-				"The &2&lKekimurus&r&r has quite the sweet tooth, it will gradually eat any cakes placed nearby and turn them into mana."
+				"&2&l구어머릴러스&r&r는 음식을 매우 좋아하는 꽃으로, 주어진 음식을 모두 섭취하여 소화시킨 후 마나로 변환합니다."
+				" 소화 과정 중에 던져진 음식은 마나를 생성하지 않지만, 섭취는 계속됩니다. 소화 시간과 마나 회복량은 섭취하는 음식의 영양가에 직접적으로 영향을 받습니다. 이 꽃은 다양한 음식을 선호하며, 같은 음식을 연속해서 너무 많이 먹으면 마나 생산 페널티를 받게 됩니다."
+				"&2&l케키머러스&r&r는 단 것을 매우 좋아해서 근처에 놓인 케이크를 천천히 먹어치우고 마나로 변환시킵니다."
 			]
 			id: "7E4CDBDAE7BAD2C3"
 			rewards: [
@@ -1142,13 +1141,13 @@
 					type: "item"
 				}
 			]
-			title: "Tasty treat"
+			title: "맛있는 간식"
 			x: 3.0d
 			y: -4.0d
 		}
 		{
 			dependencies: ["4E4F05F210F326B4"]
-			description: ["Armor and tools made from Manasteel have their own built-in mending system that will slowly repair them by using mana from your portable mana source."]
+			description: ["마나합금 주괴로 만든 갑옷과 도구에는 휴대용 마나 소스의 마나를 사용하여 천천히 수리할 수 있는 자체 내장 수리 시스템이 있습니다."]
 			id: "63FAC5EE546117E9"
 			rewards: [
 				{
@@ -1168,7 +1167,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Magical Protection"
+			subtitle: "마법의 보호"
 			tasks: [
 				{
 					id: "41E4BB72C3044925"
@@ -1215,13 +1214,13 @@
 					type: "item"
 				}
 			]
-			title: "Mana\"steal\""
+			title: "마나 \"훔치기\""
 			x: -7.0d
 			y: -5.5d
 		}
 		{
 			dependencies: ["21E565614968622B"]
-			description: ["Instead of carrying mana tablets around you can craft them into rings to wear it in your curio slot! Such trinkets can even have MNS Souls applied!"]
+			description: ["마나 태블릿을 들고 다니는 대신 반지로 만들어 curio 슬롯에서 착용할 수 있습니다! 이러한 장신구에는 MNS 소울을 적용할 수도 있습니다!"]
 			id: "29792179C0F9C558"
 			rewards: [{
 				auto: "enabled"
@@ -1233,7 +1232,7 @@
 				title: "100 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Inner Arts"
+			subtitle: "내면의 예술"
 			tasks: [{
 				id: "3AC049EC332B237A"
 				item: "botania:mana_ring"
@@ -1244,7 +1243,7 @@
 		}
 		{
 			dependencies: ["2CCB1CB299A81969"]
-			description: ["The &eBotanical Brewery&r allows you to brew multi-use potions with various vanilla and even botania-unique potion effects."]
+			description: ["&e식물학 양조기&r을 이용하면 바닐라 버전에서 볼 수 있는 효과는 물론, 보타니아만의 독특한 효과를 가진 다용도 물약을 제조할 수 있습니다."]
 			id: "5501085B22C643F9"
 			rewards: [
 				{
@@ -1263,7 +1262,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "My Strongest Potions"
+			subtitle: "나의 가장 강력한 물약"
 			tasks: [
 				{
 					id: "6161F6D45BD55F73"
@@ -1277,16 +1276,16 @@
 					type: "item"
 				}
 			]
-			title: "Brew me some more!"
+			title: "더 양조 해주세요!"
 			x: 0.5d
 			y: -8.5d
 		}
 		{
 			dependencies: ["5501085B22C643F9"]
 			description: [
-				"Do you ever wish for some rest from mobs around you? &l&3Brew of Vanity's Emptiness&r&r will stop any natural mob spawning in a &n128 block radius&r around you, making you a portable Megatorch for duration of this brew."
+				"주변의 몬스터들로부터 잠시 벗어나 휴식을 취하고 싶으신가요? &l&3자만의 공허의 물약&r&r은 당신 주변의 &n128 블록 반경 내에서&r 자연적으로 생성되는 몬스터를 모두 없애주어, 이 물약을 사용하는 동안 당신을 휴대용 메가토치로 만들어줍니다."
 				""
-				"And if you crave blood and struggle with mob spawn rates - &c&lBrew of Crinson Shade&r&r will help you with that in a &n64 block radius&r for its duration, turning you into a pocket Blood Moon."
+				"만약 피에 대한 갈망이 크고 몬스터 생성 속도가 느리다면, &c&l핏빛 안개의 물약&r&r은 지속 시간 동안 &n반경 64블록 내에서&r 당신을 휴대용 블러드 문으로 만들어 줄 것입니다."
 			]
 			id: "6C492D34CE6F404C"
 			rewards: [{
@@ -1299,7 +1298,7 @@
 				title: "100 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Peace or Chaos"
+			subtitle: "평화 아니면 혼돈"
 			tasks: [
 				{
 					id: "0EFEF6DB4CB9FAA6"
@@ -1324,18 +1323,18 @@
 					type: "item"
 				}
 			]
-			title: "Complex Brewing"
+			title: "복잡한 양조"
 			x: 2.0d
 			y: -10.0d
 		}
 		{
 			dependencies: ["144467B32903983B"]
 			description: [
-				"Aside from Generational flora there are also many &nFunctional Flora&r. If you supply those flowers with mana they will use it to perform various actions."
-				"Most common ones are:"
-				"&2&lHopperhock&r&r - it will pick up all the items in its radius and deposit into an adjacent inventory, by supplying it with a small amount of mana it's radius is greatly increased, you can even filter items using item frames placed on inventories."
-				"&2&lAgricarnation&r&r is a fertilizer flower that will greatly speed up your crops growth if provided with mana."
-				"&2&lExoflame&r&r is a reverse version of the Endoflame flower from Generational flora - if provided with mana, it will power and give a speed boost to nearby furnaces without the need for fuel."
+				"생산성 식물 외에도 많은 &n기능적인 꽃&r이 있습니다. 그 꽃에 마나를 공급하면 다양한 행동을 수행하는 데 사용할 수 있습니다."
+				"가장 일반적인 것은:"
+				"&2&l호퍼록&r&r - 이 꽃은 반경 내의 모든 아이템을 집어 인접한 인벤토리에 보관합니다. 소량의 마나를 공급하면 반경이 크게 증가하며, 인벤토리에 아이템 액자를 배치하여 아이템을 필터링할 수도 있습니다."
+				"&2&l성장의 카네이션&r&r - 마나를 공급하면 작물의 성장을 크게 촉진하는 비료 꽃입니다."
+				"&2&l바깥불꽃&r&r - 이 꽃은 생산성 식물에 등장하는 불먹이 꽃의 역버전으로, 마나를 공급받으면 연료 없이도 주변 용광로에 동력을 공급하고 속도를 높여줍니다."
 			]
 			id: "2A9C8DC76F5402B5"
 			rewards: [{
@@ -1365,16 +1364,16 @@
 					type: "item"
 				}
 			]
-			title: "Introduction to Functional Flora"
+			title: "기능적인 꽃 소개"
 			x: 1.5d
 			y: -7.0d
 		}
 		{
 			dependencies: ["6C84C6DC5D77E05D"]
 			description: [
-				"A great example of Generational Flora are the &2&lOrechid&r&r and &2&lOrechid Ignem&r&r."
-				"Both of these flowers are used for transforming Stone/Netherrack into a respectable amount of dimension specific ores if provided with a large amount of mana."
-				"&eImportant note: Orechid Ignem needs to be in the Nether to function.&r"
+				"생성형 꽃의 좋은 예로는 &2&l광물난초&r&r와 &2&l불타는 광물난초&r&r가 있습니다."
+				"이 두 꽃은 모두 많은 양의 마나가 공급될 경우 돌/네더랙을 해당 차원의 광석으로 상당량 변환하는 데 사용됩니다."
+				"&e중요: 불타는 광물난초는 네더에 있어야 작동합니다.&r"
 			]
 			id: "14960E1ACAB65A8A"
 			rewards: [{
@@ -1399,15 +1398,15 @@
 					type: "item"
 				}
 			]
-			title: "Ore Generation"
+			title: "광석 생성"
 			x: 4.5d
 			y: -7.0d
 		}
 		{
 			dependencies: ["2A9C8DC76F5402B5"]
 			description: [
-				"The &2&lSpectranthemum&r&r is a flower that will teleport items to a linked location for the cost of mana. You can link a specific location using Wand of the Forest in binding mode. "
-				"The &2&lClayconia&r&r quickly converts nearby sand blocks into clay balls."
+				"&2&l유령국화&r&r는 마나를 소모하여 아이템을 연결된 위치로 순간 이동시켜 줍니다. 숲의 지팡이를 연결 모드로 사용하면 특정 위치를 연결할 수 있습니다.. "
+				"&2&l점토코니아&r&r는 주변의 모래 덩어리를 빠르게 점토로 변환합니다."
 			]
 			id: "6C84C6DC5D77E05D"
 			rewards: [{
@@ -1432,13 +1431,13 @@
 					type: "item"
 				}
 			]
-			title: "Natural Utilities"
+			title: "천연 유틸리티"
 			x: 3.0d
 			y: -7.0d
 		}
 		{
 			dependencies: ["2A9C8DC76F5402B5"]
-			description: ["There are a wide variety of &eGenerational Flora&r not listed in this book, it would be wise to view the related chapter in the &eLexica Botania&r and discover what other interesting and powerful options await you."]
+			description: ["이 책에 수록되지 않은 다양한 &e생산성 식물&r이 많이 있으므로, &e보타니아 사전&r의 관련 장을 참조하여 더욱 흥미롭고 유용한 정보를 찾아보시기 바랍니다."]
 			icon: "botania:narslimmus"
 			id: "0E605A9E8F7445AE"
 			rewards: [{
@@ -1451,10 +1450,10 @@
 				title: "100 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Complex Curiosities"
+			subtitle: "복잡한 호기심"
 			tasks: [{
 				id: "716172C55EF47C42"
-				title: "Advanced Generational Flora"
+				title: "고급 생산성 식물"
 				type: "checkmark"
 			}]
 			x: 3.0d
@@ -1462,7 +1461,7 @@
 		}
 		{
 			dependencies: ["6C492D34CE6F404C"]
-			description: ["If you use an &eIncense Stick&r instead of a Vial in a brewing process you can imbue it with the same effect as one would with a potion. By sacrificing the mobility of a potion effect and puting an &eIncense Stick&r into an &eIncense Plate&r and lighting it with a Flint and Steel - the potion effect will last 64 times longer!"]
+			description: ["물약 제조 과정에서 물약병 대신 &e향&r을 사용하면 물약과 동일한 효과를 낼 수 있습니다. 물약처럼 이동성이 좋지는 않지만, &e향&r을 &e향 받침대&r에 꽂고 부싯돌과 부시로 불을 붙이면 물약 효과 지속 시간이 64배 더 길어집니다!"]
 			id: "53845C1C87A44C3C"
 			rewards: [{
 				auto: "enabled"
@@ -1487,13 +1486,13 @@
 					type: "item"
 				}
 			]
-			title: "Smoking Effects"
+			title: "흡연의 영향"
 			x: 2.0d
 			y: -11.5d
 		}
 		{
 			dependencies: ["5B980171D8F54AAC"]
-			description: ["When equipped and provided a small amount of mana the &l&2Sojourner's Sash&r&r will give an increase to jump height and movement speed while also letting you step up 1 block heights!"]
+			description: ["&e마법사의 허리띠&r를 장착하고 소량의 마나를 공급하면 점프 높이와 이동 속도가 증가하고 1칸 높이만큼 올라갈 수 있습니다!"]
 			id: "2AC92077C2E11DEE"
 			rewards: [{
 				auto: "enabled"
@@ -1505,19 +1504,19 @@
 				title: "100 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Inner Arts"
+			subtitle: "내면의 예술"
 			tasks: [{
 				id: "6B70CD8CB9D75CE1"
 				item: "botania:travel_belt"
 				type: "item"
 			}]
-			title: "Gotta go fast!"
+			title: "그 파란 고슴도치처럼!"
 			x: -8.5d
 			y: -8.5d
 		}
 		{
 			dependencies: ["0F4713A9935F369F"]
-			description: ["Improved version of Sojourner's sash that makes you even faster."]
+			description: ["더욱 빠른 속도를 낼 수 있도록 개선된 마법사의 허리띠입니다."]
 			id: "3328931FE8E2792E"
 			rewards: [{
 				auto: "enabled"
@@ -1529,26 +1528,26 @@
 				title: "200 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Gotta go &lreally&r fast!"
+			subtitle: "그 &l파란&r 고슴도치처럼!"
 			tasks: [{
 				id: "58023219C8F85AF1"
 				item: "botania:super_travel_belt"
 				type: "item"
 			}]
-			title: "Zoom Zoom"
+			title: "부릉부릉"
 			x: -2.5d
 			y: -16.0d
 		}
 		{
 			dependencies: ["21E565614968622B"]
 			description: [
-				"You can craft and wear various&e &nTrinkets and Accessories&r&r that can provide you with various useful effects."
+				"다양한 유용한 효과를 제공하는 여러 가지 &e&n장신구와 액세서리&r&r를 제작하고 착용할 수 있습니다."
 				""
-				"Your first ever trinket should be &2&lManaseer Monocle&r&r that will let you see manabursts even through walls, but the most useful ability it provides is that it visualises range of effect of Generating and Functional flora."
+				"가장 먼저 얻어야 할 장신구는 벽 너머로도 마나 분출을 볼 수 있게 해주는 &l&2마나관찰 외알 안경&r&r입니다. 하지만 이 장신구의 가장 유용한 기능은 생성 및 기능성 식물의 효과 범위를 시각화해준다는 점입니다."
 				""
-				"Another very useful trinket is &l&2The Spectator&r&r. Simply hold a desired item in your hand and any nearby containers with that item will glow."
+				"또 다른 매우 유용한 장신구는 &l&2스펙데이터&r&r입니다. 원하는 물건을 손에 들고 있으면 해당 물건이 있는 주변 창고가 빛을 발합니다."
 				""
-				"&2&lThird Eye&r&r will make mobs around you have a glowing outline that you can see even through walls."
+				"&2&l제3의 눈&r&r을 사용하면 주변 몬스터들의 윤곽선이 빛나게 되어 벽 너머로도 볼 수 있습니다."
 			]
 			id: "5B980171D8F54AAC"
 			rewards: [{
@@ -1561,7 +1560,7 @@
 				title: "200 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Inner Arts"
+			subtitle: "내면의 예술"
 			tasks: [
 				{
 					id: "12BEDDA4F2B264F3"
@@ -1579,16 +1578,16 @@
 					type: "item"
 				}
 			]
-			title: "Introduction to Trinkets"
+			title: "장신구 소개"
 			x: -7.0d
 			y: -8.5d
 		}
 		{
 			dependencies: ["5B980171D8F54AAC"]
 			description: [
-				"&2&lCirrus Amulet&r&r provides you with the ability to &e&ndouble jump&r&r. The second jump completely negates vertical momentum and subsequently all fall damage."
+				"&2&l권운의 부적&r&r을 착용하면 &e&n이중 점프&r&r를 할 수 있습니다. 두 번째 점프는 수직 방향의 추진력을 완전히 없애 낙하 피해를 모두 제거합니다."
 				""
-				"&2&lBenevolent Godess's Charm&r &rwill stop all explosions around you from breaking blocks like they never happend."
+				"&2&l자비로운 여신의 매력&r&r은 주변의 모든 폭발이 블록을 부수는 것을 마치 아무 일도 없었던 것처럼 막아줍니다.."
 			]
 			id: "15A416B2B899440A"
 			rewards: [{
@@ -1601,7 +1600,7 @@
 				title: "200 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Inner Arts"
+			subtitle: "내면의 예술"
 			tasks: [
 				{
 					id: "1D11C480C4911605"
@@ -1620,9 +1619,9 @@
 		{
 			dependencies: ["15A416B2B899440A"]
 			description: [
-				"&2&lRing of the Mantle&r&r will provide wearer with the Haste Effect for more efficient mining."
+				"&2&l맨틀의 반지&r&r는 착용자에게 채광 효율을 높여주는 가속 효과를 제공합니다."
 				""
-				"&2&lRong of Chordata&r&r will allow wearer to breathe as well as see and mine better underwater."
+				"&2&l난폭의 반지&r&r는 물속 생물이 숨을 쉴 수 있게 해줄 뿐만 아니라 수중에서 더 잘 보고 채굴할 수 있게 해줍니다."
 			]
 			id: "00367AAF028966BC"
 			rewards: [{
@@ -1635,7 +1634,7 @@
 				title: "100 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Inner Arts"
+			subtitle: "내면의 예술"
 			tasks: [
 				{
 					id: "68EFA8D0F7CC6FC4"
@@ -1654,11 +1653,11 @@
 		{
 			dependencies: ["5AF488FC9A36BFA1"]
 			description: [
-				"By imbuing rods with elemental runes you can achieve interesting results. Botania provides you with many useful rods, a few of the brightest examples are: "
-				"&2&lRod of the Skies&r&r launches you high in the sky and can be used instead of rockets in conjuction with Elytra or Paraglider for easier flight;"
-				"&2&lRod of the Lands&r&r will provide you with unlimited dirt as long as you can provide mana for it making terraforming an easy task;"
-				"&2&lRod of the Depths&r&r performs the same action as the Rod of the Lands but with cobblestone instead for a slightly higher mana cost."
-				"&2&lRod of the Seas&r&r is an infinite water bucket that will provide you water as long as you have mana, found especially useful while working with a &ePetal Apothecary&r."
+				"지팡이에 원소 룬을 부여하면 흥미로운 결과물를 얻을 수 있습니다. 보타니아에서는 다양한 유용한 지팡이를 제공하는데, 그중에서도 특히 뛰어난 몇 가지를 소개하자면 다음과 같습니다: "
+				"&2&l스카이콩콩&r&r은 당신을 하늘 높이 쏘아 올려주며, 엘리트라나 패러글라이더와 함께 사용하면 로켓 대신 더욱 쉽게 비행할 수 있습니다;"
+				"&2&l땅의 막대&r&r는 마나만 공급하면 무한한 흙을 제공하므로 지형 변형이 매우 쉬워집니다;"
+				"&2&l깊이의 로드&r&r는 땅의 지팡이와 동일한 효과를 내지만, 조약돌을 대신 사용하며 마나 비용이 약간 더 높습니다."
+				"&2&l바다의 막대&r&r는 마나가 있는 한 물을 끊임없이 공급해주는 무한 물통으로, 특히 &e꽃잎 연금술기&r와 함께 사용할 때 유용합니다.."
 			]
 			id: "52BB2147C93EAEDD"
 			rewards: [{
@@ -1671,7 +1670,7 @@
 				title: "100 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Elemental Tools"
+			subtitle: "원소 도구"
 			tasks: [
 				{
 					id: "675177DCE483E2DF"
@@ -1698,21 +1697,21 @@
 					type: "item"
 				}
 			]
-			title: "Elemental Rods"
+			title: "원소 막대기"
 			x: -1.0d
 			y: -9.5d
 		}
 		{
 			dependencies: ["5E33BF5591E1C097"]
 			description: [
-				"By establishing &eElven Trading&r routes you manage to find a way to &eimprove your existing Sparks with Augments&r. "
-				"Augments can be applied to sparks that are stationed on top of a mana pool."
-				"By draining mana from the pool &2&lDispersive Augment&r&r will slowly recharge items in adventurers inventory."
-				"&2&lDominant Augment&r&r will pull mana from all mana pools with sparks to fill up its own mana pool."
-				"&2&lRecessive Augment&r&r will disperse mana from its own pool to all the other sparks in the same system."
-				"&2&lIsolation Augment&r&r will completely isolate spark from effects of other Augments."
+				"&e요정 거래&r를 구축함으로써 기존 스파크를 &e증폭 장치로 강화할 수 있는 방법을 찾을 수 있습니다.&r "
+				"증강 효과는 마나 웅덩이 위에 위치한 스파크에 적용할 수 있습니다.."
+				"&2&l증폭: 분산&r&r은 마나 웅덩이에서 마나를 소모함으로써 모험가의 인벤토리에 있는 아이템을 천천히 재충전합니다."
+				"&2&l증폭: 증폭&r&r은 스파크를 이용해 모든 마나 웅덩이에서 마나를 끌어와 자신의 마나 웅덩이를 채웁니다."
+				"&2&l증폭: 전송&r&r은 자신의 마나 웅덩이에서 동일 시스템 내의 다른 모든 스파크로 마나를 분산시킵니다."
+				"&2&l증폭: 고립&r&r은 스파크를 다른 증강 효과로부터 완전히 분리합니다."
 				""
-				"Use any number of combinations of these &2&lAugments&r&r to enable mass mana storage and transfer!"
+				"이러한 &2&l증폭&r&r을 원하는 만큼 조합하여 대량의 마나를 저장 및 전송하세요!"
 			]
 			id: "0F137A63D6205437"
 			rewards: [
@@ -1733,7 +1732,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Live Drive"
+			subtitle: "라이브드라이브"
 			tasks: [
 				{
 					id: "4981A7B70DB3CE7E"
@@ -1756,7 +1755,7 @@
 					type: "item"
 				}
 			]
-			title: "Spark Augments"
+			title: "스파크 증폭"
 			x: -5.0d
 			y: -14.0d
 		}
@@ -1764,11 +1763,11 @@
 			can_repeat: true
 			dependencies: ["0F4713A9935F369F"]
 			description: [
-				"&cThis is a SHOP quest!&r This \"quest\" consumes the items required and grants you the &eFlugel Tiara&r."
+				"&c이것은 상점 퀘스트입니다!&r 이 \"퀘스트\"를 완료하면 필요한 아이템이 소모되며 &e플루겔 티아라&r를 획득할 수 있습니다."
 				""
-				"After harnessing &eGaia Spirits&r you find a way to gain temporary Creative flight with high mana consumption by wearing the &2&lFlugel Tiara&r&r."
+				"&e가이아 영혼&r을 활용한 후, &2&l플루겔 티아라&r&r을 착용하면 마나 소비량이 많은 임시 크리에이티브 비행을 할 수 있는 방법을 찾을 수 있습니다."
 				""
-				"The &2&lFlugel Tiara&r&r has a 1 minute duration with a 2 minute cooldown. There are also many different versions of the Tiara with different cosmetic wings!"
+				"&2&l플루겔 티아라&r&r는 지속 시간이 1분이며 재사용 대기 시간은 2분입니다. 또한, 날개 모양이 다른 다양한 버전의 티아라가 있습니다!"
 			]
 			icon: {
 				Count: 1
@@ -1794,7 +1793,7 @@
 				type: "item"
 			}]
 			shape: "octagon"
-			subtitle: "Shop"
+			subtitle: "상점"
 			tasks: [
 				{
 					consume_items: true
@@ -1821,13 +1820,13 @@
 					type: "item"
 				}
 			]
-			title: "I Believe I Can Fly"
+			title: "난 날 수 있다고 믿어요"
 			x: -1.5d
 			y: -17.0d
 		}
 		{
 			dependencies: ["7765E99AC13D3032"]
-			description: ["After tinkering with &eMana Ingots&r and a &eCrating Table&r you manage to create a portable version - The &2&lAssembly Halo&r&r"]
+			description: ["&e마나 주괴&r와 &e제작대&r를 이리저리 만져본 결과, 휴대용 버전인 &2&l조립 광륜&r&r를 만들 수 있습니다."]
 			id: "39B5D2C538B15A8F"
 			rewards: [
 				{
@@ -1852,13 +1851,13 @@
 				item: "botania:crafting_halo"
 				type: "item"
 			}]
-			title: "Portable Crafting"
+			title: "휴대용 제작"
 			x: -5.0d
 			y: -8.0d
 		}
 		{
 			dependencies: ["386F0541CCE9CA16"]
-			description: ["If you put a &l&2Fel Pumpkin&r&r &eon top of 2 &nIron Bars&r as if one would build a Snowman&r you manage to summon a Blaze but because of its weaker form it drops &eBlaze Powder&r instead of Rods."]
+			description: ["만약 &l&2쓴 호박&r&r을 &e마치 눈사람을 만들듯이 &n철 창살&r 두 개 위에 올려놓으면&r 블레이즈를 소환할 수 있지만, 약한 형태이기 때문에 &e블레이즈 가루&r를 드롭합니다."]
 			id: "44C71BBCFFAB3A33"
 			rewards: [
 				{
@@ -1897,8 +1896,8 @@
 		{
 			dependencies: ["39B5D2C538B15A8F"]
 			description: [
-				"With slight addition to &eAssembly Halo&r you manage to produce a portable crafting factory - &l&2Manufactory Halo&r&r."
-				"If set up correctly it can autmatically craft specified items while drawing items from your inventory."
+				"&e조립 광륜&r에 약간의 추가 기능을 더하면 휴대용 제작 공장인 &l&2공장 광륜&r&r을 만들 수 있습니다."
+				"제대로 설정하면 인벤토리에서 아이템을 가져오는 동시에 특정 아이템을 자동으로 제작할 수 있습니다."
 			]
 			id: "4303B37227E3BB77"
 			rewards: [
@@ -1924,13 +1923,13 @@
 				item: "botania:auto_crafting_halo"
 				type: "item"
 			}]
-			title: "Portable Factory"
+			title: "휴대용 공장"
 			x: -6.0d
 			y: -9.0d
 		}
 		{
 			dependencies: ["0F4713A9935F369F"]
-			description: ["After tinkering with energy of End, Elven Knowledge and Gaia spirits you manage to create seemingly infinite pocket space that can hold 1 type of item - &l&2Black Hole Talisman&r&r, and you can access it as long as you have mana."]
+			description: ["엔드의 에너지, 요정의 지식, 그리고 가이아 영혼을 조작한 끝에, 당신은 한 종류의 아이템 보관할 수 있는 무한에 가까운 공간을 만들어낼 수 있는 &l&2성스러운 검은색 부적&r&r을 만들었습니다. 마나가 있는 한 언제든 그 부적을 사용할 수 있습니다."]
 			id: "33EF4CC9FE5B1ED4"
 			rewards: [{
 				auto: "enabled"
@@ -1942,7 +1941,7 @@
 				title: "100 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Somewhere for all that cobble."
+			subtitle: "그 모든 조약돌을 위한 어딘가."
 			tasks: [{
 				id: "44A4E008202DFC62"
 				item: "botania:black_hole_talisman"
@@ -1953,7 +1952,7 @@
 		}
 		{
 			dependencies: ["29FF9EF35E5B5FC7"]
-			description: ["The &l&2Mana Mirror&r&r reflects the pool it is linked to allowing it to replace your &ePortable Mana Storage&r by drawing mana directly from a linked pool. It even works while the chunk is unloaded although the pool will not refill itself until you return!"]
+			description: ["&l&2마나 거울&r&r은 연결된 웅덩이의 마나를 반영하므로, 연결된 웅덩이에서 직접 마나를 끌어와 &e마나 태블릿&r을 대체할 수 있습니다. 청크가 언로드된 상태에서도 작동하지만, 웅덩이은 사용자가 돌아올 때까지 다시 채워지지 않습니다!"]
 			id: "3ACE081643D7F60B"
 			rewards: [{
 				auto: "enabled"
@@ -1965,7 +1964,7 @@
 				title: "200 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Reflections In The Water"
+			subtitle: "물에 비친 반영"
 			tasks: [{
 				id: "608A781631CE984B"
 				item: "botania:mana_mirror"
@@ -1976,7 +1975,7 @@
 		}
 		{
 			dependencies: ["29FF9EF35E5B5FC7"]
-			description: ["By combining your &eMana Band&r with newfound alloy &eTerrasteel&r - you manage to create a &l&2Greater Mana Band&r&r that improves the amount of mana you can carry with you in one ring, equivallent to two entire pools!"]
+			description: ["당신의 &e마나 반지&r를 새로 발견한 합금 &e테라스틸&r과 조합하여 &l&2더 강력한 마나 반지&r&r를 만들어낼 수 있습니다. 이 반지는 하나의 반지 안에 휴대할 수 있는 마나의 양을 두 개의 마나 웅덩이에 해당하는 양으로 늘려줍니다!"]
 			id: "4EA7CD6212661856"
 			rewards: [{
 				auto: "enabled"
@@ -1988,7 +1987,7 @@
 				title: "200 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Mass Mana On The Go"
+			subtitle: "이동 중에도 대량 마나"
 			tasks: [{
 				id: "3A58E8C9A21ACB1C"
 				item: "botania:mana_ring_greater"
@@ -1999,7 +1998,7 @@
 		}
 		{
 			dependencies: ["35AF07FCCB27D2E0"]
-			description: ["&l&2Teru Teru Bozu&r&r is a little guy with the power to alter weather conditions. If you feel like you have soaked in the rain long enough just give him a &esunflower&r to bring a sunny day back"]
+			description: ["&l&2테루 테루 보즈&r&r는 날씨를 바꿀 수 있는 능력을 가진 작은 친구입니다. 비를 너무 오래 맞아서 지쳤다면 테루 테루 보즈에게 &e해바라기&r를 주세요. 그러면 다시 화창한 날씨를 만날 수 있습니다."]
 			id: "27127198811C49D0"
 			rewards: [
 				{
@@ -2023,18 +2022,18 @@
 					type: "item"
 				}
 			]
-			subtitle: "Praise The Sun!"
+			subtitle: "태양을 찬양하라!"
 			tasks: [{
 				id: "01F7CD3A3E7BEE30"
 				item: "botania:teru_teru_bozu"
 				type: "item"
 			}]
-			title: "When The Sky is Gray"
+			title: "하늘이 흐릴 때"
 			x: -5.5d
 			y: -6.0d
 		}
 		{
-			description: ["The &eCorporea System&r consists of various components which when combined allow fairly complex item transfer. This system is far too complicated for the scope of this quest book so we advise you study the entries in the &eLexica Botania&r."]
+			description: ["&e코포리아 시스템&r은 여러 구성 요소로 이루어져 있으며, 이들을 조합하면 상당히 복잡한 아이템 전송이 가능합니다. 이 시스템은 본 퀘스트북에서 다루기에는 너무 복잡하므로, &e보나티아 사전&r의 항목들을 참고하시기를 권장합니다."]
 			icon: "botania:corporea_spark_creative"
 			id: "1576B342D9197BD6"
 			rewards: [{
@@ -2047,10 +2046,10 @@
 				title: "100 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Item Transfer"
+			subtitle: "아이템 이송"
 			tasks: [{
 				id: "701E468F93F2F03B"
-				title: "Corporea System"
+				title: "코포리아 시스템"
 				type: "checkmark"
 			}]
 			x: 0.5d
@@ -2059,9 +2058,9 @@
 		{
 			dependencies: ["5E33BF5591E1C097"]
 			description: [
-				"&eLuminizers&r allow for some fast and fun player transport, simply place and link two of them within their range and right click! You can even transfer items and animals with them using the &eLuminizer Launcher&r! Also works through blocks, you might want to watch your head, though."
+				"&e루미나이저&r를 사용하면 플레이어를 빠르고 재미있게 이동시킬 수 있습니다. 루미나이저 두 개를 범위 내에 설치하고 연결한 다음 마우스 오른쪽 버튼을 클릭하기만 하면 됩니다! &e루미나이저 런처&r를 사용하면 아이템이나 동물도 함께 옮길 수 있습니다! 블록을 통과해서도 이동이 가능하니, 머리를 조심하세요."
 				""
-				"&eDetector, Fork and Toggle Luminizers&r enable more advanced and interesting transportation systems."
+				"&e디텍터, 포크 및 토글 루미나이저&r는 더욱 발전되고 흥미로운 운송 시스템을 구현합니다."
 			]
 			id: "2B77DB16F266880E"
 			rewards: [
@@ -2082,20 +2081,20 @@
 					type: "item"
 				}
 			]
-			subtitle: "World's End Dancehall"
+			subtitle: "세계의 끝 댄스홀"
 			tasks: [{
 				count: 2L
 				id: "5C092F8FFAE39310"
 				item: "botania:light_relay"
 				type: "item"
 			}]
-			title: "Luminizer"
+			title: "루미나이저"
 			x: -4.0d
 			y: -14.5d
 		}
 		{
 			dependencies: ["144467B32903983B"]
-			description: ["The &eMana Blaster&r is a portable &eMana Spreader&r that can also accept &eMana Lenses&r to augment its behavior when fired. The &eFlash Lens&r is particularly useful as a source of near infinite lights, it can even be dyed to change the color of the resulting light!"]
+			description: ["&e마나 블래스터&r는 휴대용 &e마나 공급기&r이며, 발사 시 효과를 강화하기 위해 &e마나 렌즈&r를 장착할 수도 있습니다. 특히 &e광원 렌즈&r는 거의 무한대에 가까운 빛을 발산하는 데 유용하며, 염료를 사용하여 빛의 색상을 변경할 수도 있습니다!"]
 			id: "621ABA886F06170A"
 			rewards: [{
 				auto: "enabled"
@@ -2107,7 +2106,7 @@
 				title: "100 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "M'aider Stranded Girl"
+			subtitle: "좌초된 메\(이\)드 소녀"
 			tasks: [
 				{
 					id: "72E05E0B0C9AC1E2"
@@ -2129,7 +2128,7 @@
 		}
 		{
 			dependencies: ["2CCB1CB299A81969"]
-			description: ["The &eMana Enchanter&r is a large multiblock structure that allows you to apply Enchantments to gear by simply tossing the desired enchanted books down next to it and right clicking it with a &eWand of the Forest&r. This process notably does NOT consume the books. Doing so consumes a large amount of mana from nearby pools via a spark on the enchanter. The more enchants and the higher the levels the more it consumes! Check the &eLexica Botania&r for a visualization of the structure."]
+			description: ["&e마나 부여기&r는 여러 블록으로 이루어진 거대한 구조물로, 원하는 마법 부여 책을 옆에 던져 놓고 &e숲의 완드&r로 마우스 오른쪽 버튼을 클릭하기만 하면 장비에 마법을 부여할 수 있습니다. 이 과정에서 마법이 부여된 책은 소모되지 않습니다. 다만, 부여대에 발생하는 스파크를 통해 주변 마나 웅덩이에서 많은 양의 마나가 소모됩니다. 마법 부여할 마법의 종류가 많을수록, 레벨이 높을수록 소모되는 마나량도 많아집니다! 구조물의 시각화 자료는 &e보나티아 사전&r에서 확인할 수 있습니다."]
 			icon: "botania:enchanter"
 			id: "72B3D8E498D1E1F1"
 			rewards: [{
@@ -2142,10 +2141,10 @@
 				title: "100 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Enchanting With Mana"
+			subtitle: "마나로 마법 부여하기"
 			tasks: [{
 				id: "732608E288086EA6"
-				title: "Mana Enchanter"
+				title: "마나 부여기"
 				type: "checkmark"
 			}]
 			x: -1.0d
@@ -2153,7 +2152,7 @@
 		}
 		{
 			dependencies: ["626B63941D36E8C2"]
-			description: ["The &eAlchemy Catalyst&r when placed under a &eMana Pool&r changes the result when items are tossed into it letting you convert various materials! Flint into gunpowder, transmuting various wood types and saplings, redstone into glowstone!"]
+			description: ["&e연금술 촉매&r를 &e마나 웅덩이&r 아래에 놓으면 아이템을 던졌을 때의 결과가 바뀌어 다양한 재료를 변환할 수 있게 됩니다! 부싯돌을 화약으로, 여러 종류의 나무와 묘목을, 레드스톤을 발광석으로 변환할 수 있죠!"]
 			id: "496BD9236D7C1D89"
 			rewards: [{
 				auto: "enabled"
@@ -2175,7 +2174,7 @@
 		}
 		{
 			dependencies: ["496BD9236D7C1D89"]
-			description: ["The &eConjuration Catalyst&r is a more advanced version of the &eAlchemy Catalyst&r that lets you consume a large amount of mana to duplicate certain items! Quartz, redstone, glowstone and coal being the main examples. Note that duplicating coal does not let you make an infinite mana loop with endoflames!"]
+			description: ["&e마법 촉매&r는 &e연금술 촉매&r의 고급 버전으로, 많은 양의 마나를 소모하여 특정 아이템을 복제할 수 있습니다! 대표적인 예로는 석영, 레드스톤, 발광석, 석탄 등이 있습니다. 단, 석탄을 복제한다고 해서 불먹이 꽃을 이용한 무한 마나 루프를 만들 수 있는 것은 아닙니다!"]
 			id: "058D4013FD42AC1F"
 			rewards: [
 				{
@@ -2220,9 +2219,9 @@
 		{
 			dependencies: ["5E33BF5591E1C097"]
 			description: [
-				"The &eElven Mana Spreader&r increases the mana transfered per burst by 50% compared to the normal mana spreader! Also signifigantly increases the distance a burst can travel before it starts losing mana."
+				"&e요정 마나 공급기&r는 일반 마나 공급기에 비해 한 번의 분출으로 전달하는 마나량을 50% 증가시킵니다! 또한 마나 소모가 시작되기 전에 이동할 수 있는 거리도 크게 늘려줍니다."
 				""
-				"&oTransfers 240 mana per burst.&r"
+				"&o한번 분출 당 240의 마나를 운반합니다.&r"
 			]
 			id: "40A9BBD5C665B831"
 			rewards: [
@@ -2248,7 +2247,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Upgraded Spreaders"
+			subtitle: "업그레이드된 공급기"
 			tasks: [{
 				id: "37856729D86ABFBB"
 				item: "botania:elven_spreader"
@@ -2260,9 +2259,9 @@
 		{
 			dependencies: ["0F4713A9935F369F"]
 			description: [
-				"The &eGaia Mana Spreader&r is the ultimate spreader at more than double the transfer rate of its predecessor!"
+				"&e대지의 마나 공급기&r는 이전 모델보다 두 배 이상 높은 전달률을 자랑하는 최고의 마나 공급기입니다!"
 				""
-				"&oTransfers a staggering 640 mana per burst.&r"
+				"&o한번 분출 당 640의 마나를 운반합니다.&r"
 			]
 			id: "6A58CF9DF79B8269"
 			rewards: [
@@ -2282,7 +2281,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "The Ultimate Spreader"
+			subtitle: "궁극의 공급기"
 			tasks: [{
 				id: "752DAA1E1B192724"
 				item: "botania:gaia_spreader"
@@ -2293,7 +2292,7 @@
 		}
 		{
 			dependencies: ["144467B32903983B"]
-			description: ["The &eMana Lenses&r impact how mana spreaders behave in various ways, most useful of the bunch being the &ePotency Lens&r, doubling the transfer rate of the spreader it is attached to! There is also &eVelocity&r, increasing the travel speed of the burst, &eBounce&r for making it ricochet off walls or even &eGravity&r to make it affected by gravity!"]
+			description: ["마나 렌즈는 마나 공급기의 작동 방식에 다양한 영향을 미치는데, 그중 가장 유용한 것은 마나 공급기의 마나 전달 속도를 두 배로 늘려주는 &e힘 렌즈&r입니다. 그 외에도 마나 분출 속도를 높이는 &e속도 렌즈&r, 벽에 부딪혀 튕겨 나가게 하는 &e산란 렌즈&r, 그리고 중력의 영향을 받게 하는 &e중력 렌즈&r도 있습니다!"]
 			id: "30243F276BE11AC3"
 			rewards: [
 				{
@@ -2312,19 +2311,19 @@
 					type: "item"
 				}
 			]
-			subtitle: "Transfer Rate"
+			subtitle: "운반률"
 			tasks: [{
 				id: "0A40C97CF59B559A"
 				item: "botania:lens_power"
 				type: "item"
 			}]
-			title: "Spreader Lenses"
+			title: "공급기 렌즈"
 			x: 2.0d
 			y: -5.5d
 		}
 		{
 			dependencies: ["30243F276BE11AC3"]
-			description: ["Two different &eMana Lenses&r can be glued together with a bit of slime to combine their effects into 1 lens! The combination of &ePotency&r and &eVelocity&r is notable for both doubling the mana per burst AND making it fly faster!"]
+			description: ["두 개의 &e서로 다른 마나 렌즈&r를 슬라임으로 붙여서 하나의 렌즈로 효과를 합칠 수 있습니다! 특히, &e효율과 속도 렌즈&r를 조합하면 한 번의 분출로 얻는 마나량이 두 배로 늘어날 뿐만 아니라 분출 속도도 빨라집니다!"]
 			icon: "botania:lens_firework"
 			id: "49644F197F1FDF73"
 			rewards: [
@@ -2344,10 +2343,10 @@
 					type: "item"
 				}
 			]
-			subtitle: "Ultimate Customization"
+			subtitle: "궁극적인 커스텀"
 			tasks: [{
 				id: "0766EB2208BDC6D8"
-				title: "Compound Lenses"
+				title: "복합 렌즈"
 				type: "checkmark"
 			}]
 			x: 3.5d
@@ -2355,15 +2354,15 @@
 		}
 		{
 			description: [
-				"&eChunk Loaders&r allow you to keep areas loaded at all times. This is useful certain activities such as automation, and crops will continue to process/grow even while you're away from the area."
+				"&e청크 로더&r를 사용하면 특정 구역을 항상 로드된 상태로 유지할 수 있습니다. 이는 자동화와 같은 특정 작업에 유용하며, 사용자가 해당 구역을 비운 동안에도 작물이 계속해서 자라거나 가공됩니다."
 				""
-				"There are 4 different types of Chunk Loaders:"
-				"&8Single Chunk Loader&r - 1 Chunk"
-				"Basic Chunk Loader - 3x3 Chunks"
-				"&eAdvanced Chunk Loader&r - 5x5 Chunks"
-				"&bUltimate Chunk Loader&r - 7x7 Chunks"
+				"청크 로더에는 4가지 유형이 있습니다:"
+				"&8단일 청크 로더&r - 1 청크"
+				"기본 청크 로더 - 3x3 청크"
+				"&e향상된 청크 로더&r - 5x5 청크"
+				"&b궁극의 청크 로더&r - 7x7 청크"
 				""
-				"&eYou can view the Chunk Loader map with Default Key: \"&cF8&r&e\".&r"
+				"&e기본 키를 사용하여 청크 로더 맵을 볼 수 있습니다: \"&cF8&r&e\".&r"
 			]
 			id: "63BF085EEE4B3689"
 			rewards: [{
@@ -2376,7 +2375,7 @@
 				title: "100 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Chunk Loading"
+			subtitle: "청크 로딩"
 			tasks: [{
 				id: "3C7BB9EFD738D636"
 				item: "chunkloaders:basic_chunk_loader"
@@ -2388,7 +2387,7 @@
 		{
 			can_repeat: true
 			dependencies: ["0F4713A9935F369F"]
-			description: ["&cThis is a SHOP quest!&r This \"quest\" consumes the items required will convert your &eFlugel Tiara&r into a &enew variant&r&r."]
+			description: ["&c이것은 상점 퀘스트입니다!&r 이 \"퀘스트\"를 완료하려면 필요한 아이템을 소모해야 하며, 그러면 당신의 &e플루겔 티아라&r가 &e새로운 종류&r로 변환됩니다."]
 			icon: "botania:quartz_lavender"
 			id: "0CFA65618989A9AC"
 			rewards: [{
@@ -2398,7 +2397,7 @@
 				type: "choice"
 			}]
 			shape: "octagon"
-			subtitle: "Shop"
+			subtitle: "상점"
 			tasks: [
 				{
 					consume_items: true
@@ -2420,10 +2419,10 @@
 					type: "item"
 				}
 			]
-			title: "Flying With Style"
+			title: "스타일리시하게 비행하세요"
 			x: -0.5d
 			y: -17.0d
 		}
 	]
-	title: "Magical Flora"
+	title: "마법의 식물들"
 }

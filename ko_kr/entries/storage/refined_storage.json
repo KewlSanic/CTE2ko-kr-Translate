@@ -1,25 +1,24 @@
 {
-    "name": "Refined Storage",
+    "name": "리파인드 스토리지(Refined Storage)",
     "icon": "refinedstorage:controller",
     "category": "patchouli:storage",
 	"sortnum":3,
     "pages": [
         {
             "type": "patchouli:spotlight",
-			"title":"Refined Storage",
+			"title":"리파인드 스토리지(Refined Storage)",
   "item": "refinedstorage:controller",
-  "text": "&eRefined Storage&r is the best method of item storage, filtering, and mass crafting. Devices within the storage network manipulate your items which are on Disks. 
-" 
+  "text": "&e리파인드 스토리지(Refined Storage)&r는 아이템 창고, 분류기, 그리고 대량 제작의 가장 좋은 방법입니다. 창고 네트워크 안의 장치들은 디스크 안의 아이템들을 수정 가능합니다." 
 		},
 		{
             "type": "patchouli:text",
-			"text": "The &eController&r is the core of the storage network. All other Refined Storage must connect to it by being near it or through cables. It requires &eForge Energy&r to operate(only complex operations) which is only obtainable through &eBotania's Mana Fluxfield&ri."
+			"text": "&e컨트롤러(Controller)&r는 스토리지 네트워크의 핵심 입니다. 다른 모든 리피인드 스토리지는 블록 바로 옆이거나 전선을 통해 연결 해야 합니다. &e보타니아의 마나 플럭스필드&r에서만 나오는 &e포지에너지(Forge Energy)&r 를 이용해 가동 가능합니다.(복잡한것만 전기 많이 소모)"
 },{
             "type": "patchouli:spotlight",
-			"title":"Basic Setup",
+			"title":"기본적인 세팅",
   "item": "refinedstorage:disk_drive,refinedstorage:grid,refinedstorage:crafting_grid,refinedstorage:fluid_grid,refinedstorage:64k_fluid_storage_disk,refinedstorage:1k_storage_disk",
-  "text": "The &eDisk Drive&r contains &eDisks,&r where each disk adds to the network's inventory limit. Higher tiers are more expensive and take longer to craft but can hold more items.
-The &eGrid&r is the basic method of interacting with the items within the network. It lets you &etake or insert items&r from the network. The Crafting Grid is an upgrade to it and allows 
+  "text": "&e디스크 드라이브(Disk Drive)&r는 &e네트워크의 용량 제한을 늘려주는 디스크(Disk)를 포함합니다.&r 더 높은 티어의 디스크들은 비싸고 제작하는데 오래 걸리지만 더 많은 아이템들을 저장 할 수 있습니다.
+&e그리드(Grid)&r는 네트워크 안의 아이템을 쓸 때 사용하는 장치 입니다. 아이템을 네트워크에서 &e넣고 빼고&r 할 수 있습니다. 조합용 그리드(Crafting Grid)는 업그레이드 이며 네트워크 속의 아이템으로 조합이 가능합니다.
 " 
 		},
 		{

@@ -1,12 +1,12 @@
 {
-    "name": "The End",
+    "name": "디 엔드(The End)",
     "icon": "minecraft:end_portal_frame",
     "category": "patchouli:dimensions",
 	"sortnum":4,
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "&6&lDimension:&r&r    &lThe End&r
+            "text": "&6&l차원:&r&r    &l디 엔드&r
 &6&l구역 레벨:&r&r    &n50 - 65 &r&r
 &6&l강화된 구역 레벨:&r &n70 - 90&r
 &6&l예외:&r  없음
@@ -16,7 +16,7 @@
 		},
 		{
             "type": "patchouli:text",
-            "text": "모든 것의 끝처럼 보이는 차원. 텅 빈 공간에 떠다니는 섬들이 조각나 있는 평면.$(br) 주요 섬은 엔더 드래곤이 쉽게 탈출할 수 없도록 지키고 있는 것 같습니다. 드래곤을 처치하면 두 갈래 길이 열리는데, 하나는 집으로 돌아가는 차원문이고 다른 하나는 더 깊은 공허 속으로 들어가 다른 섬들을 탐험할 수 있는 포탈입니다."
+            "text": " 모든 것의 끝처럼 보이는 차원. 텅 빈 공간에 떠다니는 섬들이 조각나 있는 평면.$(br) 주요 섬은 엔더 드래곤이 쉽게 탈출할 수 없도록 지키고 있는 것 같습니다. 드래곤을 처치하면 두 갈래 길이 열리는데, 하나는 집으로 돌아가는 차원문이고 다른 하나는 더 깊은 공허 속으로 들어가 다른 섬들을 탐험할 수 있는 포탈입니다."
 		},{
             "type": "patchouli:spotlight",
 			"title":"엔드에 들어가는 방법",

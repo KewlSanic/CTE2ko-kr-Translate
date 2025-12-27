@@ -6,7 +6,7 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "&6&l차원:&r&r    &l에버브라이트(Everbright)&r
+            "text": "&6&l차원:&r&r    &l에버브라이트&r
 &6&l구역 레벨:&r&r    &n35 - 55 &r&r
 &6&l강화된 구역 레벨:&r &n65 - 85&r
 &6&l예외:&r  없음
@@ -21,7 +21,7 @@
             "type": "patchouli:spotlight",
 			"title":"에버브라이트에 들어가는 방법",
   "item": "blue_skies:zeal_lighter,blue_skies:turquoise_stonebrick",
-  "text": "이 차원에 입장하려면 최소 10개의 청록색(Turquoise) 벽돌과 문지기에게서 얻은 열정의 라이터(Zeal Lighter)가 필요합니다 &r.
+  "text": "이 차원에 입장하려면 &l최소 10개의 청록색(Turquoise) 벽돌과 문지기에게서 얻은 열정의 라이터(Zeal Lighter)를 준비하면 됩니다&r.
   &o모서리 블록은 선택 사항이지만, 만약 존재한다면 &2미적 능력치에 +5를 부여&r합니다."
 		},
 		{
