@@ -16,12 +16,12 @@
 		},
 		{
             "type": "patchouli:text",
-            "text": " 오버월드의 늪지 만큼 습기가 있지만 밀실 공포증과 징그러움이 느껴지는 차원입니다.$(br) 이곳의 생물들은 만졌을때 불타오르는 독성의 액체에 영향을 받은 돌연변이 괴수들로 보입니다. 저는 거대한 기사들과 수호자들이 각각 자신만의 구조물을 가졌었다는 흔적을 찾아냈습니다.$(br) It seems there is also a cult of strange masked creatures that are somewhat resistant to magic damage, so travelers should be careful around them."
+            "text": " 오버월드의 늪지 만큼 습기가 있지만 밀실 공포증과 징그러움이 느껴지는 차원입니다.$(br) 이곳의 생물들은 만졌을때 불타오르는 독성의 액체에 영향을 받은 돌연변이 괴수들로 보입니다. 저는 거대한 기사들과 수호자들이 각각 자신만의 구조물을 가졌었다는 흔적을 찾아냈습니다.$(br) 그곳에는 어느정도 마법 피해에 저항이 있는 마스크를 쓴 생명체의 무리가 있는것으로 보입니다. 그들이 근처에 있다면 조심하십시오."
 		},{
             "type": "patchouli:spotlight",
 			"title":"언더가든에 들어가는 방법",
   "item": "undergarden:catalyst,minecraft:stone_bricks",
-  "text": "이 차원에 입장하려면 &l최소 10개의 Stone Bricks(석재 벽돌)과 Nether Star(네더의 별)로 만드는 Catalyst(촉매)(조합법은 EMI/JEI를 참고 하세요)를 준비하면 됩니다 &r.
+  "text": "이 차원에 입장하려면 &l최소 10개의 석재 벽돌(Stone Bricks)과 네더의 별(Nether Star)로 만드는 Catalyst(촉매)(조합법은 EMI/JEI를 참고 하세요)를 준비하면 됩니다 &r.
   &o모서리 블록은 선택 사항이지만, 만약 존재한다면 &2미적 능력치에 +5를 부여&r합니다."
 		},
 		{

@@ -1,24 +1,22 @@
 {
-    "name": "Master Backpack",
+    "name": "마스터 가방(Master Backpack)",
     "icon": "mmorpg:master_bag",
     "category": "patchouli:storage",
 	"sortnum":0,
     "pages": [
         {
             "type": "patchouli:spotlight",
-			"title":"Master Backpack",
+			"title":"마스터 가방",
   "item": "mmorpg:master_bag",
-  "text": "
-This &eMaster Backpack&r will specifically &bpick up and hold items&r from &eMine and Slash&r and assist you with organizing your loot. Also equippable in its own dedicated &eCurios&r slot and accessible with a dedicated keybind (check controls).
-" 
+  "text": "이 &e마스터 가방&r은 &e마인 앤 슬래쉬&r의 아이템을 주워 보관하고 전리품을 정리하는데 도움을 줄겁니다. 그리고 &e큐리오(Curio)&r 슬롯에 장착하여 지정된 키로 열 수 있습니다.(조작키를 확인하세요)" 
 		},
 		{
             "type": "patchouli:text",
-			"text": "This backpack acts like a sort of enderchest - so crafting more bags wont yield you more space but also means the contents cannot be lost in the event you lose the bag.
+			"text": "이 가방은 엔더상자처럼 작동 하니, 가방을 더 만들어도 공간이 늘지 않습니다. 그 대신, 가방을 잃어버려도 내용물을 잃지 않습니다.
 
-Dont forget to check all the tabs inside the bag for each of the 5 categories.
+가방의 각기 다른 5가지의 카테고리 탭을 확인하는것을 잊지 마세요.
 
-If you are still struggling with the sheer quantity of loot, you could also consider using the &eauto-salvage feature&r found in the Hub.
+너무 많은 전리품 양에 골머리를 썩고 있다면, 마인 앤 슬래쉬 허브에서 찾을 수 있는 &e자동-분해 기능&r을 사용할 수도 있습니다.
 "
 }
     ]
