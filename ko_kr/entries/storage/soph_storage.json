@@ -1,5 +1,5 @@
 {
-    "name": "Sophisticated Storage",
+    "name": "세련된 저장소(Sophisticated Storage)",
     "icon": "sophisticatedstorage:limited_iron_barrel_1",
     "category": "patchouli:storage",
 	"sortnum":2,
@@ -8,68 +8,66 @@
             "type": "patchouli:spotlight",
 			"title":"Sophisticated Backpacks",
   "item": "sophisticatedstorage:iron_chest,sophisticatedstorage:gold_chest,sophisticatedstorage:copper_chest,sophisticatedstorage:diamond_chest,sophisticatedstorage:netherite_chest,sophisticatedstorage:chest",
-  "text": "&e&eSophisticated Storage&r is the companion to Sophisticated Backpacks. Chests and Barrels can be upgraded from Iron, Gold, Diamond, to Netherite with increasing amount of item slots and upgrade slots.
-Vanilla Chests and Barrels can be upgraded to their Sophisticated Storage counterparts using the Basic Tier Upgrade..
+  "text": "&e&e세련된 저장소&r는 세련된 배낭 모드와 함께 사용하는 모드 입니다. 상자와 통들은 철, 금, 다이아몬드 그리고 네더라이트 까지 업그레이드가 가능합니다. 그리고 아이템 슬롯과 업그레이드 슬롯도 같이 늘어납니다.
+바닐라 상자들과 통들은 &e기본 등급 강화&r를 통해서 세련된 저장소 창고로 변경 가능합니다.
 
 " 
 		},
 		{
             "type": "patchouli:text",
-			"text": "Each tier of storage allows for more upgrade slots and  more inventory space.
-&eNormal Chest:&r 27 slots, 1 upgrade slot
-
-&eIron Chest:&r 54 slots, 2 upgrade slots
-
-&eGold Chest:&r 81 slots, 3 upgrade slots
-
-&eDiamond Chest:&r 108 slots, 4 upgrade slots
-
-&eNetherite Chest: &r120 slots, 5 upgrade slots"
+			"text": "저장소의 티어들은 더 많은 업그레이드 슬롯과 아이템 슬롯을 제공합니다.
+예를 들어서:
+&e기본 상자:&r 27 저장 슬롯, 1 개의 업그레이드 슬롯
+&e구리 상자:&r 45 저장 슬롯, 1 개의 업그레이드 슬롯
+&e철 상자:&r 54 저장 슬롯, 2 개의 업그레이드 슬롯
+&e금 상자:&r 81 저장 슬롯, 3 개의 업그레이드 슬롯
+&e다이아몬드 상자:&r 108 저장 슬롯, 4 개의 업그레이드 슬롯
+&e네더라이트 상자: &r120 저장 슬롯, 5 개의 업그레이드 슬롯"
 },{
             "type": "patchouli:spotlight",
-			"title":"Stack Upgrades",
+			"title":"쌓기 업그레이드",
   "item": "sophisticatedstorage:stack_upgrade_tier_1,sophisticatedstorage:stack_upgrade_tier_2,sophisticatedstorage:crafting_upgrade,sophisticatedstorage:smelting_upgrade",
-  "text": "&eStack Upgrades&r are immensely important. Stack upgrades can stack upon each other if more than one is inside a storage block.
+  "text": "&e쌓기 업그레이드&r들은 굉장히 중요합니다. 쌓기 업그레이드들은 중첩이 가능합니다.
 " 
 		},
 		{
             "type": "patchouli:text",
 			"text": "
-For example:
-&e1 Tier 4 Stack Upgrade&r: 1024
+예를 들어서:
+&e1 개의 티어 4 쌓기 업그레이드&r: 1024
 
-&e2 Tier 4 Stack Upgrades:&r 16,384
+&e2 개의 티어 4 쌓기 업그레이드:&r 16,384
 
-&eTier 4 Stack Upgrades:&r 262,144
+&e3 개의 티어 4 쌓기 업그레이드:&r 262,144
 
-&e4 Tier 4 Stack Upgrades: &r4,194,304
+&e4 개의 티어 4 쌓기 업그레이드:&r4,194,304
 
-Multiply previous max by 16 to get the next maximum up to 7 slots total."
+5개 부터는 이전의 최대치에 16을 최대 7슬롯 기준으로 계속 곱하세요."
 },{
             "type": "patchouli:spotlight",
-			"title":"Limited Barrels",
+			"title":"제한된 통",
   "item": "sophisticatedstorage:limited_barrel_2,sophisticatedstorage:limited_iron_barrel_2,sophisticatedstorage:limited_barrel_1,sophisticatedstorage:limited_iron_barrel_1",
-  "text": "&eLimited Barrels&r act as drawers, where up to &efour items&r can be stored within and have &eimmensely high stack limits&r inherently. Barrels are marked by two things: &eTier&r and &eItem Limit&r." 
+  "text": "&e제한된 통&r들은 아이템이 최대 &e4개&r 까지 저장되고 &e굉장히 높은 쌓기 제한&r을 가지고 있습니다. 통들은 &e티어&r와 &e아이템 제한&r으로 정해져 있습니다." 
 		},{
             "type": "patchouli:text",
 			"title":" ",
-  "text": "&eNormal, Iron, Gold, Diamond, and Netherite&r are the tier, which decides the stack limit.
+  "text": "&e기본, 철, 금, 다이아몬드, 그리고 네더라이트&r는 쌓기 제한을 표기하는 티어 입니다.
 
-&eI, II, III, IIII&r are the Item Limit which is how many different items can be inside it from 1 to 4. Barrels with a higher Item Limit have less maximum stack.
+&eI, II, III, IV&r의 로마 숫자들은 1개 부터 4개 까지의 아이템 종류 갯수를 나타냅니다. 더 많은 아이템 종류 갯수가 있을수록, 쌓기 제한이 낮아집니다.
 
-These barrels can also be upgraded just like regular storage.
+이 통들은 다른 저장소와 같이 업그레이드 기능을 사용할 수 있습니다.
 " 
 		},{
             "type": "patchouli:spotlight",
-			"title":"Storage Controllers",
+			"title":"저장소 제어기",
   "item": "sophisticatedstorage:controller,sophisticatedstorage:storage_link,sophisticatedstorage:storage_tool,sophisticatedstorage:packing_tape",
-  "text": "&eStorage Controllers&r allow you to &epipe in/out items&r with connected storage blocks. Priority is determined by which storage blocks were placed last. There is no GUI currently.
-&eStorage Link &rallows to &econnect multiple storages&r that are not attached to controller or any blocks that are connected to it.." 
+  "text": "&e저장소 제어기&r는 연결된 저장소 블록에 아이템을 &e넣고 빼고&r 할 수 있게 해줍니다. 우선도는 놓인 블록의 순서에 따라 결정됩니다. 현재로써는 GUI가 없습니다.
+&e저장소 연결기&r는 제어기에 붙어 있지 않은 &e다중의 저장소들을 연결&r하게 해줍니다." 
 		},{
             "type": "patchouli:text",
-			"text": "The &eStorage Tool&r allows you to &elink, lock and toggle visibility of locks and item counts&r. Shift scroll to change mode. Linking works by right clicking the controller to start linking to it and then right click storages or storage link to get these linked.
+			"text": "&e저장소 도구&r는 &e연결, 잠그기 그리고 자물쇠와 아이템 갯수를 보일지 말지&r를 가능하게 해줍니다. 웅크리고 마우스 휠을 통해서 모드를 바꾸세요. 연결은 제어기를 우클릭 해서 연결을 시작하고, 저장소나 저장소 연결기를 우클릭하여 연결합니다.
 
-&ePacking Tape&r allows you to&e pack up&r a storage block and mine it to pick it up like a regular block without the items dropping."
+&e포장 테이프&r는 저장소를 &e포장&r 해서 아이템을 떨어뜨리지 않고 일반 블록 처럼 줍기 가능하게 해줍니다."
 }
 		
     ]

@@ -1,31 +1,32 @@
 {
-    "name": "Sophisticated Backpacks",
+    "name": "세련된 배낭(Sophisticated Backpacks)",
     "icon": "sophisticatedbackpacks:backpack",
     "category": "patchouli:storage",
 	"sortnum":0,
     "pages": [
         {
             "type": "patchouli:spotlight",
-			"title":"Sophisticated Backpacks",
+			"title":"세련된 배낭",
   "item": "sophisticatedbackpacks:backpack,sophisticatedbackpacks:iron_backpack,sophisticatedbackpacks:gold_backpack,sophisticatedbackpacks:diamond_backpack,sophisticatedbackpacks:netherite_backpack",
-  "text": "&eSophisticated Backpacks&r allows you to do everything with a backpack you'd want. There are tons of upgrades from auto feeding, crafting and smelting in your bag, and carrying fluids and experience in fluid form. Check JEI for the full list of upgrades.
+  "text": "&e세련된 배낭 모드&r는 당신이 원하는 모든것을 가방을 갖고 가능하게 해줍니다. 자동 식사와 같은 업그레이드 부터, 가방안에서의 조합과 제련, 그리고 경험치를 유체 형태로 가지고 다닐 수 있는 기능이 있습니다. JEI에서 모든 업그레이드 기능을 확인하세요.
 
 " 
 		},
 		{
             "type": "patchouli:text",
-			"text": "Each tier of backpack allows for more upgrade slots and  more inventory space.
+			"text": "각각의 배낭 티어는 더 많은 업그레이드 슬롯과 저장 공간을 제공합니다.
 
-&eBackpack: &r27 slots, 1 upgrade slot
-&eIron Backpack:&r 54 slots, 2 upgrade slots
-&eGold Backpack:&r 81 slots, 3 upgrade slots
-&eDiamond Backpack:&r 108 slots, 5 upgrade slots
-&eNetherite Backpack:&r 120 slots, 7 upgrade slots"
+&e배낭: &r27 저장 슬롯, 1 개의 업그레이드 슬롯
+&e구리 배낭: &r45 저장 슬롯, 1 개의 업그레이드 슬롯
+&e철 배낭:&r 54 저장 슬롯, 2 개의 업그레이드 슬롯
+&e금 배낭:&r 81 저장 슬롯, 3 개의 업그레이드 슬롯
+&e다이아몬드 배낭:&r 108 저장 슬롯, 5 개의 업그레이드 슬롯
+&e네더라이트 배낭:&r 120 저장 슬롯, 7 개의 업그레이드 슬롯"
 },{
             "type": "patchouli:spotlight",
-			"title":"Stack Upgrades",
+			"title":"쌓기 업그레이드",
   "item": "sophisticatedbackpacks:stack_upgrade_starter_tier,sophisticatedbackpacks:stack_upgrade_tier_1,sophisticatedbackpacks:stack_upgrade_tier_2,sophisticatedbackpacks:stack_upgrade_tier_3,sophisticatedbackpacks:stack_upgrade_tier_4,sophisticatedbackpacks:stack_upgrade_omega_tier",
-  "text": "&eStack Upgrades&r are immensely important. Stack upgrades can stack upon each other if more than one is inside a bag.
+  "text": "&e쌓기 업그레이드&r들은 굉장히 중요합니다. 쌓기 업그레이드들은 서로 중첩이 가능합니다.
 
 
 " 
@@ -33,30 +34,20 @@
 		{
             "type": "patchouli:text",
 			"text": "
-For example:
-&e1 Tier 4 Stack Upgrade&r: 1024
+예를 들어서:
+&e1 개의 티어 4 쌓기 업그레이드&r: 1024
 
-&e2 Tier 4 Stack Upgrades:&r 16,384
+&e2 개의 티어 4 쌓기 업그레이드:&r 16,384
 
-&e3 Tier 4 Stack Upgrades:&r 262,144
+&e3 개의 티어 4 쌓기 업그레이드:&r 262,144
 
-In order to prevent a black hole from forming, you are limited to 3 stack upgrades per backpack."
+블랙홀이 생기는 것을 방지 하기 위해서, 배낭에는 쌓기 업그레이드가 3개 까지만 허용 됩니다."
 },{
             "type": "patchouli:spotlight",
-			"title":"Advanced Upgrades",
+			"title":"더욱 더 좋은 업그레이드들",
   "item": "sophisticatedbackpacks:advanced_pickup_upgrade,sophisticatedbackpacks:advanced_feeding_upgrade,sophisticatedbackpacks:advanced_void_upgrade",
-  "text": "&eAdvanced Upgrades&r allow for &efiner filtering&r and control over the behavior of the upgrade in the bag, such as the advanced pickup upgrade allows for picking up items on a whitelist, disallowing items on a blacklist, or picking up matching items that are already in the bag.
-" 
-		},{
-            "type": "patchouli:text",
-			"title":" ",
-  "text": "
-  
-  
-  
-  Check &eJEI&r for the full list of upgrades.
+  "text": "&e고급 업그레이드&r들은 &e더 나은 필터링&r과 배낭속의 업그레이드의 작동방식에 대한 조정을 허용합니다. 지정된 필터에 따른 자동 줍기 업그레이드나, 배낭에 있는것만 줍게 하는 업그레이드 같은 것들도 있으니 &eJEI&r에서 찾아보면 됩니다.
 " 
 		}
-		
     ]
 }
