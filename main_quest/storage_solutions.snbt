@@ -10,11 +10,11 @@
 	quests: [
 		{
 			description: [
-				"&eRefined Storage&r is the best method of item storage, filtering, and mass crafting. Devices within the storage network manipulate your items which are on Disks. "
+				"리파인드 스토리지(Refined Storage)&r는 아이템 창고, 분류기, 그리고 대량 제작의 가장 좋은 방법입니다. 창고 네트워크 안의 장치들은 디스크 안의 아이템들을 수정 가능합니다."
 				""
-				"The &eController&r is the core of the storage network. All other Refined Storage must connect to it by being near it or through cables. It requires &eForge Energy&r to operate which is only obtainable through &eBotania's Mana Fluxfield&r."
+				"&e컨트롤러(Controller)&r는 스토리지 네트워크의 핵심 입니다. 다른 모든 리피인드 스토리지는 블록 바로 옆이거나 전선을 통해 연결 해야 합니다. &e보타니아의 마나 플럭스변환기&r에서만 나오는 &e포지에너지(Forge Energy)&r 를 이용해 가동 가능합니다.(복잡한것만 전기 많이 소모)"
 				""
-				"This quest line is non-exhaustive. Check &eJEI&r for the full list of items and possibilities within Refined. "
+				"이 퀘스트 라인은 모든 콘텐츠를 포함하지 않습니다. Refined 내의 전체 아이템 및 가능성 목록을 보려면 &eJEI&r을 확인하세요."
 			]
 			id: "6390924916E0EF54"
 			rewards: [{
@@ -33,25 +33,25 @@
 				item: "refinedstorage:controller"
 				type: "item"
 			}]
-			title: "Interconnecting Chests"
+			title: "상자 상호 연결하기"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
 			description: [
-				"&eSophisticated Backpacks&r allows you to do everything with a backpack you'd want. There are tons of upgrades from auto feeding, crafting and smelting in your bag, and carrying fluids and experience in fluid form. Check JEI for the full list of upgrades."
+				"&eSophisticated Backpacks&r 모드를 사용하면 배낭 하나로 원하는 모든 것을 할 수 있습니다. 음식 자동 먹기, 가방 내 제작 및 제련, 액체 및 경험치 액체 휴대 등 다양한 업그레이드 옵션이 있습니다. 전체 업그레이드 목록은 JEI에서 확인하세요."
 				""
-				"Each tier of backpack allows for more upgrade slots and  more inventory space."
+				"배낭의 등급이 올라갈수록 업그레이드 슬롯과 인벤토리 공간이 늘어납니다.."
 				""
-				"&eBackpack: &r27 slots, 1 upgrade slot"
+				"&e배낭: &r27 슬롯, 1 업그레이드 슬롯"
 				""
-				"&eIron Backpack:&r 54 slots, 2 upgrade slots"
+				"&e철 배낭:&r 54 슬롯, 2 업그레이드 슬롯"
 				""
-				"&eGold Backpack:&r 81 slots, 3 upgrade slots"
+				"&e금 배낭:&r 81 슬롯, 3 업그레이드 슬롯"
 				""
-				"&eDiamond Backpack:&r 108 slots, 5 upgrade slots"
+				"&e다이아몬드 배낭:&r 108 슬롯, 5 업그레이드 슬롯"
 				""
-				"&eNetherite Backpack:&r 120 slots, 7 upgrade slots"
+				"&e네더라이트 배낭:&r 120 슬롯, 7 업그레이드 슬롯"
 			]
 			id: "309037CD749F2133"
 			rewards: [{
@@ -70,25 +70,25 @@
 				item: "sophisticatedbackpacks:diamond_backpack"
 				type: "item"
 			}]
-			title: "On The Move"
+			title: "이동을 시작해보자!"
 			x: -2.5d
 			y: 0.0d
 		}
 		{
 			description: [
-				"&eSophisticated Storage&r is the companion to Sophisticated Backpacks. Chests and Barrels can be upgraded from Iron, Gold, Diamond, to Netherite with increasing amount of item slots and upgrade slots."
+				"&eSophisticated Storage&r는 Sophisticated Backpacks의 동반 모드입니다. 상자와 통은 철, 금, 다이아몬드에서 네더라이트로 업그레이드할 수 있으며, 아이템 슬롯과 업그레이드 슬롯의 개수도 증가합니다."
 				""
-				"Vanilla Chests and Barrels can be upgraded to their Sophisticated Storage counterparts using the Basic Tier Upgrade."
+				"바닐라 상자와 통은 기본 등급 업그레이드를 통해 고급 저장 장치로 업그레이드할 수 있습니다."
 				""
-				"&eNormal Chest:&r 27 slots, 1 upgrade slot"
+				"&e일반 상자:&r 27 슬롯, 1 업그레이드 슬롯"
 				""
-				"&eIron Chest:&r 54 slots, 2 upgrade slots"
+				"&e철 상자:&r 54 슬롯, 2 업그레이드 슬롯"
 				""
-				"&eGold Chest:&r 81 slots, 3 upgrade slots"
+				"&e금 상자:&r 81 슬롯, 3 업그레이드 슬롯"
 				""
-				"&eDiamond Chest:&r 108 slots, 4 upgrade slots"
+				"&e다이아몬드 상자:&r 108 슬롯, 4 업그레이드 슬롯"
 				""
-				"&eNetherite Chest: &r120 slots, 5 upgrade slots"
+				"&e네더라이트 상자: &r120 슬롯, 5 업그레이드 슬롯"
 			]
 			id: "2DC978CB3CC53730"
 			rewards: [{
@@ -126,7 +126,7 @@
 					type: "item"
 				}
 			]
-			title: "Strong Organizational Skills"
+			title: "강력한 조직 기술"
 			x: 2.5d
 			y: 0.0d
 		}
@@ -134,19 +134,19 @@
 			dependencies: ["309037CD749F2133"]
 			dependency_requirement: "one_started"
 			description: [
-				"&eStack Upgrades&r are immensely important. Stack upgrades can stack upon each other if more than one is inside a bag."
+				"&e쌓기 기능&r은 매우 중요합니다. 배낭 안에 여러 개가 있을 경우 서로 중첩 될 수 있습니다."
 				""
-				"For example:"
+				"예를 들어:"
 				""
-				"&e1 Tier 4 Stack Upgrade&r: 1024"
+				"&e1개의 4단계 쌓기 기능&r: 1024"
 				""
-				"&e2 Tier 4 Stack Upgrades:&r 16,384"
+				"&e2개의 4단계 쌓기 기능:&r 16,384"
 				""
-				"&eTier 4 Stack Upgrades:&r 262,144"
+				"&e3개의 4단계 쌓기 기능:&r 262,144"
 				""
-				"&e4 Tier 4 Stack Upgrades: &r4,194,304"
+				"&e4개의 4단계 쌓기 기능: &r4,194,304"
 				""
-				"Multiply previous max by 16 to get the next maximum up to 7 slots total"
+				"하나가 중첩될때마다 이전 최대치에 16이 곱해집니다. 최대 7개의 슬롯을 쓸 수 있습니다."
 			]
 			id: "0E17ABDC0AD61E23"
 			rewards: [{
@@ -165,7 +165,7 @@
 				item: "sophisticatedbackpacks:stack_upgrade_tier_1"
 				type: "item"
 			}]
-			title: "Stack Upgrades"
+			title: "아이템 쌓기 기능"
 			x: -2.5d
 			y: -1.5d
 		}
@@ -198,7 +198,7 @@
 			]
 			shape: "diamond"
 			size: 1.5d
-			subtitle: "Challenge"
+			subtitle: "챌린지"
 			tasks: [
 				{
 					id: "71DA616E7AF70799"
@@ -257,13 +257,13 @@
 					type: "item"
 				}
 			]
-			title: "Nomad"
+			title: "유목민"
 			x: -2.5d
 			y: -6.0d
 		}
 		{
 			dependencies: ["059B848E5374A860"]
-			description: ["&eAdvanced Upgrades&r allow for &efiner filtering&r and control over the behavior of the upgrade in the bag, such as the advanced pickup upgrade allows for picking up items on a whitelist, disallowing items on a blacklist, or picking up matching items that are already in the bag."]
+			description: ["고급 업그레이드를 사용하면 가방 내 업그레이드 동작에 대한 더욱 세밀한 필터링 및 제어가 가능합니다. 예를 들어 고급 픽업 업그레이드를 사용하면 허용 목록에 있는 아이템만 픽업하거나, 블랙리스트에 있는 아이템은 픽업하지 않거나, 이미 가방에 있는 아이템과 일치하는 아이템을 픽업할 수 있습니다."]
 			id: "31D3B2B532AADE5B"
 			rewards: [{
 				auto: "enabled"
@@ -295,15 +295,15 @@
 		{
 			dependencies: ["6390924916E0EF54"]
 			description: [
-				"The &eDisk Drive&r contains &eDisks,&r where each disk adds to the network's inventory limit. Higher tiers are more expensive and take longer to craft but can hold more items."
+				"&e디스크 드라이브&r는 &e네트워크의 용량 제한을 늘려주는 디스크(Disk)를 포함합니다.&r 더 높은 티어의 디스크들은 비싸고 제작하는데 오래 걸리지만 더 많은 아이템들을 저장 할 수 있습니다."
 				""
-				"The &eGrid&r is the basic method of interacting with the items within the network. It lets you &etake or insert items&r from the network. The Crafting Grid is an upgrade to it and allows for crafting from all items within the grid. JEI can grab items from the grid."
+				"&e그리드&r는 네트워크 내 아이템과 상호작용하는 기본적인 방법입니다. 이를 통해 네트워크에서 아이템을 &e가져오거나 넣을 수 있습니다.&r 제작 그리드는 &e그리드의 업그레이드 버전으로, 그리드 내 모든 아이템을 사용하여 제작할 수 있습니다. JEI는 그리드에서 아이템을 가져올 수 있습니다."
 				""
-				"&eFluid storage&r requires specialized versions of both to store fluids within the network."
+				"&e유체 저장&r에는 네트워크 내에 유체를 저장하기 위한 특수 버전의 두 가지가 모두 필요합니다."
 				""
-				"Each Refined Storage block has a priority you can set where the network will first take or receive items from."
+				"각 리파인드 스토리지(Refined Storage) 블록에는 네트워크가 아이템을 먼저 가져오거나 받을 우선순위를 설정할 수 있습니다."
 				""
-				"A basic storage system (&eController, Disk Drive and any Grid&r) uses 0 energy to run!"
+				"기본 저장 시스템(&e콘트롤러, 디스크 드라이브 및 모든 그리드&r)은 작동하는 데 에너지가 전혀 필요하지 않습니다!"
 			]
 			id: "0BBF59F29BA6851E"
 			rewards: [{
@@ -349,18 +349,18 @@
 					type: "item"
 				}
 			]
-			title: "Basic Storage"
+			title: "기본 저장"
 			x: 0.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["6EF2C5B82615DD1B"]
 			description: [
-				"The &eStorage Monitor&r lets you select an item from the network to display how many is left."
+				"&e저장 모니터&r를 사용하면 네트워크에서 항목을 선택하여 남은 수량을 표시할 수 있습니다."
 				""
-				"The &ePattern Grid&r allows autocrafting within the network. Each sub-item within a recipe must have its own pattern. "
+				"&e패턴 그리드&r는 네트워크 내에서 자동 제작을 가능하게 합니다. 레시피 내의 각 하위 아이템은 고유한 패턴을 가져야 합니다. "
 				""
-				"The &eCrafter&r is where the patterns will be stored and where the crafting will take place."
+				"&e제작기&r은 패턴이 저장되고 제작이 이루어지는 곳입니다."
 			]
 			id: "5F5B3C75910F8870"
 			rewards: [{
@@ -391,28 +391,28 @@
 					type: "item"
 				}
 			]
-			title: "Advanced Storage"
+			title: "고급 저장"
 			x: 0.0d
 			y: -4.5d
 		}
 		{
 			dependencies: ["5F5B3C75910F8870"]
 			description: [
-				"These allow you to &eaccess&r a network's inventory from &efar away&r."
+				"이 블록들을 통해 멀리 떨어진 곳에서도 네트워크의 인벤토리에 &e액세스&r할 수 있습니다."
 				""
-				"Simply craft a &eNetwork Transmitter&r and connect it to your Refined Storage system in your main base."
+				"&e네트워크 송신기&r를 제작하고 이를 기지 내 리파인드 스토리지 시스템에 연결하기만 하면 됩니다."
 				""
-				"Next up, craft a &eNetwork Card&r."
+				"다음으로, &e네트워크 카드&r를 제작하세요."
 				""
-				"After crafting a Network Card, craft a &eNetwork Receiver&r and place it in the area far away from your base."
+				"네트워크 카드를 제작한 후, &e네트워크 수신기&r를 제작하여 기지에서 멀리 떨어진 곳에 설치하세요."
 				""
-				"Take the Network Card and &eright click it&r on the Network Receiver."
+				"네트워크 카드를 들고 마우스 &e오른쪽 버튼&r을 클릭하여 네트워크 수신기를 선택하세요."
 				""
-				"Put the Network Card in the Network Transmitter so the Network Transmitter knows where to &esend a signal&r to."
+				"네트워크 송신기가 &e신호를 어디로 보내야 하는지 알 수 있도록&r 네트워크 카드를 네트워크 송신기에 장착하십시오."
 				""
-				"And now you are done. Simply &econnect machines&r to your Network Receiver according to the normal machine connecting rules."
+				"이제 되었습니다. 일반적인 기기 연결 규칙에 따라 네트워크 수신기에 &e기계를 연결&r하기만 하면 됩니다."
 				""
-				"The transmitter must be &echunkloaded&r before linking to the network."
+				"송신기는 네트워크에 연결하기 전에 &e청크 로딩&r이 되어야 합니다."
 			]
 			id: "0EF218EB24BCC487"
 			rewards: [
@@ -440,7 +440,7 @@
 			]
 			shape: "diamond"
 			size: 1.5d
-			subtitle: "Challenge"
+			subtitle: "챌린지"
 			tasks: [
 				{
 					id: "61BC6B3C28C327BF"
@@ -458,26 +458,26 @@
 					type: "item"
 				}
 			]
-			title: "Technophile"
+			title: "기술 애호가"
 			x: 0.0d
 			y: -6.0d
 		}
 		{
 			dependencies: ["0BBF59F29BA6851E"]
 			description: [
-				"If you want to get items &eout&r of your storage network, use an &eExporter&r and connect it to an inventory where you want to export to."
+				"스토리지 네트워크에서 아이템을 &e내보내려면 출력기&r를 사용하고 내보낼 인벤토리에 연결하세요."
 				""
-				"If you want to get items &ein&r your storage network, use an &eImporter&r and connect it to an inventory where you want to import from."
+				"스토리지 네트워크에서 아이템을 &e가져오려면 입력기&r를 사용하고 가져올 인벤토리에 연결하세요."
 				""
-				"Want the best of both worlds? Use an &eInterface&r to get &eimporting and exporting&r functionality in one block."
+				"두 가지 장점을 모두 원하시나요? &e인터페이스&r를 사용하면 하나의 블록에서 &e가져오기 및 내보내기&r 기능을 모두 사용할 수 있습니다."
 				""
-				"To &eplace&r blocks from your storage network in the world, use an &eConstructor.&r"
+				"스토리지 네트워크에서 월드에 블록을 &e설치&r하려면 &e설치기&r를 사용하세오."
 				""
-				"To &edestroy and insert blocks&r from the world into your storage, use an &eDestructor.&r"
+				"월드에서 블록을 &e부수고&r 저장소에 넣으려면 '&e파괴기&r를 사용하세요."
 				""
-				"The &eMana Fluxfield&r converts Botania Mana into FE for Refined Storage item manipulation!"
+				"&e마나 플럭스변환기&r는 보타니아 마나를 리파인드 스토리지 아이템 조작에 필요한 FE로 변환합니다!"
 				""
-				"Each block can have filters applied to it."
+				"각 블록에는 필터를 적용할 수 있습니다."
 			]
 			id: "6EF2C5B82615DD1B"
 			rewards: [
@@ -521,13 +521,13 @@
 					type: "item"
 				}
 			]
-			title: "Basic Item Manipulation"
+			title: "기본 아이템 조작"
 			x: 0.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["0E17ABDC0AD61E23"]
-			description: ["Check &eJEI&r for the full list of upgrades."]
+			description: ["전체 기능 목록은 &eJEI&r에서 확인하세요."]
 			id: "059B848E5374A860"
 			rewards: [{
 				auto: "enabled"
@@ -558,21 +558,20 @@
 		{
 			dependencies: ["2DC978CB3CC53730"]
 			description: [
-				"&eStack Upgrades&r are immensely important. Stack upgrades can stack upon each other if more than one is inside a storage block."
+				"&e쌓기 기능&r은 매우 중요합니다. 창고 안에 여러 개가 있을 경우 서로 중첩 될 수 있습니다."
 				""
-				"For example:"
+				"예를 들어:"
 				""
-				"&e1 Tier 4 Stack Upgrade:&r 1024"
+				"&e1개의 4단계 쌓기 기능:&r: 1024"
 				""
-				"&e2 Tier 4 Stack Upgrades:&r 16,384"
+				"&e2개의 4단계 쌓기 기능:&r 16,384"
 				""
-				"&e3 Tier 4 Stack Upgrades:&r 262,144"
+				"&e3개의 4단계 쌓기 기능:&r 262,144"
 				""
-				"&e4 Tier 4 Stack Upgrades:&r 4,194,304"
+				"&e4개의 4단계 쌓기 기능: &r4,194,304"
 				""
-				"Multiply previous max by 16 to get the next maximum up to 7 slots total"
-				""
-				"Check JEI for the full list of upgrades."
+				"하나가 중첩될때마다 이전 최대치에 16이 곱해집니다. 최대 7개의 슬롯을 쓸 수 있습니다."
+				"전체 기능 목록은 &eJEI&r에서 확인하세요."
 			]
 			id: "4F7406B2025F6706"
 			rewards: [{
@@ -608,20 +607,20 @@
 					type: "item"
 				}
 			]
-			title: "Upgrades"
+			title: "업그레이드"
 			x: 2.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["4F7406B2025F6706"]
 			description: [
-				"&eLimited Barrels&r act as drawers, where up to &efour items&r can be stored within and have &eimmensely high stack limits&r inherently. Barrels are marked by two things: &eTier&r and &eItem Limit&r."
+				"&e제한된 통&r은 서랍처럼 작동하며 최대 &e4개&r의 아이템을 보관할 수 있고, 본질적으로 &e세트의 한도가 매우 높습니다&r. 배럴은 &e티어&r와 &e아이템 제한&r이라는 두 가지 요소로 표시됩니다."
 				""
-				"&eNormal, Iron, Gold, Diamond, and Netherite&r are the tier, which decides the stack limit."
+				"&e일반, 철, 금, 다이아몬드, 네더라이트&r는 등급별로 분류되며, 등급에 따라 쌓을 수 있는 최대 개수가 결정됩니다."
 				""
-				"&eI, II, III, IIII&r are the Item Limit which is how many different items can be inside it from 1 to 4. Barrels with a higher Item Limit have less maximum stack."
+				"&eI, II, III, IIII&r는 아이템 제한으로, 통 안에 담을 수 있는 서로 다른 아이템의 최대 개수를 1개에서 4개까지 나타냅니다. 아이템 제한이 높은 통일수록 최대 적재량이 적습니다."
 				""
-				"These barrels can also be upgraded just like regular storage."
+				"이 통들도 일반 통처럼 업그레이드할 수 있습니다."
 			]
 			id: "4A3CBD5BF1BC9968"
 			rewards: [{
@@ -681,20 +680,20 @@
 					type: "item"
 				}
 			]
-			title: "Barrel Drawers"
+			title: "통 서랍"
 			x: 2.5d
 			y: -3.0d
 		}
 		{
 			dependencies: ["4A3CBD5BF1BC9968"]
 			description: [
-				"&eStorage Controllers&r allow you to &epipe in/out items&r with connected storage blocks. Priority is determined by which storage blocks were placed last. There is no GUI currently."
+				"&e저장소 제어기&r를 사용하면 연결된 저장 블록을 통해 &e아이템을 파이프&r처럼 넣고 뺄 수 있습니다. 우선순위는 마지막으로 설치된 저장 블록에 따라 결정됩니다. 현재 GUI는 제공되지 않습니다."
 				""
-				"&eStorage Link &rallows to &econnect multiple storages&r that are not attached to controller or any blocks that are connected to it."
+				"&e저장소 연결기&r을 사용하면 제어기에 연결된 블록에 연결되지 않은 여러 저장소를 &e연결&r할 수 있습니다."
 				""
-				"The &eStorage Tool&r allows you to &elink, lock and toggle visibility of locks and item counts&r. Shift scroll to change mode. Linking works by right clicking the controller to start linking to it and then right click storages or storage link to get these linked."
+				"&e저장소 도구&r를 사용하면 &e연결, 잠금, 잠금 및 아이템 개수 표시/숨김 전환&r을 할 수 있습니다. Shift 키를 누른 채 스크롤하여 모드를 변경하세요. 연결하려면 제어기를 마우스 오른쪽 버튼으로 클릭하여 연결을 시작한 다음, 저장 블록 또는 저장소 연결기를 마우스 오른쪽 버튼으로 클릭하여 연결하세요."
 				""
-				"&ePacking Tape&r allows you to&e pack up&r a storage block and mine it to pick it up like a regular block without the items dropping."
+				"&e포장 테이프&r를 사용하면 저장 블록을 &e포장&r한 다음 채굴하여 일반 블록처럼 집어 올릴 수 있으며, 이때 아이템은 떨어지지 않습니다."
 			]
 			id: "4F8DAFD8E626D7A1"
 			rewards: [{
@@ -741,7 +740,7 @@
 		}
 		{
 			dependencies: ["4F8DAFD8E626D7A1"]
-			description: ["Stay organized!"]
+			description: ["정리정돈을 잘 하세요!"]
 			id: "629A6257109536AB"
 			rewards: [
 				{
@@ -769,7 +768,7 @@
 			]
 			shape: "diamond"
 			size: 1.5d
-			subtitle: "Challenge"
+			subtitle: "챌린지"
 			tasks: [
 				{
 					id: "0765FE1E964931AB"
@@ -818,7 +817,7 @@
 					type: "item"
 				}
 			]
-			title: "Too Many Chests"
+			title: "상자가 너무 많아요"
 			x: 2.5d
 			y: -6.0d
 		}
@@ -863,13 +862,13 @@
 			]
 			shape: "hexagon"
 			size: 2.0d
-			subtitle: "Achievement"
+			subtitle: "도전과제"
 			tasks: [{
 				id: "7FAAD1441DAB60C3"
-				title: "Click Once Read"
+				title: "한 번 읽고 클릭하세요"
 				type: "checkmark"
 			}]
-			title: "Professional Hoarder"
+			title: "전문적인 수집광"
 			x: 0.0d
 			y: -8.5d
 		}
@@ -878,7 +877,7 @@
 				"4A3CBD5BF1BC9968"
 				"6EF2C5B82615DD1B"
 			]
-			description: ["The &eExternal Storage&r allows you to link &eRefined Storage&r with external storage blocks, such as blocks from &eSophisticated Storage&r!"]
+			description: ["&e외부 저장소&r를 사용하면 &e리파인드 스토리지&r를 &eSophisticated Storage&r의 블록과 같은 외부 저장소 블록에 연결할 수 있습니다!"]
 			id: "4E4A3F37E8B476D5"
 			rewards: [{
 				auto: "enabled"
@@ -896,10 +895,10 @@
 				item: "refinedstorage:external_storage"
 				type: "item"
 			}]
-			title: "Compatibility"
+			title: "호환성"
 			x: 1.25d
 			y: -3.75d
 		}
 	]
-	title: "Storage Solutions"
+	title: "창고 보관 해법"
 }
