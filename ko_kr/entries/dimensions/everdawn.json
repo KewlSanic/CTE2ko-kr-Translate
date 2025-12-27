@@ -6,13 +6,13 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "&n&6&l차원:&r&r    &n&l에버다운(Everdawn)&r
-&n&6&l구역 레벨:&r&r    &n35 - 55 &r&r
-&n&6&l강화된 구역 레벨:&r &n65 - 85&r
-&n&6&l예외:&r  &nNone&r
-&n&6&l퀘스트:&r  &nAct IV;&r
-&n&6&l차원 관문 :&r  &nAct IV 관문;
-&n&6&l이 차원의 보스들:&r &n연금술사(Alchemist), 아라크나르크(Arachnarch)  &r "
+            "text": "&6&l차원:&r&r    &l에버다운(Everdawn)&r
+&6&l구역 레벨:&r&r    &n35 - 55 &r
+&6&l강화된 구역 레벨:&r &n65 - 85&r
+&6&l예외:&r  없음
+&6&l퀘스트:&r  Act IV;
+&6&l차원 관문:&r  Act IV 관문;
+&6&l이 차원의 보스들:&r 연금술사(Alchemist), 아라크나르크(Arachnarch) "
 		},
 		{
             "type": "patchouli:text",

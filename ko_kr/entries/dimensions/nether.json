@@ -6,17 +6,17 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "&n&6&l차원:&r&r    &n&l네더(Nether)&r
-&n&6&l구역 레벨:&r&r    &n10 - 30 &r&r
-&n&6&l강화된 구역 레벨:&r &n55 - 75&r
-&n&6&l예외:&r  &nNone&r
-&n&6&l퀘스트:&r  &nAct II;&r
-&n&6&l차원 관문:&r  &nAct II Gateway;
-&n&6&l관문 보스:&r &n뒤틀린 모스코(Warped Mosco), 와일드파이어(Wildfire), 어미 용암 오징어(Mother Lava Squid), 위더(Wither), 끔찍한 가스트(Awful Ghast), Nether Keeper&r "
+            "text": "&6&l차원:&r&r    &l네더(Nether)&r
+&6&l구역 레벨:&r&r    &n10 - 30&r
+&6&l강화된 구역 레벨:&r &n55 - 75&r
+&6&l예외:&r  없음
+&6&l퀘스트:&r  Act II;
+&6&l차원 관문:&r  Act II Gateway;
+&6&l관문 보스:&r 뒤틀린 모스코(Warped Mosco), 와일드파이어(Wildfire), 어미 용암 오징어(Mother Lava Squid), 위더(Wither), 끔찍한 가스트(Awful Ghast), 네더 파수꾼(Nether Keeper) "
 		},
 		{
             "type": "patchouli:text",
-            "text": "흔히 '지옥'으로 묘사되는 차원. 말 그대로 뜨거운 휴양지가 될 수도 있겠네요. 이 차원은 용암으로 가득 차 있고 길을 찾기가 어려워 화염 저항력을 갖추는 것이 강력히 권장됩니다. 패러글라이더도 매우 유용할 겁니다. 이 차원은 특이한 자기 간섭 현상 때문에 Keeping Castle이나 Awful dungeon 같은 일부 구조물은 구조물 나침반으로는 찾을 수 없습니다. 하지만 일부 모험가들은 이 나침반이 차원을 오르는 데 도움이 될 수 있다고 추측합니다."
+            "text": "흔히 '지옥'으로 묘사되는 차원. 말 그대로 뜨거운 휴양지가 될 수도 있겠네요. 이 차원은 용암으로 가득 차 있고 길을 찾기가 어려워 화염 저항력을 갖추는 것이 강력히 권장됩니다. 패러글라이더도 매우 유용할 겁니다. 이 차원은 특이한 자기 간섭 현상 때문에 보존되는 성(Keeping Castle)이나 끔찍한 던전(Awful dungeon) 같은 일부 구조물은 구조물 나침반으로는 찾을 수 없습니다. 하지만 일부 모험가들은 이 나침반이 차원을 오르는 데 도움이 될 수 있다고 추측합니다."
 		},{
             "type": "patchouli:spotlight",
 			"title":"네더에 들어가는 방법",

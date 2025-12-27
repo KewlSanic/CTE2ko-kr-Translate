@@ -1,19 +1,19 @@
 {
-    "name": "Cooking",
+    "name": "요리",
     "icon": "minecraft:cake",
     "category": "patchouli:professions",
 	"sortnum":19,
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "You can cook foods which will provide hunger and saturation, but also provide stat boosts. When cooking, there are a few ingredients:  1. &eTiered Meat/Produce/Fish&r - earned from Bounty Hunting, Farming, and Fishing they are based on the item level you want to craft. The level ranges are the same as what you'd find in the gathering Professions. The type of food you use depends on what food you cook:
+            "text": "요리된 음식을 통해 허기와 포만감을 채워줄 뿐만 아니라 능력치도 향상시킬 수 있습니다. 요리에는 몇 가지 재료가 필요합니다: 1. &e등급별 고기/농산물/생선&r - 현상금 사냥, 농사, 낚시를 통해 얻을 수 있으며, 제작하려는 아이템 레벨에 따라 등급이 나뉩니다. 레벨 범위는 채집 전문 기술에서 얻을 수 있는 것과 동일합니다. 사용하는 음식의 종류는 요리하려는 음식에 따라 달라집니다:
 "
 },{            "type": "patchouli:text",
-            "text": "&cMeat&r: Health/Magic Shield Regen
-&2Produce&r: Mana/Energy Regen
-&bFish&r: EXP/Loot    2. &c1&r &eStone (Rarity)&r - the Stones determine the rarity of the gear you will craft. You can get these Stones while salvaging.
-3. &eOther Food Item&r - generally used as an additional ingredient that can also determine what food you're cooking. Refer to &cJEI&r for recipes!  4. &eMoney&r
-&lYou can always check the &cJEI&r &lto see what items are needed for &eCooking&r&l.&r"
+            "text": "&c고기&r: 체력/마법 보호막 회복
+&2Produce&r: 마력/기력 회복
+&b생선&r: 경험치/전리품    2. &c1&r &e짱돌 (희귀도)&r - 제작할 장비의 희귀도는 짱돌로 결정됩니다. 짱돌은 아이템을 분해하여 얻을 수 있습니다.
+3. &e다른 음식 재료&r - 일반적으로 요리에 추가되는 재료로 사용되며, 음식 레시피에도 영향을 미칠 수 있습니다. 레시피는 &cJEI&r을 참조하세요!  4. &e동전&r
+&l&e요리&r&l에 필요한 재료가 무엇인지 확인하려면 &cJEI&r&l를 확인하세요.&r"
 }
     ]
 }

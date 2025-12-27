@@ -6,13 +6,13 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "&n&6&lDimension:&r&r    &n&lThe End&r
-&n&6&l구역 레벨:&r&r    &n50 - 65 &r&r
-&n&6&l강화된 구역 레벨:&r &n70 - 90&r
-&n&6&l예외:&r  &n없음&r
-&n&6&l퀘스트:&r  &nAct V;&r
-&n&6&l차원 관문:&r  &nAct V Gateway;
-&n&6&l관문 보스:&r &n엔더드래곤(Ender Dragon); 공허 벌레(Void Worm); 보호자(Shelterer)  &r "
+            "text": "&6&lDimension:&r&r    &lThe End&r
+&6&l구역 레벨:&r&r    &n50 - 65 &r&r
+&6&l강화된 구역 레벨:&r &n70 - 90&r
+&6&l예외:&r  없음
+&6&l퀘스트:&r  Act V;
+&6&l차원 관문:&r  Act V Gateway;
+&6&l관문 보스:&r 엔더드래곤(Ender Dragon); 공허 벌레(Void Worm); 보호자(Shelterer)  "
 		},
 		{
             "type": "patchouli:text",
