@@ -93,7 +93,7 @@
 			description: [
 				"Mine and Slash덕분에 CTE2는 완전히 커스텀 가능한 레벨업 시스템을 갖추게 되었습니다."
 				""
-				"몬스터를 처치하여 경험치를 얻고, 레벨이 오를 때마다 스텟 포인트를 휙득하세요. 이 포인트를 메인 화면에서  &e\"H\"키를 눌러&r. 사용할 수 있습니다. 대부분의 메뉴는 이 메뉴 휠을 통해 접근 가능합니다!"
+				"몬스터를 처치하여 경험치를 얻고, 레벨이 오를 때마다 스탯 포인트를 획득하세요. 이 포인트를 메인 화면에서  &e\"H\"키를 눌러&r. 사용할 수 있습니다. 대부분의 메뉴는 이 메뉴 휠을 통해 접근 가능합니다!"
 				""
 				"{image:cte2:textures/character_stats.png width:160 height:128 align:1}"
 				""
@@ -124,7 +124,7 @@
 				title: "Click Once Read"
 				type: "checkmark"
 			}]
-			title: "캐릭터 스텟"
+			title: "캐릭터 스탯"
 			x: 3.0d
 			y: 0.0d
 		}
@@ -135,7 +135,7 @@
 				""
 				"{image:cte2:textures/talent_tree.png width:160 height:115 align:1}"
 				""
-				"각 레벨마다 &e특성 포인트 1점&r을 휙득합니다. 시작 위치를 선택한 후, &e활성화한 노드&r와 인접한 노드에만 포인트를 사용할 수 있습니다. 각 &e노드&r는 능력치에&e보너스&r를 제공하며, 경우에 따라 핵심 플레이 방식을 바꿀수도 있습니다!"
+				"각 레벨마다 &e특성 포인트 1점&r을 획득합니다. 시작 위치를 선택한 후, &e활성화한 노드&r와 인접한 노드에만 포인트를 사용할 수 있습니다. 각 &e노드&r는 능력치에&e보너스&r를 제공하며, 경우에 따라 핵심 플레이 방식을 바꿀수도 있습니다!"
 			]
 			icon: "minecraft:book"
 			id: "53A5ECD28E7E16E1"
@@ -363,7 +363,7 @@
 				""
 				"&e마을에서 소환시키지 마세요. 철 골렘이 좀비를 죽일 수도 있습니다! 또한 낮에 소환하는 것도 조심하세요! 동굴에서 소환하는 방법도 고려해 보세요.&r"
 				""
-				"&o전투 전에 스텟을 잘 분배하세요. 무기에는 최소 스텟 요구치가 있습니다!&r"
+				"&o전투 전에 스탯을 잘 분배하세요. 무기에는 최소 스탯 요구치가 있습니다!&r"
 			]
 			icon: "minecraft:book"
 			id: "0A39A9996E8D63F4"
@@ -397,7 +397,7 @@
 				""
 				"캐릭터의 방어력은 3가지 카테고리로 분류할 수 있지만: &4갑옷&r(판금), &2회피&r(가죽), &9마법 보호막&r(천), 브리간딘(&8브리간딘&r = &4갑옷&r/&2회피&r)처럼 갑옷과 회피를 결합한 하이브리드 장비도 있습니다."
 				""
-				"갑옷은 물리 피해를 줄여주고, 회피는 공격을 맞지 않을 확률을 늘려주며, 마법 보호막은 천천히 회복되는 추가체력 역할을 합니다. 이러한 능력치는 주로 장비, 스텟, 그리고 특성 트리를 통해 향상시킬 수 있습니다."
+				"갑옷은 물리 피해를 줄여주고, 회피는 공격을 맞지 않을 확률을 늘려주며, 마법 보호막은 천천히 회복되는 추가체력 역할을 합니다. 이러한 능력치는 주로 장비, 스탯, 그리고 특성 트리를 통해 향상시킬 수 있습니다."
 				""
 				"&e피해를 줄이는 다른 방법&r으로는, 원소 저항, 주문 회피, 피해 감소 등이 있습니다. 이러한 능력치는 장비, 특성 트리, 장신구에서 확인할 수 있습니다."
 				""
@@ -495,7 +495,7 @@
 					type: "choice"
 				}
 			]
-			subtitle: "Appendix"
+			subtitle: "이제부터 시작이야"
 			tasks: [{
 				id: "4DE938BD22A26E0A"
 				title: "Click Once Read"
@@ -508,15 +508,15 @@
 		{
 			dependencies: ["7B22B96E95E5DA09"]
 			description: [
-				"Gems and Runes can be socketed into gear that have available sockets. You can add sockets through some Mine and Slash currencies."
+				"보석과 룬은 사용 가능한 소켓이 있는 장비에 장착할 수 있습니다. 일부 Mine and Slash 재화를 사용하여 소켓을 추가할 수 있습니다."
 				""
-				"&bGems&r come in multiple tiers. You can &ecombine 3 of them to create the next tier&r. Once you have socketed it into your item (click on the item with the Gem in your cursor). Once in your gear, the Gem will provide extra stats."
+				"&b보석&r은 여려 등급으로 나뉩니다. &e3개의 보석을 조합하여 다음 등급의 보석을 만들수 있습니다&r. 보석을 아이템에 장착하면(보석을 커서로 들고 아이템을 클릭 하세요), 추가 능력치를 제공합니다."
 				""
-				"&cRunes&r can be added to gear to also provide extra stats. If you slot a specific combination of Runes in &eRuned gear&7, you can craft a &eRuneword&r which enhances the item with a specific set of bonuses! Note that the Runed gear can have more slots than the number of required Runes for the Runeword!"
+				"&c룬&r은 장비에 추가하여 추가 능력치를 부여할 수 있습니다. 특정 조합으로 룬을 &e룬워드 장비&7에 장착하면 보너스 효과를 주는 &e룬워드&r를 제작할 수 있습니다! 그리고, 룬워드 장비는 룬워드 제작에 필요한 룬 개수보다 더 많은 슬롯을 가질 수 있습니다!"
 				""
-				"&eRight-click while holding a Rune to see available Runewords to craft!&r &eRunewords&r can only be created in &eRuned&r rarity items."
+				"&e룬을 들고 우클릭을 하면 제작 가능한 룬워드를 확인할 수 있습니다!&r &e룬워드&r는 &e룬워드&r등급 아이템에서만 제작 가능합니다."
 				""
-				"It is possible to retrieve Gems and Runes from items using an &eExtractor Currency Orb!&r"
+				"&e보석/룬 추출기&r를 사용하면 장비에서 보석/룬을 추출 할 수 있습니다!&r"
 			]
 			icon: "ftbquests:book"
 			id: "4C9F8B8F01189196"
@@ -546,22 +546,22 @@
 				}
 			]
 			shape: "circle"
-			subtitle: "Page 9c"
+			subtitle: "페이지 9-2"
 			tasks: [{
 				id: "1DADE93D8FAB373D"
 				title: "Click Once Read"
 				type: "checkmark"
 			}]
-			title: "Gems and Runes"
+			title: "보석과 룬"
 			x: 0.0d
 			y: 7.0d
 		}
 		{
 			dependencies: ["7B22B96E95E5DA09"]
 			description: [
-				"Test out your new spells and armor in combat!"
+				"새로운 마법과 갑옷을 전투에서 시험해 보세요!"
 				""
-				"&eDo not summon the creature in the village as the Iron Golem may kill your Skeleton! Also be cautious of summoning it in daylight! Consider summoning in a cave.&r"
+				"&e마을에서 소환시키지 마세요. 철 골렘이 스켈레톤을 죽일 수도 있습니다! 또한 낮에 소환하는 것도 조심하세요! 동굴에서 소환하는 방법도 고려해 보세요.&r"
 			]
 			icon: "minecraft:book"
 			id: "1895A7A94BE0A4B6"
@@ -575,7 +575,7 @@
 				title: "250 Experience"
 				type: "command"
 			}]
-			subtitle: "Page 10"
+			subtitle: "페이지 10"
 			tasks: [{
 				entity: "minecraft:skeleton"
 				icon: "ftb_ph:skeleton"
@@ -583,24 +583,24 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "Easy Kill"
+			title: "쉬운 사냥"
 			x: 3.0d
 			y: 6.0d
 		}
 		{
 			dependencies: ["30403B3DE1E47F33"]
 			description: [
-				"&o\"Can money buy happiness?\"&r"
+				"&o\"돈으로 행복을 살 수 있을까요?\"&r"
 				""
-				"Well, in this case, money can be used to buy many useful tools and resources. You will be able to use money to barter for goods with villagers and traders from other mods. Of course, you can also use money to trade with other players, and if you're on a server, purchase claim blocks!"
+				"네, 돈을 사용하여 유용한 도구와 자원을 많이 구매할 수 있습니다. 다른 모드의 마을 주민이나 상인과 물물교환을 할 수도 있고요. 물론 다른 플레이어와 거래할 때도 돈을 사용할 수 있고, 서버에서 플레이한다면 Purchase claim block을 통해 구매할 수도 있습니다!"
 				""
-				"You can &learn money from killing mobs or looting chests&r. You can also sometimes sell goods for money with traders."
+				"&l몬스터를 처치하거나 상자를 열어 돈을 벌 수 있습니다&r. 또한 상인에게 물건을 팔아 돈을 벌 수도 있습니다."
 				""
-				"The &eTrading Terminal/Barter Board&r is a valuable tool in order to acquire specific resources, as well.&r"
+				"&e온라인 거래 단말기와 의뢰 게시판은 특정 자원을 획득하는데 유용한 도구입니다.&r"
 				""
-				"Keep your money safe in the &eWallet&r that you receive from this quest. Later on, upgrade the wallet so it can hold more money!"
+				"퀘스트 보상으로 받는 &e지갑&r에 돈을 안전하게 보관하세요. 나중에 지갑을 업그레이드하면 더 많은 돈을 저장할 수 있습니다!"
 				""
-				"&eShould you need to exchange your money for lower amounts, you can use an ATM.&r"
+				"&e더 적은 금액으로 환전해야 할 경우 ATM을 사용하면 됩니다.&r"
 			]
 			icon: "minecraft:book"
 			id: "04849611F904771C"
@@ -616,26 +616,26 @@
 				title: "Wallet"
 				type: "item"
 			}]
-			subtitle: "Page 1"
+			subtitle: "페이지 1"
 			tasks: [{
 				id: "33258148F7D6B004"
 				title: "Click Once Read"
 				type: "checkmark"
 			}]
-			title: "Money"
+			title: "난 돈이 좋아!"
 			x: 1.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["3059FF2D6DB1AC9F"]
 			description: [
-				"In CTE2, you will craft and find many pieces of equipment. These pieces of &eequipment will not provide any stats unless you apply Gear Stat Souls to them&r, essentially imbuing them with Mine and Slash stats."
+				"CTE2에서는 다양한 장비를 제작하거나 획득할 수 있습니다. 이러한 장비들은 &e장비 스탯 영혼&r을 적용하여 Mine and Slash스탯을 부여하기 전까지는 아무런 능력치를 제공하지 않습니다."
 				""
-				"&cGear without a soul will have no effect, either defensively of offensively!&r"
+				"&c장비 영혼이 없는 장비는 방어든 공격이든 아무런 효과가 없습니다!&r"
 				""
-				"Gear Stat Souls can be used on any piece of equipment that shares the same type. For example, the Aquaculture and Farmer's Delight knives have the \"Dagger\" type. By &eclicking on the item with a Gear Stat Soul&r of \"Dagger\" type, you can apply Mine and Slash stats to the knives!"
+				"장비 스탯 영혼은 같은 유형의 장비에 사용할 수 있습니다. 예를 들어, Aquaculture와 Farmer's Delight의 칼은 \"단검\" 타입입니다. &e\"단검"\ 유형의 장비 스탯 영혼&r을 사용하면 Mine and Slash스탯을 칼에 부여시킬 수 있습니다!"
 				""
-				"Want to learn more about how to &ecraft Gear Stat Souls&r? Visit the &aM\\&S Professions&r quest chapter!"
+				"&e장비 스탯 영혼을 제작하는 방법에 대해 자세히 알고 싶으신가요&r? &aM\\&S 전문기술&r 퀘스트 챕터를 방문해 보세요!"
 			]
 			icon: "ftbquests:book"
 			id: "289350CF47F41D69"
@@ -667,26 +667,26 @@
 				}
 			]
 			shape: "circle"
-			subtitle: "Page 5b"
+			subtitle: "페이지 5-1"
 			tasks: [{
 				id: "1C99B6F792983F96"
 				title: "Click Once Read"
 				type: "checkmark"
 			}]
-			title: "Gear Stat Souls"
+			title: "장비 스탯 영혼"
 			x: 6.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["7B22B96E95E5DA09"]
 			description: [
-				"Shields (Armor), Totems (Dodge), and Tomes (Magic Shield) are offhands that can increase your defensive stat."
+				"방패(갑옷), 토템(회피), 고서(마법 보호막)는 방어 능력치를 올려주는 보조 무기입니다."
 				""
-				"One defensive option in combat is the ability to roll (default: Alt). This is available to everyone. However, if you equip a shield, you can also use it to block damage."
+				"전투에서 방어 수단 중 하나는 구르기(기본 키: Alt)입니다. 이는 모든 캐릭터가 사용 가능합니다. 또한 방패를 장착하면 방패를 사용해 피해를 막을 수도 있습니다."
 				""
-				"Shields drain &aEnergy&r while being held up, and if you're facing the correct direction, negate damage taken."
+				"방패를 들고 있는 동안에는 &a에너지&r가 소모되며, 올바른 방향의로 방패를 사용한다면 받는 피해를 막을 수 있습니다."
 				""
-				"Did you know that the &eshield can have a passive chance to negate damage&r (similar to dodging)? You can get block chance from gear or the Talent Tree, which allows you to have a &ochance to negate damage even when not holding the shield up&r!"
+				"&e방패가 회피처럼 일정 확률로 피해를 막을수 있다는 사실을 알고 계셨나요&r(회피와 유사하게)? 장비나 특성 트리를 통해 막기 확률을 얻을수 있는데, 이를 통해&o방패를 들고있지 않을때도 일정 확률로 피해를 막을 수 있습니다&r!"
 			]
 			icon: "ftbquests:book"
 			id: "119B706F79F22360"
@@ -697,22 +697,22 @@
 				type: "choice"
 			}]
 			shape: "circle"
-			subtitle: "Page 9b"
+			subtitle: "페이지 9-1"
 			tasks: [{
 				id: "0662DB198465C67A"
 				title: "Click Once Read"
 				type: "checkmark"
 			}]
-			title: "Blocking"
+			title: "막기"
 			x: -1.0d
 			y: 6.0d
 		}
 		{
 			dependencies: ["1895A7A94BE0A4B6"]
 			description: [
-				"Waystones are spread throughout the world and once discovered, can be teleported to via other Waystones, Warp Scrolls, or Warp Stones."
+				"웨이스톤은 세계 곳곳에 흩어져 있으며, 다른 웨이스톤, 워프 스크롤, 워프 스톤을 통해 순간 이동할 수 있습니다."
 				""
-				"Waystones can spawn randomly in the world, but are &eoften found in villages&r. Take some Warp Scrolls so you can easily return to any discovered Waystone!"
+				"웨이스톤은 세계 곳곳에 흩어져 있지만, &e마을 근처&r에서 자주 발견됩니다. 워프 스크롤을 챙겨두면 발견한 웨이스톤으로 쉽게 이동할 수 있습니다!"
 			]
 			icon: "ftbquests:book"
 			id: "19319F327C09E772"
@@ -723,22 +723,22 @@
 				type: "item"
 			}]
 			shape: "circle"
-			subtitle: "Page 10c"
+			subtitle: "페이지 10-2"
 			tasks: [{
 				id: "302BF9765FDEFFE8"
 				title: "Click Once Read"
 				type: "checkmark"
 			}]
-			title: "Waystones"
+			title: "웨이스톤"
 			x: 3.0d
 			y: 7.0d
 		}
 		{
 			dependencies: ["48075B2F138A9C2C"]
 			description: [
-				"You can &eclaim an area&r to be protected against unwanted players. Use any &eGolden Hoe&r to do this by right-clicking the ground."
+				"원치 않는 플레이어로부터 보호할 지역을 &e점령&r할 수 있습니다. &e황금 괭이&r를 땅에 대고 사용하면 됩니다."
 				""
-				"&oCheck out the \"&eLand Claiming with FLAN&r\" quest under the &eJolly Cooperation&r chapter for more details!&r"
+				"자세한 내용은 &eJolly Cooperation&r 챕터에 있는 &o\"&eLand Claiming with FLAN&r\" 퀘스트를 확인해 보세요!&r"
 			]
 			icon: "ftbquests:book"
 			id: "31B023681AC62535"
@@ -763,19 +763,19 @@
 				type: "item"
 			}]
 			shape: "circle"
-			subtitle: "Page 2c"
+			subtitle: "페이지 2-2"
 			tasks: [{
 				id: "5848EBF021C0262E"
 				title: "Click Once Read"
 				type: "checkmark"
 			}]
-			title: "Land Claiming"
+			title: "나만의 구역 설정하기"
 			x: 3.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["1895A7A94BE0A4B6"]
-			description: ["Throughout your travels, you will find &eSpirit Orbs&r, which can be exchanged at &eGoddess Statues&r for &cHeart Containers&r. Each Heart Container increases your base Health by 2, up to a maximum of 200 Health (100 Heart Containers). You can also find &eHeart Containers from Bosses&r in Craft to Exile 2."]
+			description: ["여행을 하다 보면 &e극복의 증표&r를 발견 할 수 있는데, 이를 &e여신상&r에서 &c생명의 그릇&r으로 교환할 수 있습니다. 생명의 그릇 하나당 기본 체력이 2씩 증가하며, 최대 200(생명의 그릇 100개)까지 올릴 수 있습니다. 또한, CTE2에서 &e보스를 처치하면 생명의 그릇을 얻을수 있습니다&r."]
 			icon: "minecraft:book"
 			id: "1C852F78D386B77E"
 			rewards: [{
@@ -783,24 +783,24 @@
 				item: "paraglider:heart_container"
 				type: "item"
 			}]
-			subtitle: "Page 11"
+			subtitle: "페이지 11"
 			tasks: [{
 				id: "5C49990F810F10CF"
 				title: "Click Once Read"
 				type: "checkmark"
 			}]
-			title: "Heart Containers"
+			title: "생명의 그릇"
 			x: 4.5d
 			y: 6.0d
 		}
 		{
 			dependencies: ["1C852F78D386B77E"]
 			description: [
-				"You will very soon realize that &eCraft to Exile 2&r has a LOT of loot to collect. Most of the loot comes from &eMine and Slash&r, the RPG mod. One of the most frustrating things is keeping your inventory organized and having enough space to pick things up."
+				"곧 알게 되시겠지만, &eCraft to Exile 2&r에는 수집할 아이템이 정말 많습니다. 대부분의 아이템은 RPG 모드인 &eMine and Slash&r에서 얻을 수 있습니다. 가장 골치 아픈 점 중 하나는 인벤토리를 정리하고 아이템을 주울 공간을 충분히 확보하는 것입니다."
 				""
-				"This &eMaster Bag&r will specifically &bpick up and hold items&r from &eMine and Slash&r and assist you with organizing your loot. You can wear the bag in a Curio slot and access it via \"&eAlt + B&r\"!"
+				"이 &e마스터 가방&r은 &eMine and Slash&r으로 부터 얻은 아이템을 &b줍고 보관하며&r 전리품을 정리하는 데 도움을 줍니다. 이 가방은 장신구 슬롯에 착용 가능하며 \"&eAlt + B&r\"키로 사용할 수 있습니다!"
 				""
-				"If you are still struggling with the sheer quantity of loot, you could also consider using the &eauto-salvage feature&r found in the Hub. To learn more about this, visit the &eProfessions Chapter&r."
+				"만약 여전히 엄청난 양의 전리품을 처리하는 것에 어려움을 겪고 있다면, 허브에서 찾을 수 있는 &e자동 분해 기능&r을 이용해 보는것도 고려해 보세요. 이 기능에 대한 자세한 내용은 &eProfessions 챕터&r를 확인해 보세요."
 			]
 			icon: "ftbquests:book"
 			id: "351118C34DCDFEB4"
@@ -810,22 +810,22 @@
 				type: "item"
 			}]
 			shape: "circle"
-			subtitle: "Page 11b"
+			subtitle: "페이지 11-1"
 			tasks: [{
 				id: "6E5BF0F42C1A3C85"
 				title: "Click Once Read"
 				type: "checkmark"
 			}]
-			title: "Managing Your Inventory"
+			title: "재고 관리"
 			x: 4.5d
 			y: 5.0d
 		}
 		{
 			dependencies: ["04849611F904771C"]
 			description: [
-				"&eCraft to Exile 2&r comes with &ecustom key binds&r. However, there have been &ccases where the custom key binds did not apply&r. You can confirm this by pressing R. If it brings up the wheel, then the custom key binds did not apply (it should be H)."
+				"&eCraft to Exile 2&r에는 &e커스텀 키 바인딩 기능&r이 있습니다. 하지만 커스텀 키 바인딩이 적용되지 않는 경우가 있습니다. 이럴때는 R키를 눌러 확인할 수 있습니다. 만약 휠 메뉴가 나타난다면 커스텀 키 바인딩이 적용되지 않은 것입니다(정상 키는 H키입니다)."
 				""
-				"To fix this, hit Esc and go to &bOptions > Controls > Key Binds > click Reset Keys&r."
+				"이 문제를 해결하려면 Esc키를 누르고 &b설정 > 조작 > 키 지정 > 키 설정 초기화&r를 클릭하세요."
 			]
 			icon: "ftbquests:book"
 			id: "5CA9B71D52F01485"
@@ -835,24 +835,24 @@
 				type: "item"
 			}]
 			shape: "circle"
-			subtitle: "Page 1b"
+			subtitle: "페이지 1-1"
 			tasks: [{
 				id: "6F2223761F2F7200"
 				title: "Click Once Read"
 				type: "checkmark"
 			}]
-			title: "Key Binds"
+			title: "키 바인딩"
 			x: 1.5d
 			y: 1.0d
 		}
 		{
 			dependencies: ["1895A7A94BE0A4B6"]
 			description: [
-				"In CTE2 there is a limit on how many mobs can be killed within a chunk before they &cstop yielding any drops or experience!&r The chunk will recover over time."
+				"CTE2에서는 청크 내에서 처치할 수 있는 몹의 수에 제한이 있으며, 일정 수를 초과하면 &c몹이 더 이상 아이템이나 경험치를 주지 않습니다&r! 청크는 시간이 지나면서 다시 회복됩니다."
 				""
-				"This is done to encourage travel and exploration instead of the usage of automated experience methods."
+				"이는 자동화를 막는 대신 여행과 탐험을 장려하기 위해 실행됩니다."
 				""
-				"&oExplore and discover! There are many structures and dangers to be found."
+				"&o탐험하고 발견하세요! 수많은 던전과 구조물, 위험 요소들이 기다리고 있습니다."
 			]
 			icon: "ftbquests:book"
 			id: "151EDFFBB525349E"
@@ -867,13 +867,13 @@
 				type: "command"
 			}]
 			shape: "circle"
-			subtitle: "Page 10b"
+			subtitle: "페이지 10-1"
 			tasks: [{
 				id: "321AFA63AEF2B67B"
 				title: "Click Once Read"
 				type: "checkmark"
 			}]
-			title: "Anti Mob Farm"
+			title: "안티 몹 팜"
 			x: 3.0d
 			y: 5.0d
 		}
@@ -915,11 +915,11 @@
 			description: [
 				"{image:cte2:textures/skill_bar.png width:120 height:120 align:center}"
 				""
-				"&eSkills&r can be assigned to your hotbar by clicking &eSkill Hotbar&r from the hub."
+				"허브에서 &e스킬 핫키&r를 클릭하면 &e스킬&r을 핫바에 할당할 수 있습니다."
 				""
 				"{image:cte2:textures/skill_hotbar.png width:160 height:120 align:center}"
 				""
-				"&eYou can move the Skill hotbar&r by pressing ESC > Mods > Mine and Slash > Config > mine_and_slash-client > General > Overlays > &eSet SPELL HOTBAR OVERLAY TYPE to toggle between horizontal/vertical and SPELL HOTBAR VERTICAL/HORIZONTAL CONFIGs to adjust&r."
+				"Esc 키를 누른 후 모드 > Mine and Slash > 설정 > mine_and_slash-client > 설정 편집 > General > Overlays > &eSPELL HOTBAR OVERLAY TYPE을 설정하여 가소/세로로 전환하고 SPELL HOTBAR VERTICAL/HORIZONTAL CONFIG를 설정하여 조정할 수 있습니다."
 			]
 			icon: "ftbquests:book"
 			id: "33E4003EA7B05BA4"
@@ -930,19 +930,19 @@
 				type: "item"
 			}]
 			shape: "circle"
-			subtitle: "Page 8b"
+			subtitle: "페이지 8-1"
 			tasks: [{
 				id: "24E6BC2E8058814E"
 				title: "Click Once Read"
 				type: "checkmark"
 			}]
-			title: "The Spell Bar"
+			title: "스킬 바"
 			x: -1.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["1C852F78D386B77E"]
-			description: ["CTE2 has tons of information, and sometimes it can be a bit spread across the campaign. If you're looking for this information consolidated in one place, you can use the Patchoulie &eAdventurer Handbook&r!"]
+			description: ["CTE2에는 방대한 정보가 담겨 있지만, 캠페인 전체에 흩어져 있는 경우가 있습니다. 이 정보를 한 곳에서 정리된 형태로 찾고 싶다면, Patchoulie &eAdventurer Handbook&r을 이용해 보세요!"]
 			icon: "ftbquests:book"
 			id: "7343515F10544FDE"
 			rewards: [{
@@ -957,13 +957,13 @@
 				type: "item"
 			}]
 			shape: "circle"
-			subtitle: "Page 11c"
+			subtitle: "페이지 11-2"
 			tasks: [{
 				id: "2D60441D0A153B0F"
 				title: "Click Once Read"
 				type: "checkmark"
 			}]
-			title: "Information Compiled"
+			title: "CTE2 사전"
 			x: 4.5d
 			y: 7.0d
 		}
