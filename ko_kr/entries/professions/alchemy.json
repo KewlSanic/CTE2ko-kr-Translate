@@ -1,21 +1,21 @@
 {
-    "name": "Alchemy",
+    "name": "연금술",
     "icon": "mmorpg:potion/health/5",
     "category": "patchouli:professions",
 	"sortnum":19,
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "You can brew potions which can recover health and resources, or provide stat boosts. When brewing, there are a few ingredients:
+            "text": "체력과 자원(resources)을 회복하거나 능력치를 강화하는 물약을 제조할 수 있습니다. 물약을 제조하려면 몇 가지 재료가 필요합니다:
 
-1. &eTiered Meat/Produce/Fish&r - earned from Hubsandry, Farming, and Fishing they are based on the item level you want to craft. The level ranges are the same as what you'd find in the gathering Professions. "
+1. &e등급별 고기/농작물/생선&r - Hubsandry, 농업, 낚시를 통해 획득하며, 제작하고자 하는 아이템 레벨에 따라 등급이 나뉩니다. 레벨 범위는 채집 전문 기술에서 볼 수 있는 것과 동일합니다. "
 },{            "type": "patchouli:text",
-            "text": "The type of food you use depends on what potion you brew: &cMeat&r: Health/Resource Potion
-&2Produce&r: Core Stat Potion
-&bFish&r: Damage Buff Potion
-2. &c1&r &eStone (Rarity)&r - the Stones determine the rarity of the gear you will craft. You can get these Stones while salvaging.
-3. 1-2 &eOther Food Items&r - used as an additional ingredient. Refer to &cJEI&r for recipes!
-4. &eMoney&r
+            "text": "사용하는 음식의 종류는 제조하려는 물약에 따라 다릅니다. &c고기&r: 체력/자원 물약
+&2생산(Produce)&r: 핵심 능력치 물약
+&b생선&r: 데미지 버프 물약
+2. &c1&r &e짱돌 (Rarity)&r - 제작할 장비의 희귀도는 짱돌로 결정됩니다. 짱돌은 아이템을 분해하여 얻을 수 있습니다.
+3. 1-2 &e다른 음식 재료&r - 추가 재료로 사용됨. 레시피는 &cJEI&r을 참조하세요!
+4. &e동전&r
 "
 }
     ]

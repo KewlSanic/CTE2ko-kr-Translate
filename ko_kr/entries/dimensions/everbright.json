@@ -1,18 +1,18 @@
 {
-    "name": "에버브라이트",
+    "name": "에버브라이트(Everbright)",
     "icon": "blue_skies:everbright_portal",
     "category": "patchouli:dimensions",
 	"sortnum":3,
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "&n&6&l차원:&r&r    &n&l에버브라이트&r
+            "text": "&n&6&l차원:&r&r    &n&l에버브라이트(Everbright)&r
 &n&6&l구역 레벨:&r&r    &n35 - 55 &r&r
 &n&6&l강화된 구역 레벨:&r &n65 - 85&r
 &n&6&l예외:&r  &nNone&r
 &n&6&l퀘스트:&r  &nAct IV;&r
 &n&6&l차원 관문:&r  &nAct IV Gateway;
-&n&6&l관문 보스:&r &n소환사; Starlit Crusher &r "
+&n&6&l관문 보스:&r &n소환사(Summoner); 별빛 파괴자(Starlit Crusher) &r "
 		},
 		{
             "type": "patchouli:text",
@@ -26,7 +26,7 @@
 		},
 		{
             "type": "patchouli:multiblock",
-			"name":"에버브라이트 포탈",
+			"name":"에버브라이트 차원문",
 			"text": "눈 모양 아이콘을 클릭하여 게임 내에서 형상을 보세요.",
             "multiblock": {
     "pattern": [

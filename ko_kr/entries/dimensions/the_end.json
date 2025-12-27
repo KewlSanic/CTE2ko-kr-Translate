@@ -7,26 +7,26 @@
         {
             "type": "patchouli:text",
             "text": "&n&6&lDimension:&r&r    &n&lThe End&r
-&n&6&lArea Level:&r&r    &n50 - 65 &r&r
-&n&6&lEnraged Area Level:&r &n70 - 90&r
-&n&6&lExceptions:&r  &nNone&r
-&n&6&lQuests covered:&r  &nAct V;&r
-&n&6&lDimension gateways:&r  &nAct V Gateway;
-&n&6&lDimension Bosses:&r &nEnder Dragon; Void Worm; Shelterer  &r "
+&n&6&l구역 레벨:&r&r    &n50 - 65 &r&r
+&n&6&l강화된 구역 레벨:&r &n70 - 90&r
+&n&6&l예외:&r  &n없음&r
+&n&6&l퀘스트:&r  &nAct V;&r
+&n&6&l차원 관문:&r  &nAct V Gateway;
+&n&6&l관문 보스:&r &n엔더드래곤(Ender Dragon); 공허 벌레(Void Worm); 보호자(Shelterer)  &r "
 		},
 		{
             "type": "patchouli:text",
-            "text": " Dimension that looks like The End of everything there is. Just a fractured plane of floating islands in complete nothingness.$(br) The main island seems to be guarded by the Ender Dragon preventing easy escape. Killing the dragon opens 2 paths: a portal home and a portal deeper into the void to explore further islands."
+            "text": "모든 것의 끝처럼 보이는 차원. 텅 빈 공간에 떠다니는 섬들이 조각나 있는 평면.$(br) 주요 섬은 엔더 드래곤이 쉽게 탈출할 수 없도록 지키고 있는 것 같습니다. 드래곤을 처치하면 두 갈래 길이 열리는데, 하나는 집으로 돌아가는 차원문이고 다른 하나는 더 깊은 공허 속으로 들어가 다른 섬들을 탐험할 수 있는 포탈입니다."
 		},{
             "type": "patchouli:spotlight",
-			"title":"Getting into The End",
+			"title":"엔드에 들어가는 방법",
   "item": "minecraft:ender_eye",
-  "text": "If you are looking to get to this dimension, you need to lay your hands on&n&l total of 12 Ender Eyes inserted into portal frame found in a Stronghold.&r$(2br)Sometimes you can find a portal with few eyes inserted into sockets from previous attempts to reach it." 
+  "text": "이 차원에 도달하려면&n&l 요새에서 발견한 엔드 차원문 프레임에 총 12개의 엔더의 눈을 끼워 넣어야 합니다.&r$(2br)때때로 이전에 누군가 그곳에 도달하려는 시도로 인해 눈 몇 개가 틀에 끼워져 있는 차원문도 발견할 수 있습니다." 
 		},
 		{
             "type": "patchouli:multiblock",
-			"name":"End Portal",
-			"text": "This portal cannot be built in survival, you can only find one and insert eyes in the sockets to activate",
+			"name":"엔드 차원문",
+			"text": "이 차원문은 서바이벌 모드에서는 만들 수 없으며, 하나만 찾아서 엔더의 눈을 소켓에 꽂아 활성화해야 합니다",
             "multiblock": {
     "pattern": [
         [ "SOOOS","O   O","O 0 O","O   O","SOOOS"]

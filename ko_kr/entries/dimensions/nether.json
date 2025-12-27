@@ -1,18 +1,18 @@
 {
-    "name": "네더",
+    "name": "네더(Nether)",
     "icon": "minecraft:magma_block",
     "category": "patchouli:dimensions",
 	"sortnum":1,
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "&n&6&l차원:&r&r    &n&l네더&r
+            "text": "&n&6&l차원:&r&r    &n&l네더(Nether)&r
 &n&6&l구역 레벨:&r&r    &n10 - 30 &r&r
 &n&6&l강화된 구역 레벨:&r &n55 - 75&r
 &n&6&l예외:&r  &nNone&r
 &n&6&l퀘스트:&r  &nAct II;&r
 &n&6&l차원 관문:&r  &nAct II Gateway;
-&n&6&l관문 보스:&r &nWarped Mosco, Wildfire, Mother Lava Squid, Wither, Awful Ghast, Nether Keeper&r "
+&n&6&l관문 보스:&r &n뒤틀린 모스코(Warped Mosco), 와일드파이어(Wildfire), 어미 용암 오징어(Mother Lava Squid), 위더(Wither), 끔찍한 가스트(Awful Ghast), Nether Keeper&r "
 		},
 		{
             "type": "patchouli:text",
@@ -26,7 +26,7 @@
 		},
 		{
             "type": "patchouli:multiblock",
-			"name":"네더 포탈",
+			"name":"네더 차원문",
 			"text": "눈 모양 아이콘을 클릭하여 게임 내에서 형상을 보세요.",
             "multiblock": {
     "pattern": [

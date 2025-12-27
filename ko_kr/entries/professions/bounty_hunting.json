@@ -1,19 +1,19 @@
 {
-    "name": "Bounty Hunting",
+    "name": "현상금 사냥",
     "icon": "minecraft:iron_sword",
     "category": "patchouli:professions",
 	"sortnum":19,
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "&eBounty Hunting&r is a Mine and Slash Profession which levels up as you complete Bountiful bounties. Complete bounties to earn Bounty Hunting experience and &eBounty Slips&r!"
+            "text": "&e현상금 사냥&r은 Mine and Slash 전문 기술로, 풍성한 현상금 사냥 임무를 완료할수록 레벨이 오릅니다. &e현상금 사냥&r을 완료하여 현상금 사냥 경험치와 현상금 전표(Slips)를 획득하세요!"
 },{            "type": "patchouli:text",
-            "text": "&eBounty Boards&r will generate &erandom bounties&r for you to complete. Take out a &erequest&r from the board's interface and complete it within the &etime limit&r to earn the listed rewards. As you complete bounties, your &ereputation&r (tied to that Bounty Board block) will increase, increasing the level of rewards. Empowered Bounty Slips will start appearing at 45 reputation!"
+            "text": "&e현상금 게시판&r은 &e무작위 의뢰&r를 생성합니다. 게시판에서 &e의뢰&r를 받아 제한 시간 내에 완료하면 명시된 보상을 획득할 수 있습니다. 현상금을 완료할수록 해당 현상금 게시판 블록과 연결된 &e평판&r이 상승하고, 그에 따라 보상 레벨도 높아집니다. 평판이 45에 도달하면 강화된 현상금 전표(Slips)가 나타나기 시작합니다!"
 },{            "type": "patchouli:text",
-            "text": "As you level your Bounty Hunting, you will gain access to more purchasable rewards in the &eProfession Shop&r. Items in this shop are purchasable with &eBounty Slips&r! The shop can be accessed with &eDefault Key: P, or the menu wheel&r.
+            "text": "현상금 사냥 레벨을 올리면 &e전문(Profession) 상점&r에서 더 많은 보상을 구매 가능합니다. 상점의 아이템은 &e현상금 전표&r로 구매할 수 있습니다! 상점은 &e기본 키: P&r 또는 메뉴 휠을 통해 열 수 있습니다.
 
-Craft &eDecrees&r to give new quest types to the board per decree type, which is randomly determined."
+&e칙령&r을 제작하여, 칙령 유형별로 게시판에 무작위적인 퀘스트를 추가합니다."
 },{            "type": "patchouli:text",
-            "text": "Through Bounty Hunting you will be able to gain &eTiered Meats&r (&7Spritual&r, &aCelestial&r. &9Emyprean&r, &dAngelic&r, &6Divine&r, and &5Godly&r) to be used in Cooking."}
+            "text": "현상금 사냥을 통해 요리에 사용할 수 있는 &e등급별 고기&r (&7영적인(Spritual)&r, &a천상의(Celestial)&r. &9Emyprean&r, &d천사(Angelic)&r, &6신성한(Divine)&r, and &5신적인(Godly)&r)를 획득할 수 있습니다."}
     ]
 }

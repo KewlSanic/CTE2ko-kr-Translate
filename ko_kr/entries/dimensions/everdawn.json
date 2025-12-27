@@ -1,5 +1,5 @@
 {
-    "name": "Everdawn",
+    "name": "에버다운(Everdawn)",
     "icon": "blue_skies:everdawn_portal",
     "category": "patchouli:dimensions",
 	"sortnum":3,
@@ -9,9 +9,9 @@
             "text": "&n&6&l차원:&r&r    &n&l에버다운(Everdawn)&r
 &n&6&l구역 레벨:&r&r    &n35 - 55 &r&r
 &n&6&l강화된 구역 레벨:&r &n65 - 85&r
-&n&6&l예외:&r  &n없음&r
-&n&6&l퀘스트:&r  &n액트 IV;&r
-&n&6&l차원 관문 :&r  &n엑트 IV 관문;
+&n&6&l예외:&r  &nNone&r
+&n&6&l퀘스트:&r  &nAct IV;&r
+&n&6&l차원 관문 :&r  &nAct IV 관문;
 &n&6&l이 차원의 보스들:&r &n연금술사(Alchemist), 아라크나르크(Arachnarch)  &r "
 		},
 		{
@@ -19,15 +19,15 @@
             "text": "$(br) 이 차원은 끊임없는 일출이 있지만, 여기는 항상 뜨겁고 습합니다.$(br) 그리고 높은 습기에서 살아남는 많은 곤충들의 집과 같은 곳이기도 합니다.$(br) 당신은 비가 올 때 더 많은 곤충들을 볼 수 있지만 다행이도 여기서는 약간의 이슬비만 내립니다. 이곳의 곤충들은 원래에 비해 엄청 크게 성장하며, 일부는 당신과 비슷한 크기까지도 성장합니다.$(br) 당신은 문지기(GateKeeper)에게서 얻는 파랑 일지(Blue Journal)를 읽으면 더 많은 정보를 얻을 수 있습니다."
 		},{
             "type": "patchouli:spotlight",
-			"title":"Getting into the Everdawn",
+			"title":"에버다운에 들어가는 방법",
   "item": "blue_skies:zeal_lighter,blue_skies:lunar_stonebrick",
-  "text": "만약 당신이 이 차원에 들어가고 싶다면 &n&l적어도 10개 이상의 달 벽돌(Lunar Stone Bricks)과 문지기(GateKeeper)에게서 얻는 Zeal Lighter를 준비하면 됩니다 &r.
-  &o모서리 블럭들은 필요없지만, 넣는다면 &2 +5점의 미학점수를 얻을 수 있습니다." 
+  "text": "이 차원에 입장하려면 최소 10개의 Lunar Stone Bricks(달 벽돌)과 문지기(GateKeeper)에게서 얻는 열정의 라이터(Zeal Lighter)를 준비하면 됩니다 &r.
+  &o모서리 블록은 선택 사항이지만, 만약 존재한다면 &2미적 능력치에 +5를 부여&r합니다."
 		},
 		{
             "type": "patchouli:multiblock",
-			"name":"Everdawn Portal",
-			"text": "Click on eye icon to visualize portal in game",
+			"name":"에버다운 차원문",
+			"text": "눈 모양 아이콘을 클릭하여 게임 내에서 형상을 보세요",
             "multiblock": {
     "pattern": [
         [ "SOOS"],

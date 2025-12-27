@@ -1,32 +1,32 @@
 {
-    "name": "트와일라잇(Twilight) 숲",
+    "name": "황혼(twilight)의 숲",
     "icon": "twilightforest:twilight_portal_miniature_structure",
     "category": "patchouli:dimensions",
 	"sortnum":5,
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "&n&6&l차원:&r&r  &n&l트와일라잇 숲&r
+            "text": "&n&6&l차원:&r&r  &n&l황혼의 숲&r
 &n&6&l구역 레벨:&r&r  &n90 - 100 &r&r
 &n&6&l강화된 구역 레벨:&r &nn/a&r
 &n&6&l예외:&r  &nNone&r
 &n&6&l퀘스트:&r  &nEpilogue;&r
-&n&6&lDimension gateways:&r  &nAct V Gateway;
-&n&6&lDimension Bosses:&r &nNaga; Twilight Lich; Minoshroom, Hydra, Alpha Yeti, Snow Queen, Knight Phantom, Ur-Ghast &r "
+&n&6&l차원 관문:&r  &nAct V Gateway;
+&n&6&l관문 보스:&r &nNaga; Twilight Lich; Minoshroom, Hydra, Alpha Yeti, Snow Queen, Knight Phantom, Ur-Ghast &r "
 		},
 		{
             "type": "patchouli:text",
-            "text": " Dimension that seems friendly at first glance. Unfortunately, the beautiful flora of this dimension hides all kinds of prime evils waiting to strike in their natural habitat.$(br) Aside from the basic dangers of being attacked by extremely powerful entities, you should be aware of the harsh environmental conditions made by those entities. You should progress step by step following advancements to lift some of those effects like dungeon protection or acid rain, etc. "
+            "text": "처음에는 친근해 보이는 차원입니다. 하지만 안타깝게도 이 차원의 아름다운 식물들 뒤에는 온갖 몬스터가 자연에서 공격을 기다리고 있습니다.$(br) 극도로 강력한 존재들의 공격이라는 기본적인 위험 외에도, 그 존재들이 만들어낸 가혹한 환경 조건에도 주의해야 합니다. 던전 보호나 산성비 등과 같은 효과를 완화해 나가려면 단계적으로 진행해야 합니다." 
 		},{
             "type": "patchouli:spotlight",
 			"title":"Getting in The Forest",
   "item": "minecraft:diamond,minecraft:grass_block,minecraft:poppy",
-  "text": "The epilogue of your adventure is slightly different from other dimensions. To get into the Twilight Forest you need to build a portal &n&l&6in the Otherside dimension&r &nfrom 8 grass or dirt blocks with a 2x2 hole in the middle, filled with water, and the grass/dirt blocks covered with flowers or saplings. After the portal is built - drop a diamond in the water to activate it" 
+  "text": "이 모험의 결말은 다른 차원과는 약간 다릅니다. 황혼의 숲으로 가려면, &n&l&6오버월드가 아닌 다른 차원&r에서 &n8개의 잔디 또는 흙 블록으로 포털을 만들어야 합니다. 포털 중앙에는 2x2 크기의 구덩이가 있어야 합니다. 그 안에 물을 채운 다음, 잔디/흙 블록 위에 꽃이나 묘목을 심으세요. 테두리를 만든 후에는 물에 다이아몬드를 던져 활성화시키세요." 
 		},
 		{
             "type": "patchouli:multiblock",
-			"name":"Twilight Forest Portal",
-			"text": "Press on the eye icon to visualize. $(br) Portal MUST be done in &n&l&6OTHERSIDE&r dimension",
+			"name":"황혼의 숲 차원문",
+			"text": "눈 모양 아이콘을 클릭하여 게임 내에서 형상을 보세요. $(br) 차원문은 &l반드시&r &n&l&6다른 차원&r에 만들어야 합니다.",
             "multiblock": {
     "pattern": [
         [ " SS ","S  S","S  S"," SS "],
