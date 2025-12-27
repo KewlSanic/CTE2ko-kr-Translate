@@ -6,13 +6,13 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "&n&6&l차원:&r&r    &n&l언더가든(UnderGarden)&r
-&n&6&l구역 레벨:&r&r    &n25 - 40 &r&r
-&n&6&l강화된 구역 레벨:&r &n60 - 80&r
-&n&6&l예외:&r  &n없음&r
-&n&6&l퀘스트:&r  &nAct III;&r
-&n&6&l차원 관문 :&r  &nAct III 관문;
-&n&6&l이 차원의 보스들:&r &n거대 연철기사(Ferrous Wroughtnaut); 태양의 새 움브티(Umvuthi, The Sunbird); 조각가 통비(Tongbi, the Sculptor); 잊혀진 수호자(Forgotten Guardian); 장어(Eel) &r "
+            "text": "&6&l차원:&r&r    &l언더가든(UnderGarden)&r
+&6&l구역 레벨:&r&r    &n25 - 40 &r&r
+&6&l강화된 구역 레벨:&r &n60 - 80&r
+&6&l예외:&r  없음
+&6&l퀘스트:&r  Act III;
+&6&l차원 관문 :&r  Act III 관문;
+&6&l이 차원의 보스들:&r 거대 연철기사(Ferrous Wroughtnaut); 태양의 새 움브티(Umvuthi, The Sunbird); 조각가 통비(Tongbi, the Sculptor); 잊혀진 수호자(Forgotten Guardian); 장어(Eel)  "
 		},
 		{
             "type": "patchouli:text",
