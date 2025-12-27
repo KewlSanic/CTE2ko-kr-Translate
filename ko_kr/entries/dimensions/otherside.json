@@ -10,23 +10,23 @@
 &6&l구역 레벨:&r&r    &n60 - 75 &r&r
 &6&l강화된 구역 레벨:&r &n75 - 95&r
 &6&l예외:&r  없음
-&6&l퀘스트:&r  Act V;
-&6&lDimension gateways:&r  Act V Gateway;
-&6&lDimension Bosses:&r 워든(Warden) "
+&6&l퀘스트:&r  Act V
+&6&l차원 관문:&r  Act V 관문
+&6&l관문 보스:&r 워든(Warden) "
 		},
 		{
             "type": "patchouli:text",
-            "text": " It seems the portal to this dimesion was abruptly closed instead of guarded. It holds much more then just a single Warden, it seems like the portal leads to the Homeland of these 'warden' creatures. All other beings here have similar features, relying on hearing and echolocation.$(br) Dont make a sound unless you are ready for a fight.$(br) On further note it seems that this dimension holds some kind of ancient temple."
+            "text": " 이 차원으로 향하는 차원문이 갑자기 닫긴것 같습니다. 이 포탈이 워든 하나만 데리고 있는것 같지는 않고, 아마도 이 '워든' 생명체들의 고향으로 향하는 포탈로 보입니다. 이곳의 다른 존재들도 청각과 반향정위에 의존하는 비슷한 특징을 가지고 있습니다.$(br) 전투 준비가 되지 않은 이상 소리를 내지 마십시오.$(br) 더 나아가 이 차원은 고대 사원의 한 형태를 취하고 있는것 같습니다."
 		},{
             "type": "patchouli:spotlight",
-			"title":"Getting to the Otherside",
+			"title":"아더사이드에 들어가는 방법",
   "item": "deeperdarker:heart_of_the_deep",
-  "text": "If you are looking to get to this dimension you need to lay your hands on&n&l Heart of the Deep that is dropped from a Warden and use it to light up portal frame found in Ancient City.&r$(br)Sometimes you can find a portal frame covered in sculk that needs to be cleared out before lighting the portal" 
+  "text": "이 차원에 입장하려면 &l워든이 떨어뜨리는 깊은 곳의 심장(Heart of the Deep)을 고대 도시에서 발견 가능한 차원문틀에 불을 지필 필요가 있습니다.&r$(br)가끔 당신은 차원문틀을 막고있는 스컬크에 뒤덮혀 있는것을 치워야 할 수 있습니다." 
 		},
 		{
             "type": "patchouli:multiblock",
-			"name":"아더사이드 차원문",
-			"text": "This portal cannot be built in survival, you can use visualization to check if anything blocking portal",
+			"name": "아더사이드 차원문",
+			"text": "이 차원문은 서바이벌에서는 지을 수 없습니다, 다만 차원문을 막고 있는 것을 형상을 통해 확인할 수 있습니다.",
             "multiblock": {
     "pattern": [
         [ "OOOOOOOOOOOOOOOOOOOOOO"],[ "OSSSSSSSSSSSSSSSSSSSSO"],[ "OSSSSSSSSSSSSSSSSSSSSO"],[ "OSSSSSSSSSSSSSSSSSSSSO"],[ "OSSSSSSSSSSSSSSSSSSSSO"],[ "OSSSSSSSSSSSSSSSSSSSSO"],[ "O0SSSSSSSSSSSSSSSSSSSO"],[ "OOOOOOOOOOOOOOOOOOOOOO"]
