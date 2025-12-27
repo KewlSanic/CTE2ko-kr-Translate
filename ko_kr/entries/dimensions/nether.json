@@ -6,13 +6,13 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "&n&6&l차원:&r&r    &n&l네더(Nether)&r
-&n&6&l구역 레벨:&r&r    &n10 - 30 &r&r
-&n&6&l강화된 구역 레벨:&r &n55 - 75&r
-&n&6&l예외:&r  &n없음&r
-&n&6&l퀘스트:&r  &nAct II;&r
-&n&6&l차원 관문:&r  &nAct II Gateway;
-&n&6&l관문 보스:&r &n뒤틀린 모스코(Warped Mosco), 와일드파이어(Wildfire), 어미 용암 오징어(Mother Lava Squid), 위더(Wither), 끔찍한 가스트(Awful Ghast), 네더 파수꾼(Nether Keeper)&r "
+            "text": "&6&l차원:&r&r    &l네더(Nether)&r
+&6&l구역 레벨:&r&r    &n10 - 30&r
+&6&l강화된 구역 레벨:&r &n55 - 75&r
+&6&l예외:&r  없음
+&6&l퀘스트:&r  Act II;
+&6&l차원 관문:&r  Act II Gateway;
+&6&l관문 보스:&r 뒤틀린 모스코(Warped Mosco), 와일드파이어(Wildfire), 어미 용암 오징어(Mother Lava Squid), 위더(Wither), 끔찍한 가스트(Awful Ghast), 네더 파수꾼(Nether Keeper) "
 		},
 		{
             "type": "patchouli:text",

@@ -6,17 +6,17 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "&n&6&l차원:&r&r    &n&l오버월드&r
-&n&6&l구역 레벨:&r&r    &n1 - 15 &r&r
-&n&6&l강화된 구역 레벨:&r &n50 - 70&r
-&n&6&l예외:&r  &n얼음 미궁 레벨 35+&r
-&n&6&l퀘스트:&r  &nPrologue; Act I; part of Act III
-&n&6&l차원 관문:&r  &nAct I Gateway; Gateway of the Deep Sea&r
-&n&6&l관문 보스:&r   &nHermit Abysswalker; Invoker; Frostmaw; Grim Reaper; Eel; Mother of the Maze; Ghost of Captain Cornelia&r "
+            "text": "&6&l차원:&r&r    &l오버월드&r
+&6&l구역 레벨:&r&r    &n1 - 15 &r
+&6&l강화된 구역 레벨:&r &n50 - 70&r
+&6&l예외:&r  얼음 미궁 레벨 35+
+&6&l퀘스트:&r  Prologue; Act I; part of Act III
+&6&l차원 관문:&r  Act I Gateway; Gateway of the Deep Sea
+&6&l관문 보스:&r   Hermit Abysswalker; Invoker; Frostmaw; Grim Reaper; Eel; Mother of the Maze; Ghost of Captain Cornelia "
 		},
 		{
             "type": "patchouli:text",
-            "text": "전설적인 모험의 시작!$(br) &l&n오버월드&r에는 발견되지 않은 구조물과 전리품이 가득합니다. 최대 레벨은 15이지만, 얼음 미로(최소 레벨 35)와 같은 일부 예외적인 지역에서는 더 높은 레벨이 필요합니다.$(br) &l&n오버월드&r Flan과 함께 claim(구역 설정 명령어)을 사용할 수 있는 유일한 차원이자, 비교적 안전한 공간으로, 여러분의 본거지가 될 것입니다."
+            "text": "전설적인 모험의 시작!$(br) &l&6오버월드&r에는 발견되지 않은 구조물과 전리품이 가득합니다. 최대 레벨은 15이지만, 얼음 미로(최소 레벨 35)와 같은 일부 예외적인 지역에서는 더 높은 레벨이 필요합니다.$(br) &l&6오버월드&r Flan과 함께 claim(구역 설정 명령어)을 사용할 수 있는 유일한 차원이자, 비교적 안전한 공간으로, 여러분의 본거지가 될 것입니다."
 		}
     ]
 }

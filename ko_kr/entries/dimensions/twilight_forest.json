@@ -6,13 +6,13 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "&n&6&l차원:&r&r  &n&l황혼의 숲&r
-&n&6&l구역 레벨:&r&r  &n90 - 100 &r&r
-&n&6&l강화된 구역 레벨:&r &nn/a&r
-&n&6&l예외:&r  &nNone&r
-&n&6&l퀘스트:&r  &nEpilogue;&r
-&n&6&l차원 관문:&r  &nAct V Gateway;
-&n&6&l관문 보스:&r &nNaga; Twilight Lich; Minoshroom, Hydra, Alpha Yeti, Snow Queen, Knight Phantom, Ur-Ghast &r "
+            "text": "&6&l차원:&r&r  &l황혼의 숲&r
+&6&l구역 레벨:&r&r  &n90 - 100&r
+&6&l강화된 구역 레벨:&r n/a
+&6&l예외:&r  None
+&6&l퀘스트:&r  Epilogue;
+&6&l차원 관문:&r  Act V Gateway;
+&6&l관문 보스:&r Naga; Twilight Lich; Minoshroom, Hydra, Alpha Yeti, Snow Queen, Knight Phantom, Ur-Ghast "
 		},
 		{
             "type": "patchouli:text",
@@ -21,12 +21,12 @@
             "type": "patchouli:spotlight",
 			"title":"Getting in The Forest",
   "item": "minecraft:diamond,minecraft:grass_block,minecraft:poppy",
-  "text": "이 모험의 결말은 다른 차원과는 약간 다릅니다. 황혼의 숲으로 가려면, &n&l&6오버월드가 아닌 다른 차원&r에서 &n8개의 잔디 또는 흙 블록으로 포털을 만들어야 합니다. 포털 중앙에는 2x2 크기의 구덩이가 있어야 합니다. 그 안에 물을 채운 다음, 잔디/흙 블록 위에 꽃이나 묘목을 심으세요. 테두리를 만든 후에는 물에 다이아몬드를 던져 활성화시키세요." 
+  "text": "이 모험의 결말은 다른 차원과는 약간 다릅니다. 황혼의 숲으로 가려면, &l&6오버월드가 아닌 다른 차원&r에서 8개의 잔디 또는 흙 블록으로 포털을 만들어야 합니다. 포털 중앙에는 2x2 크기의 구덩이가 있어야 합니다. 그 안에 물을 채운 다음, 잔디/흙 블록 위에 꽃이나 묘목을 심으세요. 테두리를 만든 후에는 물에 다이아몬드를 던져 활성화시키세요." 
 		},
 		{
             "type": "patchouli:multiblock",
 			"name":"황혼의 숲 차원문",
-			"text": "눈 모양 아이콘을 클릭하여 게임 내에서 형상을 보세요. $(br) 차원문은 &l반드시&r &n&l&6다른 차원&r에 만들어야 합니다.",
+			"text": "눈 모양 아이콘을 클릭하여 게임 내에서 형상을 보세요. $(br) 차원문은 &l반드시&r &l&6다른 차원&r에 만들어야 합니다.",
             "multiblock": {
     "pattern": [
         [ " SS ","S  S","S  S"," SS "],
