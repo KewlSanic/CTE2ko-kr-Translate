@@ -1,0 +1,30 @@
+{
+    "name": "Dungeons Dimension",
+    "icon": "dungeon_realm:map_device",
+    "category": "patchouli:dimensions",
+	"sortnum":6,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "&n&6&l차원:&r&r  &n&l던전&r
+&n&6&l구역 레벨:&r&r  &n&l플레이어 레벨에 따름 &r&r
+$(br) 던전차원들은 당신이 경험할 다른 차원들과는 다르게 작동합니다. 여기서 블럭을 설치하거나 부실 수 없습니다. 이 차원에 접근하기 위해서는 특정한 &n&l&6던전지도&r를 지정된 &n&l&6던전지도 장치에&r 놓아서 몹들과 전리품으로 가득찬 랜덤생성 던전을 입장할 수 있습니다."
+		},
+		{
+            "type": "patchouli:spotlight",
+			"title":"Harvest",
+  "item": "the_harvest:harvest,the_harvest:harvest_map",
+  "text": "하베스트는 지정된 시간마다 계속 몹을 소환하는 하베스트 몹 생성기들이 있는 한칸짜리 아레나를 생성하는 던전입니다. 특히, 이 구역의 몹들은 (특별한 조합 재화)에 사용되는 조합 재료를 떨굽니다." 
+		},{
+            "type": "patchouli:spotlight",
+			"title":"Obelisk",
+  "item": "ancient_obelisks:obelisk,ancient_obelisks:obelisk_map",
+  "text": "오벨리스크는 랜덤한 효과를 받는 몹들이 다단계로 소환되는 한칸짜리 아레나를 생성하는 던전입니다. 특히, 오벨리스크 맵들은 모드의 재화를 이용해서 난이도와 보상을 크게 증가 시킬 수 있습니다. 당신이 마주할 도전에 준비하세요." 
+		},{
+            "type": "patchouli:spotlight",
+			"title":"Map Device",
+  "item": "dungeon_realm:dungeon_map,dungeon_realm:map_device",
+  "text": "맵들은 몹과 전리품으로 가득 찬 무작위로 일치하는 방들을 생성하는 던전입니다. 이것이 CTE2 모드팩의 주요한 엔드게임 메커니즘입니다." 
+		}
+    ]
+}
