@@ -9,23 +9,23 @@
             "text": "&6&l차원:&r&r  &l황혼의 숲&r
 &6&l구역 레벨:&r&r  &n90 - 100&r
 &6&l강화된 구역 레벨:&r n/a
-&6&l예외:&r  None
-&6&l퀘스트:&r  Epilogue;
-&6&l차원 관문:&r  Act V Gateway;
-&6&l관문 보스:&r Naga; Twilight Lich; Minoshroom, Hydra, Alpha Yeti, Snow Queen, Knight Phantom, Ur-Ghast "
+&6&l예외:&r  없음
+&6&l퀘스트:&r  에필로그
+&6&l차원 관문:&r  Act V 관문
+&6&l관문 보스:&r 나가(Naga); 황혼의 리치(Twilight Lich); 미노버섯(Minoshroom), 히드라(Hydra), 알파 예티(Alpha Yeti), 눈의 여왕(Snow Queen), 유령 기사(Knight Phantom), 울-가스트(Ur-Ghast) "
 		},
 		{
             "type": "patchouli:text",
-            "text": "처음에는 친근해 보이는 차원입니다. 하지만 안타깝게도 이 차원의 아름다운 식물들 뒤에는 온갖 몬스터가 자연에서 공격을 기다리고 있습니다.$(br) 극도로 강력한 존재들의 공격이라는 기본적인 위험 외에도, 그 존재들이 만들어낸 가혹한 환경 조건에도 주의해야 합니다. 던전 보호나 산성비 등과 같은 효과를 완화해 나가려면 단계적으로 진행해야 합니다." 
+            "text": " 처음에는 친근해 보이는 차원입니다. 하지만 안타깝게도 이 차원의 아름다운 식물들 뒤에는 온갖 몬스터가 자연에서 공격을 기다리고 있습니다.$(br) 극도로 강력한 존재들의 공격이라는 기본적인 위험 외에도, 그 존재들이 만들어낸 가혹한 환경 조건에도 주의해야 합니다. 던전 보호나 산성비 등과 같은 효과를 완화해 나가려면 단계적으로 진행해야 합니다." 
 		},{
             "type": "patchouli:spotlight",
-			"title":"Getting in The Forest",
+			"title":"숲에 들어가는 방법",
   "item": "minecraft:diamond,minecraft:grass_block,minecraft:poppy",
   "text": "이 모험의 결말은 다른 차원과는 약간 다릅니다. 황혼의 숲으로 가려면, &l&6오버월드가 아닌 다른 차원&r에서 8개의 잔디 또는 흙 블록으로 포털을 만들어야 합니다. 포털 중앙에는 2x2 크기의 구덩이가 있어야 합니다. 그 안에 물을 채운 다음, 잔디/흙 블록 위에 꽃이나 묘목을 심으세요. 테두리를 만든 후에는 물에 다이아몬드를 던져 활성화시키세요." 
 		},
 		{
             "type": "patchouli:multiblock",
-			"name":"황혼의 숲 차원문",
+			"name": "황혼의 숲 차원문",
 			"text": "눈 모양 아이콘을 클릭하여 게임 내에서 형상을 보세요. $(br) 차원문은 &l반드시&r &l&6다른 차원&r에 만들어야 합니다.",
             "multiblock": {
     "pattern": [

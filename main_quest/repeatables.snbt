@@ -18,7 +18,7 @@
 			can_repeat: true
 			dependencies: ["55F9F418C4CA3B3A"]
 			description: [
-				"Complete the quest mentioned below to unlock this repeatable quest!"
+				"아래에 언급된 퀘스트를 완료하면 반복 가능한 퀘스트가 잠금 해제됩니다!"
 				""
 				"{ \"text\": \"Captain Cornelia's Locker\", \"color\": \"yellow\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"55F9F418C4CA3B3A\" } }"
 			]
@@ -40,7 +40,7 @@
 				item: "aquamirae:frozen_key"
 				type: "item"
 			}]
-			title: "Frozen Key Exchange"
+			title: "얼어붙은 열쇠 교환"
 			x: 0.0d
 			y: 3.5d
 		}
@@ -48,9 +48,9 @@
 			can_repeat: true
 			dependencies: ["0D9B68F2990B8E94"]
 			description: [
-				"Complete the quest mentioned below to unlock this repeatable quest!"
+				"아래에 언급된 퀘스트를 완료하면 반복 가능한 퀘스트가 잠금 해제됩니다!"
 				""
-				"{ \"text\": \"Glow in the Dark Issues\", \"color\": \"yellow\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0D9B68F2990B8E94\" } }"
+				"{ \"text\": \"어둠속 빛의 흔적\", \"color\": \"yellow\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0D9B68F2990B8E94\" } }"
 			]
 			icon: {
 				Count: 1
@@ -88,9 +88,9 @@
 			can_repeat: true
 			dependencies: ["1D01AD334C7C70F1"]
 			description: [
-				"Complete the quest mentioned below to unlock this repeatable quest!"
+				"아래에 언급된 퀘스트를 완료하면 반복 가능한 퀘스트가 잠금 해제됩니다!"
 				""
-				"{ \"text\": \"Fiery Foes\", \"color\": \"yellow\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1D01AD334C7C70F1\" } }"
+				"{ \"text\": \"타오르는 녀석들\", \"color\": \"yellow\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1D01AD334C7C70F1\" } }"
 			]
 			icon: "minecraft:blaze_powder"
 			id: "2EB52DD9E2CA42B7"
@@ -128,9 +128,9 @@
 			can_repeat: true
 			dependencies: ["60A18C940B623CDA"]
 			description: [
-				"Complete the quest mentioned below to unlock this repeatable quest!"
+				"아래에 언급된 퀘스트를 완료하면 반복 가능한 퀘스트가 잠금 해제됩니다!"
 				""
-				"{ \"text\": \"The Restless Dead\", \"color\": \"yellow\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"60A18C940B623CDA\" } }"
+				"{ \"text\": \"잠들지 못한 자\", \"color\": \"yellow\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"60A18C940B623CDA\" } }"
 			]
 			id: "7EE43CEBE5EBB100"
 			rewards: [{
@@ -164,9 +164,9 @@
 			can_repeat: true
 			dependencies: ["61FABF4C4DB118C8"]
 			description: [
-				"Complete the quest mentioned below to unlock this repeatable quest!"
+				"아래에 언급된 퀘스트를 완료하면 반복 가능한 퀘스트가 잠금 해제됩니다!"
 				""
-				"{ \"text\": \"Frozen in Time\", \"color\": \"yellow\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"61FABF4C4DB118C8\" } }"
+				"{ \"text\": \"얼어붙은 시간\", \"color\": \"yellow\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"61FABF4C4DB118C8\" } }"
 			]
 			id: "04DE011FEEFE6147"
 			rewards: [{
@@ -200,9 +200,9 @@
 			can_repeat: true
 			dependencies: ["61FABF4C4DB118C8"]
 			description: [
-				"Complete the quest mentioned below to unlock this repeatable quest!"
+				"아래에 언급된 퀘스트를 완료하면 반복 가능한 퀘스트가 잠금 해제됩니다!"
 				""
-				"{ \"text\": \"Creepy Crawlies\", \"color\": \"yellow\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1B6034E8571F3AFA\" } }"
+				"{ \"text\": \"소름끼치는 벌래들\", \"color\": \"yellow\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1B6034E8571F3AFA\" } }"
 			]
 			id: "42CC9D6AB01A1B7C"
 			rewards: [{
@@ -230,9 +230,9 @@
 			can_repeat: true
 			dependencies: ["61FF2CADDF0013F6"]
 			description: [
-				"Complete the quest mentioned below to unlock this repeatable quest!"
+				"아래에 언급된 퀘스트를 완료하면 반복 가능한 퀘스트가 잠금 해제됩니다!"
 				""
-				"{ \"text\": \"Dragonspawn\", \"color\": \"yellow\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"61FF2CADDF0013F6\" } }"
+				"{ \"text\": \"드래곤 출몰\", \"color\": \"yellow\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"61FF2CADDF0013F6\" } }"
 			]
 			id: "729ECF1D11EDF573"
 			rewards: [{
@@ -260,9 +260,9 @@
 			can_repeat: true
 			dependencies: ["69FD852AE0306BD2"]
 			description: [
-				"Complete the quest mentioned below to unlock this repeatable quest!"
+				"아래에 언급된 퀘스트를 완료하면 반복 가능한 퀘스트가 잠금 해제됩니다!"
 				""
-				"{ \"text\": \"They Knew You Were Coming\", \"color\": \"yellow\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"69FD852AE0306BD2\" } }"
+				"{ \"text\": \"그들은 당신이 오는걸 알고 있었어\", \"color\": \"yellow\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"69FD852AE0306BD2\" } }"
 			]
 			id: "5C5DEBCACA7C5721"
 			rewards: [{
@@ -290,9 +290,9 @@
 			can_repeat: true
 			dependencies: ["783CA457464E8E3D"]
 			description: [
-				"Complete the quest mentioned below to unlock this repeatable quest!"
+				"아래에 언급된 퀘스트를 완료하면 반복 가능한 퀘스트가 잠금 해제됩니다!"
 				""
-				"{ \"text\": \"Investigation\", \"color\": \"yellow\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"783CA457464E8E3D\" } }"
+				"{ \"text\": \"조사\", \"color\": \"yellow\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"783CA457464E8E3D\" } }"
 			]
 			icon: {
 				Count: 1
@@ -336,9 +336,9 @@
 			can_repeat: true
 			dependencies: ["775A13E1924D6C9A"]
 			description: [
-				"Complete the quest mentioned below to unlock this repeatable quest!"
+				"아래에 언급된 퀘스트를 완료하면 반복 가능한 퀘스트가 잠금 해제됩니다!"
 				""
-				"{ \"text\": \"Civilization from the Past\", \"color\": \"yellow\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"775A13E1924D6C9A\" } }"
+				"{ \"text\": \"과거의 문명\", \"color\": \"yellow\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"775A13E1924D6C9A\" } }"
 			]
 			icon: {
 				Count: 1

@@ -12,10 +12,10 @@
 			can_repeat: true
 			dependencies: ["727ADA9C4F420BDC"]
 			description: [
-				"This \"quest\" consumes the coin and lets you select a reward from the list."
+				"이 \"퀘스트\"는 코인을 소모하며, 보상 목록에서 원하는 보상을 선택할 수 있게 해줍니다."
 				""
 				""
-				"&eThis shop unlocks once you complete \"Acts\" in Act I.&r"
+				"&e이 상점은 Act I의 \"Acts\"를 완료하면 잠금해제 됩니다.&r"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
@@ -28,14 +28,14 @@
 				type: "choice"
 			}]
 			shape: "octagon"
-			subtitle: "Shop"
+			subtitle: "상점"
 			tasks: [{
 				consume_items: true
 				id: "0E910380456F764A"
 				item: "lightmanscurrency:coin_gold"
 				type: "item"
 			}]
-			title: "Augment Gem Shop I"
+			title: "오라 상점 I"
 			x: 0.0d
 			y: 0.0d
 		}
@@ -43,10 +43,10 @@
 			can_repeat: true
 			dependencies: ["727ADA9C4F420BDC"]
 			description: [
-				"This \"quest\" consumes the coin and lets you select a reward from the list."
+				"이 \"퀘스트\"는 코인을 소모하며, 보상 목록에서 원하는 보상을 선택할 수 있게 해줍니다."
 				""
 				""
-				"&eThis shop unlocks once you complete \"Acts\" in Act I.&r"
+				"&e이 상점은 Act I의 \"Acts\"를 완료하면 잠금해제 됩니다.&r"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
@@ -59,14 +59,14 @@
 				type: "choice"
 			}]
 			shape: "octagon"
-			subtitle: "Shop"
+			subtitle: "상점"
 			tasks: [{
 				consume_items: true
 				id: "7FAC4A08A9F84E6E"
 				item: "lightmanscurrency:coin_emerald"
 				type: "item"
 			}]
-			title: "Support Gem Shop I"
+			title: "지원 보석 상점 I"
 			x: 1.5d
 			y: 0.0d
 		}
@@ -74,10 +74,10 @@
 			can_repeat: true
 			dependencies: ["114D74DF8284ACC3"]
 			description: [
-				"This \"quest\" consumes the coin and lets you select a reward from the list."
+				"이 \"퀘스트\"는 코인을 소모하며, 보상 목록에서 원하는 보상을 선택할 수 있게 해줍니다."
 				""
 				""
-				"&eThis shop unlocks once you complete \"Dark Ritual\" in Act II.&r"
+				"&e이 상점은 Act II의 \"Dark Ritual\"을 완료하면 잠금해제 됩니다.&r"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
@@ -90,14 +90,14 @@
 				type: "choice"
 			}]
 			shape: "octagon"
-			subtitle: "Shop"
+			subtitle: "상점"
 			tasks: [{
 				consume_items: true
 				id: "108033F458256676"
 				item: "lightmanscurrency:coin_gold"
 				type: "item"
 			}]
-			title: "Augment Gem Shop II"
+			title: "오라 상점 II"
 			x: 0.0d
 			y: 1.5d
 		}
@@ -105,10 +105,10 @@
 			can_repeat: true
 			dependencies: ["114D74DF8284ACC3"]
 			description: [
-				"This \"quest\" consumes the coin and lets you select a reward from the list."
+				"이 \"퀘스트\"는 코인을 소모하며, 보상 목록에서 원하는 보상을 선택할 수 있게 해줍니다."
 				""
 				""
-				"&eThis shop unlocks once you complete \"Dark Ritual\" in Act II.&r"
+				"&e이 상점은 Act II의 \"Dark Ritual\"을 완료하면 잠금해제 됩니다.&r"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
@@ -121,14 +121,14 @@
 				type: "choice"
 			}]
 			shape: "octagon"
-			subtitle: "Shop"
+			subtitle: "상점"
 			tasks: [{
 				consume_items: true
 				id: "28E4CDDAD8CAF772"
 				item: "lightmanscurrency:coin_emerald"
 				type: "item"
 			}]
-			title: "Support Gem Shop II"
+			title: "지원 보석 상점 II"
 			x: 1.5d
 			y: 1.5d
 		}
@@ -136,10 +136,10 @@
 			can_repeat: true
 			dependencies: ["55F9F418C4CA3B3A"]
 			description: [
-				"This \"quest\" consumes the coin and lets you select a reward from the list."
+				"이 \"퀘스트\"는 코인을 소모하며, 보상 목록에서 원하는 보상을 선택할 수 있게 해줍니다."
 				""
 				""
-				"&eThis shop unlocks once you complete \"Captain Cornelia's Locker\" in Act III.&r"
+				"&e이 상점은 Act III의 \"Captain Cornelia's Locker\"을 완료하면 잠금해제 됩니다.&r"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
@@ -152,14 +152,14 @@
 				type: "choice"
 			}]
 			shape: "octagon"
-			subtitle: "Shop"
+			subtitle: "상점"
 			tasks: [{
 				consume_items: true
 				id: "49B1944942C92B6A"
 				item: "lightmanscurrency:coin_emerald"
 				type: "item"
 			}]
-			title: "Augment Gem Shop III"
+			title: "오라 상점 III"
 			x: 0.0d
 			y: 3.0d
 		}
@@ -167,10 +167,10 @@
 			can_repeat: true
 			dependencies: ["55F9F418C4CA3B3A"]
 			description: [
-				"This \"quest\" consumes the coin and lets you select a reward from the list."
+				"이 \"퀘스트\"는 코인을 소모하며, 보상 목록에서 원하는 보상을 선택할 수 있게 해줍니다."
 				""
 				""
-				"&eThis shop unlocks once you complete \"Captain Cornelia's Locker\" in Act III.&r"
+				"&e이 상점은 Act III의 \"Captain Cornelia's Locker\"을 완료하면 잠금해제 됩니다.&r"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
@@ -183,14 +183,14 @@
 				type: "choice"
 			}]
 			shape: "octagon"
-			subtitle: "Shop"
+			subtitle: "상점"
 			tasks: [{
 				consume_items: true
 				id: "6590FCCB60F53CE9"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
 			}]
-			title: "Support Gem Shop III"
+			title: "지원 보석 상점 III"
 			x: 1.5d
 			y: 3.0d
 		}
@@ -201,10 +201,10 @@
 				"09CFBF8766DA4706"
 			]
 			description: [
-				"This \"quest\" consumes the coin and lets you select a reward from the list."
+				"이 \"퀘스트\"는 코인을 소모하며, 보상 목록에서 원하는 보상을 선택할 수 있게 해줍니다."
 				""
 				""
-				"&eThis shop unlocks once you complete \"An Uprooting\" &cand&r &e\"Caught in a Web\" in Act IV.&r"
+				"&e이 상점은 Act IV의 \"An Uprooting\" &cand&r &e\"Caught in a Web\"을 완료하면 잠금해제 됩니다.&r"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
@@ -217,14 +217,14 @@
 				type: "choice"
 			}]
 			shape: "octagon"
-			subtitle: "Shop"
+			subtitle: "상점"
 			tasks: [{
 				consume_items: true
 				id: "4CFE1BFC234987E5"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
 			}]
-			title: "Augment Gem Shop IV"
+			title: "오라 상점 IV"
 			x: 0.0d
 			y: 4.5d
 		}
@@ -235,10 +235,10 @@
 				"09CFBF8766DA4706"
 			]
 			description: [
-				"This \"quest\" consumes the coin and lets you select a reward from the list."
+				"이 \"퀘스트\"는 코인을 소모하며, 보상 목록에서 원하는 보상을 선택할 수 있게 해줍니다."
 				""
 				""
-				"&eThis shop unlocks once you complete \"An Uprooting\" &cand&r &e\"Caught in a Web\" in Act IV.&r"
+				"&e이 상점은 Act IV의 \"An Uprooting\", \"Caught in a Web\"을 완료하면 잠금해제 됩니다.&r"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
@@ -251,14 +251,14 @@
 				type: "choice"
 			}]
 			shape: "octagon"
-			subtitle: "Shop"
+			subtitle: "상점"
 			tasks: [{
 				consume_items: true
 				id: "2D8C26F083B682EA"
 				item: "lightmanscurrency:coin_netherite"
 				type: "item"
 			}]
-			title: "Support Gem Shop IV"
+			title: "지원 보석 상점 IV"
 			x: 1.5d
 			y: 4.5d
 		}
@@ -266,10 +266,10 @@
 			can_repeat: true
 			dependencies: ["1F3C2718AE550D5C"]
 			description: [
-				"This \"quest\" consumes the coin and gives you a &eSINGLE&r random level 60, 80, or 100 &cUnique&r!"
+				"이 \"퀘스트\"는 코인을 소모하고 레벨 60, 80, 100의 &c유니크&r 아이템 &e1개&r를 무작위로 줍니다!"
 				""
 				""
-				"&eThis shop unlocks once you complete \"The Master Mastermind\" in the Epilogue.&r"
+				"&e이 상점은 Epilogue의 \"The Master Mastermind\"를 완료하면 잠금해제 됩니다.&r"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
@@ -282,24 +282,24 @@
 				type: "choice"
 			}]
 			shape: "octagon"
-			subtitle: "Shop"
+			subtitle: "상점"
 			tasks: [{
 				consume_items: true
 				id: "0525293A48F7C0FB"
 				item: "lightmanscurrency:coin_netherite"
 				type: "item"
 			}]
-			title: "Random Unique Shop"
+			title: "랜덤 유니크 상점"
 			x: 0.0d
 			y: 6.0d
 		}
 		{
 			description: [
-				"The Campaign Shop"
+				"캠페인 상점"
 				""
-				"Campaign Shop: exchanges coins for Mine and Slash items"
+				"캠페인 상점: 코인을 Mine and Slash 아이템으로 교환할 수 있습니다."
 				""
-				"They can be unlocked after completing certain Quests or Acts"
+				"특정 퀘스트나 액트를 완료하면 잠금 해제할 수 있습니다."
 			]
 			id: "5E8D1289340A4B82"
 			rewards: [{
@@ -313,7 +313,7 @@
 				title: "Click Once Read"
 				type: "checkmark"
 			}]
-			title: "The Campaign Shop"
+			title: "캠페인 상점"
 			x: 0.0d
 			y: -1.5d
 		}
@@ -321,10 +321,10 @@
 			can_repeat: true
 			dependencies: ["7343515F10544FDE"]
 			description: [
-				"A book which compiles the information found in the quests."
+				"퀘스트에서 얻은 정보를 모아놓은 책."
 				""
 				""
-				"&eThis shop unlocks once you complete \"Information Compiled\" in the Prologue.&r"
+				"&e이 상점은 Prologue의 \"CTE2 사전\"을 완료하면 잠금 해제됩니다&r."
 			]
 			hide_until_deps_complete: true
 			icon: {
@@ -347,7 +347,7 @@
 				type: "item"
 			}]
 			shape: "octagon"
-			subtitle: "Shop"
+			subtitle: "상점"
 			tasks: [
 				{
 					id: "1CE14A971D0BB892"
@@ -366,7 +366,7 @@
 					type: "item"
 				}
 			]
-			title: "Adventurer Handbook"
+			title: "모험가를 위한 안내서"
 			x: 1.5d
 			y: -1.5d
 		}
