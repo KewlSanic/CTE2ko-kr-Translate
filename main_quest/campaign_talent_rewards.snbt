@@ -20,11 +20,11 @@
 		{
 			dependencies: ["4956C0B5633CE91E"]
 			description: [
-				"Complete the quest mentioned in the task to automatically earn the Talent Point(s)!"
+				"퀘스트에 명시된 퀘스트를 완료하면 특성 포인트를 자동으로 획득할 수 있습니다!"
 				""
-				"&eThese Talent Points are shared amongst your characters (see Character menu in the Hub).&r"
+				"&e이 특성 포인트는 캐릭터 간에 공유됩니다(허브의 캐릭터 메뉴를 참조하세요).&r"
 				""
-				"&cIf quests are reset via \"Main Campaign Quest Reset\" down below (unlocked in Act IV), these quests will remain completed.&r"
+				"&c아래의 \"메인 캠페인 퀘스트 초기화\"(Act IV에서 잠금 해제)를 통해 퀘스트를 초기화하더라도, 해당 퀘스트는 완료된 상태로 유지됩니다.&r"
 			]
 			id: "486C5CD10C0FAAB8"
 			rewards: [{
@@ -49,7 +49,7 @@
 				}
 				id: "7061280259B557FF"
 				stat: "minecraft:walk_one_cm"
-				title: "Complete: Disturbances in the Air"
+				title: "완료: 잠시 소란이 있었어요~"
 				type: "stat"
 				value: 1
 			}]
@@ -59,11 +59,11 @@
 		{
 			dependencies: ["3E1EC6A042CC9310"]
 			description: [
-				"Complete the quest mentioned in the task to automatically earn the Talent Point(s)!"
+				"퀘스트에 명시된 퀘스트를 완료하면 특성 포인트를 자동으로 획득할 수 있습니다!"
 				""
-				"&eThese Talent Points are shared amongst your characters (see Character menu in the Hub).&r"
+				"&e이 특성 포인트는 캐릭터 간에 공유됩니다(허브의 캐릭터 메뉴를 참조하세요).&r"
 				""
-				"&cIf quests are reset via \"Main Campaign Quest Reset\" down below (unlocked in Act IV), these quests will remain completed.&r"
+				"&c아래의 \"메인 캠페인 퀘스트 초기화\"(Act IV에서 잠금 해제)를 통해 퀘스트를 초기화하더라도, 해당 퀘스트는 완료된 상태로 유지됩니다.&r"
 			]
 			id: "46D59893D2D8CA12"
 			rewards: [{
@@ -82,7 +82,7 @@
 				icon: "simplehats:crown"
 				id: "2F3F84C83D1BDAA1"
 				stat: "minecraft:walk_one_cm"
-				title: "Complete: The Mastermind"
+				title: "완료: The Mastermind"
 				type: "stat"
 				value: 1
 			}]
@@ -92,11 +92,11 @@
 		{
 			dependencies: ["152D52A88F776A70"]
 			description: [
-				"Complete the quest mentioned in the task to automatically earn the Talent Point(s)!"
+				"퀘스트에 명시된 퀘스트를 완료하면 특성 포인트를 자동으로 획득할 수 있습니다!"
 				""
-				"&eThese Talent Points are shared amongst your characters (see Character menu in the Hub).&r"
+				"&e이 특성 포인트는 캐릭터 간에 공유됩니다(허브의 캐릭터 메뉴를 참조하세요).&r"
 				""
-				"&cIf quests are reset via \"Main Campaign Quest Reset\" down below (unlocked in Act IV), these quests will remain completed.&r"
+				"&c아래의 \"메인 캠페인 퀘스트 초기화\"(Act IV에서 잠금 해제)를 통해 퀘스트를 초기화하더라도, 해당 퀘스트는 완료된 상태로 유지됩니다.&r"
 			]
 			id: "1667AA04495BD91E"
 			rewards: [{
@@ -121,7 +121,7 @@
 				}
 				id: "5E6321ECC42C7117"
 				stat: "minecraft:walk_one_cm"
-				title: "Complete: Mutagenic Source"
+				title: "완료: 돌연변이의 근원"
 				type: "stat"
 				value: 1
 			}]
@@ -131,11 +131,11 @@
 		{
 			dependencies: ["730BE78211A1573B"]
 			description: [
-				"Complete the quest mentioned in the task to automatically earn the Talent Point(s)!"
+				"퀘스트에 명시된 퀘스트를 완료하면 특성 포인트를 자동으로 획득할 수 있습니다!"
 				""
-				"&eThese Talent Points are shared amongst your characters (see Character menu in the Hub).&r"
+				"&e이 특성 포인트는 캐릭터 간에 공유됩니다(허브의 캐릭터 메뉴를 참조하세요).&r"
 				""
-				"&cIf quests are reset via \"Main Campaign Quest Reset\" down below (unlocked in Act IV), these quests will remain completed.&r"
+				"&c아래의 \"메인 캠페인 퀘스트 초기화\"(Act IV에서 잠금 해제)를 통해 퀘스트를 초기화하더라도, 해당 퀘스트는 완료된 상태로 유지됩니다.&r"
 			]
 			id: "055DF1F99B169B60"
 			rewards: [{
@@ -154,7 +154,7 @@
 				icon: "chococraft:chocopedia"
 				id: "086D24D4B3BA3FB7"
 				stat: "minecraft:walk_one_cm"
-				title: "Complete: Chococraft and Mounts"
+				title: "완료: Chococraft와 이동수단"
 				type: "stat"
 				value: 1
 			}]
@@ -164,11 +164,11 @@
 		{
 			dependencies: ["05AD0B9A77F0325F"]
 			description: [
-				"Complete the quest mentioned in the task to automatically earn the Talent Point(s)!"
+				"퀘스트에 명시된 퀘스트를 완료하면 특성 포인트를 자동으로 획득할 수 있습니다!"
 				""
-				"&eThese Talent Points are shared amongst your characters (see Character menu in the Hub).&r"
+				"&e이 특성 포인트는 캐릭터 간에 공유됩니다(허브의 캐릭터 메뉴를 참조하세요).&r"
 				""
-				"&cIf quests are reset via \"Main Campaign Quest Reset\" down below (unlocked in Act IV), these quests will remain completed.&r"
+				"&c아래의 \"메인 캠페인 퀘스트 초기화\"(Act IV에서 잠금 해제)를 통해 퀘스트를 초기화하더라도, 해당 퀘스트는 완료된 상태로 유지됩니다.&r"
 			]
 			id: "1A0CC40586164CD5"
 			rewards: [{
@@ -187,7 +187,7 @@
 				icon: "simplehats:burning_m_bison"
 				id: "02F878B205B83EE5"
 				stat: "minecraft:walk_one_cm"
-				title: "Complete: The Mother"
+				title: "완료: 엄.마."
 				type: "stat"
 				value: 1
 			}]
@@ -197,11 +197,11 @@
 		{
 			dependencies: ["114D74DF8284ACC3"]
 			description: [
-				"Complete the quest mentioned in the task to automatically earn the Talent Point(s)!"
+				"퀘스트에 명시된 퀘스트를 완료하면 특성 포인트를 자동으로 획득할 수 있습니다!"
 				""
-				"&eThese Talent Points are shared amongst your characters (see Character menu in the Hub).&r"
+				"&e이 특성 포인트는 캐릭터 간에 공유됩니다(허브의 캐릭터 메뉴를 참조하세요).&r"
 				""
-				"&cIf quests are reset via \"Main Campaign Quest Reset\" down below (unlocked in Act IV), these quests will remain completed.&r"
+				"&c아래의 \"메인 캠페인 퀘스트 초기화\"(Act IV에서 잠금 해제)를 통해 퀘스트를 초기화하더라도, 해당 퀘스트는 완료된 상태로 유지됩니다.&r"
 			]
 			id: "682AEA6851799465"
 			rewards: [{
@@ -220,7 +220,7 @@
 				icon: "minecraft:wither_rose"
 				id: "23830C2355EAFC92"
 				stat: "minecraft:walk_one_cm"
-				title: "Complete: Dark Ritual"
+				title: "완료: Dark Ritual"
 				type: "stat"
 				value: 1
 			}]
@@ -230,11 +230,11 @@
 		{
 			dependencies: ["42A954877474A58F"]
 			description: [
-				"Complete the quest mentioned in the task to automatically earn the Talent Point(s)!"
+				"퀘스트에 명시된 퀘스트를 완료하면 특성 포인트를 자동으로 획득할 수 있습니다!"
 				""
-				"&eThese Talent Points are shared amongst your characters (see Character menu in the Hub).&r"
+				"&e이 특성 포인트는 캐릭터 간에 공유됩니다(허브의 캐릭터 메뉴를 참조하세요).&r"
 				""
-				"&cIf quests are reset via \"Main Campaign Quest Reset\" down below (unlocked in Act IV), these quests will remain completed.&r"
+				"&c아래의 \"메인 캠페인 퀘스트 초기화\"(Act IV에서 잠금 해제)를 통해 퀘스트를 초기화하더라도, 해당 퀘스트는 완료된 상태로 유지됩니다.&r"
 			]
 			id: "01B9D2071BE9EF3F"
 			rewards: [{
@@ -259,7 +259,7 @@
 				}
 				id: "68D00AE4C4F85CBA"
 				stat: "minecraft:walk_one_cm"
-				title: "Complete: Ruler of Flames"
+				title: "완료: 불꽃의 지배자"
 				type: "stat"
 				value: 1
 			}]
@@ -269,11 +269,11 @@
 		{
 			dependencies: ["37167129D6D6A280"]
 			description: [
-				"Complete the quest mentioned in the task to automatically earn the Talent Point(s)!"
+				"퀘스트에 명시된 퀘스트를 완료하면 특성 포인트를 자동으로 획득할 수 있습니다!"
 				""
-				"&eThese Talent Points are shared amongst your characters (see Character menu in the Hub).&r"
+				"&e이 특성 포인트는 캐릭터 간에 공유됩니다(허브의 캐릭터 메뉴를 참조하세요).&r"
 				""
-				"&cIf quests are reset via \"Main Campaign Quest Reset\" down below (unlocked in Act IV), these quests will remain completed.&r"
+				"&c아래의 \"메인 캠페인 퀘스트 초기화\"(Act IV에서 잠금 해제)를 통해 퀘스트를 초기화하더라도, 해당 퀘스트는 완료된 상태로 유지됩니다.&r"
 			]
 			id: "7AAD8765795E7153"
 			rewards: [{
@@ -292,7 +292,7 @@
 				icon: "alexsmobs:warped_muscle"
 				id: "427DD80188EB9A9A"
 				stat: "minecraft:walk_one_cm"
-				title: "Complete: Forest Chad"
+				title: "완료: 뒤틀린 숲의 기가 차드"
 				type: "stat"
 				value: 1
 			}]
@@ -302,11 +302,11 @@
 		{
 			dependencies: ["4B57F45BE30AA5F2"]
 			description: [
-				"Complete the quest mentioned in the task to automatically earn the Talent Point(s)!"
+				"퀘스트에 명시된 퀘스트를 완료하면 특성 포인트를 자동으로 획득할 수 있습니다!"
 				""
-				"&eThese Talent Points are shared amongst your characters (see Character menu in the Hub).&r"
+				"&e이 특성 포인트는 캐릭터 간에 공유됩니다(허브의 캐릭터 메뉴를 참조하세요).&r"
 				""
-				"&cIf quests are reset via \"Main Campaign Quest Reset\" down below (unlocked in Act IV), these quests will remain completed.&r"
+				"&c아래의 \"메인 캠페인 퀘스트 초기화\"(Act IV에서 잠금 해제)를 통해 퀘스트를 초기화하더라도, 해당 퀘스트는 완료된 상태로 유지됩니다.&r"
 			]
 			id: "1227C13346F031A1"
 			rewards: [{
@@ -325,7 +325,7 @@
 				icon: "minecraft:ghast_tear"
 				id: "641EFC87F0560C38"
 				stat: "minecraft:walk_one_cm"
-				title: "Complete: Defenders of the Nether"
+				title: "완료: 지옥의 수호자"
 				type: "stat"
 				value: 1
 			}]
@@ -335,11 +335,11 @@
 		{
 			dependencies: ["775A13E1924D6C9A"]
 			description: [
-				"Complete the quest mentioned in the task to automatically earn the Talent Point(s)!"
+				"퀘스트에 명시된 퀘스트를 완료하면 특성 포인트를 자동으로 획득할 수 있습니다!"
 				""
-				"&eThese Talent Points are shared amongst your characters (see Character menu in the Hub).&r"
+				"&e이 특성 포인트는 캐릭터 간에 공유됩니다(허브의 캐릭터 메뉴를 참조하세요).&r"
 				""
-				"&cIf quests are reset via \"Main Campaign Quest Reset\" down below (unlocked in Act IV), these quests will remain completed.&r"
+				"&c아래의 \"메인 캠페인 퀘스트 초기화\"(Act IV에서 잠금 해제)를 통해 퀘스트를 초기화하더라도, 해당 퀘스트는 완료된 상태로 유지됩니다.&r"
 			]
 			id: "3343BC6D9867F206"
 			rewards: [{
@@ -364,7 +364,7 @@
 				}
 				id: "014EF6369E3BAF81"
 				stat: "minecraft:walk_one_cm"
-				title: "Complete: Civilization from the Past"
+				title: "완료: 과거의 문명"
 				type: "stat"
 				value: 1
 			}]
@@ -374,11 +374,11 @@
 		{
 			dependencies: ["58F782F592F2ADEB"]
 			description: [
-				"Complete the quest mentioned in the task to automatically earn the Talent Point(s)!"
+				"퀘스트에 명시된 퀘스트를 완료하면 특성 포인트를 자동으로 획득할 수 있습니다!"
 				""
-				"&eThese Talent Points are shared amongst your characters (see Character menu in the Hub).&r"
+				"&e이 특성 포인트는 캐릭터 간에 공유됩니다(허브의 캐릭터 메뉴를 참조하세요).&r"
 				""
-				"&cIf quests are reset via \"Main Campaign Quest Reset\" down below (unlocked in Act IV), these quests will remain completed.&r"
+				"&c아래의 \"메인 캠페인 퀘스트 초기화\"(Act IV에서 잠금 해제)를 통해 퀘스트를 초기화하더라도, 해당 퀘스트는 완료된 상태로 유지됩니다.&r"
 			]
 			id: "6068BC3C038D153F"
 			rewards: [{
@@ -403,7 +403,7 @@
 				}
 				id: "7B636D962F5786C8"
 				stat: "minecraft:walk_one_cm"
-				title: "Complete: Strange Fish Finder"
+				title: "완료: 이상한 물고기 탐지기"
 				type: "stat"
 				value: 1
 			}]
@@ -413,11 +413,11 @@
 		{
 			dependencies: ["46DB9530C236A4AD"]
 			description: [
-				"Complete the quest mentioned in the task to automatically earn the Talent Point(s)!"
+				"퀘스트에 명시된 퀘스트를 완료하면 특성 포인트를 자동으로 획득할 수 있습니다!"
 				""
-				"&eThese Talent Points are shared amongst your characters (see Character menu in the Hub).&r"
+				"&e이 특성 포인트는 캐릭터 간에 공유됩니다(허브의 캐릭터 메뉴를 참조하세요).&r"
 				""
-				"&cIf quests are reset via \"Main Campaign Quest Reset\" down below (unlocked in Act IV), these quests will remain completed.&r"
+				"&c아래의 \"메인 캠페인 퀘스트 초기화\"(Act IV에서 잠금 해제)를 통해 퀘스트를 초기화하더라도, 해당 퀘스트는 완료된 상태로 유지됩니다.&r"
 			]
 			id: "19BE9AAEFDD41D01"
 			rewards: [{
@@ -436,7 +436,7 @@
 				icon: "alexsmobs:shed_snake_skin"
 				id: "13592D3DE590543A"
 				stat: "minecraft:walk_one_cm"
-				title: "Complete: Slippery Swimmer"
+				title: "완료: 미끄러운 수영 선수"
 				type: "stat"
 				value: 1
 			}]
@@ -446,11 +446,11 @@
 		{
 			dependencies: ["18B4B295493669DD"]
 			description: [
-				"Complete the quest mentioned in the task to automatically earn the Talent Point(s)!"
+				"퀘스트에 명시된 퀘스트를 완료하면 특성 포인트를 자동으로 획득할 수 있습니다!"
 				""
-				"&eThese Talent Points are shared amongst your characters (see Character menu in the Hub).&r"
+				"&e이 특성 포인트는 캐릭터 간에 공유됩니다(허브의 캐릭터 메뉴를 참조하세요).&r"
 				""
-				"&cIf quests are reset via \"Main Campaign Quest Reset\" down below (unlocked in Act IV), these quests will remain completed.&r"
+				"&c아래의 \"메인 캠페인 퀘스트 초기화\"(Act IV에서 잠금 해제)를 통해 퀘스트를 초기화하더라도, 해당 퀘스트는 완료된 상태로 유지됩니다.&r"
 			]
 			id: "208A36B927BC66EB"
 			rewards: [{
@@ -485,7 +485,7 @@
 				}
 				id: "20E81D1C5F636ACB"
 				stat: "minecraft:walk_one_cm"
-				title: "Complete: Mother of the Deep Sea"
+				title: "완료: 심해의 어머니"
 				type: "stat"
 				value: 1
 			}]
@@ -495,11 +495,11 @@
 		{
 			dependencies: ["0AFF7911E9C10C1B"]
 			description: [
-				"Complete the quest mentioned in the task to automatically earn the Talent Point(s)!"
+				"퀘스트에 명시된 퀘스트를 완료하면 특성 포인트를 자동으로 획득할 수 있습니다!"
 				""
-				"&eThese Talent Points are shared amongst your characters (see Character menu in the Hub).&r"
+				"&e이 특성 포인트는 캐릭터 간에 공유됩니다(허브의 캐릭터 메뉴를 참조하세요).&r"
 				""
-				"&cIf quests are reset via \"Main Campaign Quest Reset\" down below (unlocked in Act IV), these quests will remain completed.&r"
+				"&c아래의 \"메인 캠페인 퀘스트 초기화\"(Act IV에서 잠금 해제)를 통해 퀘스트를 초기화하더라도, 해당 퀘스트는 완료된 상태로 유지됩니다.&r"
 			]
 			id: "148FB54534A896F7"
 			rewards: [{
@@ -518,7 +518,7 @@
 				icon: "undergarden:froststeel_ingot"
 				id: "0A5394116261D4A2"
 				stat: "minecraft:walk_one_cm"
-				title: "Complete: Cold Ingots"
+				title: "완료: 차가운 주괴"
 				type: "stat"
 				value: 1
 			}]
@@ -528,11 +528,11 @@
 		{
 			dependencies: ["30B56119C4EA7398"]
 			description: [
-				"Complete the quest mentioned in the task to automatically earn the Talent Point(s)!"
+				"퀘스트에 명시된 퀘스트를 완료하면 특성 포인트를 자동으로 획득할 수 있습니다!"
 				""
-				"&eThese Talent Points are shared amongst your characters (see Character menu in the Hub).&r"
+				"&e이 특성 포인트는 캐릭터 간에 공유됩니다(허브의 캐릭터 메뉴를 참조하세요).&r"
 				""
-				"&cIf quests are reset via \"Main Campaign Quest Reset\" down below (unlocked in Act IV), these quests will remain completed.&r"
+				"&c아래의 \"메인 캠페인 퀘스트 초기화\"(Act IV에서 잠금 해제)를 통해 퀘스트를 초기화하더라도, 해당 퀘스트는 완료된 상태로 유지됩니다.&r"
 			]
 			id: "49A4168494AA6996"
 			rewards: [{
@@ -551,7 +551,7 @@
 				icon: "blue_skies:nature_key"
 				id: "641A59672FB081EE"
 				stat: "minecraft:walk_one_cm"
-				title: "Complete: An Uprooting"
+				title: "완료: 망할놈 뿌리뽑기"
 				type: "stat"
 				value: 1
 			}]
@@ -561,11 +561,11 @@
 		{
 			dependencies: ["09CFBF8766DA4706"]
 			description: [
-				"Complete the quest mentioned in the task to automatically earn the Talent Point(s)!"
+				"퀘스트에 명시된 퀘스트를 완료하면 특성 포인트를 자동으로 획득할 수 있습니다!"
 				""
-				"&eThese Talent Points are shared amongst your characters (see Character menu in the Hub).&r"
+				"&e이 특성 포인트는 캐릭터 간에 공유됩니다(허브의 캐릭터 메뉴를 참조하세요).&r"
 				""
-				"&cIf quests are reset via \"Main Campaign Quest Reset\" down below (unlocked in Act IV), these quests will remain completed.&r"
+				"&c아래의 \"메인 캠페인 퀘스트 초기화\"(Act IV에서 잠금 해제)를 통해 퀘스트를 초기화하더라도, 해당 퀘스트는 완료된 상태로 유지됩니다.&r"
 			]
 			id: "479274C8A6806EA2"
 			rewards: [{
@@ -584,7 +584,7 @@
 				icon: "blue_skies:poison_key"
 				id: "04E5410ED40C004A"
 				stat: "minecraft:walk_one_cm"
-				title: "Complete: Caught in a Web"
+				title: "완료: 거미줄에 걸렸어"
 				type: "stat"
 				value: 1
 			}]
@@ -594,11 +594,11 @@
 		{
 			dependencies: ["1FC3745ADFF992F2"]
 			description: [
-				"Complete the quest mentioned in the task to automatically earn the Talent Point(s)!"
+				"퀘스트에 명시된 퀘스트를 완료하면 특성 포인트를 자동으로 획득할 수 있습니다!"
 				""
-				"&eThese Talent Points are shared amongst your characters (see Character menu in the Hub).&r"
+				"&e이 특성 포인트는 캐릭터 간에 공유됩니다(허브의 캐릭터 메뉴를 참조하세요).&r"
 				""
-				"&cIf quests are reset via \"Main Campaign Quest Reset\" down below (unlocked in Act IV), these quests will remain completed.&r"
+				"&c아래의 \"메인 캠페인 퀘스트 초기화\"(Act IV에서 잠금 해제)를 통해 퀘스트를 초기화하더라도, 해당 퀘스트는 완료된 상태로 유지됩니다.&r"
 			]
 			id: "6A1AD367B19251CC"
 			rewards: [{
@@ -617,7 +617,7 @@
 				icon: "blue_skies:falsite_ingot"
 				id: "71CC2A006E9179E3"
 				stat: "minecraft:walk_one_cm"
-				title: "Complete: There's Trouble Brewin'"
+				title: "완료: 무슨일이 일어날 것 같아"
 				type: "stat"
 				value: 1
 			}]
@@ -627,11 +627,11 @@
 		{
 			dependencies: ["61FABF4C4DB118C8"]
 			description: [
-				"Complete the quest mentioned in the task to automatically earn the Talent Point(s)!"
+				"퀘스트에 명시된 퀘스트를 완료하면 특성 포인트를 자동으로 획득할 수 있습니다!"
 				""
-				"&eThese Talent Points are shared amongst your characters (see Character menu in the Hub).&r"
+				"&e이 특성 포인트는 캐릭터 간에 공유됩니다(허브의 캐릭터 메뉴를 참조하세요).&r"
 				""
-				"&cIf quests are reset via \"Main Campaign Quest Reset\" down below (unlocked in Act IV), these quests will remain completed.&r"
+				"&c아래의 \"메인 캠페인 퀘스트 초기화\"(Act IV에서 잠금 해제)를 통해 퀘스트를 초기화하더라도, 해당 퀘스트는 완료된 상태로 유지됩니다.&r"
 			]
 			id: "1EFE6DBE1B509FED"
 			rewards: [{
@@ -650,7 +650,7 @@
 				icon: "blue_skies:frose"
 				id: "7FACB9D4C3EB4885"
 				stat: "minecraft:walk_one_cm"
-				title: "Complete: Frozen in Time"
+				title: "완료: 얼어붙은 시간"
 				type: "stat"
 				value: 1
 			}]
@@ -660,11 +660,11 @@
 		{
 			dependencies: ["1B6034E8571F3AFA"]
 			description: [
-				"Complete the quest mentioned in the task to automatically earn the Talent Point(s)!"
+				"퀘스트에 명시된 퀘스트를 완료하면 특성 포인트를 자동으로 획득할 수 있습니다!"
 				""
-				"&eThese Talent Points are shared amongst your characters (see Character menu in the Hub).&r"
+				"&e이 특성 포인트는 캐릭터 간에 공유됩니다(허브의 캐릭터 메뉴를 참조하세요).&r"
 				""
-				"&cIf quests are reset via \"Main Campaign Quest Reset\" down below (unlocked in Act IV), these quests will remain completed.&r"
+				"&c아래의 \"메인 캠페인 퀘스트 초기화\"(Act IV에서 잠금 해제)를 통해 퀘스트를 초기화하더라도, 해당 퀘스트는 완료된 상태로 유지됩니다.&r"
 			]
 			id: "2DEBE38D5B139754"
 			rewards: [{
@@ -689,7 +689,7 @@
 				}
 				id: "7088D5B9FE127A72"
 				stat: "minecraft:walk_one_cm"
-				title: "Complete: Creepy Crawlies"
+				title: "완료: 소름끼치는 벌래들"
 				type: "stat"
 				value: 1
 			}]
@@ -699,11 +699,11 @@
 		{
 			dependencies: ["3944DD7AC4667137"]
 			description: [
-				"Complete the quest mentioned in the task to automatically earn the Talent Point(s)!"
+				"퀘스트에 명시된 퀘스트를 완료하면 특성 포인트를 자동으로 획득할 수 있습니다!"
 				""
-				"&eThese Talent Points are shared amongst your characters (see Character menu in the Hub).&r"
+				"&e이 특성 포인트는 캐릭터 간에 공유됩니다(허브의 캐릭터 메뉴를 참조하세요).&r"
 				""
-				"&cIf quests are reset via \"Main Campaign Quest Reset\" down below (unlocked in Act IV), these quests will remain completed.&r"
+				"&c아래의 \"메인 캠페인 퀘스트 초기화\"(Act IV에서 잠금 해제)를 통해 퀘스트를 초기화하더라도, 해당 퀘스트는 완료된 상태로 유지됩니다.&r"
 			]
 			id: "7AEF759C3337AE40"
 			rewards: [{
@@ -722,7 +722,7 @@
 				icon: "alexsmobs:void_worm_eye"
 				id: "07427D098938F7E6"
 				stat: "minecraft:walk_one_cm"
-				title: "Complete: Worm from the Void"
+				title: "완료: 공허 벌래"
 				type: "stat"
 				value: 1
 			}]
@@ -732,11 +732,11 @@
 		{
 			dependencies: ["69FD852AE0306BD2"]
 			description: [
-				"Complete the quest mentioned in the task to automatically earn the Talent Point(s)!"
+				"퀘스트에 명시된 퀘스트를 완료하면 특성 포인트를 자동으로 획득할 수 있습니다!"
 				""
-				"&eThese Talent Points are shared amongst your characters (see Character menu in the Hub).&r"
+				"&e이 특성 포인트는 캐릭터 간에 공유됩니다(허브의 캐릭터 메뉴를 참조하세요).&r"
 				""
-				"&cIf quests are reset via \"Main Campaign Quest Reset\" down below (unlocked in Act IV), these quests will remain completed.&r"
+				"&c아래의 \"메인 캠페인 퀘스트 초기화\"(Act IV에서 잠금 해제)를 통해 퀘스트를 초기화하더라도, 해당 퀘스트는 완료된 상태로 유지됩니다.&r"
 			]
 			id: "21ED928EE110C453"
 			rewards: [{
@@ -755,7 +755,7 @@
 				icon: "alexsmobs:farseer_arm"
 				id: "60CE156C454CE851"
 				stat: "minecraft:walk_one_cm"
-				title: "Complete: They Knew You Were Coming"
+				title: "완료: 그들은 당신이 오는걸 알고 있었어"
 				type: "stat"
 				value: 1
 			}]
@@ -765,11 +765,11 @@
 		{
 			dependencies: ["4E2506271B43A29C"]
 			description: [
-				"Complete the quest mentioned in the task to automatically earn the Talent Point(s)!"
+				"퀘스트에 명시된 퀘스트를 완료하면 특성 포인트를 자동으로 획득할 수 있습니다!"
 				""
-				"&eThese Talent Points are shared amongst your characters (see Character menu in the Hub).&r"
+				"&e이 특성 포인트는 캐릭터 간에 공유됩니다(허브의 캐릭터 메뉴를 참조하세요).&r"
 				""
-				"&cIf quests are reset via \"Main Campaign Quest Reset\" down below (unlocked in Act IV), these quests will remain completed.&r"
+				"&c아래의 \"메인 캠페인 퀘스트 초기화\"(Act IV에서 잠금 해제)를 통해 퀘스트를 초기화하더라도, 해당 퀘스트는 완료된 상태로 유지됩니다.&r"
 			]
 			id: "070B9EBA95EBAB88"
 			rewards: [{
@@ -794,7 +794,7 @@
 				}
 				id: "529B744E1A089E59"
 				stat: "minecraft:walk_one_cm"
-				title: "Complete: Customizable Elytras"
+				title: "완료: 커스텀 가능한 겉날개"
 				type: "stat"
 				value: 1
 			}]
@@ -804,11 +804,11 @@
 		{
 			dependencies: ["6DEBCC2B2DAE67AD"]
 			description: [
-				"Complete the quest mentioned in the task to automatically earn the Talent Point(s)!"
+				"퀘스트에 명시된 퀘스트를 완료하면 특성 포인트를 자동으로 획득할 수 있습니다!"
 				""
-				"&eThese Talent Points are shared amongst your characters (see Character menu in the Hub).&r"
+				"&e이 특성 포인트는 캐릭터 간에 공유됩니다(허브의 캐릭터 메뉴를 참조하세요).&r"
 				""
-				"&cIf quests are reset via \"Main Campaign Quest Reset\" down below (unlocked in Act IV), these quests will remain completed.&r"
+				"&c아래의 \"메인 캠페인 퀘스트 초기화\"(Act IV에서 잠금 해제)를 통해 퀘스트를 초기화하더라도, 해당 퀘스트는 완료된 상태로 유지됩니다.&r"
 			]
 			id: "39688BFF56C340FE"
 			rewards: [{
@@ -827,7 +827,7 @@
 				icon: "alexsmobs:froststalker_horn"
 				id: "3BCEDF0337A8E953"
 				stat: "minecraft:walk_one_cm"
-				title: "Complete: Uncanny Presence"
+				title: "완료: 수상한 인기척"
 				type: "stat"
 				value: 1
 			}]
@@ -838,17 +838,17 @@
 			can_repeat: true
 			dependencies: ["0998037F5701A2D7"]
 			description: [
-				"&l&cWARNING!!! Do NOT complete this quest without reading the following text.&r&r"
+				"&l&c경고!!! 다음 내용을 읽지 않고 이 퀘스트를 완료하지 마십시오.&r&r"
 				""
-				"This quest will consume &e5 Diamond Coins&r and a &eName Tag&r named \"&eReset My Quests&r\" (case sensitive, no quotation marks) to &cCOMPLETELY reset all Campaign quests&r. This feature is mainly for players looking to restart almost completely when creating a new character and is &l&cNOT REVERSIBLE&r&r!"
+				"이 퀘스트를 완료 하려면 &e다이아몬드 코인 5개&r와 \"&eReset My Quests&r\"라는 이름의 &e이름표&r(대소문자 구분 필요, 따옴표 없음)가 필요합니다. &c모든 캠페인 퀘스트를 초기화합니다&r. 이 기능은 주로 새 캐릭터를 생성할때 대부분의 활동을 초기화 하려는 플레이어를 위한 기능입니다. &l&c이 기능은 절대로 되돌릴수 없습니다&r&r!"
 				""
-				"Please ensure that if you're in an &eFTB Team&r, that the &eTeam Leader resets the quests&r!"
+				"만약 당신이 &eFTB Team&r에 소속되어 있다면 &e팀장이 퀘스트를 초기화 하려는지 확인해 주세요&r!"
 				""
-				"&oTalent Points earned through the Campaign will not reset, and completing those quests will not grant you additional Talent Points.&r"
+				"&o캠페인을 통해 획득한 특성 포인트는 초기화되지 않으며, 해당 퀘스트를 다시 완료해도 추가적인 특성 포인트는 획득할 수 없습니다.&r"
 				""
-				"&oThis quest does not count towards any achievements.&r"
+				"&o이 퀘스트는 어떠한 업적에도 포함되지 않습니다.&r"
 				""
-				"&eThis quest unlocks once you reach Act IV.&r"
+				"&e이 퀘스트는 Act IV에 도달하면 잠금 해제됩니다.&r"
 			]
 			icon: "simplehats:questbook"
 			id: "7841F2CFAF08C739"
@@ -1056,17 +1056,17 @@
 			tasks: [
 				{
 					id: "11A7AFE2C2204C37"
-					title: "I am SURE I want to reset Campaign Quests"
+					title: "나는 캠페인 퀘스트를 초기화하고 싶습니다."
 					type: "checkmark"
 				}
 				{
 					id: "7DEB4CACD7545043"
-					title: "I confirm that I've read the below!"
+					title: "아래 내용을 읽었음을 확인합니다!"
 					type: "checkmark"
 				}
 				{
 					id: "25722FDAB7533BA1"
-					title: "Final Confirmation"
+					title: "최종 확인"
 					type: "checkmark"
 				}
 				{
@@ -1093,18 +1093,18 @@
 					type: "item"
 				}
 			]
-			title: "&cReset Main Campaign Quests&r"
+			title: "&c메인 캠페인 퀘스트 초기화&r"
 			x: 3.0d
 			y: 9.5d
 		}
 		{
 			dependencies: ["09AFF8CC33BD244B"]
 			description: [
-				"Complete the quest mentioned in the task to automatically earn the Skill Point(s)!"
+				"퀘스트에 명시된 퀘스트를 완료하면 특성 포인트를 자동으로 획득할 수 있습니다!"
 				""
-				"&eThese Skill Points are shared amongst your characters (see Character menu in the Hub).&r"
+				"&e이 특성 포인트는 캐릭터 간에 공유됩니다(허브의 캐릭터 메뉴를 참조하세요).&r"
 				""
-				"&cIf quests are reset via \"Main Campaign Quest Reset\" down below (unlocked in Act IV), these quests will remain completed.&r"
+				"&c아래의 \"메인 캠페인 퀘스트 초기화\"(Act IV에서 잠금 해제)를 통해 퀘스트를 초기화하더라도, 해당 퀘스트는 완료된 상태로 유지됩니다.&r"
 			]
 			id: "72C7A4F2D527D333"
 			rewards: [{
@@ -1123,7 +1123,7 @@
 				icon: "twilightforest:naga_trophy"
 				id: "18381A9E8C980C1E"
 				stat: "minecraft:walk_one_cm"
-				title: "Complete: Solely Snakular"
+				title: "완료: 오로지 뱀처럼"
 				type: "stat"
 				value: 1
 			}]
@@ -1133,11 +1133,11 @@
 		{
 			dependencies: ["1F3C2718AE550D5C"]
 			description: [
-				"Complete the quest mentioned in the task to automatically earn the Skill Point(s)!"
+				"퀘스트에 명시된 퀘스트를 완료하면 특성 포인트를 자동으로 획득할 수 있습니다!"
 				""
-				"&eThese Skill Points are shared amongst your characters (see Character menu in the Hub).&r"
+				"&e이 특성 포인트는 캐릭터 간에 공유됩니다(허브의 캐릭터 메뉴를 참조하세요).&r"
 				""
-				"&cIf quests are reset via \"Main Campaign Quest Reset\" down below (unlocked in Act IV), these quests will remain completed.&r"
+				"&c아래의 \"메인 캠페인 퀘스트 초기화\"(Act IV에서 잠금 해제)를 통해 퀘스트를 초기화하더라도, 해당 퀘스트는 완료된 상태로 유지됩니다.&r"
 			]
 			id: "09E3360C61D3DC44"
 			rewards: [{
@@ -1156,7 +1156,7 @@
 				icon: "twilightforest:lich_trophy"
 				id: "4164DB98E7E4F8AE"
 				stat: "minecraft:walk_one_cm"
-				title: "Complete: The Master Mastermind"
+				title: "완료: The Master Mastermind"
 				type: "stat"
 				value: 1
 			}]
@@ -1166,11 +1166,11 @@
 		{
 			dependencies: ["5BB55F41502BE69C"]
 			description: [
-				"Complete the quest mentioned in the task to automatically earn the Skill Point(s)!"
+				"퀘스트에 명시된 퀘스트를 완료하면 특성 포인트를 자동으로 획득할 수 있습니다!"
 				""
-				"&eThese Skill Points are shared amongst your characters (see Character menu in the Hub).&r"
+				"&e이 특성 포인트는 캐릭터 간에 공유됩니다(허브의 캐릭터 메뉴를 참조하세요).&r"
 				""
-				"&cIf quests are reset via \"Main Campaign Quest Reset\" down below (unlocked in Act IV), these quests will remain completed.&r"
+				"&c아래의 \"메인 캠페인 퀘스트 초기화\"(Act IV에서 잠금 해제)를 통해 퀘스트를 초기화하더라도, 해당 퀘스트는 완료된 상태로 유지됩니다.&r"
 			]
 			id: "746976CB6EADF2D8"
 			rewards: [{
@@ -1189,7 +1189,7 @@
 				icon: "twilightforest:ur_ghast_trophy"
 				id: "68E1A67D7F05F982"
 				stat: "minecraft:walk_one_cm"
-				title: "Complete: Blood, or Carminite?"
+				title: "완료: 피, 혹은 카미나이트?"
 				type: "stat"
 				value: 1
 			}]
@@ -1199,11 +1199,11 @@
 		{
 			dependencies: ["1E2D94E70E2A1134"]
 			description: [
-				"Complete the quest mentioned in the task to automatically earn the Skill Point(s)!"
+				"퀘스트에 명시된 퀘스트를 완료하면 특성 포인트를 자동으로 획득할 수 있습니다!"
 				""
-				"&eThese Skill Points are shared amongst your characters (see Character menu in the Hub).&r"
+				"&e이 특성 포인트는 캐릭터 간에 공유됩니다(허브의 캐릭터 메뉴를 참조하세요).&r"
 				""
-				"&cIf quests are reset via \"Main Campaign Quest Reset\" down below (unlocked in Act IV), these quests will remain completed.&r"
+				"&c아래의 \"메인 캠페인 퀘스트 초기화\"(Act IV에서 잠금 해제)를 통해 퀘스트를 초기화하더라도, 해당 퀘스트는 완료된 상태로 유지됩니다.&r"
 			]
 			id: "081D2F0CD16398E7"
 			rewards: [{
@@ -1222,7 +1222,7 @@
 				icon: "twilightforest:snow_queen_trophy"
 				id: "77F70F359D37FF9C"
 				stat: "minecraft:walk_one_cm"
-				title: "Complete: The Queen of Ice"
+				title: "완료: 얼음 여왕"
 				type: "stat"
 				value: 1
 			}]
@@ -1232,11 +1232,11 @@
 		{
 			dependencies: ["18C4B8D73A50CFAC"]
 			description: [
-				"Complete the quest mentioned in the task to automatically earn the Skill Point(s)!"
+				"퀘스트에 명시된 퀘스트를 완료하면 특성 포인트를 자동으로 획득할 수 있습니다!"
 				""
-				"&eThese Skill Points are shared amongst your characters (see Character menu in the Hub).&r"
+				"&e이 특성 포인트는 캐릭터 간에 공유됩니다(허브의 캐릭터 메뉴를 참조하세요).&r"
 				""
-				"&cIf quests are reset via \"Main Campaign Quest Reset\" down below (unlocked in Act IV), these quests will remain completed.&r"
+				"&c아래의 \"메인 캠페인 퀘스트 초기화\"(Act IV에서 잠금 해제)를 통해 퀘스트를 초기화하더라도, 해당 퀘스트는 완료된 상태로 유지됩니다.&r"
 			]
 			id: "0B6C7B757745DC48"
 			rewards: [{
@@ -1255,7 +1255,7 @@
 				icon: "twilightforest:hydra_trophy"
 				id: "265A8D7FAFBB7718"
 				stat: "minecraft:walk_one_cm"
-				title: "Complete: Multi-Headed Beast"
+				title: "완료: 여러 머리를 가진 야수"
 				type: "stat"
 				value: 1
 			}]
@@ -1265,11 +1265,11 @@
 		{
 			dependencies: ["481C3C4D8D5AF5B8"]
 			description: [
-				"Complete the quest mentioned in the task to automatically earn the Passive Point(s)!"
+				"퀘스트에 명시된 퀘스트를 완료하면 특성 포인트를 자동으로 획득할 수 있습니다!"
 				""
-				"&eThese Passive Points are shared amongst your characters (see Character menu in the Hub).&r"
+				"&e이 특성 포인트는 캐릭터 간에 공유됩니다(허브의 캐릭터 메뉴를 참조하세요).&r"
 				""
-				"&cIf quests are reset via \"Main Campaign Quest Reset\" down below (unlocked in Act IV), these quests will remain completed.&r"
+				"&c아래의 \"메인 캠페인 퀘스트 초기화\"(Act IV에서 잠금 해제)를 통해 퀘스트를 초기화하더라도, 해당 퀘스트는 완료된 상태로 유지됩니다.&r"
 			]
 			id: "4E8E1E75F774124C"
 			rewards: [{
@@ -1288,7 +1288,7 @@
 				icon: "simplehats:hatbag_epic"
 				id: "1FF5BDAB9E7E9AB7"
 				stat: "minecraft:walk_one_cm"
-				title: "Complete: Defeat All Twilight Forest Bosses!"
+				title: "완료: 모든 황혼의 숲 보스 쓰러뜨리기!"
 				type: "stat"
 				value: 1
 			}]
