@@ -20,7 +20,7 @@
 			description: [
 				"아래에 언급된 퀘스트를 완료하면 반복 가능한 퀘스트가 잠금 해제됩니다!"
 				""
-				"{ \"text\": \"선장 코넬리아의 상자\", \"color\": \"yellow\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"55F9F418C4CA3B3A\" } }"
+				"{ \"text\": \"Captain Cornelia's Locker\", \"color\": \"yellow\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"55F9F418C4CA3B3A\" } }"
 			]
 			hide_until_deps_complete: true
 			id: "5DC9C433EE6B8CAE"
