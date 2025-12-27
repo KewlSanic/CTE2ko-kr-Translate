@@ -1,16 +1,16 @@
 {
-    "name": "Twilight Forest",
+    "name": "트와일라잇(Twilight) 숲",
     "icon": "twilightforest:twilight_portal_miniature_structure",
     "category": "patchouli:dimensions",
 	"sortnum":5,
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "&n&6&lDimension:&r&r  &n&lTwilight Forest&r
-&n&6&lArea Level:&r&r  &n90 - 100 &r&r
-&n&6&lEnraged Area Level:&r &nn/a&r
-&n&6&lExceptions:&r  &nNone&r
-&n&6&lQuests covered:&r  &nEpilogue;&r
+            "text": "&n&6&l차원:&r&r  &n&l트와일라잇 숲&r
+&n&6&l구역 레벨:&r&r  &n90 - 100 &r&r
+&n&6&l강화된 구역 레벨:&r &nn/a&r
+&n&6&l예외:&r  &nNone&r
+&n&6&l퀘스트:&r  &nEpilogue;&r
 &n&6&lDimension gateways:&r  &nAct V Gateway;
 &n&6&lDimension Bosses:&r &nNaga; Twilight Lich; Minoshroom, Hydra, Alpha Yeti, Snow Queen, Knight Phantom, Ur-Ghast &r "
 		},

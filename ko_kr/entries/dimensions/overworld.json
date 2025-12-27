@@ -1,22 +1,22 @@
 {
-    "name": "Overworld",
+    "name": "오버월드",
     "icon": "minecraft:grass_block",
     "category": "patchouli:dimensions",
 	"sortnum":0,
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "&n&6&lDimension:&r&r    &n&lOverworld&r
-&n&6&lArea Level:&r&r    &n1 - 15 &r&r
-&n&6&lEnraged Area Level:&r &n50 - 70&r
-&n&6&lExceptions:&r  &nIce Maze lvl 35+&r
-&n&6&lQuests covered:&r  &nPrologue; Act I; part of Act III
-&n&6&lDimension gateways:&r  &nAct I Gateway; Gateway of the Deep Sea&r
-&n&6&lDimension Bosses:&r   &nHermit Abysswalker; Invoker; Frostmaw; Grim Reaper; Eel; Mother of the Maze; Ghost of Captain Cornelia&r "
+            "text": "&n&6&l차원:&r&r    &n&l오버월드&r
+&n&6&l구역 레벨:&r&r    &n1 - 15 &r&r
+&n&6&l강화된 구역 레벨:&r &n50 - 70&r
+&n&6&l예외:&r  &n얼음 미궁 레벨 35+&r
+&n&6&l퀘스트:&r  &nPrologue; Act I; part of Act III
+&n&6&l차원 관문:&r  &nAct I Gateway; Gateway of the Deep Sea&r
+&n&6&l관문 보스:&r   &nHermit Abysswalker; Invoker; Frostmaw; Grim Reaper; Eel; Mother of the Maze; Ghost of Captain Cornelia&r "
 		},
 		{
             "type": "patchouli:text",
-            "text": " The start of your legendary adventure!$(br) &l&nThe Overworld&r is ripe with structures and loot to be found. Caps at level 15 with some higher level exceptions such as the Ice Maze (lvl 35 minimum).$(br) &l&nThe Overworld&r &nis intended to be your home dimension&r and is the only one you can claim in with Flan. A relatively safe dimension allowing you to set up your home base."
+            "text": "전설적인 모험의 시작!$(br) &l&n오버월드&r에는 발견되지 않은 구조물과 전리품이 가득합니다. 최대 레벨은 15이지만, 얼음 미로(최소 레벨 35)와 같은 일부 예외적인 지역에서는 더 높은 레벨이 필요합니다.$(br) &l&n오버월드&r Flan과 함께 claim(구역 설정 명령어)을 사용할 수 있는 유일한 차원이자, 비교적 안전한 공간으로, 여러분의 본거지가 될 것입니다."
 		}
     ]
 }

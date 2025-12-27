@@ -1,33 +1,33 @@
 {
-    "name": "Everbright",
+    "name": "에버브라이트",
     "icon": "blue_skies:everbright_portal",
     "category": "patchouli:dimensions",
 	"sortnum":3,
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "&n&6&lDimension:&r&r    &n&lEverbright&r
-&n&6&lArea Level:&r&r    &n35 - 55 &r&r
-&n&6&lEnraged Area Level:&r &n65 - 85&r
-&n&6&lExceptions:&r  &nNone&r
-&n&6&lQuests covered:&r  &nAct IV;&r
-&n&6&lDimension gateways:&r  &nAct IV Gateway;
-&n&6&lDimension Bosses:&r &nSummoner; Starlit Crusher &r "
+            "text": "&n&6&l차원:&r&r    &n&l에버브라이트&r
+&n&6&l구역 레벨:&r&r    &n35 - 55 &r&r
+&n&6&l강화된 구역 레벨:&r &n65 - 85&r
+&n&6&l예외:&r  &nNone&r
+&n&6&l퀘스트:&r  &nAct IV;&r
+&n&6&l차원 관문:&r  &nAct IV Gateway;
+&n&6&l관문 보스:&r &n소환사; Starlit Crusher &r "
 		},
 		{
             "type": "patchouli:text",
-            "text": "$(br) It looks like this dimension is perpetual day but its always freezing.$(br) This dimension is home to lots of large thick-coated fauna.$(br) Plenty of snow and spirit like enemies can be found here especially during the snow as they prefer to roam during colder weather.$(br) You might find much more detailed information if you read the Blue Journal you got from a Gatekeeper."
+            "text": "$(br) 이 차원은 영원한 낮처럼 보이지만 항상 얼어붙어있습니다.$(br) 이 차원에는 털이 두껍고 몸집이 큰 동물이 많이 있습니다. 특히 눈이 내리는 시기에는 눈이 많이 내리고 정령 같은 적들이 많이 나타나는데, 이들은 추운 날씨에 활동하는 것을 선호하기 때문입니다.$(br) 문지기로부터 받은 파란색 일지를 읽어보면 훨씬 더 자세한 정보를 찾을 수 있을 것입니다."
 		},{
             "type": "patchouli:spotlight",
-			"title":"Getting into the Everbright",
+			"title":"에버브라이트에 들어가는 방법",
   "item": "blue_skies:zeal_lighter,blue_skies:turquoise_stonebrick",
-  "text": "If you are looking to get to this dimension you need to lay your hands on&n&l at least 10 Turquoise Stone Bricks and a Zeal Lighter obtained from a Gatekeeper &r.
-  &oCorner blocks are completely optional but they would grant &2+5 to Aestetics&r stat if it exsisted" 
+  "text": "이 차원에 입장하려면 최소 10개의 Turquoise(청록색) 벽돌과 문지기에게서 얻은 Zeal Lighter(열정의 라이터)가 필요합니다 &r.
+  &o모서리 블록은 선택 사항이지만, 만약 존재한다면 &2미적 능력치에 +5를 부여&r합니다."
 		},
 		{
             "type": "patchouli:multiblock",
-			"name":"Everbright Portal",
-			"text": "Click on eye icon to visualize portal in game",
+			"name":"에버브라이트 포탈",
+			"text": "눈 모양 아이콘을 클릭하여 게임 내에서 형상을 보세요.",
             "multiblock": {
     "pattern": [
         [ "SOOS"],

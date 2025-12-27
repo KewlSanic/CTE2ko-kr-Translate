@@ -1,33 +1,33 @@
 {
-    "name": "Nether",
+    "name": "네더",
     "icon": "minecraft:magma_block",
     "category": "patchouli:dimensions",
 	"sortnum":1,
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "&n&6&lDimension:&r&r    &n&lNether&r
-&n&6&lArea Level:&r&r    &n10 - 30 &r&r
-&n&6&lEnraged Area Level:&r &n55 - 75&r
-&n&6&lExceptions:&r  &nNone&r
-&n&6&lQuests covered:&r  &nAct II;&r
-&n&6&lDimension gateways:&r  &nAct II Gateway;
-&n&6&lDimension Bosses:&r &nWarped Mosco, Wildfire, Mother Lava Squid, Wither, Awful Ghast, Nether Keeper&r "
+            "text": "&n&6&l차원:&r&r    &n&l네더&r
+&n&6&l구역 레벨:&r&r    &n10 - 30 &r&r
+&n&6&l강화된 구역 레벨:&r &n55 - 75&r
+&n&6&l예외:&r  &nNone&r
+&n&6&l퀘스트:&r  &nAct II;&r
+&n&6&l차원 관문:&r  &nAct II Gateway;
+&n&6&l관문 보스:&r &nWarped Mosco, Wildfire, Mother Lava Squid, Wither, Awful Ghast, Nether Keeper&r "
 		},
 		{
             "type": "patchouli:text",
-            "text": "Dimension that is usually described as 'Hell'. Would make quite a hot vacation place, literally. Dimension is full of lava and hard to navigate so its highly recommended to acquire some form of fire resistance. A Paraglider would be of great use here, as well. Dimension has some weird magnetic interference making some of the structures like Keeping Castle or Awful dungeon impossible to find with a structure compass. But some adventurers speculate that they can help one to ascend."
+            "text": "흔히 '지옥'으로 묘사되는 차원. 말 그대로 뜨거운 휴양지가 될 수도 있겠네요. 이 차원은 용암으로 가득 차 있고 길을 찾기가 어려워 화염 저항력을 갖추는 것이 강력히 권장됩니다. 패러글라이더도 매우 유용할 겁니다. 이 차원은 특이한 자기 간섭 현상 때문에 Keeping Castle이나 Awful dungeon 같은 일부 구조물은 구조물 나침반으로는 찾을 수 없습니다. 하지만 일부 모험가들은 이 나침반이 차원을 오르는 데 도움이 될 수 있다고 추측합니다."
 		},{
             "type": "patchouli:spotlight",
-			"title":"Getting into the Nether",
+			"title":"네더에 들어가는 방법",
   "item": "minecraft:obsidian,minecraft:flint_and_steel,minecraft:fire_charge",
-  "text": "If you are looking to get to this dimension you need to lay your hands on&n&l at least 10 Obsidian Blocks and fire source like Flint and Steel or Fire charge to light the center of the frame&r.
-  &oCorner blocks are completely optional but they would grant &2+5 to Aestetics&r stat if it exsisted" 
+  "text": "이 차원에 입장하려면 최소 10개의 흑요석 블록과 부싯돌이나 화염구 같은 불꽃이 필요합니다. 불꽃은 틀의 중앙에 불을 붙이는 데 필요합니다.&r.
+  &o모서리 블록은 선택 사항이지만, 만약 존재한다면 &2미적 능력치에 +5를 부여&r합니다."
 		},
 		{
             "type": "patchouli:multiblock",
-			"name":"Nether Portal",
-			"text": "Click on eye icon to visualize portal in game",
+			"name":"네더 포탈",
+			"text": "눈 모양 아이콘을 클릭하여 게임 내에서 형상을 보세요.",
             "multiblock": {
     "pattern": [
         [ "SOOS"],
