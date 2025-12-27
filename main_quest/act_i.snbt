@@ -1165,7 +1165,7 @@
 		}
 		{
 			dependencies: ["727ADA9C4F420BDC"]
-			description: ["&eComforts&r는 모험을 즐기는 동안 사용 가능한 &e침낭&r을 that can be used while adventuring. Instead of bringing a bulky bed with you, just plop the sleeping bag down and &erest!&r"]
+			description: ["&eComforts&r는 모험을 즐기는 동안 사용 가능한 &e침낭&r을 선보입니다. 부피가 큰 침대를 가져가는 대신, 침낭을 깔고 &e휴식하세요&r!"]
 			id: "76483BF6DF35C463"
 			rewards: [{
 				auto: "enabled"
@@ -1189,9 +1189,9 @@
 		{
 			dependencies: ["313921A7833269CF"]
 			description: [
-				"Hold down &e`&r to activate &eUltiminer,&r which is an advanced form of &eveinmining.&r An outline will appear showing the blocks that will be mined. Hold down shift + ` to select a &epattern,&r such as Mining Tunnel which mines a staircase. Only the &eShapeless pattern will veinmine&r, the rest adhere to their pattern. "
+				"&e`&r키를 길게 눌러 고급 채굴 기능인&eUltiminer&r를 활성화 하세요. 채굴할 블록의 윤곽선이 나타납니다. Shift + `키를 길게 눌러 계단 모양의 채굴 터널과 같은 &e패턴&r을 선택 하세요. &e형태 없는&r 패턴만 광맥 채굴을 하며, 나머지 패턴은 지정된 패턴을 따릅니다."
 				""
-				"Using Ultiminer will take &eextra durability and hunger&r and also requires the appropriate tool."
+				"Ultiminer를 사용하면 &e추가적인 내구도와 허기&r가 소모되며, 적절한 도구도 필요합니다."
 			]
 			id: "15C2A55BAFCA5084"
 			rewards: [{
@@ -1222,7 +1222,7 @@
 		}
 		{
 			dependencies: ["5FCA8577C7DB792D"]
-			description: ["The &eExplorer's Compass&r allows you to locate &estructures&r while the &eNature's Compass&r allows you to find &especific biomes&r. You may need to change location to find what you're looking for."]
+			description: ["&e탐험가의 나침반&r은 &e구조물&r의 위치를 찾는 데 유용하고, &e자연의 나침반&r은 &e특정 바이옴&r을 찾는 데 유용합니다. 원하는 것을 찾으려면 위치를 변경해야 할 수도 있습니다."]
 			id: "472D5441B6FCD6EC"
 			rewards: [{
 				auto: "enabled"
@@ -1234,7 +1234,7 @@
 				title: "250 Experience"
 				type: "command"
 			}]
-			subtitle: "The Extras"
+			subtitle: "추가 기능"
 			tasks: [
 				{
 					id: "5AC3D8ABA379DF8D"
