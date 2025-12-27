@@ -6,69 +6,67 @@
     "pages": [
         {
             "type": "patchouli:spotlight",
-			"title":"리파인드 스토리지(Refined Storage)",
+			"title":"리파인드 스토리지",
   "item": "refinedstorage:controller",
   "text": "&e리파인드 스토리지(Refined Storage)&r는 아이템 창고, 분류기, 그리고 대량 제작의 가장 좋은 방법입니다. 창고 네트워크 안의 장치들은 디스크 안의 아이템들을 수정 가능합니다." 
 		},
 		{
             "type": "patchouli:text",
-			"text": "&e컨트롤러(Controller)&r는 스토리지 네트워크의 핵심 입니다. 다른 모든 리피인드 스토리지는 블록 바로 옆이거나 전선을 통해 연결 해야 합니다. &e보타니아의 마나 플럭스필드&r에서만 나오는 &e포지에너지(Forge Energy)&r 를 이용해 가동 가능합니다.(복잡한것만 전기 많이 소모)"
+			"text": "&e컨트롤러(Controller)&r는 스토리지 네트워크의 핵심 입니다. 다른 모든 리피인드 스토리지는 블록 바로 옆이거나 전선을 통해 연결 해야 합니다. &e보타니아의 마나 플럭스변환기&r에서만 나오는 &e포지에너지(Forge Energy)&r 를 이용해 가동 가능합니다.(복잡한것만 전기 많이 소모)"
 },{
             "type": "patchouli:spotlight",
 			"title":"기본적인 세팅",
   "item": "refinedstorage:disk_drive,refinedstorage:grid,refinedstorage:crafting_grid,refinedstorage:fluid_grid,refinedstorage:64k_fluid_storage_disk,refinedstorage:1k_storage_disk",
-  "text": "&e디스크 드라이브(Disk Drive)&r는 &e네트워크의 용량 제한을 늘려주는 디스크(Disk)를 포함합니다.&r 더 높은 티어의 디스크들은 비싸고 제작하는데 오래 걸리지만 더 많은 아이템들을 저장 할 수 있습니다.
-&e그리드(Grid)&r는 네트워크 안의 아이템을 쓸 때 사용하는 장치 입니다. 아이템을 네트워크에서 &e넣고 빼고&r 할 수 있습니다. 조합용 그리드(Crafting Grid)는 업그레이드 이며 네트워크 속의 아이템으로 조합이 가능합니다.
-" 
+  "text": "&e디스크 드라이브&r는 &e네트워크의 용량 제한을 늘려주는 디스크(Disk)를 포함합니다.&r 더 높은 티어의 디스크들은 비싸고 제작하는데 오래 걸리지만 더 많은 아이템들을 저장 할 수 있습니다.
+&e그리드(Grid)&r는 네트워크 안의 아이템을 관리할 때 사용하는 장치 입니다. 아이템을 네트워크에서 &e넣고 빼고&r 할 수 있습니다. 조합용 그리드(Crafting Grid)" 
 		},
 		{
             "type": "patchouli:text",
-			"text": "for crafting from all items within the grid. JEI can grab items from the grid.
-&eFluid storage&r requires specialized versions of both to store fluids within the network.
-Each Refined Storage block has a priority you can set where the network will first take or receive items from.
+			"text": "는 업그레이드 이며 네트워크 속의 아이템으로 조합이 가능합니다. JEI로 그리드 속 아이템으로 자동조합도 가능합니다.
+&e유체 스토리지(Fluid Storage)&r는  액체 저장 디스크가 필요합니다.
+각각의 리파인드 스토리지 블록들은 우선도(Priority)를 이용해서 어디서 부터 뺄지, 어디서 받을 지를 정할 수 있습니다.
 
-&l&nA basic storage system (&eController, Disk Drive and any Grid&r&l&n) uses 0 energy to run!"
+&l기본적인 시스템 (&e컨트롤러, 디스크 드라이브와 아무 그리드&r&l) 에너지를 사용하지 않습니다!"
 },{
             "type": "patchouli:spotlight",
-			"title":"Basic Item Manipulation",
+			"title":"기본적인 아이템 관리",
   "item": "refinedstorage:exporter,refinedstorage:importer,refinedstorage:interface,botania:mana_fluxfield",
-  "text": "If you want to get items &eout&r of your storage network, use an &eExporter&r and connect it to an inventory where you want to export to.
+  "text": "만약 스토리지 네트워크에서 &e아이템을 빼고&r 싶다면, &e출력기(Exporter)&r를 사용하고 빼고 싶은 저장고로 연결 하면 됩니다.
 
-If you want to get items &ein&r your storage network, use an &eImporter&r and connect it to an inventory where you want to import from." 
+만약 스토리지 네트워크로 &e아이템을 넣고&r 싶다면, &e입력기(Importer)&r를 사용하고 넣고 싶은 저장고로 연결 하면 됩니다." 
 		},{
             "type": "patchouli:text",
 			"title":"",
-  "text": "Want the best of both worlds? Use an &eInterface&r to get &eimporting and exporting&r functionality in one block.To &eplace&r blocks from your storage network in the world, use an &eConstructor.&r
-To &edestroy and insert blocks&r from the world into your storage, use an &eDestructor.&r
-The &eMana Fluxfield&r converts Botania Mana into FE for Refined Storage item manipulation!
-Each block can have filters applied to it.
-" 
+  "text": "둘 다 사용하고 싶으신가요? &e인터페이스&r를 사용하면 &e입력,출력을 한 블록에서 할 수 있습니다.&r 네트워크 안의 블록을 &e놓고&r 싶을때는, &e설치기를 사용 하시면 됩니다.&r
+세계에서 블록을 &e부수고 네트워크로 넣고 싶다면, &r&e파괴기를 사용 하시면 됩니다.&r
+&e마나 플럭스변환기&r는 보타니아의 마나를 포지 에너지로 변환해서 스토리지 관리를 할 수 있게 해줍니다!
+각각 블록들은 필터를 넣을 수 있습니다." 
 		},{
             "type": "patchouli:spotlight",
-			"title":"Compatibility",
+			"title":"호환성",
   "item": "refinedstorage:external_storage",
-  "text": "The &eExternal Storage&r allows you to link &eRefined Storage&r with external storage blocks, such as blocks from &eSophisticated Storage&r! Works extremely well when combined with a Sophisticated Storage limited barrel network." 
+  "text": "&e외부 저장공간&r은 &e리파인드 스토리지와&r 외부 저장고 블럭(&eSophisticated Storage모드의 블럭 같은&r)과 연결 해줍니다! Sophisticated Storage와 잘 사용된다면, 엄청나게 잘 작동합니다!" 
 		},{
             "type": "patchouli:spotlight",
-			"title":"Advanced Storage",
+			"title":"더욱 더 좋은 스토리지",
   "item": "refinedstorage:storage_monitor,refinedstorage:pattern_grid,refinedstorage:crafter",
-  "text": "The &eStorage Monitor&r lets you select an item from the network to display how many is left.The &ePattern Grid&r allows autocrafting within the network. Each sub-item within a recipe must have its own pattern. The &eCrafter&r is where the patterns will be stored and where the crafting will take place." 
+  "text": "&e저장 모니터&r는 네트워크 에서 특정 아이템을 설정해서 얼마나 남았는지 확인할 수 있습니다. &e패턴 그리드&r는 네트워크에서 자동 제작을 가능하게 해줍니다. 조합법 안의 각각의 하위 아이템들은 자신의 패턴을 가지고 있어야 합니다. &e조합기&r는 패턴이 저장되고 자동 제작이 진행되는 곳입니다." 
 		},{
             "type": "patchouli:spotlight",
-			"title":"Long distance relationship",
+			"title":"장거리 관계",
   "item": "refinedstorage:network_transmitter,refinedstorage:network_card,refinedstorage:network_receiver",
-  "text": "These allow you to &eaccess&r a network's inventory from &efar away&r.
-Simply craft a &eNetwork Transmitter&r and connect it to your Refined Storage system in your main base.
-Next up, craft a &eNetwork Card&r.
-After crafting a Network Card, craft a &eNetwork Receiver&r and place it in the area far away from your base." 
+  "text": "이것들은 &e멀리서&r 네트워크의 저장공간을 &e접근할 수 있게 해줍니다.&r
+&e네트워크 송신기&r를 만든다음 당신의 리파인드 스토리지 시스템에 연결 하세요.
+다음은, &e네트워크 카드&r를 만드세요.
+네트워크 카드를 만든 다음, &e네트워크 수신기&r를 만들고, 당신의 기지에서 멀리 떨어진 구역에 설치하세요." 
 		},
 		{
             "type": "patchouli:text",
 			"text": "
-Take the Network Card and &eright click it&r on the Network Receiver.
-Put the Network Card in the Network Transmitter so the Network Transmitter knows where to &esend a signal&r to.
-And now you are done. Simply &econnect machines&r to your Network Receiver according to the normal machine connecting rules.
-The transmitter must be &echunkloaded&r before linking to the network."
+네트워크 카드를 가져가서 &e네트워크 수신기에 우클릭 하세요.&r
+네트워크 카드를 네트워크 송신기 안에 넣어야 송신기가 &e어디로 신호를 보내야 할지&r 알 수 있습니다.
+그리고 이제 끝났습니다. 그냥 &e기계와 네트워크 수신기를 연결&r 하시면 됩니다.
+수신기는 네트워크에 연결 되기 전에 &e로딩된 청크&r 안에 있어야 합니다."
 }
 ]
 }

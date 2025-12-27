@@ -1,16 +1,15 @@
 {
-    "name": "Favor",
+    "name": "명성(Favor)",
     "icon": "mmorpg:skill_gems/skill/int",
     "category":"patchouli:A1lost_pages",
 	"sortnum":1,
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "$(c:/ftbquests open_book 0B7C635945E7F3AA)&c$(l)---> Open Quest Page <--- $(/c)$(br)&rFavor is a system that rewards players for living. Every minute, you generate a small amount of Favor. &eFavor soft-caps at 1000&r. However, you can go beyond this Favor limit by opening chests.At 250+ Favor, you will have a 2% bonus to loot drops. As you go up in Favor, your bonus to loot drops will increase.At the &ecap of 2500&r 
-"},
-		{
+            "text": "    $(c:/ftbquests open_book 0B7C635945E7F3AA)&c$(l)---> 퀘스트 열기 <--- $(/c)$(br)&r명성은 플레이어가 죽지않고 살아있는것에 대한 보상입니다. 매 분마다, 당신은 약간의 명성을 획득 합니다. &e명성은 1000점이 되면 자동 회복을 멈춥니다&r. 하지만, 상자를 열면 명성을 자동 회복 제한의 너머로 올릴 수 있습니다. 명성점수 250점 부터는, 전리품에 대해 2% 보너스를 받습니다.&r "
+        },{
             "type": "patchouli:text",
-            "text": "you have a 25% increase to loot and experience! Note that there are level requirements for certain rarities to start appearing:$(br)&dEpic&r: 10+$(br)&4Legendary&r: 25+$(br)&5Mythic&r: 50+$(br)Be careful though, &cdying will cause you to lose 500 Favor!&r"
+            "text": " 당신의 명성이 높아짐에 따라, 명성점수 2500점까지 전리품에 대한 보너스는 상승합니다!(최대 25% 더 좋은 전리품과 경험치) Note that there are level requirements for certain rarities to start appearing:$(br)&dEpic&r: 10+$(br)&4Legendary&r: 25+$(br)&5Mythic&r: 50+$(br)Be careful though, &cdying will cause you to lose 500 Favor!&r"
 		}
     ]
 }

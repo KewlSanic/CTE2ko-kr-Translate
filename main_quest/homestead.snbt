@@ -10,11 +10,11 @@
 	quests: [
 		{
 			description: [
-				"Each &eWind Chime&r produces different ambient sounds respective to their material. They also scare away Phantoms within a 25-block radius."
+				"각각의 &e바람종&r은 서로 다른 소리를 만들어냅니다. 또한 반경 25블럭 이내의 유령을 쫒아냅니다."
 				""
-				"The &eGlass Wind Bell&r can have dyes applied to it to make a custom design. Wash off the design by right clicking a water source block."
+				"&e유리 풍경&r에는 염료를 사용하여 원하는 디자인을 만들 수 있습니다. 물 블럭에 우클릭 하면 디자인을 지울 수 있습니다."
 				""
-				"You can &etie/untie&r a Wind Chime by crouching + right-clicking a Wind Chime block with an empty hand to stop the phantom scaring effect."
+				"바람 종을 &e묶거나 풀려면&r 웅크린 자세에서 빈손으로 바람 종을 우클릭하여 유령처럼 쫒아오는 효과를 멈출 수 있습니다."
 			]
 			id: "0E7863B918B4B195"
 			rewards: [{
@@ -33,12 +33,12 @@
 				item: "chimes:glass_bells"
 				type: "item"
 			}]
-			title: "The Wind Blows"
+			title: "바람이 분다"
 			x: 4.5d
 			y: -4.5d
 		}
 		{
-			description: ["&eNight Lights &radds decorative light sources that can be toggled on and off."]
+			description: ["&e야간 조명&r은 켜고 끌 수 있는 장식용 조명입니다."]
 			id: "31C042465B27EC87"
 			rewards: [{
 				auto: "enabled"
@@ -50,7 +50,7 @@
 				title: "100 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Night Lights"
+			subtitle: "야간 조명"
 			tasks: [
 				{
 					id: "77BD1CD948CBC5A5"
@@ -63,12 +63,12 @@
 					type: "item"
 				}
 			]
-			title: "Lighting With Style"
+			title: "스타일리시한 조명"
 			x: -4.5d
 			y: -6.0d
 		}
 		{
-			description: ["&eSupplementaries&r and &eSupplementaries Squared&r adds numerous &edecoration and functional&r blocks that are relatively easy to craft and use."]
+			description: ["&eSupplementaries&r와 &eSupplementaries Squared&r는 비교적 제작하고 사용하기 쉬운 다양한 &e장식과 기능 블록&r을 추가합니다."]
 			id: "74E14D9A9F4799D4"
 			rewards: [{
 				auto: "enabled"
@@ -108,15 +108,15 @@
 					type: "item"
 				}
 			]
-			title: "Interior Designer"
+			title: "인테리어 디자이너"
 			x: -3.0d
 			y: -6.0d
 		}
 		{
 			description: [
-				"&eHandcrafted&r adds furniture such as &efancy beds, counters, and chairs&r. These are customizable using &esheets&r and &epillows&r of different colors."
+				"&eHandcrafted&r는 &e고급 침대, 카운터, 의자등&r의 가구가 있습니다. 이러한 가구들은 다양한 색상의 &e시트&r와 &e베개&r를 사용하여 커스텀할 수 있습니다."
 				""
-				"The &eHammer&r allows you to change the look of blocks into different forms, such as changing a stair's type without having to place and re-place it."
+				"&e망치&r를 사용하면 블록을 배치하고 다시 부수지 않고도 계단의 종류를 변경하는 등 블록의 모양을 다양한 형태로 바꿀 수 있습니다."
 			]
 			id: "6A465BF497661001"
 			rewards: [{
@@ -147,17 +147,17 @@
 					type: "item"
 				}
 			]
-			title: "Specialized Furniture"
+			title: "특수한 가구"
 			x: -3.0d
 			y: -4.5d
 		}
 		{
 			description: [
-				"&eMacaw's Doors &radds numerous door variations and themes to craft."
+				"&eMacaw's Doors&r는 다양한 문 디자인과 테마를 추가합니다."
 				""
-				"&eMacaw's Bridges&r adds bridges and bridge variants."
+				"&eMacaw's Bridges&r는 다양한 다리들을 추가합니다."
 				""
-				"&eMacaw's Lights and Lamps&r adds numerous types of lamps and light sources."
+				"&eMacaw's Lights and Lamps&r다양한 램프와 조명을 추가합니다."
 			]
 			id: "3C9F2AB674921503"
 			rewards: [{
@@ -188,12 +188,12 @@
 					type: "item"
 				}
 			]
-			title: "Enhanced Construction"
+			title: "향상된 건축"
 			x: -4.5d
 			y: -4.5d
 		}
 		{
-			description: ["&eFloral Enchantment&r adds flower bushes with which you can obtain the &evines&r of each flower. Flower vines are obtained from &ebushes.&r You can get &emossy cobblestone&r from each flower to decorate. It also adds some other floral themed &egear&r and decorations."]
+			description: ["&eFloral Enchantment&r는 각 꽃의 &e덩굴&r을 얻을 수 있는 꽃 덤불을 추가합니다. 꽃 덩굴은 &e덤불&r에서 얻을 수 있습니다. 각 꽃에서 장식용 &e이끼 조약돌&r을 얻을 수 있습니다. 또한 꽃 테마의 다른 &e장비&r와 장식이 추가됩니다."]
 			id: "32823645E2FE4F43"
 			rewards: [{
 				auto: "enabled"
@@ -211,28 +211,28 @@
 				item: "floralench:floral_basket"
 				type: "item"
 			}]
-			title: "Gardener+"
+			title: "정원사+"
 			x: 3.0d
 			y: -4.5d
 		}
 		{
 			dependencies: ["5E71DC1D9E7A83BB"]
 			description: [
-				"Chipped adds workbenches that allow you to craft variations of blocks. &eChipped is compatible with FramedBlocks!&r"
+				"&eChipped&r는 다양한 블록을 만들 수 있는 작업대를 추가합니다. &eChipped는 FramedBlocks와 호환됩니다&r!"
 				""
-				"The &eAlchemy Bench&r allows you to craft variations of obsidian, glowstone, sea lanterns, and soul sand."
+				"&e연금술 작업대&r를 사용하면 흑요석, 발광석, 바다 랜턴, 영혼 모래의 다양한 변형을 만들 수 있습니다."
 				""
-				"The &eBotanist's Workbench&r allows you to craft variations of plant based blocks."
+				"&e식물학 작업대&r를 사용하면 식물 기반 블록의 다양한 변형을 만들 수 있습니다."
 				""
-				"The &eCarpenter's Table&r allows you to craft variations of planks and torches."
+				"&e목수 작업대&r를 사용하면 다양한 종류의 판자와 횃불을 만들 수 있습니다."
 				""
-				"The &eGlassblower&r allows you to craft variations of glass blocks and panes."
+				"&e유리 불기 장인&r을 사용하면 다양한 종류의 유리 블록과 유리판을 만들 수 있습니다."
 				""
-				"The &eLoom&r allows you to craft variations of wool blocks and carpet."
+				"&e배틀 작업대&r를 사용하면 다양한 형태의 양털 블록과 카펫을 만들 수 있습니다."
 				""
-				"The &eMason's Table&r allows you to craft variations of stone-like blocks."
+				"&e석공 테이블&r를 사용하면 돌과 같은 블록의 다양한 변형을 만들 수 있습니다."
 				""
-				"The &eTinkering Table&r allows you to craft variations of redstone lamps, torches and lanterns."
+				"&e땜장이 작업대&r를 사용하면 레드스톤 조명, 횃불, 랜턴의 다양한 변형을 만들 수 있습니다."
 			]
 			id: "3A66909746F7E06D"
 			rewards: [
@@ -291,22 +291,22 @@
 					type: "item"
 				}
 			]
-			title: "Chipped With Options"
+			title: "Chipped 와 옵션"
 			x: 6.0d
 			y: -4.5d
 		}
 		{
 			description: [
-				"&eMCA: Reborn&r brings an immersive experience to players. Some of features are listed below:"
+				"&eMCA: Reborn&r은 플레이어에게 몰입감 넘치는 경험을 선사합니다. 주요 기능은 다음과 같습니다:"
 				""
-				"- No more squid-people, they are now human and interactable!"
-				"- There are many interaction options with villagers such as gifting, chatting, and much more!"
-				"- You can build relationships by interacting with villagers, each having their own personality and moods."
-				"- Once you have enough hearts, you can marry them!"
-				"- After marriage, you can have children who can do chores such as farming, cutting trees, and more!"
-				"- Your children will eventually grow up and live their own lives."
-				"- You can marry other players in a LAN or SMP server."
-				"- Help to extend a village and increase your rank, eventually becoming a king!"
+				"- 더 이상 오징어 인간은 없다! 이제 그들은 인간이며, 서로 소통할 수 있다!"
+				"- 마을 주민들과 선물 주고받기, 대화하기 등 다양한 방식으로 소통할 수 있습니다!"
+				"- 각기 다른 성격과 기분을 가진 마을 사람들과 교류하면서 관계를 쌓아갈 수 있습니다."
+				"- 하트를 충분히 모으면 결혼할 수 있어요!"
+				"- 결혼 후에는 농사, 벌목 등과 같은 집안일을 도와줄 아이를 가질 수 있습니다!"
+				"- 아이들은 결국 자라서 자신만의 삶을 살게 될 것입니다."
+				"- LAN 또는 SMP 서버에서 다른 플레이어와 결혼할 수 있습니다."
+				"- 마을을 확장하고 지위를 높여 마침내 왕이 되세요!"
 			]
 			id: "5DEC625AAF61ADAE"
 			rewards: [{
@@ -319,7 +319,7 @@
 				title: "100 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Minecraft Comes Alive!"
+			subtitle: "살아 움직이는 마인크래프트!"
 			tasks: [{
 				id: "7DF2002BF8966859"
 				item: "mca:book_romance"
@@ -330,7 +330,7 @@
 		}
 		{
 			dependencies: ["5DEC625AAF61ADAE"]
-			description: ["Ever dreamed of becoming a king? You can manage your village and make it prosper! Read the book for more information."]
+			description: ["왕이 되는 꿈을 꿔본 적 있나요? 이제 당신도 마을을 다스리고 번영시킬 수 있어요! 더 자세한 내용은 책을 읽어보세요."]
 			id: "57B5209F6744960D"
 			rewards: [{
 				auto: "enabled"
@@ -342,7 +342,7 @@
 				title: "100 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Village Management"
+			subtitle: "마을 관리"
 			tasks: [{
 				id: "1B52B998DACA2A94"
 				item: "mca:book_blueprint"
@@ -354,13 +354,13 @@
 		{
 			dependencies: ["5DEC625AAF61ADAE"]
 			description: [
-				"In MCA, you can choose your appearance by initiating your &eDestiny.&r"
+				"MCA에서는 &eDestiny&r를 시작하여 원하는 외모를 선택할 수 있습니다."
 				""
-				"Your &eDestiny&r will let you customize your characters appearance - &cbut note you can only do this ONCE per world!&r"
+				"당신의 &eDestiny&r에서는 캐릭터의 외형을 마음대로 꾸밀 수 있습니다. &c하지만 월드당 한 번만 가능하다는 점에 유의하세요!&r"
 				""
 				"Command: /mca destiny"
 				""
-				"&b&oNote that crafting the potions require some skill in the Alchemy Profession.&r&r"
+				"&b&o물약을 제조하려면 연금술 전문 기술이 필요하다는 점에 유의하십시오.&r&r"
 			]
 			id: "405A63031F2B3DD4"
 			rewards: [
@@ -380,7 +380,7 @@
 					icon: "mca:villager_editor"
 					id: "52498BF9583E22B2"
 					silent: true
-					title: "&eLaunch Character Destiny Customizer&r &c(ONE TIME USE)&r"
+					title: "&e캐릭터 운명 커스터마이저 출시&r &c(일회용)&r"
 					type: "command"
 				}
 			]
@@ -397,13 +397,13 @@
 					type: "item"
 				}
 			]
-			title: "Grooming"
+			title: "미용"
 			x: 0.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["5DEC625AAF61ADAE"]
-			description: ["&eRose Gold&r is used to craft relationship-specific items. Read the book to find out!"]
+			description: ["&e로즈 골드&r는 관계별 아이템을 제작하는 데 사용됩니다. 자세한 내용은 책을 읽어보세요!"]
 			id: "6B0990886F0D079E"
 			rewards: [{
 				auto: "enabled"
@@ -415,7 +415,7 @@
 				title: "100 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Relationships"
+			subtitle: "관계"
 			tasks: [{
 				id: "5E26B808ED87038B"
 				item: "mca:book_rose_gold"
@@ -426,7 +426,7 @@
 		}
 		{
 			dependencies: ["6B0990886F0D079E"]
-			description: ["Learn how to manage your family with this new edition!"]
+			description: ["이번 개정판을 통해 가족 관리 비법을 배워보세요!"]
 			id: "17AF31897E44E881"
 			rewards: [{
 				auto: "enabled"
@@ -438,7 +438,7 @@
 				title: "100 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Relationships"
+			subtitle: "관계"
 			tasks: [{
 				id: "73C366ABDCFD9554"
 				item: "mca:book_family"
@@ -449,7 +449,7 @@
 		}
 		{
 			dependencies: ["6B0990886F0D079E"]
-			description: ["You can craft &eRose Gold&r using &eRaw Gold&r and &eRaw Copper&r."]
+			description: ["&e금 원석&r과 &e구리 원석&r을 사용하여 &e로즈 골드&r를 제작할 수 있습니다."]
 			id: "5610D44E742948CC"
 			rewards: [{
 				auto: "enabled"
@@ -467,7 +467,7 @@
 				item: "mca:rose_gold_dust"
 				type: "item"
 			}]
-			title: "Expensive Materials"
+			title: "비싼 물질"
 			x: 3.0d
 			y: -3.0d
 		}
@@ -484,19 +484,19 @@
 				title: "100 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Relationships"
+			subtitle: "관계"
 			tasks: [{
 				id: "7E892780F9050184"
 				item: "mca:bouquet"
 				type: "item"
 			}]
-			title: "A Gift"
+			title: "선물"
 			x: 1.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["57B5209F6744960D"]
-			description: ["You can view the village history with this book!"]
+			description: ["이 책을 통해 마을의 역사를 살펴볼 수 있습니다!"]
 			id: "3366932C88556127"
 			rewards: [{
 				auto: "enabled"
@@ -508,7 +508,7 @@
 				title: "100 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Village Management"
+			subtitle: "마을 관리"
 			tasks: [{
 				id: "2D10ACB81E6A6877"
 				item: "mca:civil_registry"
@@ -519,7 +519,7 @@
 		}
 		{
 			dependencies: ["57B5209F6744960D"]
-			description: ["Use the &eBlueprint&r in a village to manage it."]
+			description: ["마을을 관리하려면 &e청사진&r을 사용하세요."]
 			id: "6E074D0EF3EC5B70"
 			rewards: [{
 				auto: "enabled"
@@ -537,13 +537,13 @@
 				item: "mca:blueprint"
 				type: "item"
 			}]
-			title: "A Blueprint For Progress"
+			title: "발전을 위한 청사진"
 			x: -3.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["57B5209F6744960D"]
-			description: ["In rare cases, villagers can become infected - resulting in possible death. Read up on the ailments and how to cure them to prevent this from happening!"]
+			description: ["드물지만 마을 사람들이 감염되어 사망에 이르는 경우도 있습니다. 이러한 일이 발생하지 않도록 질병과 치료법에 대해 잘 알아두세요!"]
 			id: "6AEF98877F6AF6CA"
 			rewards: [
 				{
@@ -562,7 +562,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Village Management"
+			subtitle: "마을 관리"
 			tasks: [{
 				id: "1A7691EF79F81ED9"
 				item: "mca:book_infection"
@@ -573,7 +573,7 @@
 		}
 		{
 			dependencies: ["6AEF98877F6AF6CA"]
-			description: ["Sometimes our villagers will die (wether by accident or on purpose...). But with MCA, it's possible to bring them back to life! This tome illustrates how you can do that. But be prepared as it requires you to fight death itself."]
+			description: ["때때로 우리 마을 사람들은 (사고든 고의든) 죽습니다. 하지만 MCA를 이용하면 그들을 다시 살릴 수 있습니다! 이 책은 그 방법을 설명합니다. 하지만 죽음과 싸워야 하니 마음의 준비를 하세요."]
 			id: "009437C8BB7D9892"
 			rewards: [{
 				auto: "enabled"
@@ -585,7 +585,7 @@
 				title: "100 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Village Management"
+			subtitle: "마을 관리"
 			tasks: [{
 				id: "07B0F92FC4E41DE3"
 				item: "mca:book_death"
@@ -597,9 +597,9 @@
 		{
 			dependencies: ["5610D44E742948CC"]
 			description: [
-				"In MCA, you can marry villagers, or even other players. To marry a villager, you must first propose to them. Hopefully, your relationship status is in good standing and they accept!"
+				"MCA에서는 마을 주민이나 다른 플레이어와 결혼할 수 있습니다. 마을 주민과 결혼하려면 먼저 청혼해야 합니다. 다행히도, 서로 호감도가 높아서 청혼을 받아들이겠죠!"
 				""
-				"To marry players, you can use the '/mca propose' command."
+				"플레이어와 결혼하려면 '/mca propose' 명령어를 사용하면 됩니다."
 			]
 			id: "03DAE0F3497FF661"
 			rewards: [
@@ -619,7 +619,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Relationships"
+			subtitle: "관계"
 			tasks: [{
 				id: "2FE89D39632D7B42"
 				item: "mca:engagement_ring_rg"
@@ -631,24 +631,24 @@
 		{
 			dependencies: ["009437C8BB7D9892"]
 			description: [
-				"Defeat the &eGrim Reaper&r to bring back your fallen villagers!"
+				"&e사신&r을 물리치고 쓰러진 마을 사람들을 되살리세요!"
 				""
-				"To summon the &eGrim Reaper&r you must build a \"&eAltar&r\""
-				"an &eAltar&r consists of 3 &bObsidian&r columns that are at lest &e2 blocks high&r."
-				"in the &eCentre&r of the columns you must place a \"&aEmerald Block&r\"."
-				"&eLight&r the &eTop&r of all 3 columns with flint and steel,"
-				"Then finally light the &aEmerald Block&r to summon the &eGrim Reaper&r"
+				"&e사신&r을 소환하려면 \"&e제단&r\"을 건설해야 합니다."
+				"&e제단&r은 최소 &e2 블록 높이&r의 &b흑요석&r 기둥 3개로 구성됩니다."
+				"열의 &e중앙&r에 \"&a에메랄드 블록&r\"을 배치해야 합니다."
+				"부싯돌과 부시로 세 기둥 &e꼭대기&에 &e불&r을 붙이세요."
+				"마지막으로 &a에메랄드 블록&r에 불을 붙여 &e사신&r을 소환하세요."
 				""
 				"{image:cte2:textures/mca_grimreaper.png width:160 height:140 align:center}"
 				""
-				"&eGrim Reaper&r &4can only be summoned at &eNight&r&r"
+				"&e사신&r은 &4&e밤에만&r소환할 수 있습니다&r."
 				""
 				""
-				"&cThe Grim Reaper spawns at minimum level of 30.&r"
+				"&c사신은 최소 레벨 30에서 나타납니다&r."
 				""
-				"The Grim Reaper Has:"
-				"&b+1% Lifesteal&r"
-				"&a10% Chance of Dropping Owd Rune&r"
+				"사신은 다음의 능력을 가지고 있습니다:"
+				"&b+1% 생명력 흡수&r"
+				"&a10% Owd 룬을 드롭할 확률&r"
 			]
 			id: "564F958C07802B5B"
 			rewards: [
@@ -670,7 +670,7 @@
 			]
 			shape: "diamond"
 			size: 1.5d
-			subtitle: "Village Management"
+			subtitle: "마을 운영"
 			tasks: [{
 				entity: "mca:grim_reaper"
 				icon: {
@@ -690,7 +690,7 @@
 		}
 		{
 			dependencies: ["564F958C07802B5B"]
-			description: ["You can use the &eStaff of Life&r to bring dead villagers back to life!"]
+			description: ["&e생명의 지팡이&r를 사용하면 죽은 마을 사람들을 되살릴 수 있습니다!"]
 			id: "171F2819791E3C2F"
 			rewards: [{
 				auto: "enabled"
@@ -702,7 +702,7 @@
 				title: "250 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Village Management"
+			subtitle: "마을 운영"
 			tasks: [{
 				id: "7194C831C004317D"
 				item: {
@@ -714,19 +714,19 @@
 				}
 				type: "item"
 			}]
-			title: "Resurrection"
+			title: "부활"
 			x: 0.0d
 			y: -7.5d
 		}
 		{
 			description: [
-				"With a Construction Wand you can place multiple blocks at once, extending your build on the side you're facing. If that's not enough: you can upgrade your wand with additional cores, allowing you to place a block behind the block you are facing, or conjure blocks in mid air."
+				"완드를 사용하면 여러 블록을 한 번에 배치하여 바라보는 방향으로 건축물을 확장할 수 있습니다. 이것으로도 부족하다면, 완드에 코어를 추가하여 업그레이드하면 바라보는 블록 뒤에 블록을 배치하거나 공중에 블록을 소환할 수도 있습니다."
 				""
-				"Every wand comes with a Construction Core. You can make your wand even better by putting aditional cores into it. Put your new core together with your wand in a crafting grid to install it. To switch between cores, hold down OPTKEY (CTRL) and left click empty space with your wand. &cStone wands can't be upgraded.&r"
+				"모든 완드에는 제작 코어가 기본으로 제공됩니다. 추가 코어를 장착하면 지팡이를 더욱 강력하게 만들 수 있습니다. 새 코어를 지팡이와 함께 제작대에 놓고 제작하세요. 코어를 전환하려면 OPTKEY(CTRL) 키를 누른 상태에서 완드로 빈 공간을 좌클릭하세요. &c돌 완드는 업그레이드할 수 없습니다&r."
 				""
-				"&eConstruction Core&r"
+				"&e건설 코어&r"
 				""
-				"Extend your build on the side facing you. Maximum number of blocks depends on wand tier. Hold down OPTKEY (CTRL) and scroll to change placement restriction (Horizontal, Vertical, North/South, East/West, No lock)."
+				"정면을 향한 방향으로 건축물을 확장하세요. 최대 블록 개수는 완드 등급에 따라 다릅니다. OPTKEY(CTRL) 키를 누른 상태에서 스크롤하여 배치 제한(가로, 세로, 남북, 동서, 잠금 해제)을 변경하세요."
 			]
 			id: "130759BFC47D58DE"
 			rewards: [{
@@ -757,7 +757,7 @@
 		}
 		{
 			dependencies: ["130759BFC47D58DE"]
-			description: ["There are basic wands made from Stone, Iron and Diamond Wand. Wands from higher tiers are more powerful and last longer."]
+			description: ["기본적인 완드는 돌, 철, 다이아몬드로 만들어집니다. 등급이 높을수록 지팡이가 강력해지고 내구성도 올라갑니다."]
 			id: "7DDC60601812FEA6"
 			rewards: [{
 				auto: "enabled"
@@ -788,9 +788,9 @@
 		{
 			dependencies: ["7DDC60601812FEA6"]
 			description: [
-				"&eAngel Core&r"
+				"&e천사 코어&r"
 				""
-				"Place a block on the opposite side of the block (or row of blocks) you are facing. Maximum distance depends on wand tier. Right click empty space to place a block in midair (similar to angel blocks, hence the name). To do that, you'll need to have the block you want to place in your offhand. You can't place a block in midair if you've fallen more than 10 blocks deep (no easy rescue tool from falling into the void)."
+				"바라보고 있는 블록(또는 블록 줄)의 반대편에 블록을 놓으세요. 최대 거리는 완드 등급에 따라 다릅니다. 빈 공간을 우클릭하면 공중에 블록을 놓을 수 있습니다(천사 블록과 비슷해서 이런 이름이 붙었습니다). 공중에 블록을 설치하려면 설치하려는 블록을 다른 손에 들고 있어야 합니다. 10블록 이상 아래로 떨어진 경우에는 공중에 블록을 설치할 수 없습니다(공허로 떨어지는 상황에서 쉽게 구조될 도구가 없기 때문입니다)."
 			]
 			id: "13B7B1C35F13C86D"
 			rewards: [{
@@ -815,17 +815,17 @@
 		{
 			dependencies: ["7DDC60601812FEA6"]
 			description: [
-				"&eRestriction&r: if restriction is enabled the wand will only place blocks in one row or column (choose between North/South, East/West on a horizontal plane and Horizontal, Vertical on a vertical plane). If the direction lock is switched off, the wand will extend the entire face of the building it's pointed at. This option has no effect in Angel mode."
+				"&e제한&r: 제한 기능이 활성화되면 완드는 한 행 또는 한 열에만 블록을 배치합니다(수평면에서는 남북, 동서 방향 중 선택, 수직면에서는 수평, 수직 방향 중 선택). 방향 잠금이 해제되면 지팡이는 가리키는 블록의 전체 면에 블록을 배치합니다. 이 옵션은 엔젤 모드에서는 적용되지 않습니다."
 				""
-				"&eDirection&r: if set to \"Player\" the wand places blocks in the same direction as if they were placed by yourself. Target mode places the blocks in the same direction as their supporting block."
+				"&e방향&r: "플레이어"로 설정하면 완드는 자신이 블록을 놓는 방향과 같은 방향으로 블록을 놓습니다. 대상 모드에서는 블록이 놓인 방향과 같은 방향으로 블록을 놓습니다."
 				""
-				"&eReplacement&r: enables/disables the replacement of replaceable blocks (Fluids, snow, tallgrass)."
+				"&e재배치&r: 교체 가능한 블록(유체, 눈, 키 큰 풀)의 교체 기능을 활성화/비활성화합니다."
 				""
-				"&eMatching&r: select which blocks are extended by the wand. If set to \"EXACT\" it will only extend blocks that are exactly the same as the selected block."
-				"\"SIMILAR\" will treat similar blocks equally (e.g. extend dirt and grass blocks)."
-				"\"ANY\" will extend any block on the face of the building you're looking at."
+				"&e비교&r: 완드로 확장할 블록을 선택합니다. \"정확\"으로 설정하면 선택한 블록과 완전히 동일한 블록만 확장됩니다."
+				"\"유사\" 유사한 블록은 동일하게 처리합니다(예: 흙 블록과 잔디 블록을 확장)."
+				"\"아무거나\" 보고 있는 블록의 정면에 있는 모든 블록을 확장합니다."
 				""
-				"&eRandom&r: if random mode is enabled, the wand places random blocks from your hotbar."
+				"&e무작위&r: 무작위 모드가 활성화되면, 완드는는 핫바에서 무작위로 블록을 배치합니다."
 			]
 			id: "619A04B3428907F1"
 			rewards: [{
@@ -856,9 +856,9 @@
 		}
 		{
 			description: [
-				"&eFramedBlocks&r adds blocks of various shapes that can be made to look like almost any other block in the game. You can do this by first crafting a basic &eFramed Block&r."
+				"&eFramedBlocks&r 모드는 게임 내 거의 모든 블록을 모방할 수 있는 다양한 모양의 블록을 추가합니다. 이를 위해서는 먼저 기본 &e큐브&r를 제작해야 합니다."
 				""
-				"Craft a &eFraming Saw&r, which acts as a Stonecutter but for Framed Blocks. It lets you easily manage what Framed Block shape you want."
+				"석재 절단기와 유사한 기능을 하는 &e프레이밍 톱&r을 제작하세요. 이 톱을 사용하면 원하는 프레임 블록 모양을 쉽게 만들 수 있습니다."
 			]
 			id: "03D703094F2DC94A"
 			rewards: [{
@@ -877,13 +877,13 @@
 				item: "framedblocks:framing_saw"
 				type: "item"
 			}]
-			title: "Getting Started with Framed!"
+			title: "Framed 시작하기!"
 			x: 6.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["03D703094F2DC94A"]
-			description: ["Using the &eFraming Saw&r, craft a &eFramed Slope&r."]
+			description: ["&e프레이밍 톱&r을 사용하여 &e액자형 프레임&r을 만드세요."]
 			id: "7D4D72D4B936240C"
 			rewards: [{
 				auto: "enabled"
@@ -907,15 +907,15 @@
 		{
 			dependencies: ["7D4D72D4B936240C"]
 			description: [
-				"The &eFramed Wrench&r can be used to rotate a Framed Block. On most blocks, the rotation behaviour is dependent on the face that was clicked."
+				"&e프레임 렌치&r를 사용하면 프레임 블록을 회전시킬 수 있습니다. 대부분의 블록에서 회전 동작은 클릭한 면에 따라 달라집니다."
 				""
-				"The &eFramed Hammer&r lets you take blocks out of the frame and set them back to their default state."
+				"&e프레임 망치&r를 사용하면 프레임에서 블록을 제거하고 기본 상태로 되돌릴 수 있습니다."
 				""
-				"The &eFramed Screwdriver&r can be used to cycle through different states of the camo block."
+				"&e프레임 스크루 드라이버&r를 사용하면 위장 블록의 다양한 상태를 순환할 수 있습니다."
 				""
-				"The &eFramed Key&r allows locking certain Framed Blocks in their current shape to suppress neighbor updates. This allows placing blocks in configurations that would not be possible with the desired neighbors (placing Framed Stairs in the corner shape without keeping the necessary neighbors to force that shape)."
+				"&e프레임 키&를 사용하면 특정 프레임 블록을 현재 모양으로 고정하여 이웃 블록의 업데이트를 억제할 수 있습니다. 이를 통해 원하는 이웃 블록의 상태를 유지하면서 불가능한 모습으로 블록을 배치할 수 있습니다(예: 모서리 모양으로 프레임 계단을 배치하되, 해당 모양을 강제로 적용하는 데 필요한 이웃 블록은 없음)."
 				""
-				"There are other FramedBlock tools available, check them out in &eJEI&r!"
+				"FramedBlock에는 다른 도구들도 있으니 &eJEI&r에서 확인해 보세요!"
 			]
 			id: "5E71DC1D9E7A83BB"
 			rewards: [{
@@ -956,7 +956,7 @@
 		}
 		{
 			dependencies: ["7D4D72D4B936240C"]
-			description: ["&eFramed Reinforcements&r allow you to give any Framed Block you insert them into the hardness and properties of &eObsidian&r!"]
+			description: ["&e프레임 강화&r를 사용하면 사용하는 모든 프레임 블록에 &e"흑요석"&r과 같은 강도와 특성을 부여할 수 있습니다!"]
 			id: "49ED3E0B2E317DF6"
 			rewards: [{
 				auto: "enabled"
@@ -979,7 +979,7 @@
 		}
 		{
 			dependencies: ["5DEC625AAF61ADAE"]
-			description: ["If you've encountered an empty village, or just want to populate your village more through the power of coin, you can access a &eTrading Terminal&r to buy villager eggs!"]
+			description: ["만약 텅 빈 마을을 발견했거나, 코인을 이용해 마을을 더 많은 주민으로 채우고 싶다면, &e거래 터미널&r에서 주민 생성 알을 구입할 수 있습니다!"]
 			id: "20AB86BF7E21FD3B"
 			rewards: [
 				{
@@ -999,7 +999,7 @@
 					type: "command"
 				}
 			]
-			subtitle: "Trading Terminal"
+			subtitle: "거래 터미널"
 			tasks: [
 				{
 					id: "7590F368349C7E55"
@@ -1012,12 +1012,12 @@
 					type: "item"
 				}
 			]
-			title: "Ghost Town"
+			title: "유령 마을"
 			x: -1.5d
 			y: 0.0d
 		}
 		{
-			description: ["The &eMega Torch&r is a base builders dream as it prevents all hostile monster spawns in a massive &964 block radius&r! Right click with an empty hand to show its exact area of effect, shift right click to hide it."]
+			description: ["&e메가 횃불&r는 건축가에게 꿈과 같은 아이템입니다. 무려 &e964 블록&r 반경 내에 모든 적대적인 몬스터의 생성을 막아주기 때문입니다! 빈손으로 우클릭하면 정확한 효과 범위를 확인할 수 있고, Shift 키를 누른 상태에서 우클릭하면 범위를 숨길 수 있습니다."]
 			id: "25A4EFCBB5F8AC31"
 			rewards: [{
 				auto: "enabled"
@@ -1035,7 +1035,7 @@
 				item: "torchmaster:megatorch"
 				type: "item"
 			}]
-			title: "Light Up The World"
+			title: "세상을 밝히다"
 			x: 3.0d
 			y: -6.0d
 		}
