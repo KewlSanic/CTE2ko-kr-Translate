@@ -8,7 +8,7 @@
             "type": "patchouli:text",
             "text": "$(br)어떤 종류의 광석을 채굴하든 채광 경험치를 얻을 수 있습니다: $(2br)&c하지만 채굴 레벨에 비례하는 광석에서만 경험치를 온전히 얻게 됩니다. 레벨 범위 밖의 아이템을 채굴해도 경험치를 전혀 얻지 못하는 것은 아니지만, 얻는 경험치가 적습니다.&r"
 },{            "type": "patchouli:text",
-            "text": "$(2br)&eLv. 1-20&r (&7Tier 0&r): 석탄, 철, 구리
+            "text": "&eLv. 1-20&r (&7Tier 0&r): 석탄, 철, 구리
 &eLv. 21-40&r (&aTier 1&r): 레드스톤, 청금석, 금, 석영, 에메랄드
 &eLv. 41-60&r (&9Tier 2&r): 클로그룸(Cloggrum), 다이아몬드, 빙철(Froststeel), 우테륨(Utherium)
 &eLv. 61-80&r (&dTier 3&r): 레갈륨(Regalium), 문스톤(Moonstone), 파이로프(Pyrope), 아쿠이트(Aquite)
