@@ -9,7 +9,7 @@
             "text": "농작물을 재배하고 수확하면 농업 경험치를 얻을 수 있습니다. 하지만, 자신의 농업 레벨에 해당하는 작물에서만 최대 경험치를 얻게 됩니다: $(2br)&c하지만 레벨 범위 밖의 작물에서는 경험치를 전혀 얻지 못하는 것이 아니라, 단지 더 적은 경험치를 얻게 되는 것입니다.&r"
 },{            "type": "patchouli:text",
             "text": "&eLv. 1-20&r (&7Tier 0&r): 밀, 비트, 당근, 감자
-&eLv. 21-40&r (&aTier 1&r): 수박, 호박, 아마, 양배추, 토마토, 양파, 코코아
+&eLv. 21-40&r (&aTier 1&r): 수박, 호박, 아마, 양배추, 토마토, 양파, 코코아 콩
 &eLv. 41-60&r (&9Tier 2&r): 옥수수, 기살 그린(Gysahl Green), 네더 사마귀, 글룸고드(Gloomgourd)
 &eLv. 61-80&r (&dTier 3&r): 소나무 열매(Pine Fruit), 겨울 잎(Winter Leaves)
 &eLv. 81-100&r (&6Tier 4&r): Scalefruit, Fiery Beans
