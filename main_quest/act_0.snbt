@@ -293,7 +293,7 @@
 				title: "Click Once Read"
 				type: "checkmark"
 			}]
-			title: "Combat"
+			title: "첫 전투"
 			x: 3.5d
 			y: 3.0d
 		}
@@ -352,7 +352,7 @@
 				title: "Click Once Read"
 				type: "checkmark"
 			}]
-			title: "Skill, Support, and Augment Gems"
+			title: "스킬, 지원 보석, 오라"
 			x: 0.0d
 			y: 3.0d
 		}
@@ -501,7 +501,7 @@
 				title: "Click Once Read"
 				type: "checkmark"
 			}]
-			title: "Loot. Level. Explore."
+			title: "탐험하고, 레벨업하고, 획득하고."
 			x: 6.0d
 			y: 6.0d
 		}

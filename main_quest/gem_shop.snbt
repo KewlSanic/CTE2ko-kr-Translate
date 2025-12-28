@@ -204,7 +204,7 @@
 				"이 \"퀘스트\"는 코인을 소모하며, 보상 목록에서 원하는 보상을 선택할 수 있게 해줍니다."
 				""
 				""
-				"&e이 상점은 Act IV의 \"An Uprooting\" &cand&r &e\"Caught in a Web\"을 완료하면 잠금해제 됩니다.&r"
+				"&e이 상점은 Act IV의 \"An Uprooting\" &c, &r &e\"Caught in a Web\"을 완료하면 잠금해제 됩니다.&r"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true

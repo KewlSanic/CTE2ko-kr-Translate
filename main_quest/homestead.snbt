@@ -461,7 +461,7 @@
 				title: "100 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Relationships"
+			subtitle: "관계"
 			tasks: [{
 				id: "156DCFFEED6DD7D6"
 				item: "mca:rose_gold_dust"
@@ -531,7 +531,7 @@
 				title: "100 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Village Management"
+			subtitle: "마을 관리"
 			tasks: [{
 				id: "0C15C2D4DB69840D"
 				item: "mca:blueprint"
@@ -670,7 +670,7 @@
 			]
 			shape: "diamond"
 			size: 1.5d
-			subtitle: "마을 운영"
+			subtitle: "마을 관리"
 			tasks: [{
 				entity: "mca:grim_reaper"
 				icon: {
@@ -702,7 +702,7 @@
 				title: "250 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "마을 운영"
+			subtitle: "마을 관리"
 			tasks: [{
 				id: "7194C831C004317D"
 				item: {
@@ -1029,7 +1029,7 @@
 				title: "100 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "No more nasty surprises."
+			subtitle: "난 몬스터가 싫어."
 			tasks: [{
 				id: "34E000AEDA4852D2"
 				item: "torchmaster:megatorch"
