@@ -13,6 +13,7 @@ $(nbr) : n줄 내림
 (&7영적인&r, &a천상의&r, &9창공의&r, &d천사의&r, &6신성한&r, and &5경건한&r)
 -> 물고기, 고기, 수확물, 광물
 
+(common, uncommon, rare, epic, legendary, mythic)
 (최하급, 하급, 중급, 상급, 최상급, 신화급)
 -> 짱돌
 

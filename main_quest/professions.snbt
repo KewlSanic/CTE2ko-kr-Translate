@@ -354,18 +354,18 @@
 		{
 			dependencies: ["5B97985430859986"]
 			description: [
-				"Farming and harvesting produce will grant you Farming experience. However, you will only earn the full amount of experience from plants relative to your Farming level:"
+				"농작물을 재배하고 수확하면 농업 경험치를 얻을 수 있습니다. 하지만, 자신의 농업 레벨에 해당하는 작물에서만 최대 경험치를 얻게 됩니다:"
 				""
-				"&eLv. 1-20&r (&7Tier 0&r): Wheat, Beetroot, Carrot, Potatoes"
-				"&eLv. 21-40&r (&aTier 1&r): Melon, Pumpkin, Flax, Cabbage, Tomato, Onion, Cocoa Beans"
-				"&eLv. 41-60&r (&9Tier 2&r): Corn, Gysahl Green, Nether Wart, Rice, Gloomgourd"
-				"&eLv. 61-80&r (&dTier 3&r): Pine Fruit, Winter Leaves"
+				"&eLv. 1-20&r (&7Tier 0&r): 밀, 비트, 당근, 감자"
+				"&eLv. 21-40&r (&aTier 1&r): 수박, 호박, 아마, 양배추, 토마토, 양파, 코코아 콩"
+				"&eLv. 41-60&r (&9Tier 2&r): 옥수수, 기살 그린(Gysahl Green), 네더 사마귀, 글룸고드(Gloomgourd)"
+				"&eLv. 61-80&r (&dTier 3&r): 소나무 열매(Pine Fruit), 겨울 잎(Winter Leaves)"
 				"&eLv. 81-100&r (&6Tier 4&r): Scalefruit, Fiery Beans"
-				"&eLv. 100&r (&5Tier 5&r): Cryoroot, Solnut"
+				"&eLv. 100&r (&5Tier 5&r): Cryoroot, 솔넛(Solnut)"
 				""
-				"&cThat doesn't mean you won't receive any experience from items outside your level range, just less.&r"
+				"&c하지만 레벨 범위 밖의 작물에서는 경험치를 전혀 얻지 못하는 것이 아니라, 단지 더 적은 경험치를 얻게 되는 것입니다.&r"
 				""
-				"While harvesting, you will find &eTiered Produce&r (&7Spritual&r, &aCelestial&r. &9Emyprean&r, &dAngelic&r, &6Divine&r, and &5Godly&r), which drop by chance depending on your level and the level range of the plant you are harvesting. These can then be used in other Professions."
+				"채집하는 동안 레벨과 채집하는 식물의 레벨 범위에 따라 일정 확률로 드롭되는 &e등급별 농작물&r (&7영적인&r, &a천상의&r, &9창공의&r, &d천사의&r, &6신성한&r, and &5경건한&r)을 획득할 수 있습니다. 이러한 농작물은 다른 전문 기술에 사용할 수 있습니다."
 			]
 			id: "350315F71B69062F"
 			rewards: [{
@@ -386,16 +386,16 @@
 				}
 				type: "item"
 			}]
-			title: "Farming"
+			title: "농사"
 			x: 0.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["5B97985430859986"]
 			description: [
-				"Fishing any fish will grant you Fishing experience. "
+				"어떤 물고기를 낚든 낚시 경험치를 얻을 수 있습니다."
 				""
-				"While fishing, you will find &eTiered Fish&r (&7Spritual&r, &aCelestial&r. &9Emyprean&r, &dAngelic&r, &6Divine&r, and &5Godly&r), which drop by chance depending on your level. For example, &7Spiritual&r Fish drop while your Fishing level is between 1-20, &aCelestial&r while your level is between 21-40, etc. The fish can then be used in other Professions."
+				"낚시를 하면 전문기술 레벨에 따라 일정 확률로 &e등급별 물고기&r (&7영적인&r, &a천상의&r, &9창공의&r, &d천사의&r, &6신성한&r, and &5경건한&r)를 낚을 수 있습니다. $(2br)예를 들어, 낚시 레벨이 1~20일 때는 &7영적인&r 물고기가, 21~40일 때는 &a천상의&r 물고기가 낚입니다. 이렇게 잡은 물고기는 다른 전문 기술에 사용할 수 있습니다."
 			]
 			id: "5BAFAA732A026ADD"
 			rewards: [{
@@ -416,22 +416,22 @@
 				}
 				type: "item"
 			}]
-			title: "Fishing"
+			title: "낚시"
 			x: 1.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["5B97985430859986"]
 			description: [
-				"&eBounty Hunting&r is a Mine and Slash Profession which levels up as you complete Bountiful bounties. Complete bounties to earn Bounty Hunting experience and &eBounty Slips&r!"
+				"&e현상금 사냥&r은 마인 앤 슬래시 전문 기술로, 풍성한 현상금 사냥 임무를 완료할수록 레벨이 오릅니다. &e현상금 사냥&r을 완료하여 현상금 사냥 경험치와 현상금 전표(Slips)를 획득하세요!"
 				""
-				"&eBounty Boards&r will generate &erandom bounties&r for you to complete. Take out a &erequest&r from the board's interface and complete it within the &etime limit&r to earn the listed rewards. As you complete bounties, your &ereputation&r (tied to that Bounty Board block) will increase, increasing the level of rewards. Empowered Bounty Slips will start appearing at 45 reputation!"
+				"&e현상금 게시판&r은 &e무작위 의뢰&r를 생성합니다. 게시판에서 &e의뢰&r를 받아 제한 시간 내에 완료하면 명시된 보상을 획득할 수 있습니다. 현상금을 완료할수록 해당 현상금 게시판 블록과 연결된 &e평판&r이 상승하고, 그에 따라 보상 레벨도 높아집니다. 평판이 45에 도달하면 강화된 현상금 전표(Slips)가 나타나기 시작합니다!"
 				""
-				"As you level your Bounty Hunting, you will gain access to more purchasable rewards in the &eProfession Shop&r. Items in this shop are purchasable with &eBounty Slips&r! The shop can be accessed with &eDefault Key: P, or the menu wheel&r."
+				"현상금 사냥 레벨을 올리면 &e전문(Profession) 상점&r에서 더 많은 보상을 구매 가능합니다. 상점의 아이템은 &e현상금 전표&r로 구매할 수 있습니다! 상점은 &e기본 키: P&r 또는 메뉴 휠을 통해 열 수 있습니다."
 				""
-				"Craft &eDecrees&r to give new quest types to the board per decree type, which is randomly determined."
+				"&e칙령(Decrees)&r을 제작하여, 칙령 유형별로 게시판에 무작위적인 퀘스트를 추가합니다."
 				""
-				"Through Bounty Hunting you will be able to gain &eTiered Meats&r (&7Spritual&r, &aCelestial&r. &9Emyprean&r, &dAngelic&r, &6Divine&r, and &5Godly&r) to be used in Cooking."
+				"현상금 사냥을 통해 요리에 사용할 수 있는 &e등급별 고기&r (&7영적인&r, &a천상의&r, &9창공의&r, &d천사의&r, &6신성한&r, and &5경건한&r)를 획득할 수 있습니다."
 			]
 			icon: {
 				Count: 1
@@ -461,30 +461,30 @@
 				title: "Common Bounty"
 				type: "item"
 			}]
-			title: "Bounty Hunting"
+			title: "현상금 사냥"
 			x: 3.0d
 			y: -1.5d
 		}
 		{
 			description: [
-				"Mine and Slash adds its very own Profession system. Professions are split into 3 categories:"
+				"마인 앤 슬래시는 고유한 직업 시스템을 추가합니다. 직업은 3가지 범주로 나뉩니다:"
 				""
-				"&e&lGathering:&r&r"
-				"- &7Mining&r: gather materials while mining."
-				"- &2Farming&r: gather materials when harvesting produce."
-				"- &9Fishing&r: gather special fish by chance while fishing."
-				"- &6Bounty Hunting&r: complete bounties for rewards."
+				"&e&l수집:&r&r"
+				"- &7채굴&r: 광석을 채굴하세요."
+				"- &2농사&r: 농작물을 수확하세요."
+				"- &9낚시&r: 낚시로 특별한 물고기를 잡으세요."
+				"- &6현상금 사냥&r: 의뢰 완료 보상을 받으세요."
 				""
-				"&e&lCrafting:&r&r"
-				"- &eGear Crafting&r: craft gear to be used in combat."
-				"- &Infusing&r: craft scrolls to enhance your gear."
-				"- &cCooking&r: cook up foods that provide stat, drop, and experience bonuses for a period of time upon consumption."
-				"- &5Alchemy&r: create powerful brews to enhance your stats for a period of time."
+				"&e&l제작:&r&r"
+				"- &e장비 제작&r: 전투용 장비를 제작하세요."
+				"- &b주입&r: 장비를 강화하는데 사용하는 스크롤을 제작하세요."
+				"- &c요리&r: 일정 시간 동안 능력치, 드랍, 경험치 보너스를 제공하는 음식을 만드세요."
+				"- &5연금술(양조)&r: 일정 시간 동안 능력치를 향상시키는 강력한 물약을 만드세요."
 				""
-				"&e&lOther:&r&r"
-				"- &4Salvaging&r: extract resources from gear when salvaged in a Salvaging Station &e(you can also enable auto-salvaging through the Hub)&r."
+				"&e&l다른 것:&r&r"
+				"- &4분해&r: 분해기(Station)에서 장비를 분해할 때 자원을 추출합니다. &e(인벤토리-허브에서 자동 분해를 활성화할 수도 있습니다.)&r"
 				""
-				"&c&lNote: Professions cannot be leveled beyond your Mine and Slash level!&r&r"
+				"&c&l주의: 전문 기술은 마인 앤 슬래시 레벨을 초과하여 레벨업할 수 없습니다!&r&r"
 			]
 			icon: {
 				Count: 1
@@ -510,16 +510,16 @@
 				title: "Click Once Read"
 				type: "checkmark"
 			}]
-			title: "Professions Overview"
+			title: "전문 기술 개요"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["5B97985430859986"]
 			description: [
-				"Tools in Craft to Exile 2 can gain levels with use. As they increase in level, they can gain affixes which will grant various improvements!"
+				"CTE2에서 도구는 사용할수록 레벨이 올라갑니다. 레벨이 오르면 다양한 버프를 제공하는 접두사가 붙습니다!"
 				""
-				"&eTools will gain an affix every 20 levels!&r"
+				"&e도구는 20레벨마다 접두사를 얻게 됩니다!&r"
 			]
 			icon: "minecraft:paper"
 			id: "4FC11A47AE877347"
@@ -534,18 +534,18 @@
 				title: "Click Once Read"
 				type: "checkmark"
 			}]
-			title: "Leveling Tools"
+			title: "도구 레벨업"
 			x: 1.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["66D05E37DC634CC8"]
 			description: [
-				"&eSharpening Stones&r can be used on your gear to increase their potency. The quality increase is reflected in the gear's base stat (Weapon Damage, Armor, Dodge Rating, etc.)."
+				"&e숫돌(Sharpening Stones)&r은 장비에 사용하면 장비의 성능을 높일 수 있습니다. 버프는 장비의 기본 능력치(무기 공격력, 방어력, 회피율 등)에 반영됩니다."
 				""
-				"You can craft &eSharpening Stones&r in the &eGear Crafting Station&r using Stones. As you find higher rarity Stones, you will be able to craft better &eSharpening Stones&r."
+				"&e장비 제작대&r에서 등급별 광석을 사용하여 &e숫돌&r을 제작할 수 있습니다. 더 높은 등급의 광석을 사용할 수록 더 좋은 &e숫돌&r을 제작할 수 있습니다."
 				""
-				"These &eSharpening Stones&r can push quality above the normal cap of &b20&r, so they should always be used after &eOrbs of Quality&r as &eSharpening Stones&r can only be used once on an item!"
+				"이 &e숫돌&r은 품질을 일반적인 상한선인 &b20&r 이상으로 끌어올릴 수 있으므로, &e품질의 오브(Orbs of Quality)&r를 사용한 후에 항상 사용해야 합니다. &e숫돌&r은 아이템당 한 번만 사용할 수 있습니다!"
 			]
 			id: "141FEAAFF05B9AD0"
 			rewards: [
@@ -568,20 +568,20 @@
 				item: "mmorpg:currency/sharpening_stone_0"
 				type: "item"
 			}]
-			title: "Increasing Gear Quality"
+			title: "장비 품질 향상"
 			x: -4.5d
 			y: -3.0d
 		}
 		{
 			dependencies: ["69CEB39AA409EB41"]
 			description: [
-				"Brew the potions with the following:"
+				"다음 재료들을 사용하여 물약을 제조하세요:"
 				""
-				"3x &7Spiritual Meat&r"
-				"1x &7Common Stone&r"
-				"1x Cooked Chicken/3x Apple"
-				"1x Tomato/Onion"
-				"1x Copper Coin"
+				"3x &7영적인 고기&r"
+				"1x &7최하급 짱돌&r"
+				"1x 익힌 닭고기/3x 사과"
+				"1x 토마토/양파"
+				"1x 구리 동전"
 			]
 			id: "50FD77E095AAC45F"
 			rewards: [
@@ -631,19 +631,19 @@
 					type: "item"
 				}
 			]
-			title: "Recovery Potions"
+			title: "회복 물약"
 			x: 3.0d
 			y: -4.5d
 		}
 		{
 			dependencies: ["69CEB39AA409EB41"]
 			description: [
-				"Brew the potions with the following:"
+				"다음 재료들을 사용하여 물약을 제조하세요:"
 				""
-				"3x &7Spiritual Produce&r"
-				"1x &7Common Stone&r"
-				"3x Potato/Cabbage/Carrot"
-				"1x Copper Coin"
+				"3x &7영적인 씨앗(Produce)&r"
+				"1x &7최하급 짱돌&r"
+				"3x 감자/양배추/당근"
+				"1x 구리 코인"
 			]
 			id: "53205D57DBDEE858"
 			rewards: [
@@ -707,7 +707,7 @@
 					type: "item"
 				}
 			]
-			title: "Core Buffs"
+			title: "핵심 버프들"
 			x: 4.5d
 			y: -4.5d
 		}
@@ -767,7 +767,7 @@
 				}
 				type: "item"
 			}]
-			title: "Not Vanilla Enchantments"
+			title: "바닐라 인챈트 아님!"
 			x: -1.5d
 			y: -4.5d
 		}
