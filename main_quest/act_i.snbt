@@ -486,7 +486,7 @@
 			]
 			shape: "rsquare"
 			size: 1.25d
-			subtitle: "Main Quest"
+			subtitle: "메인 퀘스트"
 			tasks: [{
 				entity: "illagerinvasion:invoker"
 				icon: "ftb_ph:invoker"
@@ -843,7 +843,7 @@
 				item: "lightmanscurrency:coin_gold"
 				type: "item"
 			}]
-			subtitle: "The Underground"
+			subtitle: "지하세계"
 			tasks: [{
 				id: "749BBB5B3A9895C3"
 				item: "lightmanscurrency:coin_emerald"
@@ -1189,7 +1189,7 @@
 		{
 			dependencies: ["313921A7833269CF"]
 			description: [
-				"&e`&r키를 길게 눌러 고급 채굴 기능인&eUltiminer&r를 활성화 하세요. 채굴할 블록의 윤곽선이 나타납니다. Shift + `키를 길게 눌러 계단 모양의 채굴 터널과 같은 &e패턴&r을 선택 하세요. &e형태 없는&r 패턴만 광맥 채굴을 하며, 나머지 패턴은 지정된 패턴을 따릅니다."
+				"&e`&r키를 길게 눌러 고급 채굴 기능인 &eUltiminer&r를 활성화 하세요. 채굴할 블록의 윤곽선이 나타납니다. Shift + `키를 길게 눌러 계단 모양의 채굴 터널과 같은 &e패턴&r을 선택 하세요. &e형태 없는&r 패턴만 광맥 채굴을 하며, 나머지 패턴은 지정된 패턴을 따릅니다."
 				""
 				"Ultiminer를 사용하면 &e추가적인 내구도와 허기&r가 소모되며, 적절한 도구도 필요합니다."
 			]
@@ -1204,7 +1204,7 @@
 				title: "100 Experience"
 				type: "command"
 			}]
-			subtitle: "Efficiency"
+			subtitle: "효율적으로 일하기"
 			tasks: [{
 				id: "4DB46C0682811F67"
 				item: {
@@ -1282,7 +1282,7 @@
 				title: "250 Experience"
 				type: "command"
 			}]
-			subtitle: "The Extras"
+			subtitle: "추가 기능"
 			tasks: [
 				{
 					id: "2111C6DB7FD6A0F3"
@@ -1343,7 +1343,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "너만의 작은 실험실"
+			subtitle: "나만의 작은 실험실"
 			tasks: [{
 				entity: "mutantmonsters:spider_pig"
 				icon: { Count: 2, id: "simplehats:pighead" }
@@ -1494,7 +1494,7 @@
 				match_nbt: false
 				type: "item"
 			}]
-			title: "순간이동을 하는법"
+			title: "순간이동 하는법"
 			x: 6.0d
 			y: -3.0d
 		}
@@ -1936,7 +1936,7 @@
 				title: "350 Experience"
 				type: "command"
 			}]
-			subtitle: "M\\&S Professions"
+			subtitle: "M\\&S 전문 기술"
 			tasks: [{
 				id: "5F2746C9F73F6032"
 				item: {
@@ -2130,7 +2130,7 @@
 					type: "choice"
 				}
 			]
-			subtitle: "추가 정보"
+			subtitle: "추가 기능"
 			tasks: [{
 				id: "4A411B6E171AC9B2"
 				item: {
@@ -2180,7 +2180,7 @@
 				title: "120 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Howling Hounds"
+			subtitle: "하울링 하운드"
 			tasks: [{
 				entity: "born_in_chaos_v1:dire_hound_leader"
 				icon: "ftb_ph:direhound_leader"
@@ -2272,7 +2272,7 @@
 				title: "500 Experience"
 				type: "command"
 			}]
-			subtitle: "M\\&S Professions"
+			subtitle: "M\\&S 전문 기술"
 			tasks: [
 				{
 					id: "164D7BC468D2116C"
