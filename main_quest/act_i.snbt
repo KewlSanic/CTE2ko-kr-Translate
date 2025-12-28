@@ -494,7 +494,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "The Mastermind"
+			title: "사악한 음모"
 			x: 9.0d
 			y: 0.0d
 		}
@@ -1494,7 +1494,7 @@
 				match_nbt: false
 				type: "item"
 			}]
-			title: "순간이동 하는법"
+			title: "웨이스톤 활성화 하기"
 			x: 6.0d
 			y: -3.0d
 		}
@@ -2153,7 +2153,7 @@
 						]
 					}
 				}
-				title: "웨이스톤"
+				title: "웨이스톤 제작법"
 				type: "item"
 			}]
 			x: 7.5d
