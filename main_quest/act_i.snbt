@@ -486,7 +486,7 @@
 			]
 			shape: "rsquare"
 			size: 1.25d
-			subtitle: "Main Quest"
+			subtitle: "메인 퀘스트"
 			tasks: [{
 				entity: "illagerinvasion:invoker"
 				icon: "ftb_ph:invoker"
@@ -843,7 +843,7 @@
 				item: "lightmanscurrency:coin_gold"
 				type: "item"
 			}]
-			subtitle: "The Underground"
+			subtitle: "지하세계"
 			tasks: [{
 				id: "749BBB5B3A9895C3"
 				item: "lightmanscurrency:coin_emerald"
@@ -1189,7 +1189,7 @@
 		{
 			dependencies: ["313921A7833269CF"]
 			description: [
-				"&e`&r키를 길게 눌러 고급 채굴 기능인&eUltiminer&r를 활성화 하세요. 채굴할 블록의 윤곽선이 나타납니다. Shift + `키를 길게 눌러 계단 모양의 채굴 터널과 같은 &e패턴&r을 선택 하세요. &e형태 없는&r 패턴만 광맥 채굴을 하며, 나머지 패턴은 지정된 패턴을 따릅니다."
+				"&e`&r키를 길게 눌러 고급 채굴 기능인 &eUltiminer&r를 활성화 하세요. 채굴할 블록의 윤곽선이 나타납니다. Shift + `키를 길게 눌러 계단 모양의 채굴 터널과 같은 &e패턴&r을 선택 하세요. &e형태 없는&r 패턴만 광맥 채굴을 하며, 나머지 패턴은 지정된 패턴을 따릅니다."
 				""
 				"Ultiminer를 사용하면 &e추가적인 내구도와 허기&r가 소모되며, 적절한 도구도 필요합니다."
 			]
@@ -1204,7 +1204,7 @@
 				title: "100 Experience"
 				type: "command"
 			}]
-			subtitle: "Efficiency"
+			subtitle: "효율적으로 일하기"
 			tasks: [{
 				id: "4DB46C0682811F67"
 				item: {
@@ -1261,15 +1261,15 @@
 		{
 			dependencies: ["727ADA9C4F420BDC"]
 			description: [
-				"&eBamboo Spikes&r will hurt anything that steps on it. You can also apply &epotion effects&r to them."
+				"&e대나무 가시&r는 밟는 모든 것에 고통을 줍니다. 또한 &e물약 효과&r도 적용이 가능합니다."
 				""
-				"The &eFlute&r can be played to attract any &etamed mobs&r that may be lost. Right click a mob with it to link the flute with that pet."
+				"&e플루트&r를 연주하면 길을 잃은 &e애완동물&r을 유인 할 수 있습니다. 플루트를 들고 애완동물을 우클릭 하면 플루트와 애완동물을 연결할 수 있습니다."
 				""
-				"Use the &eCage&r to &egrab&r mobs, particularly tamed mobs, to transport them."
+				"&e동물 우리&r를 사용하여 애완동물을 손쉽게 운반하세요."
 				""
-				"&eNotice Boards&r can display written books' text."
+				"&e개시판&r에는 책에 적힌 내용을 표시할 수 있습니다."
 				""
-				"&eSupplementary Jars&r can store 4 buckets or &e12&r bottles of any vanilla liquids (like honey, milk, lava, potions, soups, dragon breath or xp) as well as and fireflies. Jars can also store small mobs like slimes and bees. To &ecatch&r vexes and endermites you'll have to use tinted ones. &eShift right click&r to place a mob jar instead of releasing its mob."
+				"&e유리병&r에는 꿀, 우유, 용암, 물약, 수프, 드래곤 브렛, 경험치 등 바닐라 액체를 &e4000mb&r까지 저장할 수 있으며, 반딧불이도 보관 가능합니다. 유리병에는 슬라임이나 벌과 같이 작은 엔티티도 넣을 수 있습니다. 벡스와 엔더마이트를 잡으려면 색이 있는 유리병을 사용해야 합니다. 엔티티를 풀어주지 않고 유리병을 설치 하려면 &eShift + 우클릭&r해야 합니다."
 			]
 			id: "44B1B924A5A4D16F"
 			rewards: [{
@@ -1282,7 +1282,7 @@
 				title: "250 Experience"
 				type: "command"
 			}]
-			subtitle: "The Extras"
+			subtitle: "추가 기능"
 			tasks: [
 				{
 					id: "2111C6DB7FD6A0F3"
@@ -1316,13 +1316,13 @@
 					type: "item"
 				}
 			]
-			title: "Supplementaries' Utilities"
+			title: "Supplementaries 유틸리티"
 			x: 12.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["5FCA8577C7DB792D"]
-			description: ["Seems this &e\"Chemical X\"&r drives evolutionary mutations wild. &ePigs&r are simple and weak, they must be an easy and &esafe&r animal to test this stuff on. Feed a Pig a &eFermented Spider Eye&r and throw &eChemical X&r at it. This process has a chance to fail, more &eChemical X&r may be purchased on the &eTrading Terminal/Barter Board&r."]
+			description: ["이 &e\"화학 X\"&r가 돌연변이 문제의 근원인 것 같습니다. &e돼지&r는 약하니 이 물질을 실험하기에 &e안전&r한 동물일 겁니다. 돼지에게 &e발효된 거미 눈&r을 먹이고 &e화학 X&r를 사용해 보세요. 이 실험은 실패 할 수도 있습니다. 그래도 걱정하지 마세요. 만약 실패하더라도 &e온라인 거래 단말기X&r에서 &e화학 X&r를 구매 가능하지 걱정하지 마세요."]
 			id: "65D73BD10CCCD984"
 			rewards: [
 				{
@@ -1343,7 +1343,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Your Own Lab"
+			subtitle: "나만의 작은 실험실"
 			tasks: [{
 				entity: "mutantmonsters:spider_pig"
 				icon: { Count: 2, id: "simplehats:pighead" }
@@ -1351,16 +1351,16 @@
 				type: "kill"
 				value: 2L
 			}]
-			title: "How Bad Could It Be?"
+			title: "비 윤리적인 실험?"
 			x: 4.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["727ADA9C4F420BDC"]
 			description: [
-				"All this running around has to be tiring... Maybe it's time for a &emount.&r Craft the &eChocopedia&r to learn about Chocobo &ebreeding&r and &etaming.&r You can even breed special Chocobos that have the ability to &efly!&r"
+				"이렇게 계속 뛰어다니는건 정말 피곤할 것 같아요... 이를 해결 하기 위해선 &e이동수단&r이 필요할 것 같군요. 초코보에 대해 알아보기 위해 &e초코피디아&r를 만들어 보세요. 초코보 중에는 &e날 수 있는&r 개체도 있답니다!&r"
 				""
-				"&eTransport&r mounts and pets of any kind through &eWaystones&r by putting them into &eCages&r or by having them on a &eLead.&r Even without a Cage or Lead, they can teleport with you through the Waystone!"
+				"이동수단과 애완동물은 &e동물 우리&r나 &e끈&r을 사용하여 &e웨이스톤&r을 통해 이동시킬 수 있습니다. 동물 우리나 끈이 없더라도 웨이스톤을 통해 이동할 수 있습니다!"
 			]
 			id: "730BE78211A1573B"
 			rewards: [
@@ -1382,30 +1382,30 @@
 					type: "custom"
 				}
 			]
-			subtitle: "Wild Chocobos"
+			subtitle: "야생의 초코보"
 			tasks: [{
 				id: "7280DA5550AACF38"
 				item: "chococraft:chocopedia"
 				type: "item"
 			}]
-			title: "Chococraft and Mounts"
+			title: "Chococraft와 이동수단"
 			x: 10.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["5FCA8577C7DB792D"]
 			description: [
-				"Potions from the Alchemy Profession can provide useful benefits such as healing and buffs. You can see how to craft these potions in more detail in the \"&aM\\&S Professions&r\" chapter. Alternatively, if you're not into Professions, &eyou can also buy these potions&r from various traders (Villagers, Goblin Traders)."
+				"연금술 전문 기술로 만들 수 있는 물약은 회복이나 버프 효과와 같은 여러 이점을 제공합니다. 이런 물약을 만드는 상세한 내용은 \"&aM\\&S Professions&r\"챕터에서 확인할 수 있습니다. 전문 기술에 관심이 없다면, 마을 주민이나 고블린 상인을 통하여 &e물약을 구매 가능합니다&r."
 				""
-				"&l&eTo quick-use potions, you can press Y!&r&r"
+				"&l&e물약을 빠르게 사용하려면 Y키를 누르세요!&r&r"
 				""
-				"Brew the &aUncommon Health Potions&r with the following:"
+				"다음의 재료를 사용하여 &a하급 재생 물약&r을 제조하세요:"
 				""
-				"3x &7Spiritual Meat&r"
-				"1x &7Common Stone&r"
-				"1x Cooked Chicken"
-				"1x Tomato"
-				"5x Copper Coin"
+				"3x &7영적인 생고기&r"
+				"1x &7고급 짱돌&r"
+				"1x 익힌 닭고기"
+				"1x 토마토"
+				"5x 구리 코인"
 			]
 			id: "044F1A64E4751E01"
 			rewards: [
@@ -1434,7 +1434,7 @@
 					type: "command"
 				}
 			]
-			subtitle: "M\\&S Professions"
+			subtitle: "M\\&S 전문 기술"
 			tasks: [{
 				count: 4L
 				id: "7FEE130B9F995355"
@@ -1448,18 +1448,18 @@
 				}
 				type: "item"
 			}]
-			title: "Taking On Work"
+			title: "연금술"
 			x: 6.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["472D5441B6FCD6EC"]
 			description: [
-				"&eWaystones&r allow you to teleport to and from each one you've unlocked. Global Waystones are usable across dimensions."
+				"&e웨이스톤&r을 사용하면 활성화한 다른 웨이스톤으로 이동할 수 있습니다. 글로벌 웨이스톤은 차원을 상관하지 않고 이동이 가능합니다."
 				""
-				"The &eWarp Stone&r allows you to teleport to any waystone you've unlocked but has a cooldown."
+				"&e휴대용 전송석&r을 사용하면 활성화한 모든 웨이스톤으로 이동이 가능합니다. 하지만 약간의 쿨타임이 있으니 신중히 사용하세요."
 				""
-				"There are also &enumerous scrolls&r to craft that can act as &esingle use Warp Stones&r or to teleport to a &especific Waystone&r."
+				"또한 &e일회용 전송석&r 역할을 하는 &e전송 주문서&r를 제작할 수 있습니다."
 			]
 			id: "749948B3A454617E"
 			rewards: [
@@ -1481,7 +1481,7 @@
 					type: "command"
 				}
 			]
-			subtitle: "The Extras"
+			subtitle: "추가 기능"
 			tasks: [{
 				id: "65C065AB07D8CE15"
 				item: {
@@ -1494,26 +1494,26 @@
 				match_nbt: false
 				type: "item"
 			}]
-			title: "Warping Around"
+			title: "순간이동 하는법"
 			x: 6.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["152D52A88F776A70"]
 			description: [
-				"In Craft to Exile 2, you can find &eDimension-specific Runes&r that can be used to slot into your gear, or craft powerful Runewords."
+				"Craft to Exile 2에서는 장비에 장착하거나 강력한 룬워드를 제작하는 데 사용 가능한 &e차원 룬&r을 찾을 수 있습니다."
 				""
-				"There are &e7 of these Runes&r in total, and they can only be obtained from Dimension Bosses such as the Invoker or End Dragon."
+				"이러한 룬은 총 &e7개&r이며, 인보커나 엔더 드래곤과 같은 차원별 보스들에게서만 얻을 수 있습니다."
 				""
 				"&c------------------------------&r"
 				""
-				"&eOwd Rune&r - Hermit Abysswalker (&b5%&r), Invoker (&b10%&r), Frostmaw (&b15%&r), Grim Reaper (&b10%&r)"
-				"&eNet Rune&r - Warped Mosco (&b10%&r), Wildfire (&b5%&r), Mother Lava Squid (&b5%&r), Wither (&b10%&r), Awful Ghast (&b15%&r), Nether Keeper (&b15%&r)"
-				"&eUnd Rune&r - Ferrous Wroughtnaut (&b10%&r), Umvuthi (&b10%&r), Tongbi, the Sculptor (&b10%&r), Forgotten Guardian (&b10%&r), Eel (&b15%&r), Mother of the Maze (&b50%&r), Ghost of Captain Cornelia (&b10%&r)"
-				"&eBri Rune&r - Summoner (&b10%&r), Starlit Crusher (&b25%&r)"
-				"&eDaw Rune&r - Alchemist (&b10%&r), Arachnarch (&b25%&r)"
-				"&eEnd Rune&r - Ender Dragon (&b7.5%&r), Void Worm (&b5%&r), Shelterer (&b15%&r)"
-				"&eSid Rune&r - Warden (&b10%&r), Night Lich (&b15%&r), Nether Gauntlet (&b15%&r), Void Blossom (&b15%&r), Obsidilith (&b15%&r)"
+				"&eOwd 룬&r - Hermit Abysswalker (&b5%&r), Invoker (&b10%&r), Frostmaw (&b15%&r), Grim Reaper (&b10%&r)"
+				"&eNet 룬&r - Warped Mosco (&b10%&r), Wildfire (&b5%&r), Mother Lava Squid (&b5%&r), Wither (&b10%&r), Awful Ghast (&b15%&r), Nether Keeper (&b15%&r)"
+				"&eUnd 룬&r - Ferrous Wroughtnaut (&b10%&r), Umvuthi (&b10%&r), Tongbi, the Sculptor (&b10%&r), Forgotten Guardian (&b10%&r), Eel (&b15%&r), Mother of the Maze (&b50%&r), Ghost of Captain Cornelia (&b10%&r)"
+				"&eBri 룬&r - Summoner (&b10%&r), Starlit Crusher (&b25%&r)"
+				"&eDaw 룬&r - Alchemist (&b10%&r), Arachnarch (&b25%&r)"
+				"&eEnd 룬&r - Ender Dragon (&b7.5%&r), Void Worm (&b5%&r), Shelterer (&b15%&r)"
+				"&eSid 룬&r - Warden (&b10%&r), Night Lich (&b15%&r), Nether Gauntlet (&b15%&r), Void Blossom (&b15%&r), Obsidilith (&b15%&r)"
 			]
 			icon: "minecraft:paper"
 			id: "2C9B55C8C05E20E2"
@@ -1530,7 +1530,7 @@
 					type: "choice"
 				}
 			]
-			subtitle: "Lost Page"
+			subtitle: "잃어버린 페이지"
 			tasks: [{
 				id: "78F79A58FE29C912"
 				title: "Click Once Read"
@@ -1542,7 +1542,7 @@
 		}
 		{
 			dependencies: ["0388547EAFE52B5F"]
-			description: ["&eParagliders&r can be used to easily traverse large open distances - assuming you start from a high enough starting point. You can use source of fire to create ascending winds, allowing you to float upwards."]
+			description: ["&eParagliders&r는 높은 곳에서 출발한다면 넓은 공간을 쉽게 이동할 수 있습니다. 불을 이용해 상승기류를 만들고, 이를 통해 위로 떠올라 보세요."]
 			id: "4A46491D07C3EED0"
 			rewards: [
 				{
@@ -1561,27 +1561,27 @@
 					type: "command"
 				}
 			]
-			subtitle: "Traversing Space"
+			subtitle: "세계여행"
 			tasks: [{
 				id: "540B918DC067979F"
 				item: "paraglider:paraglider"
 				type: "item"
 			}]
-			title: "Paragliding"
+			title: "Paraglider"
 			x: 3.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["051DB401E3A08D89"]
 			description: [
-				"&eTransmogrification Tables&r can be crafted and used to change the appearance of your items."
+				"&e변환 테이블&r을 사용하여 아이템의 외형을 변경 할 수 있습니다."
 				""
-				"Place the table in the world and right-click it. From left to right, the slots are:"
-				"1. &eThe Fuel Slot&r - fueled by Amethyst Shards."
-				"2. &eThe Target Slot&r - the item you place here will have its appearance changed."
-				"3. &eThe Appearance Slot&r - the item you place here will have its appearance copied onto the target. The item here will NOT be consumed upon transmogrification!"
+				"테이블을 설치하고 우클릭 하세요. 왼쪽부터 오른족 슬롯은 다음과 같습니다:"
+				"1. &e연료 슬롯&r - 자수정 조각을 사용하여 연료를 채울 수 있습니다."
+				"2. &e타겟 슬롯&r - 이곳에 놓는 아이템의 외형이 바뀝니다."
+				"3. &e외형 슬롯&r - 여기에 놓는 아이템의 외형이 타겟에게 복사됩니다. 여기에 있는 아이템은 형상변환 시 소모되지 않습니다!"
 				""
-				"Additionally, you can place &eVoid Fragments&r into the Appearance Slot to make the item hidden!"
+				"또한, 외형 슬롯에 &e공허 조각&r을 넣으면 아이템을 안 보이게 숨길 수 있습니다!"
 			]
 			id: "5883B9DEF98B079F"
 			rewards: [
@@ -1602,24 +1602,24 @@
 					type: "command"
 				}
 			]
-			subtitle: "The Extras"
+			subtitle: "추가 기능"
 			tasks: [{
 				id: "06F088656E20DBC2"
 				item: "transmog:transmogrification_table"
 				type: "item"
 			}]
-			title: "Looking Cooler"
+			title: "외형 바꾸기"
 			x: 6.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["5FCA8577C7DB792D"]
 			description: [
-				"Are you playing as a &5Warlock&r, &2Hunter&r, or &9Elementalist&r? Did you know these classes have access to summons?"
+				"혹시 &5저주술사&r, &2사냥꾼&r, &9원소술사&r로 플레이 하고 계신가요? 이 직업들이 소환수를 사용 가능 하다는 사실을 알고 계셨나요?"
 				""
-				"You can configure your &esummon behaviour&r in the &eFeatures&r tab of the Mine and Slash Hub (bottom left). You can make them aggressive, or passive. If set to passive, the summons will only attack what you've attacked."
+				"Mine and Slash 허브(좌측 하단)의 &e설정&r탭에서 &e소환수 동작&r을 설정할 수 있습니다. 소환수를 능동적/수동적으로 설정할 수 있습니다. 수동적으로 설정하면 소환수는 플레이어가 공격한 대상만 공격합니다."
 				""
-				"Additionally, you can &eunsummon&r your summons at any time using the unsummon keybind (Default: &eDelete&r)!"
+				"또한, 소환 해제 단축키(기본값: &eDelete&r)를 사용하여 언제든기 소환수를 &e소환 해제&r할 수 있습니다!"
 			]
 			icon: "minecraft:paper"
 			id: "5DA2E0EE110431E0"
@@ -1636,24 +1636,24 @@
 				}
 				type: "item"
 			}]
-			subtitle: "Lost Page"
+			subtitle: "잃어버린 페이지"
 			tasks: [{
 				id: "13B1D70D3301273C"
 				title: "Click Once Read"
 				type: "checkmark"
 			}]
-			title: "Summoning Classes"
+			title: "소환사들을 위한 팁"
 			x: 4.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["0388547EAFE52B5F"]
 			description: [
-				"Finding it difficult to survive?"
+				"생존이 어렵다고 느끼시나요?"
 				""
-				"&eSpice of Life: Onion Edition &rgives every food a &e\"diversity\"&r factor. Eating diverse foods gives &ebenefits,&r while sticking to a few foods won't. &eCheck your Food Book in your MineMenu (default: H)&r to check your diversity and current benefits. &eKeep eating different foods and increase your Health, Block Reach, Movement Speed, and more!&r"
+				"&eSpice of Life: Onion Edition&r은 모든 음식에&e\"다양성\"&r을 부여합니다. 다양한 음식을 섭취하면 여러 &e이점&r을 얻을 수 있지만, 몇 가지 음식만 섭취하면 이런 이점을 얻을수 없습니다. &eMineMenu(기본값: H)에서 음식 도감&r을 확인하여 현재 다양성과 버프를 확인하세요. &e다양한 음식을 섭취하면 체력, 상호작용 거리, 이동 속도 등이 향상됩니다!&r"
 				""
-				"The &eLunchbag&r can be crafted and upgraded to &ehold all your food&r at once by &ecrouch + right-clicking&r with it in hand and right clicking to eat with it."
+				"&e런치백&r은 제작 및 업그레이드를 통해 손에 들고 &e웅크린 후 우클릭&r하여 한번에 &e모든 음식&r을 담을 수 있으며, 우클릭으로 음식을 먹을 수 있습니다."
 			]
 			icon: "minecraft:paper"
 			id: "4AF5F24C4B770EA5"
@@ -1683,23 +1683,23 @@
 					type: "item"
 				}
 			]
-			subtitle: "Lost Page"
+			subtitle: "잃어버린 페이지"
 			tasks: [{
 				id: "109366712B105500"
 				title: "Click Once Read"
 				type: "checkmark"
 			}]
-			title: "Spice of Life: Onion Edition"
+			title: "Spice of Life Onion"
 			x: 3.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["313921A7833269CF"]
 			description: [
-				"&eRestless Spirits&r are wrathful spirits that spawn at night. They can be found anywhere."
+				"&e불안한 영혼&r은 밤에 나타나는 적대적인 엔티티 입니다. 어디서든 나타날 수 있습니다."
 				""
-				"The Restless Spirit Has:"
-				"&b+30% Dodge Rating&r"
+				"불안한 영혼은 다음의 능력을 가지고 있습니다:"
+				"&b+30% 회피율&r"
 			]
 			hide_dependency_lines: true
 			icon: "mca:book_supporters"
@@ -1714,7 +1714,7 @@
 				title: "100 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "The Graveyard"
+			subtitle: "묘지"
 			tasks: [{
 				entity: "born_in_chaos_v1:restless_spirit"
 				icon: "ftb_ph:restless_spirit"
@@ -1722,20 +1722,20 @@
 				type: "kill"
 				value: 15L
 			}]
-			title: "Bestiary II"
+			title: "신비한 동물 사전 II"
 			x: 3.0d
 			y: 7.5d
 		}
 		{
 			dependencies: ["313921A7833269CF"]
 			description: [
-				"The &eSpirit Guides&r can be found in &edry and hot biomes&r. They don't burn in the sun due to their hat. During battle, it will call on allies to assist."
+				"&e영혼 안내자&r는 &e건조하고 더운 바이옴&r에서 찾을 수 있습니다. 그들은 모자 덕분에 햇볕에 타지 않습니다. 전투 중에는 아군을 불러 도움을 요청합니다."
 				""
-				"&cThe Spirit Guide spawns at minimum level 10.&r"
+				"&c영혼 안내자는 항상 최소 레벨 10에서 스폰합니다.&r"
 				""
-				"The Spirit Guide Has:"
-				"&b+10% Damage Suppression Chance&r"
-				"&b+40% Elemental Resistance&r"
+				"영혼 안내자는 다음의 능력을 가지고 있습니다:"
+				"&b+10% 피해 감소 확률&r"
+				"&b+40% 원소 저항&r"
 			]
 			hide_dependency_lines: true
 			hide_text_until_complete: false
@@ -1751,7 +1751,7 @@
 				title: "150 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Lv. 10 - Spiritual Guidance"
+			subtitle: "Lv. 10 - 영혼 안내자"
 			tasks: [{
 				entity: "born_in_chaos_v1:spirit_guide"
 				icon: "ftb_ph:spirit_guide"
@@ -1759,21 +1759,21 @@
 				type: "kill"
 				value: 10L
 			}]
-			title: "Bestiary III"
+			title: "신비한 동물 사전 III"
 			x: 4.5d
 			y: 7.5d
 		}
 		{
 			dependencies: ["313921A7833269CF"]
 			description: [
-				"The &eDoor Knight&r and &eSkeleton Thrasher&r are defensive undead mobs. They can spawn anywhere. To gain completion for these tasks, you must find wild ones."
+				"&e문 기사&r와 &e스켈레톤 쓰레셔&r는 방어형 언데드 몹입니다. 어디서든 나타날 수 있으며, 해당 퀘스트를 완료하려면 야생에서 나타나는 몹을 찾아야 합니다."
 				""
-				"The Door Knight Has:"
-				"&b+40% Armor&r"
+				"문 기사는 다음의 능력을 가지고 있습니다:"
+				"&b+40% 방어&r"
 				""
-				"The Skeleton Thrasher Has:"
-				"&b+100% Armor&r"
-				"&b+25% Elemental Resistance&r"
+				"스켈레톤 쓰레셔는 다음의 능력을 가지고 있습니다:"
+				"&b+100% 아머&r"
+				"&b+25% 원소 저항&r"
 			]
 			hide_dependency_lines: true
 			icon: "mca:book_supporters"
@@ -1788,7 +1788,7 @@
 				title: "150 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Undead Guardians"
+			subtitle: "언데드 수호자들"
 			tasks: [
 				{
 					entity: "born_in_chaos_v1:door_knight"
@@ -1805,19 +1805,19 @@
 					value: 5L
 				}
 			]
-			title: "Bestiary IV"
+			title: "신비한 동물 사전 IV"
 			x: 6.0d
 			y: 7.5d
 		}
 		{
 			dependencies: ["313921A7833269CF"]
 			description: [
-				"The &eMissionary&r is a deceptively powerful undead creature. You can find them anywhere. If engaged, it will start spawning undead creatures to assist it."
+				"&e선교사&r는 겉보기와는 달리 매우 강력한 언데드 몹입니다. 어디서든 나타날 수 있으며, 공격을 받으면 자신의 도와줄 언데드 몹들을 소환하기 시작합니다."
 				""
-				"The Missionary Has:"
-				"&b+100% Physical to Cold Damage&r"
-				"&b+25% Freeze Chance&r"
-				"&b+50% Elemental Resistance&r"
+				"선교사는 다음의 능력을 가지고 있습니다:"
+				"&b+100% 물리 얼음 변환&r"
+				"&b+25% 빙결 확률&r"
+				"&b+50% 원소 저항&r"
 			]
 			hide_dependency_lines: true
 			icon: "mca:book_supporters"
@@ -1832,7 +1832,7 @@
 				title: "200 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Mission Five"
+			subtitle: "도를 아십니까?"
 			tasks: [{
 				entity: "born_in_chaos_v1:missioner"
 				icon: "ftb_ph:missioner"
@@ -1840,26 +1840,26 @@
 				type: "kill"
 				value: 5L
 			}]
-			title: "Bestiary V"
+			title: "신비한 동물 사전 V"
 			x: 7.5d
 			y: 7.5d
 		}
 		{
 			dependencies: ["75454F0A3C4C3596"]
 			description: [
-				"&e&oRequires the completion of The End in Act IV.&r&r"
+				"&e&oAct IV의 엔더로 퀘스트를 완료해야 합니다.&r&r"
 				""
-				"The &eFrostmaw&r is an ancient creature found in snowy biomes. Their massive size, impressive speed, and powerful ice breath make them near-impossible opponents."
+				"&e프로스트모&r는 눈 덮인 지역에서 발견되는 고대 생물입니다. 거대한 몸집, 매우 빠른 속도, 그리고 강력한 얼음 숨결은 프로스트모를 상대하기 매우 어려운 존재로 만듭니다."
 				""
-				"&cThe Frostmaw spawns at minimum level 50.&r"
+				"&c프로스트모는 항상 최소 레벨 50에서 스폰됩니다.&r"
 				""
-				"The Frostmaw Has:"
-				"&b+20% Health&r"
-				"&b+100% Physical to Cold Damage&r"
-				"&b+33% Freeze Chance&r"
-				"&b+50% Elemental Resistance&r"
-				"&b+30% Chaos Resistance&r"
-				"&a15% Chance of Dropping Owd Rune&r"
+				"프로스트모는 다음의 능력을 가지고 있습니다:"
+				"&b+20% 체력&r"
+				"&b+100% 물리 얼음 변환&r"
+				"&b+33% 빙결 확률&r"
+				"&b+50% 원소 저항&r"
+				"&b+30% 혼돈 저항&r"
+				"&a15% Owd 룬을 드랍할 확률&r"
 			]
 			hide_dependency_lines: true
 			icon: "mca:book_supporters"
@@ -1874,7 +1874,7 @@
 				title: "16000 Experience"
 				type: "command"
 			}]
-			subtitle: "Lv. 50 - Frigid Wastelands"
+			subtitle: "Lv. 50 - 혹독한 설원"
 			tasks: [{
 				entity: "mowziesmobs:frostmaw"
 				icon: "ftb_ph:frostmaw"
@@ -1882,20 +1882,20 @@
 				type: "kill"
 				value: 2L
 			}]
-			title: "Bestiary VII"
+			title: "신비한 동물 사전 VII"
 			x: 10.5d
 			y: 7.5d
 		}
 		{
 			dependencies: ["313921A7833269CF"]
 			description: [
-				"The &eSpiders Mother&r is a large predatory spider found in &eCaves&r. They can summon smaller spiders to aid in combat."
+				"&e어머니 거미&r는 &e동굴&r에서 발견되는 육식 거미입니다. 전투를 돕기 위해 작은 거미들을 소환합니다."
 				""
-				"The Spiders Mother Has:"
-				"&b+100% Physical to Chaos Damage&r"
-				"&b+33% Poison Chance&r"
+				"어머니 거미는 다음의 능력을 가지고 있습니다:"
+				"&b+100% 물리 혼돈 변환&r"
+				"&b+33% 중독 확률&r"
 				""
-				"&e&oThe Bestiary books will unlock as you progress through the Acts.&r&r"
+				"&e&o게임 진행에 따라 신비한 동물 사전이 잠금 해제됩니다&r&r."
 			]
 			hide_dependency_lines: true
 			icon: "mca:book_supporters"
@@ -1910,7 +1910,7 @@
 				title: "100 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Putrid Grounds"
+			subtitle: "부패한 땅"
 			tasks: [{
 				entity: "born_in_chaos_v1:mother_spider"
 				icon: "ftb_ph:mother_spider"
@@ -1918,13 +1918,13 @@
 				type: "kill"
 				value: 5L
 			}]
-			title: "Bestiary I"
+			title: "신비한 동물 사전 I"
 			x: 1.5d
 			y: 7.5d
 		}
 		{
 			dependencies: ["4956C0B5633CE91E"]
-			description: ["You can craft gear to suit up for your adventure. Check out the M\\&S Professions Chapter for in-depth information!"]
+			description: ["모험에 필요한 장비를 직접 제작할 수 있습니다. 자세한 내용은 M\\&S Professions챕터를 참조하세요!"]
 			id: "4C68E7AC4C59F2EB"
 			rewards: [{
 				auto: "enabled"
@@ -1936,7 +1936,7 @@
 				title: "350 Experience"
 				type: "command"
 			}]
-			subtitle: "M\\&S Professions"
+			subtitle: "M\\&S 전문 기술"
 			tasks: [{
 				id: "5F2746C9F73F6032"
 				item: {
@@ -1949,16 +1949,16 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Suit Up II"
+			title: "차려입기 II"
 			x: 4.5d
 			y: -4.5d
 		}
 		{
 			dependencies: ["4956C0B5633CE91E"]
 			description: [
-				"&eRepair Kits&r automatically repair equipped gear and tools every 10 seconds. The amount they repair depends on the tier of the kit."
+				"&e수리 키트&r장착한 장비와 도구를 10초마다 자동으로 수리합니다. 한번에 수리하는 양은 키트의 등급에 따라 다릅니다."
 				""
-				"They have limited uses, denoted by their charge. You can fill up a kit by feeding it &eMine and Slash Stones&r!"
+				"수리 키트는 수리 횟수가 제한되어 있으며, 충전량으로 표시됩니다. &eMine and Slash 짱돌&r을 넣어 수리 키트를 충전할 수 있습니다!"
 			]
 			icon: {
 				Count: 1
@@ -1991,26 +1991,26 @@
 					type: "command"
 				}
 			]
-			subtitle: "Gear Retention"
+			subtitle: "장비 수선하기"
 			tasks: [{
 				count: 8L
 				id: "7773BDB87F5C4B52"
 				item: { Count: 8, id: "minecraft:leather" }
 				type: "item"
 			}]
-			title: "Auto-Repair"
+			title: "자동 수선"
 			x: 4.5d
 			y: -3.0d
 		}
 		{
 			dependencies: ["313921A7833269CF"]
 			description: [
-				"&eSir Pumpkinhead&r is a mysterious spirit found during the month of October... However, you can also summon him by destroying a &especial pumpkin&r surrounded by candles that you can find in the world."
+				"&e펌킨헤드 경&r은 10월에 나타나는 신비로운 정령입니다... 하지만 월드 곳곳에 있는 촛불로 불러싸인 &e특별한 호박&r을 파괴하면 그를 소환할 수도 있습니다."
 				""
-				"Sir Pumpkinhead Has:"
-				"&b+30% Armor&r"
-				"&b+30% Elemental Resistance&r"
-				"&b+30% Chaos Resistance&r"
+				"펌킨헤드 경은 다음의 능력을 가지고 있습니다:"
+				"&b+30% 방어&r"
+				"&b+30% 원소 저항&r"
+				"&b+30% 혼돈 저항&r"
 			]
 			hide_dependency_lines: true
 			icon: "mca:book_supporters"
@@ -2025,7 +2025,7 @@
 				title: "200 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Pumpking"
+			subtitle: "펌킹"
 			tasks: [{
 				entity: "born_in_chaos_v1:sir_the_headless"
 				icon: "ftb_ph:lord_of_pumpkin"
@@ -2033,23 +2033,23 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "Bestiary VI"
+			title: "신비한 동물 사전 VI"
 			x: 9.0d
 			y: 7.5d
 		}
 		{
 			dependencies: ["0D04908025368D7B"]
 			description: [
-				"&eLord Pumpkinhead&r is a stronger and final version of &eSir Pumpkinhead&r. You can fight him by summoning him. Right-click on a &eInfernal Evil Pumpkin&r (created or found) using a &eTransmuting Elixir&r."
+				"&e펌킨헤드 군주&r는 &e펌킨헤드 경&r의 강력한 최종 버전입니다. 그를 소환하고 싸울 수 있습니다. 펌킨헤드 군주를 소환 하려면&e변환의 비약&r을 들고 &e지옥의 사악한 호박&r을 우클릭 하세요."
 				""
-				"Note that one of the components for the &eTransmuting Elixir&r, the &eChaos Component&r can be made by brewing a &eSeed of Chaos&r in a &eBottle of Water&r using a &eBrewing Stand&r."
+				"&e변환의 비약&r의 재료중 하나인 혼돈 구성 요소는 &e양조기&r에서 &e물병&r에 &e혼돈의 씨앗&r을 넣고 양조하여 만들 수 있습니다."
 				""
-				"&cLord Pumpkinhead spawns at minimum level 60 and Mythic Rarity.&r"
+				"&c펌킨헤드 군주는 항상 최소 레벨 60에서 신화 등급으로 스폰됩니다&r."
 				""
-				"Lord Pumpkinhead Has:"
-				"&b+50% Armor&r"
-				"&b+50% Elemental Resistance&r"
-				"&b+50% Chaos Resistance&r"
+				"펌킨헤드 군주는 다음의 능력을 가지고 있습니다:"
+				"&b+50% 방어&r"
+				"&b+50% 원소 저항&r"
+				"&b+50% 혼돈 저항&r"
 			]
 			icon: "mca:book_supporters"
 			id: "32228E2B053EF761"
@@ -2063,7 +2063,7 @@
 				title: "16000 Experience"
 				type: "command"
 			}]
-			subtitle: "Lv. 60 - Pumpking II"
+			subtitle: "Lv. 60 - 펌킹 II"
 			tasks: [{
 				entity: "born_in_chaos_v1:lord_the_headless"
 				icon: "ftb_ph:lord_of_pumpkin"
@@ -2071,18 +2071,18 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "Bestiary VIb"
+			title: "신비한 동물 사전 VI-I"
 			x: 9.0d
 			y: 9.0d
 		}
 		{
 			dependencies: ["1DEC808C04130184"]
 			description: [
-				"&eZombie Clowns&r are slow and dense enemies. They apply Intoxicating Brew on hit. They can be found in &eClown Caravans&r."
+				"&e좀비 광대&r는 느리고 덩치가 큰 몹입니다. 좀비 광대의 공격을 맞으면 취한 것 처럼 어지러워지는 디버프를 겁니다. &e광대 캐러밴&r에서 찾을 수 있습니다."
 				""
-				"The Zombie Clown Has:"
-				"&b+25% Physical to Chaos Damage&r"
-				"&b+75% Chaos Resistance&r"
+				"좀비 광대는 다음의 능력을 가지고 있습니다:"
+				"&b+25% 물리 혼돈 변환&r"
+				"&b+75% 혼돈 저항&r"
 			]
 			icon: "mca:book_supporters"
 			id: "4E589D39C44CAAD2"
@@ -2096,7 +2096,7 @@
 				title: "120 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Joke On You!"
+			subtitle: "그냥 농담이야!"
 			tasks: [{
 				entity: "born_in_chaos_v1:zombie_clown"
 				icon: "ftb_ph:zombie_clown"
@@ -2104,13 +2104,13 @@
 				type: "kill"
 				value: 30L
 			}]
-			title: "Bestiary IIb"
+			title: "신비한 동물 사전 II-I"
 			x: 3.0d
 			y: 9.0d
 		}
 		{
 			dependencies: ["749948B3A454617E"]
-			description: ["You can craft or find your own &eWaystone&r to teleport to. These will be relatively expensive, but they're definitely worth it!"]
+			description: ["이동을 위해 &e웨이스톤&r을 직접 제작하거나 찾을 수 있습니다. 웨이스톤은 재료가 다소 비싸지만, 그정도의 리스크는 충분히 감내 할만 합니다!"]
 			id: "4BA92370D0D0DC32"
 			rewards: [
 				{
@@ -2130,7 +2130,7 @@
 					type: "choice"
 				}
 			]
-			subtitle: "The Extras"
+			subtitle: "추가 기능"
 			tasks: [{
 				id: "4A411B6E171AC9B2"
 				item: {
@@ -2153,7 +2153,7 @@
 						]
 					}
 				}
-				title: "Waystone"
+				title: "웨이스톤"
 				type: "item"
 			}]
 			x: 7.5d
@@ -2162,11 +2162,11 @@
 		{
 			dependencies: ["7032850A1F1FFF32"]
 			description: [
-				"The &eDire Hound Leader&r is a large Hound found wandering around all different biomes at &bNight&r. They can summon smaller Dire Hounds to aid in combat."
+				"&e다이어 하운드 리더&r는 &b밤&r에 다양한 바이옴을 돌아다니는 거대한 사냥개입니다. 전투를 하다 보면 작은 다이어 하운드 들을 소환합니다."
 				""
-				"The Dire Hound Leader Has:"
-				"&b+30% Dodge Chance&r"
-				"&b+60% Bleed Chance&r"
+				"다이어 하운드 리더는 다음의 능력을 가지고 있습니다:"
+				"&b+30% 회피 확률&r"
+				"&b+60% 출혈 확률&r"
 			]
 			icon: "mca:book_supporters"
 			id: "6F1CBC071DD2414C"
@@ -2180,7 +2180,7 @@
 				title: "120 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Howling Hounds"
+			subtitle: "하울링 하운드"
 			tasks: [{
 				entity: "born_in_chaos_v1:dire_hound_leader"
 				icon: "ftb_ph:direhound_leader"
@@ -2188,18 +2188,18 @@
 				type: "kill"
 				value: 6L
 			}]
-			title: "Bestiary Ib"
+			title: "신비한 동물 사전 I-I"
 			x: 1.5d
 			y: 9.0d
 		}
 		{
 			dependencies: ["761BC90863C35627"]
 			description: [
-				"The &eFallen Chaos Knight&r a proud knight that has succumbed to chaos. They can spawn at &bNight&r"
+				"&e타락한 혼돈 기사&r는 혼돈에 굴복한 강력한 기사입니다. 주로 &b밤&r에 나타납니다"
 				""
-				"The Fallen Chaos Knight Has:"
-				"&b+50% Armor&r"
-				"&b+100% Physical to Chaos Damage&r"
+				"타락한 혼돈 기사는 다음의 능력을 가지고 있습니다:"
+				"&b+50% 방어&r"
+				"&b+100% 물리 혼돈 변환&r"
 			]
 			icon: "mca:book_supporters"
 			id: "16739950F16AB006"
@@ -2213,7 +2213,7 @@
 				title: "150 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Fallen Knights"
+			subtitle: "타락한 기사"
 			tasks: [{
 				entity: "born_in_chaos_v1:fallen_chaos_knight"
 				icon: "ftb_ph:fallen_chaos_knight"
@@ -2221,18 +2221,18 @@
 				type: "kill"
 				value: 5L
 			}]
-			title: "Bestiary IVb"
+			title: "신비한 동물 사전 IV-I"
 			x: 6.0d
 			y: 9.0d
 		}
 		{
 			dependencies: ["0D9B68F2990B8E94"]
 			description: [
-				"During your travels, you may find &eObelisk Maps&r in chests. These can be used on &eObeslisks&r to trigger wave-based instanced encounters!"
+				"여행 중에 상자에서 &e오벨리스크 지도&r를 찾을 수 있습니다. 이 지도는 &e오벨리스크&r에 우클릭 하여 사용하여 인스턴트 던전을 생성할 수 있습니다!"
 				""
-				"The mobs that spawn are affected by modifiers on the Map itself. These modifiers will make the encounter more difficult, but increase rewards."
+				"맵에 적용된 수식어가 소환되는 몬스터에 영향을 미칩니다. 이런 요소들이 전투 난이도를 증가시키지만 그만큼 보상도 증가합니다."
 				""
-				"Mobs that spawn in Obelisk encounters scale to your level."
+				"오벨리스크 전투에서 생성된 몬스터는 플레이어 레벨에 맞춰 조정됩니다."
 			]
 			id: "7BE77FBF663D995C"
 			rewards: [{
@@ -2240,7 +2240,7 @@
 				item: "ancient_obelisks:obelisk_map"
 				type: "item"
 			}]
-			subtitle: "Wave-Based Instances"
+			subtitle: "웨이브 기반 인스턴트 던전"
 			tasks: [{
 				id: "2E5E647AF53CF519"
 				item: "ancient_obelisks:obelisk"
@@ -2252,14 +2252,14 @@
 		{
 			dependencies: ["044F1A64E4751E01"]
 			description: [
-				"&eBounty Hunting&r is a Mine and Slash Profession which levels up as you complete Bountiful bounties. Complete bounties to earn Bounty Hunting experience and &eBounty Slips&r!"
+				"&e현상금 사냥&r은 Mine and Slash 전문 기술로 현상금 사냥 임무를 완료할수록 레벨이 오릅니다. 현상금 가냥을 완료하여 경험치와 &e현상금 전표&r를 획득하세요!"
 				""
-				"&eBounty Boards&r will generate &erandom bounties&r for you to complete. Take out a &erequest&r from the board's interface and complete it within the &etime limit&r to earn the listed rewards!"
+				"&e현상금 게시판&r은 &e랜덤한 현상금 임무&r를 생성합니다. 게시판 인터페이스에서 현상금을 받아 &e제한 시간&r내에 완료하면 명시된 보상을 획득할 수 있습니다!"
 				""
-				"You can either craft the Bounty Boards or find them randomly throughout the world - generally in villages!"
+				"현상금 게시판은 직접 제작하거나 월드 곳곳, 주로 마을에서 발견됩니다!"
 				""
-				"For more information, refer to: "
-				"{ \"text\": \"Bounty Hunting\", \"color\": \"yellow\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4E27A84CE1F030A1\" } }"
+				"더 자세한 내용은 다음을 참고하세요: "
+				"{ \"text\": \"현상금 사냥\", \"color\": \"yellow\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4E27A84CE1F030A1\" } }"
 			]
 			id: "0726C033448D45CE"
 			rewards: [{
@@ -2272,7 +2272,7 @@
 				title: "500 Experience"
 				type: "command"
 			}]
-			subtitle: "M\\&S Professions"
+			subtitle: "M\\&S 전문 기술"
 			tasks: [
 				{
 					id: "164D7BC468D2116C"
@@ -2291,23 +2291,23 @@
 					type: "item"
 				}
 			]
-			title: "Bountiful Boards"
+			title: "꽉 찬 게시판"
 			x: 7.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["6FF06A68E8DA88F2"]
 			description: [
-				"Trims provide modifiers if used on your armor. There are different trims to be found and each can provide different benefits. You will need a &eSmithing Table&r to apply a trim."
+				"갑옷에 형판을 사용하면 스탯이 상승됩니다. 다양한 형판이 있으며 각각 다른 효과를 제공합니다. 형판을 적용하려면 &e대장장이 작업대&r가 필요합니다."
 				""
-				"&eKobold Smithing Templates&r can provide the following bonuses to armor, for example:"
+				"&e코볼드 갑옷 장식&r은 다음과 같은 능력을 제공합니다:"
 				""
-				"&e#Helmet&r: more vanilla experience from killing mobs."
-				"&e#Chestplate&r: faster block breaking speed when using an incorrect or no tool."
-				"&e#Leggings&r: slower hunger drain when performing actions."
-				"&e#Boots&r: farmland can no longer be trampled."
+				"&e#투구&r: 몬스터를 처치하면 더 많은 바닐라 경험치를 줍니다."
+				"&e#흉갑&r: 알맞지 않은 도구를 사용하거나 도구가 상관 없는 블록을 부술때 더 빨리 부숩니다"
+				"&e#레깅스&r: 배고픔이 더 천천히 줄어듭니다."
+				"&e#부츠&r: 경작지를 더 이상 짓밟지 않습니다."
 				""
-				"Find other trims and customize your gear!"
+				"여러 형판을 찾아 장비를 커스텀하세요!"
 			]
 			id: "40803605D59A3AE1"
 			rewards: [
@@ -2323,22 +2323,22 @@
 					type: "item"
 				}
 			]
-			subtitle: "The Underground"
+			subtitle: "지하세계"
 			tasks: [{
 				id: "3002A87574C474C4"
 				item: "kobolds:kobold_template"
 				type: "item"
 			}]
-			title: "Free Trimming"
+			title: "형판 알아보기"
 			x: 3.0d
 			y: 6.0d
 		}
 		{
 			dependencies: ["727ADA9C4F420BDC"]
 			description: [
-				"Mobs in Craft to Exile have stats, and some mobs will always spawn with specific stats in addition to the randomly generated stats. Certain quests will sometimes mention what stats the associated mob will spawn with. For example, You'll notice in Act II that most mobs mentioned in quests have some sort of &cFire&r modifier."
+				"Craft to Exile 2의 몬스터들은 스탯을 가지고 있으며, 일부 몬스터는 랜덤하게 생성되는 스탯 외에도 특별한 능력을 가지고 나타납니다. 특정 퀘스트에서는 해당 몬스터가 어떤 스탯을 가지고 나타나는지 알려주기도 합니다. 예를 들어, Act II에서는 퀘스트에 언급된 대부분의 몬스터가 &c화염&r 속성을 가지고 있는 것을 알 수 있습니다."
 				""
-				"You can also view the exact stats of a mob you are looking at by pressing \"&e=&r\"."
+				"\"&e=&r\"키를 누르면 보고 있는 몬스터의 정확한 스탯을 확인할 수 있습니다."
 			]
 			icon: "minecraft:paper"
 			id: "2FC973866E3F8A8A"
@@ -2347,13 +2347,13 @@
 				item: "mmorpg:currency/gear_rarity_random"
 				type: "item"
 			}]
-			subtitle: "Lost Page"
+			subtitle: "잃어버린 페이지"
 			tasks: [{
 				id: "2D89449C24CD6554"
 				title: "Click Once Read"
 				type: "checkmark"
 			}]
-			title: "Monster Stats"
+			title: "몬스터 스탯 확인하기"
 			x: 12.0d
 			y: -1.5d
 		}

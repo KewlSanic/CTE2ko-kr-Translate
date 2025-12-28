@@ -17,13 +17,13 @@
 		{
 			dependencies: ["5B97985430859986"]
 			description: [
-				"Salvaging is the act of deconstructing your gear into materials that can be used to craft Profession items, gear, or repair."
+				"분해는 장비를 분해하여 전문 기술 아이템, 장비 제작 또는 수리에 사용할 수 있는 재료로 만드는 행동입니다."
 				""
-				"In order to use a Salvaging Station, you &lmust&r place a hopper above the station, and place your gear to be salvaged into the hopper. Salvaging in the Station can yield more results and experience than auto-salvaging."
+				"분해기(Station)를 사용하려면 스테이션 위에 &l호퍼를 설치&r하고 분해할 장비를 호퍼에 넣어야 합니다. 분해기(Station)에서 분해하면 자동 분해보다 더 많은 아이템과 경험치를 얻을 수 있습니다."
 				""
-				"Your gear will be salvaged and you will receive materials as the output. &eWhen salvaging, you will receive &eStones&r of varying rarity. These are used to repair or craft gear. They can also be used to craft other items. The rarity of the stone depends on the rarity of the gear salvaged."
+				"장비를 분해하면 재료를 얻게 됩니다. &e분해 시 다양한 희귀도의 &l짱돌&r을 획득할 수 있습니다. 이 짱돌은 장비를 수리하거나 제작하는 데 사용되며, 다른 아이템을 제작하는 데에도 사용할 수 있습니다. 짱돌의 희귀도는 분해한 장비의 희귀도에 따라 결정됩니다."
 				""
-				"&bYou can also salvage your gear via the Hub auto-salvaging feature, but you will earn less experience doing so.&r"
+				"&b허브(인벤토리)의 자동 장비 분해 기능을 통해 장비를 분해할 수도 있지만, 그렇게 하면 경험치를 덜 얻게 됩니다.&r"
 			]
 			id: "16525899DA8C3A74"
 			rewards: [
@@ -50,24 +50,24 @@
 				item: "mmorpg:salvaging_station"
 				type: "item"
 			}]
-			title: "Salvaging"
+			title: "분해"
 			x: -3.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["06E3D7523619E263"]
 			description: [
-				"You can craft &eCrafted Gear Souls&r for the following: armor, offhands, jewelry, and weapons. When crafting gear, there are a few ingredients:"
+				"&e제작된(Crafted) 장비 영혼&r을 사용하면 갑옷, 보조 무기, 장신구, 무기를 제작할 수 있습니다. 장비를 제작하려면 다음과 같은 재료가 필요합니다:"
 				""
-				"1. &eTiered Ore&r - earned from Mining, they are based on the item level you want to craft. The level ranges are the same as what you'd find in the Mining Profession."
+				"1. &e등급별 광석&r - 채광을 통해 획득할 수 있으며, 제작하려는 아이템 레벨에 따라 등급이 나뉩니다. 등급 범위는 채광 전문 기술에서 얻을 수 있는 것과 동일합니다."
 				""
-				"2. &eStones (Rarity)&r - the Stones determine the rarity of the gear you will craft. You can get these Stones while salvaging. The amount of Stones required depends on the rarity of the gear."
+				"2. &e짱돌 (희귀도)&r - 짱돌은 제작할 장비의 희귀도를 결정합니다. 짱돌은 분해를 통해 얻을 수 있으며, 필요한 짱돌의 양은 장비의 희귀도에 따라 다릅니다."
 				""
-				"3. &eIngots + Identifier Items&r - the items that determine whether you are crafting armor, offhands, jewelry, or weapons. Refer to &cJEI&r for recipes!"
+				"3. &e주괴 + Identifier Items&r - 어떤 갑옷, 보조 무기, 장신구 또는 무기를 제작할지 결정하는 재료입니다. 레시피는 &cJEI&r을 참조하세요!"
 				""
-				"4. &eMoney&r"
+				"4. &e동전&r"
 				""
-				"&lYou can always check the &cJEI&r &lto see what items are needed for &eCrafted Gear Soul&r&l.&r"
+				"&l&cJEI&r에서 &e제작된(Crafted) 장비 영혼&r&l 제작에 필요한 아이템을 언제든지 확인할 수 있습니다.&r"
 			]
 			id: "66D05E37DC634CC8"
 			rewards: [
@@ -105,7 +105,7 @@
 				item: "mmorpg:gear_crafting_station"
 				type: "item"
 			}]
-			title: "Gear Crafting"
+			title: "장비 제작"
 			x: -3.0d
 			y: -3.0d
 		}
@@ -116,23 +116,23 @@
 			]
 			dependency_requirement: "one_completed"
 			description: [
-				"You can cook foods which will provide hunger and saturation, but also provide stat boosts. When cooking, there are a few ingredients:"
+				"요리된 음식은 허기와 포만감을 채워줄 뿐만 아니라 능력치도 향상시킬 수 있습니다. 요리에는 몇 가지 재료가 필요합니다:"
 				""
-				"1. &eTiered Meat/Produce/Fish&r - earned from Bounty Hunting, Farming, and Fishing they are based on the item level you want to craft. The level ranges are the same as what you'd find in the gathering Professions. The type of food you use depends on what food you cook:"
+				"1. &e등급별 고기/농산물/생선&r - 현상금 사냥, 농사, 낚시를 통해 얻을 수 있으며, 제작하려는 아이템 레벨에 따라 등급이 나뉩니다. 레벨 범위는 채집 전문 기술에서 얻을 수 있는 것과 동일합니다. 사용하는 음식의 종류는 요리하려는 음식에 따라 달라집니다:"
 				""
-				"&cMeat&r: Health/Magic Shield Regen"
-				"&2Produce&r: Mana/Energy Regen"
-				"&bFish&r: EXP/Loot"
+				"&c고기&r: 체력/마법 보호막 회복"
+				"&2제작(Produce)&r: 마력/기력 회복"
+				"&b생선&r: 경험치/전리품"
 				""
-				"2. &c1&r &eStone (Rarity)&r - the Stones determine the rarity of the gear you will craft. You can get these Stones while salvaging."
+				"2. &c1&r &e짱돌 (희귀도)&r - 제작할 장비의 희귀도는 짱돌로 결정됩니다. 짱돌은 아이템을 분해하여 얻을 수 있습니다."
 				""
-				"3. &eOther Food Item&r - generally used as an additional ingredient that can also determine what food you're cooking. Refer to &cJEI&r for recipes!"
+				"3. &e다른 음식 재료&r - 일반적으로 요리에 추가되는 재료로 사용되며, 음식 레시피에도 영향을 미칠 수 있습니다. 레시피는 &cJEI&r을 참조하세요!"
 				""
-				"4. &eMoney&r"
+				"4. &e동전&r"
 				""
-				"&lYou can always check the &cJEI&r &lto see what items are needed for &eCooking&r&l.&r"
+				"&l&e요리&r&l에 필요한 재료가 무엇인지 확인하려면 &cJEI&r&l를 확인하세요.&r"
 				""
-				"&eRequires 1 dependency to be completed.&r"
+				"&e완료하려면 종속 퀘스트 1개가 필요합니다.&r"
 			]
 			id: "0402FA5F0E1D4835"
 			rewards: [
@@ -170,28 +170,28 @@
 				item: "mmorpg:cooking_station"
 				type: "item"
 			}]
-			title: "Cooking"
+			title: "요리"
 			x: 0.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["4E27A84CE1F030A1"]
 			description: [
-				"You can brew potions which can recover health and resources, or provide stat boosts. When brewing, there are a few ingredients:"
+				"체력과 자원(resources)을 회복하거나 능력치를 강화하는 물약을 제조할 수 있습니다. 물약을 제조하려면 몇 가지 재료가 필요합니다:"
 				""
-				"1. &eTiered Meat/Produce/Fish&r - earned from Bounty Hunting, Farming, and Fishing they are based on the item level you want to craft. The level ranges are the same as what you'd find in the gathering Professions. The type of food you use depends on what potion you brew:"
+				"1. &e등급별 고기/농작물/생선&r - Hubsandry, 농업, 낚시를 통해 획득하며, 제작하고자 하는 아이템 레벨에 따라 등급이 나뉩니다. 레벨 범위는 채집 전문 기술에서 볼 수 있는 것과 동일합니다:"
 				""
-				"&cMeat&r: Health/Resource Potion"
-				"&2Produce&r: Core Stat Potion"
-				"&bFish&r: Damage Buff Potion"
+				"&c고기&r: 체력/자원 물약"
+				"&2제작(Produce)&r: 핵심 능력치 물약"
+				"&b생선&r: 데미지 버프 물약"
 				""
-				"2. &c1&r &eStone (Rarity)&r - the Stones determine the rarity of the gear you will craft. You can get these Stones while salvaging."
+				"2. &c1&r &e짱돌 (희귀도)&r - 제작할 장비의 희귀도는 짱돌로 결정됩니다. 짱돌은 아이템을 분해하여 얻을 수 있습니다."
 				""
-				"3. 1-2 &eOther Food Items&r - used as an additional ingredient. Refer to &cJEI&r for recipes!"
+				"3. 1~2. &e다른 음식 재료&r - 추가 재료로 사용됨. 레시피는 &cJEI&r을 참조하세요!"
 				""
-				"4. &eMoney&r"
+				"4. &e동전&r"
 				""
-				"&lYou can always check the &cJEI&r &lto see what items are needed for &eAlchemy&r&l.&r"
+				"&l&e연금술(양조)&r&l에 필요한 재료가 무엇인지 확인하려면 &cJEI&r&l를 확인하세요.&r"
 			]
 			id: "69CEB39AA409EB41"
 			rewards: [
@@ -242,26 +242,26 @@
 				item: "mmorpg:alchemy_station"
 				type: "item"
 			}]
-			title: "Alchemy"
+			title: "연금술(양조)"
 			x: 3.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["06E3D7523619E263"]
 			description: [
-				"You can craft &eInfusions&r for the following: armor, offhands, jewelry, and weapons. When crafting the scrolls, there are a few ingredients:"
+				"갑옷, 보조 무기, 장신구, 무기에 &e주입&r할 수 있는 스크롤을 제작할 수 있습니다. 주입 스크롤 제작에는 다음과 같은 재료가 필요합니다:"
 				""
-				"1. &eTiered Ore&r - earned from Mining, they are based on the item level you want to craft. The level ranges are the same as what you'd find in the Mining Profession."
+				"1. &e등급별 광석&r - 채광을 통해 획득할 수 있으며, 제작하려는 아이템 레벨에 따라 등급이 다릅니다. 레벨 범위는 채광 전문 기술에서 얻을 수 있는 것과 동일합니다."
 				""
-				"2. &eStones (Rarity)&r - the Stones determine the rarity of the gear you will craft. You can get these Stones while salvaging."
+				"2. &e짱돌 (희귀도)&r - 짱돌은 제작할 장비의 희귀도를 결정합니다. 짱돌은 분해를 통해 얻을 수 있으며, 필요한 짱돌의 양은 장비의 희귀도에 따라 다릅니다."
 				""
-				"3. &eIngots + Identifier Items&r - the items that determine whether you are crafting armor, offhands, jewelry, or weapons. Refer to &cJEI&r for recipes"
+				"3. &e주괴 + Identifier Items&r - 어떤 갑옷, 보조 무기, 장신구 또는 무기를 제작할지 결정하는 재료입니다. 레시피는 &cJEI&r을 참조하세요!"
 				""
-				"4. &ePaper&r"
+				"4. &e종이&r"
 				""
-				"5. &eMoney&r"
+				"5. &e동전&r"
 				""
-				"&lYou can always check the &cJEI&r &lto see what items are needed for &eInfusions&r&l.&r"
+				"&l&e주입&r&l에 필요한 재료가 무엇인지 확인하려면 &cJEI&r&l를 확인하세요.&r"
 			]
 			id: "5DA0A1825512C2E3"
 			rewards: [
@@ -308,25 +308,25 @@
 				item: "mmorpg:enchanting_station"
 				type: "item"
 			}]
-			title: "Infusing"
+			title: "주입(Infusing)"
 			x: -1.5d
 			y: -3.0d
 		}
 		{
 			dependencies: ["5B97985430859986"]
 			description: [
-				"Mining any types of ores will grant you Mining experience. However, you will only earn the full amount of experience from ores relative to your Mining level:"
+				"어떤 종류의 광석을 채굴하든 채광 경험치를 얻을 수 있습니다. 하지만 채굴 레벨 범위에 맞는 광석에서만 경험치를 온전히 얻게 됩니다:"
 				""
-				"&eLv. 1-20&r (&7Tier 0&r): Coal, Iron, Copper"
-				"&eLv. 21-40&r (&aTier 1&r): Redstone, Lapis Lazuli, Gold, Quartz, Emerald"
-				"&eLv. 41-60&r (&9Tier 2&r): Cloggrum, Diamond, Froststeel, Utherium"
-				"&eLv. 61-80&r (&dTier 3&r): Regalium, Moonstone, Pyrope, Aquite"
-				"&eLv. 81-100&r (&6Tier 4&r): Falsite, Ventium, Horizonite"
-				"&eLv. 100&r (&5Tier 5&r): Charoite, Diopside"
+				"&eLv. 1-20&r (&7Tier 0&r): 석탄, 철, 구리"
+				"&eLv. 21-40&r (&aTier 1&r): 레드스톤, 청금석, 금, 석영, 에메랄드"
+				"&eLv. 41-60&r (&9Tier 2&r): 클로그룸(Cloggrum), 다이아몬드, 빙철(Froststeel), 우테륨(Utherium)"
+				"&eLv. 61-80&r (&dTier 3&r): 레갈륨(Regalium), 문스톤(Moonstone), 파이로프(Pyrope), 아쿠이트(Aquite)"
+				"&eLv. 81-100&r (&6Tier 4&r): 펄사이트(Falsite), 벤티움(Ventium), 호라이즈나이트(Horizonite)"
+				"&eLv. 100&r (&5Tier 5&r): Charoite, 디옵사이드(Diopside)"
 				""
-				"&cThat doesn't mean you won't receive any experience from items outside your level range, just less.&r"
+				"&c레벨 범위 밖의 아이템을 채굴해도 경험치를 전혀 얻지 못하는 것은 아니지만, 얻는 경험치가 적습니다.&r"
 				""
-				"While mining, you will find Tiered Ore&r (&7Spritual&r, &aCelestial&r. &9Emyprean&r, &dAngelic&r, &6Divine&r, and &5Godly&r, which drop by chance depending on your level and the level range of the ore you are mining. This ore can be used in other Professions."
+				"채굴을 하면서 전문 기술 레벨과 채굴하는 광석의 등급 범위에 따라 일정 확률로 &e등급별 광석&r(&7영적인&r, &a천상의&r, &9창공의&r, &d천사의&r, &6신성한&r, and &5경건한&r) 을 획득할 수 있습니다. 이 광석은 다른 전문 기술에도 사용할 수 있습니다."
 			]
 			id: "06E3D7523619E263"
 			rewards: [{
@@ -347,25 +347,25 @@
 				}
 				type: "item"
 			}]
-			title: "Mining"
+			title: "채굴"
 			x: -1.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["5B97985430859986"]
 			description: [
-				"Farming and harvesting produce will grant you Farming experience. However, you will only earn the full amount of experience from plants relative to your Farming level:"
+				"농작물을 재배하고 수확하면 농업 경험치를 얻을 수 있습니다. 하지만, 자신의 농업 레벨에 해당하는 작물에서만 최대 경험치를 얻게 됩니다:"
 				""
-				"&eLv. 1-20&r (&7Tier 0&r): Wheat, Beetroot, Carrot, Potatoes"
-				"&eLv. 21-40&r (&aTier 1&r): Melon, Pumpkin, Flax, Cabbage, Tomato, Onion, Cocoa Beans"
-				"&eLv. 41-60&r (&9Tier 2&r): Corn, Gysahl Green, Nether Wart, Rice, Gloomgourd"
-				"&eLv. 61-80&r (&dTier 3&r): Pine Fruit, Winter Leaves"
+				"&eLv. 1-20&r (&7Tier 0&r): 밀, 비트, 당근, 감자"
+				"&eLv. 21-40&r (&aTier 1&r): 수박, 호박, 아마, 양배추, 토마토, 양파, 코코아 콩"
+				"&eLv. 41-60&r (&9Tier 2&r): 옥수수, 기살 그린(Gysahl Green), 네더 사마귀, 글룸고드(Gloomgourd)"
+				"&eLv. 61-80&r (&dTier 3&r): 소나무 열매(Pine Fruit), 겨울 잎(Winter Leaves)"
 				"&eLv. 81-100&r (&6Tier 4&r): Scalefruit, Fiery Beans"
-				"&eLv. 100&r (&5Tier 5&r): Cryoroot, Solnut"
+				"&eLv. 100&r (&5Tier 5&r): Cryoroot, 솔넛(Solnut)"
 				""
-				"&cThat doesn't mean you won't receive any experience from items outside your level range, just less.&r"
+				"&c하지만 레벨 범위 밖의 작물에서는 경험치를 전혀 얻지 못하는 것이 아니라, 단지 더 적은 경험치를 얻게 되는 것입니다.&r"
 				""
-				"While harvesting, you will find &eTiered Produce&r (&7Spritual&r, &aCelestial&r. &9Emyprean&r, &dAngelic&r, &6Divine&r, and &5Godly&r), which drop by chance depending on your level and the level range of the plant you are harvesting. These can then be used in other Professions."
+				"채집하는 동안 레벨과 채집하는 식물의 레벨 범위에 따라 일정 확률로 드롭되는 &e등급별 농작물&r (&7영적인&r, &a천상의&r, &9창공의&r, &d천사의&r, &6신성한&r, and &5경건한&r)을 획득할 수 있습니다. 이러한 농작물은 다른 전문 기술에 사용할 수 있습니다."
 			]
 			id: "350315F71B69062F"
 			rewards: [{
@@ -386,16 +386,16 @@
 				}
 				type: "item"
 			}]
-			title: "Farming"
+			title: "농사"
 			x: 0.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["5B97985430859986"]
 			description: [
-				"Fishing any fish will grant you Fishing experience. "
+				"어떤 물고기를 낚든 낚시 경험치를 얻을 수 있습니다."
 				""
-				"While fishing, you will find &eTiered Fish&r (&7Spritual&r, &aCelestial&r. &9Emyprean&r, &dAngelic&r, &6Divine&r, and &5Godly&r), which drop by chance depending on your level. For example, &7Spiritual&r Fish drop while your Fishing level is between 1-20, &aCelestial&r while your level is between 21-40, etc. The fish can then be used in other Professions."
+				"낚시를 하면 전문기술 레벨에 따라 일정 확률로 &e등급별 물고기&r (&7영적인&r, &a천상의&r, &9창공의&r, &d천사의&r, &6신성한&r, and &5경건한&r)를 낚을 수 있습니다. $(2br)예를 들어, 낚시 레벨이 1~20일 때는 &7영적인&r 물고기가, 21~40일 때는 &a천상의&r 물고기가 낚입니다. 이렇게 잡은 물고기는 다른 전문 기술에 사용할 수 있습니다."
 			]
 			id: "5BAFAA732A026ADD"
 			rewards: [{
@@ -416,22 +416,22 @@
 				}
 				type: "item"
 			}]
-			title: "Fishing"
+			title: "낚시"
 			x: 1.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["5B97985430859986"]
 			description: [
-				"&eBounty Hunting&r is a Mine and Slash Profession which levels up as you complete Bountiful bounties. Complete bounties to earn Bounty Hunting experience and &eBounty Slips&r!"
+				"&e현상금 사냥&r은 마인 앤 슬래시 전문 기술로, 풍성한 현상금 사냥 임무를 완료할수록 레벨이 오릅니다. &e현상금 사냥&r을 완료하여 현상금 사냥 경험치와 현상금 전표(Slips)를 획득하세요!"
 				""
-				"&eBounty Boards&r will generate &erandom bounties&r for you to complete. Take out a &erequest&r from the board's interface and complete it within the &etime limit&r to earn the listed rewards. As you complete bounties, your &ereputation&r (tied to that Bounty Board block) will increase, increasing the level of rewards. Empowered Bounty Slips will start appearing at 45 reputation!"
+				"&e현상금 게시판&r은 &e무작위 의뢰&r를 생성합니다. 게시판에서 &e의뢰&r를 받아 제한 시간 내에 완료하면 명시된 보상을 획득할 수 있습니다. 현상금을 완료할수록 해당 현상금 게시판 블록과 연결된 &e평판&r이 상승하고, 그에 따라 보상 레벨도 높아집니다. 평판이 45에 도달하면 강화된 현상금 전표(Slips)가 나타나기 시작합니다!"
 				""
-				"As you level your Bounty Hunting, you will gain access to more purchasable rewards in the &eProfession Shop&r. Items in this shop are purchasable with &eBounty Slips&r! The shop can be accessed with &eDefault Key: P, or the menu wheel&r."
+				"현상금 사냥 레벨을 올리면 &e전문(Profession) 상점&r에서 더 많은 보상을 구매 가능합니다. 상점의 아이템은 &e현상금 전표&r로 구매할 수 있습니다! 상점은 &e기본 키: P&r 또는 메뉴 휠을 통해 열 수 있습니다."
 				""
-				"Craft &eDecrees&r to give new quest types to the board per decree type, which is randomly determined."
+				"&e칙령(Decrees)&r을 제작하여, 칙령 유형별로 게시판에 무작위적인 퀘스트를 추가합니다."
 				""
-				"Through Bounty Hunting you will be able to gain &eTiered Meats&r (&7Spritual&r, &aCelestial&r. &9Emyprean&r, &dAngelic&r, &6Divine&r, and &5Godly&r) to be used in Cooking."
+				"현상금 사냥을 통해 요리에 사용할 수 있는 &e등급별 고기&r (&7영적인&r, &a천상의&r, &9창공의&r, &d천사의&r, &6신성한&r, and &5경건한&r)를 획득할 수 있습니다."
 			]
 			icon: {
 				Count: 1
@@ -461,30 +461,30 @@
 				title: "Common Bounty"
 				type: "item"
 			}]
-			title: "Bounty Hunting"
+			title: "현상금 사냥"
 			x: 3.0d
 			y: -1.5d
 		}
 		{
 			description: [
-				"Mine and Slash adds its very own Profession system. Professions are split into 3 categories:"
+				"마인 앤 슬래시는 고유한 직업 시스템을 추가합니다. 직업은 3가지 범주로 나뉩니다:"
 				""
-				"&e&lGathering:&r&r"
-				"- &7Mining&r: gather materials while mining."
-				"- &2Farming&r: gather materials when harvesting produce."
-				"- &9Fishing&r: gather special fish by chance while fishing."
-				"- &6Bounty Hunting&r: complete bounties for rewards."
+				"&e&l수집:&r&r"
+				"- &7채굴&r: 광석을 채굴하세요."
+				"- &2농사&r: 농작물을 수확하세요."
+				"- &9낚시&r: 낚시로 특별한 물고기를 잡으세요."
+				"- &6현상금 사냥&r: 의뢰 완료 보상을 받으세요."
 				""
-				"&e&lCrafting:&r&r"
-				"- &eGear Crafting&r: craft gear to be used in combat."
-				"- &Infusing&r: craft scrolls to enhance your gear."
-				"- &cCooking&r: cook up foods that provide stat, drop, and experience bonuses for a period of time upon consumption."
-				"- &5Alchemy&r: create powerful brews to enhance your stats for a period of time."
+				"&e&l제작:&r&r"
+				"- &e장비 제작&r: 전투용 장비를 제작하세요."
+				"- &b주입&r: 장비를 강화하는데 사용하는 스크롤을 제작하세요."
+				"- &c요리&r: 일정 시간 동안 능력치, 드랍, 경험치 보너스를 제공하는 음식을 만드세요."
+				"- &5연금술(양조)&r: 일정 시간 동안 능력치를 향상시키는 강력한 물약을 만드세요."
 				""
-				"&e&lOther:&r&r"
-				"- &4Salvaging&r: extract resources from gear when salvaged in a Salvaging Station &e(you can also enable auto-salvaging through the Hub)&r."
+				"&e&l다른 것:&r&r"
+				"- &4분해&r: 분해기(Station)에서 장비를 분해할 때 자원을 추출합니다. &e(인벤토리-허브에서 자동 분해를 활성화할 수도 있습니다.)&r"
 				""
-				"&c&lNote: Professions cannot be leveled beyond your Mine and Slash level!&r&r"
+				"&c&l주의: 전문 기술은 마인 앤 슬래시 레벨을 초과하여 레벨업할 수 없습니다!&r&r"
 			]
 			icon: {
 				Count: 1
@@ -510,16 +510,16 @@
 				title: "Click Once Read"
 				type: "checkmark"
 			}]
-			title: "Professions Overview"
+			title: "전문 기술 개요"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["5B97985430859986"]
 			description: [
-				"Tools in Craft to Exile 2 can gain levels with use. As they increase in level, they can gain affixes which will grant various improvements!"
+				"CTE2에서 도구는 사용할수록 레벨이 올라갑니다. 레벨이 오르면 다양한 버프를 제공하는 접두사가 붙습니다!"
 				""
-				"&eTools will gain an affix every 20 levels!&r"
+				"&e도구는 20레벨마다 접두사를 얻게 됩니다!&r"
 			]
 			icon: "minecraft:paper"
 			id: "4FC11A47AE877347"
@@ -534,18 +534,18 @@
 				title: "Click Once Read"
 				type: "checkmark"
 			}]
-			title: "Leveling Tools"
+			title: "도구 레벨업"
 			x: 1.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["66D05E37DC634CC8"]
 			description: [
-				"&eSharpening Stones&r can be used on your gear to increase their potency. The quality increase is reflected in the gear's base stat (Weapon Damage, Armor, Dodge Rating, etc.)."
+				"&e숫돌(Sharpening Stones)&r은 장비에 사용하면 장비의 성능을 높일 수 있습니다. 버프는 장비의 기본 능력치(무기 공격력, 방어력, 회피율 등)에 반영됩니다."
 				""
-				"You can craft &eSharpening Stones&r in the &eGear Crafting Station&r using Stones. As you find higher rarity Stones, you will be able to craft better &eSharpening Stones&r."
+				"&e장비 제작대&r에서 등급별 광석을 사용하여 &e숫돌&r을 제작할 수 있습니다. 더 높은 등급의 광석을 사용할 수록 더 좋은 &e숫돌&r을 제작할 수 있습니다."
 				""
-				"These &eSharpening Stones&r can push quality above the normal cap of &b20&r, so they should always be used after &eOrbs of Quality&r as &eSharpening Stones&r can only be used once on an item!"
+				"이 &e숫돌&r은 품질을 일반적인 상한선인 &b20&r 이상으로 끌어올릴 수 있으므로, &e품질의 오브(Orbs of Quality)&r를 사용한 후에 항상 사용해야 합니다. &e숫돌&r은 아이템당 한 번만 사용할 수 있습니다!"
 			]
 			id: "141FEAAFF05B9AD0"
 			rewards: [
@@ -568,20 +568,20 @@
 				item: "mmorpg:currency/sharpening_stone_0"
 				type: "item"
 			}]
-			title: "Increasing Gear Quality"
+			title: "장비 품질 향상"
 			x: -4.5d
 			y: -3.0d
 		}
 		{
 			dependencies: ["69CEB39AA409EB41"]
 			description: [
-				"Brew the potions with the following:"
+				"다음 재료들을 사용하여 물약을 제조하세요:"
 				""
-				"3x &7Spiritual Meat&r"
-				"1x &7Common Stone&r"
-				"1x Cooked Chicken/3x Apple"
-				"1x Tomato/Onion"
-				"1x Copper Coin"
+				"3x &7영적인 고기&r"
+				"1x &7최하급 짱돌&r"
+				"1x 익힌 닭고기/3x 사과"
+				"1x 토마토/양파"
+				"1x 구리 동전"
 			]
 			id: "50FD77E095AAC45F"
 			rewards: [
@@ -631,19 +631,19 @@
 					type: "item"
 				}
 			]
-			title: "Recovery Potions"
+			title: "회복 물약"
 			x: 3.0d
 			y: -4.5d
 		}
 		{
 			dependencies: ["69CEB39AA409EB41"]
 			description: [
-				"Brew the potions with the following:"
+				"다음 재료들을 사용하여 물약을 제조하세요:"
 				""
-				"3x &7Spiritual Produce&r"
-				"1x &7Common Stone&r"
-				"3x Potato/Cabbage/Carrot"
-				"1x Copper Coin"
+				"3x &7영적인 씨앗(Produce)&r"
+				"1x &7최하급 짱돌&r"
+				"3x 감자/양배추/당근"
+				"1x 구리 코인"
 			]
 			id: "53205D57DBDEE858"
 			rewards: [
@@ -707,7 +707,7 @@
 					type: "item"
 				}
 			]
-			title: "Core Buffs"
+			title: "핵심 버프들"
 			x: 4.5d
 			y: -4.5d
 		}
@@ -767,7 +767,7 @@
 				}
 				type: "item"
 			}]
-			title: "Not Vanilla Enchantments"
+			title: "바닐라 인챈트 아님!"
 			x: -1.5d
 			y: -4.5d
 		}
