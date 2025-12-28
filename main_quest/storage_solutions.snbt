@@ -288,7 +288,7 @@
 					type: "item"
 				}
 			]
-			title: "Advanced Upgrades"
+			title: "고급 업그레이드"
 			x: -2.5d
 			y: -4.5d
 		}
