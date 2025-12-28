@@ -10,7 +10,7 @@
 	quests: [
 		{
 			dependencies: ["2AFB98683E249B7D"]
-			description: ["It seems like &eRotlings&r are not the only rotten creatures. There are many different breeds of them."]
+			description: ["부패한 생물은 &e부패귀&r뿐만이 아닌 것 같습니다. 다양한 종류의 부패한 생물들이 존재 하네요."]
 			icon: "minecraft:rotten_flesh"
 			id: "5E98541EEB25174A"
 			rewards: [
@@ -32,7 +32,7 @@
 				}
 			]
 			shape: "rsquare"
-			subtitle: "Main Quest"
+			subtitle: "메인 퀘스트"
 			tasks: [
 				{
 					entity: "undergarden:rotbeast"
@@ -49,13 +49,13 @@
 					value: 12L
 				}
 			]
-			title: "Rotting Creatures"
+			title: "부패한 생물들"
 			x: 1.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["18D44E8B9226FB02"]
-			description: ["You were told this dimension was dank and moist, but you did not expect it to be rotting. Kill the pesky &eRotlings&r that keep attacking you, they seem to be the cause of the rot."]
+			description: ["이 차원이 축축하고 음침하다고는 들었지만, 부패되고 있는줄은 몰랐습니다. 당신을 계속 공격하는 &e부패귀&r를 처치하세요. 그들이 이 차원을 부패시키는 원인인 것 같습니다."]
 			icon: "alexsmobs:cockroach_wing_fragment"
 			id: "2AFB98683E249B7D"
 			rewards: [
@@ -78,7 +78,7 @@
 				}
 			]
 			shape: "rsquare"
-			subtitle: "Main Quest"
+			subtitle: "메인 퀘스트"
 			tasks: [{
 				entity: "undergarden:rotling"
 				icon: "ftb_ph:rotling"
@@ -86,22 +86,22 @@
 				type: "kill"
 				value: 6L
 			}]
-			title: "Foreign Enemies"
+			title: "새로운 적들"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["5C25A5681CC704B8"]
 			description: [
-				"Now that you're geared up, it's time to see what's causing these abnormalities in the ocean. You've noticed some activity in the &eOverworld Ice Mazes&r... It might be worth checking out. You can find these Ice Mazes on the &esurface near Deep Frozen Oceans&r. "
+				"이제 모든 준비가 끝났으니, 바다에서 일어나는 이상 현상의 원인을 알아볼 차례입니다. &e오버월드 얼음 미로&r에서 수상한 움직임이 관측되었습니다. 그곳을 확인해 보는 것도 좋을 것 같습니다. 이 얼음 미로는 &e깊고 얼어붙은 바다&r 근처의 &e지표면&r에서 찾을 수 있습니다."
 				""
-				"They say a rare plant called &eOxygelium&r can be found at the &ebottom of these Ice Mazes&r in the ocean. Alternatively, you can find them from &eTortured Souls&r. If you're having trouble finding &eTortured Souls&r, you can try challenging the &eGateway of the Ice Maze&r!"
+				"비다 속 얼음 미로 바닥에서 &e옥시젤리움&r이라는 희귀 식물을 찾을 수 있다고 합니다. 또는 &e고문당한 영혼&r을 통해서도 얻을 수 있습니다. &e고문당한 영혼&r을 찾기 어렵다면 &e얼음 미로 관문&r에 도전해 보세요!"
 				""
-				"You'll need &eBolt Armor&r to survive the cold. It can be crafted."
+				"추위를 견디려면 &e쓰리 볼트 갑옷&r이 필요합니다. 제작이 가능합니다."
 				""
-				"&cMobs from Aquamirae spawn at a minimum of level 35!&r"
+				"&cAquamirae에서 나오는 몬스터는 최소 레벨 35부터 스폰됩니다!&r"
 				""
-				"&eRequires ALL dependencies to be completed.&r"
+				"&e모든 종속 항목이 완료되어야 합니다.&r"
 			]
 			icon: "minecraft:ice"
 			id: "217637D12CF3011E"
@@ -124,7 +124,7 @@
 				}
 			]
 			shape: "rsquare"
-			subtitle: "Main Quest"
+			subtitle: "메인 퀘스트"
 			tasks: [
 				{
 					icon: "minecraft:ice"
@@ -139,18 +139,18 @@
 					type: "checkmark"
 				}
 			]
-			title: "The Hidden Depths"
+			title: "가늠할 수 없는 깊이"
 			x: 6.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["5E98541EEB25174A"]
 			description: [
-				"You spoke with a village local who claimed to once live in the Undergarden. According to that local, there were once powerful entities in temples throughout the land that protected civilization from creeping Rot. You'll need to find an Undergarden &eCatacombs&r to complete this quest."
+				"당신은 한때 지하 정원에 살았다고 주장하는 주민과 대화를 나눴습니다. 그 주민에 따르면, 과거 지하 정원 곳곳의 사원에는 문명을 부패로부터 보호하는 강력한 존재들이 있었다고 합니다. 이 퀘스트를 완료 하려면 지하 정원의&eCatacombs&r를 찾아야 합니다."
 				""
-				"However, it seems that was all in the past. New investigations hint at some new creatures haunting the Overworld depths."
+				"하지만, 그것은 모두 과거의 일인 것 같습니다. 새로운 조사에 따르면 오버월드 심층부에 새로운 생명체가 출몰하려는 징후가 나타나고 있다고 합니다."
 				""
-				"&o&7Completion unlocks a Repeatable Quest in the Repeatables Chapter!&r&r"
+				"&o&7완료하면 Repeatables 챕터에서 반복 퀘스트가 잠금 해제됩니다!&r&r"
 			]
 			id: "775A13E1924D6C9A"
 			rewards: [
@@ -185,7 +185,7 @@
 				}
 			]
 			shape: "rsquare"
-			subtitle: "Main Quest"
+			subtitle: "메인 퀘스트"
 			tasks: [{
 				entity: "undergarden:forgotten"
 				icon: {
@@ -199,13 +199,13 @@
 				type: "kill"
 				value: 12L
 			}]
-			title: "Civilization from the Past"
+			title: "과거의 문명"
 			x: 3.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["2AFB98683E249B7D"]
-			description: ["You've heard from an elderly local from the village that they were originally from the Undergarden! According to the local, there are no longer any villages in the Undergarden due to the creeping Rot. However, there may still be resident &eStoneborn&r creatures willing to do trade."]
+			description: ["마을의 한 노인에게서 그들이 원래 지하 정원 출신이라는 이야기를 들었습니다! 그 노인에 따르면, 지하 정원에는 부패가 일어나 더 이상 마을이 남아 있지 않다고 합니다. 하지만 여전히 거래를 원하는 &e돌인간&r이 살고 있을지도 모릅니다."]
 			id: "34AE4F64C6DCC76B"
 			rewards: [
 				{
@@ -237,20 +237,20 @@
 					type: "command"
 				}
 			]
-			subtitle: "Delegation"
+			subtitle: "지하 정원 파견"
 			tasks: [{
 				advancement: "undergarden:undergarden/stoneborn_trade"
 				criterion: ""
 				id: "41919A014FCB8BFF"
 				type: "advancement"
 			}]
-			title: "Foreign Friends"
+			title: "외국 친구들"
 			x: 1.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["2AFB98683E249B7D"]
-			description: ["Explore the depths of the Undergarden and you'll find some useful resources that can be turned into gear!"]
+			description: ["지하 정원의 깊은 곳을 탐험하면 장비로 만들 수 있는 유용한 자원들을 발견할 수 있을겁니다!"]
 			id: "73CB23341BA13CD0"
 			rewards: [
 				{
@@ -278,13 +278,13 @@
 				id: "5E1546F833807E4F"
 				type: "advancement"
 			}]
-			title: "New Resources"
+			title: "새로운 자원"
 			x: 1.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["217637D12CF3011E"]
-			description: ["If you're having trouble finding an &eEnd Portal Frame&r and running out of &eEye of Enders&r, perhaps it's time for you to craft an &eEndolocator&r, which is functionally the same as an Eye of Ender, but has unlimited uses!"]
+			description: ["&e엔드 포탈 프레임&r을 찾기 어렵고 &e엔더의 눈&r이 부족하다면, &e엔더의 눈&r과 기능은 동일하지만 사용 횟수에 제한이 없는 &e엔더 탐지기&r를 제작해 보는 건 어떨까요?"]
 			id: "2E0F302F9BBF7E36"
 			rewards: [
 				{
@@ -305,7 +305,7 @@
 					type: "command"
 				}
 			]
-			subtitle: "Echo Location"
+			subtitle: "에코 로케이션"
 			tasks: [{
 				id: "40F07F24ADE9D1A4"
 				item: {
@@ -317,7 +317,7 @@
 				}
 				type: "item"
 			}]
-			title: "Structure-Finding Help"
+			title: "도움! 구조물 찾기"
 			x: 6.0d
 			y: -1.5d
 		}
@@ -353,7 +353,7 @@
 				"45501F3F04639DB1"
 				"5FEC85CF65C29ED6"
 			]
-			description: ["Complete all of the quests in Act III to complete this achievement. Then show it off with your new hat!"]
+			description: ["Act III의 모든 퀘스트를 완료하면 이 업적을 달성할 수 있습니다. 그리고 새 모자를 쓰고 자랑해 보세요!"]
 			hide_dependency_lines: true
 			icon: "simplehats:babydolphin"
 			id: "6852C249CA093735"
@@ -372,19 +372,19 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "Achievement"
+			subtitle: "업적"
 			tasks: [{
 				id: "7F4620276B50AC30"
 				title: "Click Once Read"
 				type: "checkmark"
 			}]
-			title: "Complete All Act III Quests!"
+			title: "모든 Act III 퀘스트 완료하기!"
 			x: 10.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["2E0F302F9BBF7E36"]
-			description: ["The &eStrange Fish Finder&r will locate nearby Devil's Hole chunks which contain &eunique fish and loot&r."]
+			description: ["&e이상한 물고기 탐지기&r는 &e독특한 물고기와 전리품&r이 있는 근처의 악마의 구멍 지역을 찾아줍니다."]
 			id: "58F782F592F2ADEB"
 			rewards: [
 				{
@@ -410,7 +410,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Echo Location"
+			subtitle: "에코 로케이션"
 			tasks: [{
 				id: "0B89633D93313B67"
 				item: {
@@ -428,7 +428,7 @@
 		{
 			dependencies: ["217637D12CF3011E"]
 			dependency_requirement: "one_completed"
-			description: ["This set of &earmor&r allows you to easily &emine and fight&r underwater. You can craft &eOxygen Tanks with Oxygelium&r found underwater in an &eIce Maze&r or from the &eTortured Souls&r also in that area. You can also consider using &eNeptunium&r gear from fishing to fight underwater!"]
+			description: ["이 &e장비 세트&r를 사용하면 수중에서 쉽게 파밍하고 전투를 할 수 있습니다. 산소 탱크는 얼음 미로의 수중에서 발견되는 옥시젤리움이나 같은 지역의 고문당한 영혼을 통해 제작 가능합니다. 또한 낚시로 얻은 넵투늄 장비를 착용하여 수중 전투를 하는 것도 고려해 보세요!"]
 			id: "43D444B5C1395F3E"
 			rewards: [{
 				auto: "enabled"
@@ -441,7 +441,7 @@
 				type: "command"
 			}]
 			shape: "circle"
-			subtitle: "Diving Kit"
+			subtitle: "다이빙 키트"
 			tasks: [
 				{
 					id: "7B1370680492A67F"
@@ -472,9 +472,9 @@
 		{
 			dependencies: ["217637D12CF3011E"]
 			description: [
-				"These undead creatures have been spotted roaming the &eIce Mazes in the Shelter underground, near the Deep Frozen Ocean&r."
+				"이 언데드 생명체들은 &e깊고 얼어붙은 바다 근처 얼음 미로에 있는 Shelter&r 내부를 배회하는 모습이 목격되었습니다."
 				""
-				"&o&7Completion unlocks a Repeatable Quest in the Repeatables Chapter!&r&r"
+				"&o&7완료하면 Repeatables 챕터에서 반복 퀘스트가 잠금 해제됩니다!&r&r"
 			]
 			id: "60A18C940B623CDA"
 			rewards: [
@@ -502,7 +502,7 @@
 				}
 			]
 			shape: "rsquare"
-			subtitle: "Undersea Adventure"
+			subtitle: "해저 탐험"
 			tasks: [{
 				entity: "aquamirae:tortured_soul"
 				icon: {
@@ -516,13 +516,13 @@
 				type: "kill"
 				value: 16L
 			}]
-			title: "The Restless Dead"
+			title: "잠들지 못한 자"
 			x: 7.5d
 			y: -0.5d
 		}
 		{
 			dependencies: ["217637D12CF3011E"]
-			description: ["These fish definitely look fishy... and they're on land! These creatures can be found in &eIce Mazes near the Deep Frozen Ocean&r."]
+			description: ["물고기들이 왜 육지에서 살고 있을까요? 이 몬스터는 &e깊고 얼어붙은 바다 근처 얼음 미로&r에서 찾아볼 수 있습니다."]
 			id: "3054F5AA249874B1"
 			rewards: [
 				{
@@ -543,7 +543,7 @@
 				}
 			]
 			shape: "rsquare"
-			subtitle: "Undersea Adventure"
+			subtitle: "심해 탐험"
 			tasks: [{
 				entity: "aquamirae:maw"
 				icon: "alexsmobs:flying_fish"
@@ -551,13 +551,13 @@
 				type: "kill"
 				value: 12L
 			}]
-			title: "Terrestrial Terrors"
+			title: "지상의 공포"
 			x: 7.5d
 			y: 0.5d
 		}
 		{
 			dependencies: ["217637D12CF3011E"]
-			description: ["The &eAnglerfish&r in the water of the &eIce Maze&r seem normal enough..."]
+			description: ["&e얼음 미로의 물속&r에 서식하는 &e아귀&r는 겉보기엔 평범해 보이네요..."]
 			id: "59A29FC72CB20EB7"
 			rewards: [
 				{
@@ -588,7 +588,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Undersea Adventure"
+			subtitle: "심해 탐험"
 			tasks: [{
 				entity: "aquamirae:anglerfish"
 				icon: "aquamirae:anglers_fang"
@@ -596,20 +596,20 @@
 				type: "kill"
 				value: 8L
 			}]
-			title: "Deep-Sea Creatures"
+			title: "심해 생명체"
 			x: 7.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["59A29FC72CB20EB7"]
 			description: [
-				"This slippery, slithery creature can be found in &eShelters&r by the &eIce Maze&r. Alternatively, you can find one in a &eGateway of the Ice Maze&r."
+				"이 매끈매끈한, 울퉁불퉁한 몬스터는 얼음 미로 근처의 &eShelter&r에서 찾을 수 있습니다. 또는 &e얼음 미로 관문&r에서 찾을 수 있습니다."
 				""
-				"&cThe Eel spawns at minimum level of 35.&r"
+				"&c장어는 최소 레벨 35부터 스폰합니다.&r"
 				""
-				"The Eel Has:"
-				"&b+50% Physical to Cold Damage&r"
-				"&a15% Chance of Dropping Und Rune&r"
+				"장어는 다음의 능력을 가지고 있습니다:"
+				"&b+50% 물리 얼음 변환&r"
+				"&a15% Und 룬을 드랍할 확률&r"
 			]
 			id: "46DB9530C236A4AD"
 			rewards: [
@@ -645,7 +645,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Undersea Adventure"
+			subtitle: "심해 탐험"
 			tasks: [{
 				entity: "aquamirae:eel"
 				icon: "alexsmobs:shed_snake_skin"
@@ -653,20 +653,20 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "Slippery Swimmer"
+			title: "미끄러운 수영 선수"
 			x: 9.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["3054F5AA249874B1"]
 			description: [
-				"Never actually seen by any living being, the myth of the &eMother of the Ice Maze&r is that it's a powerful creature that roams the seas, attacking sailors and pirates alike. If you want to find it, it's said that it has a chance of &espawning with Anglerfish&r (&75.0% chance to spawn when an Anglerfish dies&r). It's also rumored that inside the gut of the creature, you'll find rare ancient pirate treasure..."
+				"그 누구도 목격한 적은 없지만, &e미로의 어머니&r에 대한 전설은 돌아다닙니다. 그 전설의 내용은 바다를 떠돌며 해군과 해적을 가리지 않고 공격하는 강력한 몬스터라는 이야기입니다. 만약 이 몬스터를 찾고 싶다면, 아귀와 함께 나타날 확률이 있습니다(&7아귀가 죽을때 5.0% 확률로 생성됨&r). 또한, 이 생물의 뱃속에는 희귀한 고대 해적의 보물이 들어 있다는 소문도 있습니다."
 				""
-				"&cThe Mother of the Ice Maze spawns at minimum level of 35.&r"
+				"&c미로의 어머니는 최소 레벨 35부터 스폰합니다.&r"
 				""
-				"The Mother of the Ice Maze Has:"
-				"&b+50% Physical to Cold Damage&r"
-				"&a50% Chance of Dropping Und Rune&r"
+				"미로의 어머니는 다음의 능력을 가지고 있습니다:"
+				"&b+50% 물리 얼음 변환&r"
+				"&a50% Und 룬을 드랍할 확률&r"
 			]
 			id: "18B4B295493669DD"
 			rewards: [
