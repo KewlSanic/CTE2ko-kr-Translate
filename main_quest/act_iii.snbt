@@ -99,7 +99,7 @@
 				""
 				"추위를 견디려면 &e쓰리 볼트 갑옷&r이 필요합니다. 제작이 가능합니다."
 				""
-				"&cAquamirae에서 나오는 몬스터는 최소 레벨 35부터 스폰됩니다!&r"
+				"&cAquamirae에서 나오는 몬스터는 최소 레벨 35에서 스폰됩니다!&r"
 				""
 				"&e모든 종속 항목이 완료되어야 합니다.&r"
 			]
@@ -605,7 +605,7 @@
 			description: [
 				"이 매끈매끈한, 울퉁불퉁한 몬스터는 얼음 미로 근처의 &eShelter&r에서 찾을 수 있습니다. 또는 &e얼음 미로 관문&r에서 찾을 수 있습니다."
 				""
-				"&c장어는 최소 레벨 35부터 스폰합니다.&r"
+				"&c장어는 최소 레벨 35에서 스폰합니다.&r"
 				""
 				"장어는 다음의 능력을 가지고 있습니다:"
 				"&b+50% 물리 얼음 변환&r"
@@ -662,7 +662,7 @@
 			description: [
 				"그 누구도 목격한 적은 없지만, &e미로의 어머니&r에 대한 전설은 돌아다닙니다. 그 전설의 내용은 바다를 떠돌며 해군과 해적을 가리지 않고 공격하는 강력한 몬스터라는 이야기입니다. 만약 이 몬스터를 찾고 싶다면, 아귀와 함께 나타날 확률이 있습니다(&7아귀가 죽을때 5.0% 확률로 생성됨&r). 또한, 이 생물의 뱃속에는 희귀한 고대 해적의 보물이 들어 있다는 소문도 있습니다."
 				""
-				"&c미로의 어머니는 최소 레벨 35부터 스폰합니다.&r"
+				"&c미로의 어머니는 최소 레벨 35에서 스폰합니다.&r"
 				""
 				"미로의 어머니는 다음의 능력을 가지고 있습니다:"
 				"&b+50% 물리 얼음 변환&r"
@@ -708,7 +708,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Undersea Adventure"
+			subtitle: "심해 탐험"
 			tasks: [{
 				entity: "aquamirae:maze_mother"
 				icon: {
@@ -732,7 +732,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "Mother of the Deep Sea"
+			title: "심해의 어머니"
 			x: 9.0d
 			y: 1.5d
 		}
@@ -743,23 +743,23 @@
 			]
 			dependency_requirement: "one_completed"
 			description: [
-				"The &eGhost of Captain Cornelia&r appears when a certain sound is played from a &ehorn&r..."
+				"&e코넬리아 선장&r은 특정 나팔 소리가 울려 퍼질 때 나타납니다..."
 				""
-				"Some say the &ehorn&r can be found in a &elarge mother-like creature&r that lurks in the &eDeep Frozen Ocean&r, or can be earned through the completion of a &eGateway of the Ice Maze&r."
+				"소문에 따르면 &e나팔&r은 &e깊고 얼어붙은 바다&r에 숨어있는 &e미로의 어머니&r에게서 발견되거나, &r얼음 미로 관문&r을 완료하면 얻을 수 있다고 말합니다."
 				""
-				"The &eGhost of Captain Cornelia&r is resilient to death... She'll start &cregenerating her Health rapidly at once she's low&r. You can use a &eSplash Potion of Weakness&r to combat this."
+				"&e코넬리아 선장&r은 죽음에 대한 저항이 강합니다... 체력이 낮아지면 빠르게 체력을 회복하기 시작합니다. 이를 막으려면 &e나약함의 물약&r을 사용하세요."
 				""
-				"&cThe Ghost of Captain Cornelia spawns at minimum level of 40.&r"
+				"&c코넬리아 선장은 최소 레벨 40에서 스폰합니다.&r"
 				""
-				"The Ghost of Captain Cornelia Has:"
-				"&b+50% Physical to Cold Damage&r"
-				"&b+25% Critical Hit&r"
-				"&a10% Chance of Dropping Und Rune&r"
+				"코넬리아 선장은 다음의 능력을 가지고 있습니다:"
+				"&b+50% 물리 얼음 변환&r"
+				"&b+25% 치명타 확률&r"
+				"&a10% Und 룬을 드랍할 확률&r"
 				""
-				"&eRequires 1 dependency to be completed.&r"
+				"&e1개의 종속 항목이 완료되어야 합니다.&r"
 				""
-				"&6This Quest Unlocks New Shops In the Campaign Shop."
-				"&o&7Completion unlocks a Repeatable Quest in the Repeatables Chapter!&r&r"
+				"&6이 퀘스트를 완료하면 캠페인 상점에 새로운 상점이 추가됩니다."
+				"&o&7완료하면 Repeatables 챕터에서 반복 퀘스트가 잠금 해제됩니다!&r&r"
 			]
 			id: "55F9F418C4CA3B3A"
 			rewards: [
@@ -789,7 +789,7 @@
 			]
 			shape: "rsquare"
 			size: 1.0d
-			subtitle: "Main Quest"
+			subtitle: "메인 퀘스트"
 			tasks: [{
 				entity: "aquamirae:captain_cornelia"
 				icon: "aquamirae:pirate_pouch"
@@ -803,7 +803,7 @@
 		}
 		{
 			dependencies: ["73CB23341BA13CD0"]
-			description: ["These &ecold ingots&r can be used to craft some powerful &eFroststeel&r gear. They can be found in &eCold Underground Biomes&r such as the &eFrostfields, Frosty Smogstem Forest&r and &eIcy Sea&r biomes&r."]
+			description: ["이 &e서리철 주괴&r는 강력한 &e서리철&r 장비를 제작하는 데 사용할 수 있습니다. 서리철 주괴는 &eFrostfields, Frosty Smogstem Forest&r and &eIcy Sea&r와 같은 &eCold Underground Biomes&r에서 찾을 수 있습니다."]
 			id: "0AFF7911E9C10C1B"
 			rewards: [
 				{
@@ -837,18 +837,18 @@
 				item: "undergarden:froststeel_ingot"
 				type: "item"
 			}]
-			title: "Cold Ingots"
+			title: "서리철"
 			x: 1.5d
 			y: -3.0d
 		}
 		{
 			dependencies: ["55F9F418C4CA3B3A"]
 			description: [
-				"It's time for you to visit the Villager scholar. They might know something about alternate dimensions containing powerful creatures."
+				"이제 마을의 학자를 찾아가 볼 시간입니다. 그는 강력한 생명체가 존재하는 다른 차원에 대해 알고 있을지도 모릅니다."
 				""
-				"You can find the &eGatekeeper&r in &eGatekeeper Houses&r which can spawn in the &emountains, and plains or snowy villages&r."
+				"&e관문지기&r는 &e산, 평원/눈 덮인 마을&r에 생성되는 &eGatekeeper Houses&r에서 찾을 수 있습니다."
 				""
-				"You might need some way to coerce them to giving the information however... Perhaps some &aEmeralds&r?"
+				"정보를 얻어내려면 무력을 써야 할지도 모르겠습니다... 혹시 &e에메랄드&r라도 줘야 할까요?"
 			]
 			id: "0998037F5701A2D7"
 			rewards: [{
@@ -862,7 +862,7 @@
 				type: "command"
 			}]
 			shape: "rsquare"
-			subtitle: "Main Quest"
+			subtitle: "메인 퀘스트"
 			tasks: [{
 				icon: "blue_skies:blinding_key"
 				id: "0C15001804C8AF74"
@@ -870,7 +870,7 @@
 				title: "Find a Gatekeeper"
 				type: "structure"
 			}]
-			title: "The Gatekeepers"
+			title: "관문지기"
 			x: 10.5d
 			y: 0.0d
 		}
@@ -878,15 +878,15 @@
 			dependencies: ["775A13E1924D6C9A"]
 			dependency_requirement: "one_completed"
 			description: [
-				"Deep in the &eCatacombs&r, you may rarely find deactivated guardians. They say these guardians once protected the people from Rot creatures, but have long since lost their magic. Of course, that's just what they say..."
+				"&eCatacombs&r의 깊숙한 곳에서는 드물게 작동이 멈춘 수호자들을 발견할 수 있습니다. 전해지는 전설에 따르면 이 수호자들은 한때 부패한 괴물들로부터 사람들을 보호했지만, 오래전에 마법을 잃어버렸다고 합니다. 물론, 그건 그저 전설일 뿐이지만요..."
 				""
-				"If you cannot find these guardians, you may have better luck forcing a portal to the past with a &eGateway of the Labyrinth&r."
+				"이 수호자들을 찾을 수 없다면, &e미궁의 관문&r을 여는 것이 더 편할지도 모릅니다."
 				""
-				"&cThe Forgotten Guardian spawns at minimum level of 35.&r"
+				"&c잊혀진 수호자는 최소 레벨 35에서 스폰됩니다.&r"
 				""
-				"The Forgotten Guardian Has:"
-				"&b+50% Elemental Resistance&r"
-				"&a10% Chance of Dropping Und Rune&r"
+				"잊혀진 수호자는 다음의 능력을 가지고 있습니다:"
+				"&b+50% 원소 저항&r"
+				"&a10% Und 룬을 드랍할 확률&r"
 			]
 			icon: {
 				Count: 1
@@ -926,7 +926,7 @@
 				}
 			]
 			shape: "rsquare"
-			subtitle: "Main Quest"
+			subtitle: "메인 퀘스트"
 			tasks: [{
 				entity: "undergarden:forgotten_guardian"
 				icon: "ftb_ph:forgotten_guardian"
@@ -934,16 +934,16 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "Hidden Secrets"
+			title: "숨겨진 비밀"
 			x: 4.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["5C25A5681CC704B8"]
 			description: [
-				"Having difficulty with some mobs? You can power yourself up using the Mine and Slash &eInfusing Profession&r. &eScrolls&r can be used on your Gear to &erandomly apply a beneficial stat&r. This stat can be upgraded by using subsequent Infusion Scrolls."
+				"일부 몬스터를 상대하기 어려우신가요? Mine and Slash &e주입 스크롤&r을 사용하면 장비를 강화할 수 있습니다. &e주입 스크롤&r을 장비에 사용하면 &e추가적인 스탯&r을 부여할 수 있으며 더 높은 등급의 주입 스크롤을 사용하면 해당 스탯을 업그레이드할 수 있습니다."
 				""
-				"See the &eM\\&S Professions&r chapter for more information on how to use this system!"
+				"주입 시스템 사용 방법에 대한 자세한 내용은 &eM\\&S Professions&r 챕터를 참고하세요!"
 			]
 			icon: "minecraft:paper"
 			id: "360C736C3975B377"
@@ -975,31 +975,31 @@
 					type: "item"
 				}
 			]
-			subtitle: "Lost Page"
+			subtitle: "잃어버린 페이지"
 			tasks: [{
 				id: "1CF415B71E5C7734"
 				title: "Click Once Read"
 				type: "checkmark"
 			}]
-			title: "Not Vanilla Enchantments"
+			title: "바닐라 인첸트 아님"
 			x: 4.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["4F6C1721D3A47BFC"]
 			description: [
-				"In CTE2, some Vanilla stats have compatibility with Mine and Slash!"
+				"CTE2에서는 일부 바닐라 스탯이 Mine and Slash와 호환됩니다!"
 				""
-				"Vanilla : &aMine and Slash&r"
-				"Health : &b+0.5% Magic Shield&r"
-				"Armor : &b+0.1% Gear Defense&r"
-				"Armor Toughness : &b+0.1% Gear Defense&r"
-				"Attack Damage : &b+0.5% Total Damage&r"
-				"Luck : &b+3% Magic Find&r"
+				"바닐라 : &aMine and Slash&r"
+				"체력 : &b+0.5% 마법 보호막&r"
+				"방어 포인트 : &b+0.1% 방어&r"
+				"방어 강도 : &b+0.1% 방어&r"
+				"공격력 : &b+0.5% 모든 데미지&r"
+				"행운 : &b+3% 마법 탐색&r"
 				""
-				"Additionally, Enchantment compatibility is included. You can see how the Enchantment affects Mine and Slash stats in the &bEnchantment description in blue&r."
+				"또한, 마법 부여도 호환이 됩니다. 파란색으로 표시된 &b마법 부여 설명&r에서 해당 마법 부여가 Mine and Slash에 어떤 영향을 미치는지 확인할 수 있습니다."
 				""
-				"Enchantment stat bonuses cap out per item equal to the Max Enchantment level + 1. For example, Protection gives +2% Armor, but each item with this enchantment can only give +12%, even if you somehow get a Protection VIII item. However, there is also a global cap of the item cap x3. If you equipped 4 Protection VI items, you would receive only +36% Armor."
+				"마법 부여로 인한 스탯 보너스는 아이템당 최대 마법 부여 레벨 + 1으로 제한됩니다. 예를 들어 보호는 방어력을 +2% 올려주지만, 이 마법이 부여된 아이템 하나당 얻을 수 있는 방어력 보너스는 최대 +12%에 불과합니다. 만약 보호 VIII인 아이템을 4개 장착하더라도 마찬가지 입니다. 또한, 아이템 하나 최대치의 3배에 달하는 최대 상한선이 있습니다. 예를 들어 보호 IV 아이템을 4개 장착해도 최대 보호 XII의 효과만을 받을수 있습니다."
 			]
 			icon: "minecraft:paper"
 			id: "11DB53435CA1D59E"
@@ -1017,22 +1017,22 @@
 				}
 				type: "item"
 			}]
-			subtitle: "Lost Page"
+			subtitle: "잃어버린 페이지"
 			tasks: [{
 				id: "28690175BDCF5B11"
 				title: "Click Once Read"
 				type: "checkmark"
 			}]
-			title: "Stat and Enchantment Compatibility"
+			title: "Mine and Slash와 바닐라 호환성"
 			x: 3.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["34AE4F64C6DCC76B"]
 			description: [
-				"The &eImbuing Table&r allows you to &ecombine max level&r enchantments. You can use the table to raise a max level enchantment on an item by &e1&r. For example, using a &eFortune III&r book to upgrade a pickaxe that already has &eFortune III&r will result in a pickaxe with &eFortune IV&r."
+				"&e부여 테이블&r을 사용하면 &e최대 레벨&r의 마법 부여를 조합할 수 있습니다. 부여 테이블을 이용해 아이템에 부여된 최대 레벨의 마법 부여를 1 초과할 수 있습니다. 예를 들어, 이미 &e행운 III&r인 곡괭이에 &e행운 III&r 책을 사용하면 &e행운 IV&r를 가진 곡괭이가 됩니다."
 				""
-				"&oNote that not all enchantments support this system."
+				"&o모든 마법 부여가 이 시스템을 지원하는 것은 아니라는 점을 유의하세요."
 			]
 			id: "6BA03D598BD6C2AD"
 			rewards: [{
@@ -1045,7 +1045,7 @@
 				title: "5500 Experience"
 				type: "command"
 			}]
-			subtitle: "Craft an Imbuing Table"
+			subtitle: "부여 테이블 만들기"
 			tasks: [{
 				id: "50C250274B0E7598"
 				item: "illagerinvasion:imbuing_table"
@@ -1056,7 +1056,7 @@
 		}
 		{
 			dependencies: ["60A18C940B623CDA"]
-			description: ["&eAquamarine&r drop from &eDrowned, Squids, and Guardians&r and can be used to trade with &eSea Dwellers&r! Sea Dwellers are merfolk found in the &edepths of the ocean&r. You can usually find them congregated in &eunderwater villages&r."]
+			description: ["&e아쿠아마린&r은 &e드라운드, 오징어, 가디언&r에게서 획득할 수 있으며, &e바다 거주민&r과 거래하는 데 사용할 수 있습니다! 심해 거주민은 &e심해&r에 서식하는 인어족입니다. 보통 &eunderwater vilage&r.에 모여 있는 것을 볼 수 있습니다."]
 			id: "2A8673F98F14484D"
 			rewards: [
 				{
@@ -1081,7 +1081,7 @@
 					type: "command"
 				}
 			]
-			subtitle: "Undersea Adventure"
+			subtitle: "심해 탐험"
 			tasks: [{
 				id: "59C725105DC08072"
 				item: "seadwellers:aquamarine"
@@ -1094,16 +1094,16 @@
 		{
 			dependencies: ["2AFB98683E249B7D"]
 			description: [
-				"Resistances play an important role in keeping yourself alive. There are 3 Elements: &cFire&r, &bCold&r, and &eLightning&r. There are also &7Physical&r and &5Chaos&r damage types."
+				"저항은 생존에 중요한 역할을 합니다. 속성은 3가지가 있으며: &c화염&r, &b얼음&r, &e번개&r, &7물리&r 피해와 &5혼돈&r 피해 유형도 있습니다."
 				""
-				"&6Elemental Damage&r becomes prominent from this point on, with most mobs having some form of Elemental Damage (whether innately, or from affixes). It is &evital&r that you maintain your &6Elemental Resistances&r! &5Chaos Resistance&r is also pivotal, albeit more elusive to obtain."
+				"이 시점부터 대부분의 몬스터가 원소 피해를 입히기 떄문에 &6원소 저항&r이 중요해집니다. 따라서 &e원소 저항&r을 높게 유지하는 것이 &e필수&r입니다! &5혼돈 저항&r도 중요하지만, 얻기 좀 더 어렵습니다."
 				""
-				"As you become stronger, the mobs also become stronger. &l&cEvery 25 levels, your resists permanently drop by 25%!&r&r"
+				"당신이 강해질수록 몬스터들도 강해집니다. &l&c25레벨마다 저항이 영구적으로 25%씩 감소합니다!&r&r"
 				""
-				"&eLv. 1-24:&r &b+25% Ele/Chaos Resistance&r"
-				"&eLv. 25-49:&r +0% Ele/Chaos Resistance"
-				"&eLv. 50-74:&r &c-25% Ele/Chaos Resistance&r"
-				"&eLv. 75+:&r &c-50% Ele/Chaos Resistance&r"
+				"&eLv. 1-24:&r &b+25% 원소/혼돈 저항&r"
+				"&eLv. 25-49:&r +0% 원소/혼돈 저항"
+				"&eLv. 50-74:&r &c-25% 원소/혼돈 저항&r"
+				"&eLv. 75+:&r &c-50% 원소/혼돈 저항&r"
 			]
 			icon: "minecraft:paper"
 			id: "45EA60D4FE6CFFAC"
@@ -1129,19 +1129,19 @@
 					type: "command"
 				}
 			]
-			subtitle: "Lost Page"
+			subtitle: "잃어버린 페이지"
 			tasks: [{
 				id: "3C2F08373F7EA7F7"
 				title: "Click Once Read"
 				type: "checkmark"
 			}]
-			title: "Resistances"
+			title: "저항에 관하여"
 			x: 0.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["360C736C3975B377"]
-			description: ["Try crafting your own Infusion Scroll at a higher rarity! Boot Infusions are particularly powerful as you can get special stats only found on Boot Infusions!"]
+			description: ["더 높은 희귀도의 주입 스크롤을 직접 제작해 보세요! 특히 부츠 주입은 부츠 주입에서만 얻을 수 있는 특별한 스탯을 부여할 수 있어 매우 강력합니다!"]
 			id: "713FE37BCF17FA27"
 			rewards: [{
 				auto: "enabled"
@@ -1153,7 +1153,7 @@
 				title: "7500 Experience"
 				type: "command"
 			}]
-			subtitle: "M\\&S Professions"
+			subtitle: "M\\&S 전문 기술"
 			tasks: [{
 				id: "3909083DF06CD4CE"
 				item: {
@@ -1166,19 +1166,19 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Protecting the Feets"
+			title: "발 보호하기"
 			x: 4.5d
 			y: -3.0d
 		}
 		{
 			dependencies: ["775A13E1924D6C9A"]
 			description: [
-				"The &eNaga&r are flying creatures found all around the &eUndergarden&r."
+				"&e나가Naga&r는 &e지하 정원&r 곳곳에서 발견되는 날아다니는 생물입니다."
 				""
-				"The Naga Has:"
-				"&b+75% Physical to Chaos Damage&r"
-				"&b+50% Poison Chance&r"
-				"&b+50% Poison Damage&r"
+				"나가는 다음의 능력을 가지고 있습니다:"
+				"&b+75% 물리 혼돈 변환&r"
+				"&b+50% 중독 확률&r"
+				"&b+50% 중독 데미지&r"
 			]
 			icon: "mowziesmobs:naga_fang"
 			id: "4F6C1721D3A47BFC"
@@ -1192,7 +1192,7 @@
 				title: "7500 Experience"
 				type: "command"
 			}]
-			subtitle: "The Undergarden"
+			subtitle: "지하 정원"
 			tasks: [{
 				entity: "mowziesmobs:naga"
 				icon: "ftb_ph:naga_mowzie"
@@ -1200,27 +1200,27 @@
 				type: "kill"
 				value: 4L
 			}]
-			title: "Under the.. Undergarden?"
+			title: "깊은 저 바다 속...? 지하 정원"
 			x: 3.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["775A13E1924D6C9A"]
 			description: [
-				"&eUmvuthi, the Sunbird&r is a large neutral boss mob - a heliomacer who serves as the creator of the Abavuthana."
+				"&e태양조, 움부티&r 중립 보스 몬스터로, 움부타나의 창조자 역할을 하는 헬리오메이서입니다."
 				""
-				"Umvuthi can be found in a &eGateway of the Depths&r."
+				"움부티는 &e심연의 관문&r에서 찾을 수 있습니다."
 				""
-				"If approached by a player wearing a Umvuthana Mask, that player will be able to trade with Umvuthi."
+				"플레이어가 움부타나 가면을 쓰고 접근하면, 움부티와 거래할 수 있습니다."
 				""
-				"&cThe Umvuthi spawns at minimum level of 35.&r"
+				"&c움부티는 항상 최소 레벨 35에서 스폰됩니다.&r"
 				""
-				"The Umvuthi Has:"
-				"&b+100% Physical to Fire Damage&r"
-				"&b+50% Burn Chance&r"
-				"&b+50% Fire Resistance&r"
-				"&b+50% Lightning Resistance&r"
-				"&a10% Chance of Dropping Und Rune&r"
+				"움부티는 다음의 능력을 가지고 있습니다:"
+				"&b+100% 물리 화염 변환&r"
+				"&b+50% 화상 확률&r"
+				"&b+50% 화염 저항&r"
+				"&b+50% 번개 저항&r"
+				"&a10% Und 룬을 드랍할 확률&r"
 			]
 			icon: "mowziesmobs:grant_suns_blessing"
 			id: "3242634F49140F5F"
@@ -1242,7 +1242,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "The Undergarden"
+			subtitle: "지하 정원"
 			tasks: [{
 				advancement: "mowziesmobs:kill_umvuthi"
 				criterion: ""
@@ -1251,26 +1251,26 @@
 				title: "Kill: 1x Umvuthi, the Sunbird"
 				type: "advancement"
 			}]
-			title: "The Sun Chief"
+			title: "태양의 우두머리"
 			x: 3.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["4F6C1721D3A47BFC"]
 			description: [
-				"&eFerrous Wroughtnauts&r start standing still, with their arms resting on their axe. When a player comes nearby or they are attacked, they ready themselves and start attacking. When not in combat Wroughtnauts will quickly regenerate their health."
+				"&e강철의 기사&r는 도끼에 팔을 얹은 채 가만히 서 있습니다. 플레이어가 가까이 오거나 공격을 받으면 공격 태세를 갖추고 공격을 시작합니다. 전투 중이 아닐 떄는 체력을 빠르게 회복합니다."
 				""
-				"&c&lWarning! Ferrous Wroughtnauts can break your shield. Proceed with caution!&r&r"
+				"&c&l경고! 강철의 기사는 방패를 파괴할 수 있습니다. 주의해서 진행하십시오!&r&r"
 				""
-				"You can find them in their Arenas throughout the Undergarden."
+				"그들은 지하 정원 곳곳에 있는 아레나에서 찾아볼 수 있습니다."
 				""
-				"&cThe Ferrous Wroughtnaut spawns at minimum level of 35.&r"
+				"&c강철의 기사는 항상 최소 레벨 35에서 스폰됩니다.&r"
 				""
-				"The Ferrous Wroughtnaut Has:"
-				"&b+50% Bleed Chance&r"
-				"&b+50% Armor&r"
-				"&b+40% Elemental Resistance&r"
-				"&a10% Chance of Dropping Und Rune&r"
+				"강철의 기사는 다음의 능력을 가지고 있습니다:"
+				"&b+50% 출혈 확률&r"
+				"&b+50% 방어&r"
+				"&b+40% 원소 저항&r"
+				"&a10% Und 룬을 드랍할 확률&r"
 			]
 			icon: {
 				Count: 1
@@ -1299,7 +1299,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "The Undergarden"
+			subtitle: "지하 정원"
 			tasks: [{
 				id: "74A2D2C74D0310B4"
 				item: {
@@ -1311,13 +1311,13 @@
 				}
 				type: "item"
 			}]
-			title: "Steely Resolve"
+			title: "강철 같은 결의"
 			x: 4.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["59A29FC72CB20EB7"]
-			description: ["Need a bit of an EXP boost? Consider eating &eExperience Gain Seafood&r crafted through Professions!"]
+			description: ["경험치를 더 빠르게 얻고 싶으신가요? Mine and Slash 전문 기술을 통해 제작 가능한 &e보너스 경험치 생선&r을 드셔보세요!"]
 			id: "0E47D45B630AF684"
 			rewards: [
 				{
@@ -1336,7 +1336,7 @@
 					type: "command"
 				}
 			]
-			subtitle: "M\\&S Professions"
+			subtitle: "M\\&S 전문 기술"
 			tasks: [{
 				id: "16B63C712B862DD3"
 				item: {
@@ -1349,22 +1349,22 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Feeling A Bit Starved"
+			title: "좀 배고픈 것 같아요."
 			x: 7.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["55F9F418C4CA3B3A"]
 			description: [
-				"Ever wanted to go back to the Overworld to explore, but find the levels too low to make it an enjoyable experience? At certain breakpoint levels, past Dimensions will \"enrage\", increasing their level ranges for players to potentially go back and enjoy past Dimensions!"
+				"오버월드로 돌아가 탐험하고 싶지만 레벨이 너무 낮아 재미를 느끼지 못하시나요? 특정 레벨에 도달하면 이전 차원들이 \"분노\" 상태에 들어가 레벨이 높아져 플레이어들이 이전 차원들을 다시 탐험하고 즐길수 있습니다."
 				""
 				"&c------------------------------&r"
 				""
-				"&eOverworld&r - Lv. &b50-70&r"
-				"&eNether&r - Lv. &b55-75&r"
-				"&eUndergarden&r - Lv. &b60-80&r"
-				"&eEverbright/Everdawn&r - Lv. &b65-85&r"
-				"&eThe End&r - Lv. &b70-90&r"
+				"&e오버월드&r - Lv. &b50-70&r"
+				"&e네더&r - Lv. &b55-75&r"
+				"&e지하 정원&r - Lv. &b60-80&r"
+				"&e에버브라이트/에버던&r - Lv. &b65-85&r"
+				"&e엔더&r - Lv. &b70-90&r"
 				"&eThe Otherside&r - Lv. &b75-95&r"
 			]
 			icon: "minecraft:paper"
@@ -1374,31 +1374,31 @@
 				item: "mmorpg:currency/enchant_reroll"
 				type: "item"
 			}]
-			subtitle: "Lost Page"
+			subtitle: "잃어버린 페이지"
 			tasks: [{
 				id: "69D1987CC32E4D4C"
 				title: "Click Once Read"
 				type: "checkmark"
 			}]
-			title: "Travelling Backwards"
+			title: "태초마을이야!"
 			x: 10.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["775A13E1924D6C9A"]
 			description: [
-				"&eTongbi, the Sculptor&r is a powerful geomancer mob that can be found in the &eMonastery&r."
+				"&e통비, 조각가&r는 &eMonastery&r찾을 수 있는 강력한 지리학자 몬스터입니다."
 				""
-				"Tongbi, the Sculptor can be found in a &eGateway of the Depths&r."
+				"통비, 조각가는 &e심연의 관문&r에서 찾을 수 있습니다."	
 				""
-				"&cTongbi, the Sculptor spawns at minimum level of 35.&r"
+				"&c통비, 조각가는 항상 최소 레벨 35에서 스폰됩니다.&r"
 				""
-				"Tongbi, the Sculptor Has:"
-				"&b+25% Physical to Cold Damage&r"
-				"&b+25% Physical to Chaos Damage&r"
-				"&b+40% Cold Resistance&r"
-				"&b+40% Chaos Resistance&r"
-				"&a10% Chance of Dropping Und Rune&r"
+				"통비 조각가는 다음의 능력을 가지고 있습니다:"
+				"&b+25% 물리 얼음 변환&r"
+				"&b+25% 물리 혼돈 변환&r"
+				"&b+40% 얼음 저항&r"
+				"&b+40% 혼돈 저항&r"
+				"&a10% Und 룬을 드랍할 확률&r"
 			]
 			id: "5FEC85CF65C29ED6"
 			rewards: [{
@@ -1411,7 +1411,7 @@
 				title: "10000 Experience"
 				type: "command"
 			}]
-			subtitle: "The Undergarden"
+			subtitle: "지하 정원"
 			tasks: [{
 				entity: "mowziesmobs:sculptor"
 				icon: {
@@ -1425,7 +1425,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "The Sculptor"
+			title: "조각가"
 			x: 4.5d
 			y: 1.5d
 		}
