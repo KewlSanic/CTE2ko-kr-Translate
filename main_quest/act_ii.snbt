@@ -225,7 +225,7 @@
 					type: "command"
 				}
 			]
-			subtitle: "내 앞에는 불길만이"
+			subtitle: "내 앞은 불길만이"
 			tasks: [
 				{
 					entity: "minecraft:blaze"
@@ -280,7 +280,7 @@
 					type: "command"
 				}
 			]
-			subtitle: "내 앞에는 불길만이"
+			subtitle: "내 앞은 불길만이"
 			tasks: [{
 				entity: "monsterplus:lava_squid"
 				icon: "ftb_ph:lava_squid"
@@ -329,7 +329,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "내 앞에는 불길만이"
+			subtitle: "내 앞은 불길만이"
 			tasks: [{
 				entity: "monsterplus:mother_lava_squid"
 				icon: "ftb_ph:lava_squid"
@@ -965,8 +965,8 @@
 				"&l언더가든:&r &5혼돈&r"
 				"&laquamirae&r 몹들: &b냉기&r"
 				"&l에버브라이트:&r &bCold&r + &e번개&r"
-				"&l에버다운:&r &cFire&r + &5혼돈&r"
-				"&l디 엔드:&r &cFire&r + &e번개&r + &5혼돈&r"
+				"&l에버다운:&r &c화염&r + &5혼돈&r"
+				"&l디 엔드:&r &c화염&r + &e번개&r + &5혼돈&r"
 				"&l아더 사이드:&r &5혼돈&r"
 				"&l황혼의 숲:&r &7없음&r"
 			]

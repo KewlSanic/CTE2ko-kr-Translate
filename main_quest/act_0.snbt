@@ -63,7 +63,7 @@
 				""
 				"파티 플레이에 사용할 수 있는 명령어는 세 가지가 있습니다:"
 				""
-				"&eMine and Slash의 팀&r에서는 경험치를 공유하고 서로 회복/버프를 걸어줄 수 있습니다. 또한, 파티원의 체력/마법 보호막 수치를 GUI에서 확인할 수 있습니다!"
+				"&eMine and Slash 팀&r에서는 경험치를 공유하고 서로 회복/버프를 걸어줄 수 있습니다. 또한, 파티원의 체력/마법 보호막 수치를 GUI에서 확인할 수 있습니다!"
 				""
 				"FTB Teams를 사용하면 퀘스트 진행 상황을 공유할 수 있습니다. 또한 FTB Teams에는 사용자 지정 팀 채팅 메뉴가 있으며, 기본적으로 '-' 키를 눌러 접근할 수 있습니다."
 				""
@@ -91,7 +91,7 @@
 		{
 			dependencies: ["04849611F904771C"]
 			description: [
-				"Mine and Slash덕분에 CTE2는 완전히 커스텀 가능한 레벨업 시스템을 갖추게 되었습니다."
+				"Mine and Slash 덕분에 CTE2는 완전히 커스텀 가능한 레벨업 시스템을 갖추게 되었습니다."
 				""
 				"몬스터를 처치하여 경험치를 얻고, 레벨이 오를 때마다 스탯 포인트를 획득하세요. 이 포인트를 메인 화면에서  &e\"H\"키를 눌러&r. 사용할 수 있습니다. 대부분의 메뉴는 이 메뉴 휠을 통해 접근 가능합니다!"
 				""
@@ -131,7 +131,7 @@
 		{
 			dependencies: ["624D8CD0A4A6668B"]
 			description: [
-				"&e특성 트리&r는 &e캐릭터를 더욱 세밀하게 커스텀&r할 수 있는 기능을 제공하며 Mine and Slash허브에서 찾을수 있습니다."
+				"&e특성 트리&r는 &e캐릭터를 더욱 세밀하게 커스텀&r할 수 있는 기능을 제공하며 Mine and Slash 허브에서 찾을수 있습니다."
 				""
 				"{image:cte2:textures/talent_tree.png width:160 height:115 align:1}"
 				""
@@ -629,13 +629,13 @@
 		{
 			dependencies: ["3059FF2D6DB1AC9F"]
 			description: [
-				"CTE2에서는 다양한 장비를 제작하거나 획득할 수 있습니다. 이러한 장비들은 &e장비 스탯 영혼&r을 적용하여 Mine and Slash스탯을 부여하기 전까지는 아무런 능력치를 제공하지 않습니다."
+				"CTE2에서는 다양한 장비를 제작하거나 획득할 수 있습니다. 이러한 장비들은 &e장비 스탯 영혼&r을 적용하여 Mine and Slash 스탯을 부여하기 전까지는 아무런 능력치를 제공하지 않습니다."
 				""
 				"&c장비 영혼이 없는 장비는 방어든 공격이든 아무런 효과가 없습니다!&r"
 				""
-				"장비 스탯 영혼은 같은 유형의 장비에 사용할 수 있습니다. 예를 들어, Aquaculture와 Farmer's Delight의 칼은 \"단검\" 타입입니다. &e\"단검\" 유형의 장비 스탯 영혼&r을 사용하면 Mine and Slash스탯을 칼에 부여시킬 수 있습니다!"
+				"장비 스탯 영혼은 같은 유형의 장비에 사용할 수 있습니다. 예를 들어, Aquaculture와 Farmer's Delight의 칼은 \"단검\" 타입입니다. &e\"단검\" 유형의 장비 스탯 영혼&r을 사용하면 Mine and Slash 스탯을 칼에 부여시킬 수 있습니다!"
 				""
-				"&e장비 스탯 영혼을 제작하는 방법에 대해 자세히 알고 싶으신가요&r? &aM\\&S 전문기술&r 퀘스트 챕터를 방문해 보세요!"
+				"&e장비 스탯 영혼을 제작하는 방법에 대해 자세히 알고 싶으신가요&r? &aM\\&S Professions&r 챕터를 방문해 보세요!"
 			]
 			icon: "ftbquests:book"
 			id: "289350CF47F41D69"
@@ -796,9 +796,9 @@
 		{
 			dependencies: ["1C852F78D386B77E"]
 			description: [
-				"곧 알게 되시겠지만, &eCraft to Exile 2&r에는 수집할 아이템이 정말 많습니다. 대부분의 아이템은 RPG 모드인 &eMine and Slash&r에서 얻을 수 있습니다. 가장 골치 아픈 점 중 하나는 인벤토리를 정리하고 아이템을 주울 공간을 충분히 확보하는 것입니다."
+				"곧 알게 되시겠지만, &eCraft to Exile 2&r에는 수집할 아이템이 정말 많습니다. 대부분의 아이템은 RPG 모드인 &eMine and Slash&r 에서 얻을 수 있습니다. 가장 골치 아픈 점 중 하나는 인벤토리를 정리하고 아이템을 주울 공간을 충분히 확보하는 것입니다."
 				""
-				"이 &e마스터 가방&r은 &eMine and Slash&r으로 부터 얻은 아이템을 &b줍고 보관하며&r 전리품을 정리하는 데 도움을 줍니다. 이 가방은 장신구 슬롯에 착용 가능하며 \"&eAlt + B&r\"키로 사용할 수 있습니다!"
+				"이 &e마스터 가방&r은 &eMine and Slash&r 으로 부터 얻은 아이템을 &b줍고 보관하며&r 전리품을 정리하는 데 도움을 줍니다. 이 가방은 장신구 슬롯에 착용 가능하며 \"&eAlt + B&r\"키로 사용할 수 있습니다!"
 				""
 				"만약 여전히 엄청난 양의 전리품을 처리하는 것에 어려움을 겪고 있다면, 허브에서 찾을 수 있는 &e자동 분해 기능&r을 이용해 보는것도 고려해 보세요. 이 기능에 대한 자세한 내용은 &eProfessions 챕터&r를 확인해 보세요."
 			]
@@ -919,7 +919,7 @@
 				""
 				"{image:cte2:textures/skill_hotbar.png width:160 height:120 align:center}"
 				""
-				"Esc 키를 누른 후 모드 > Mine and Slash > 설정 > mine_and_slash-client > 설정 편집 > General > Overlays > &eSPELL HOTBAR OVERLAY TYPE을 설정하여 가소/세로로 전환하고 SPELL HOTBAR VERTICAL/HORIZONTAL CONFIG를 설정하여 조정할 수 있습니다."
+				"Esc 키를 누른 후 모드 > Mine and Slash > 설정 > mine_and_slash-client > 설정 편집 > General > Overlays > &eSPELL HOTBAR OVERLAY TYPE을 설정하여 가로/세로로 전환하고 SPELL HOTBAR VERTICAL/HORIZONTAL CONFIG를 설정하여 조정할 수 있습니다."
 			]
 			icon: "ftbquests:book"
 			id: "33E4003EA7B05BA4"
@@ -968,5 +968,5 @@
 			y: 7.0d
 		}
 	]
-	title: "Prologue"
+	title: "프롤로그"
 }
