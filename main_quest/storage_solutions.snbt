@@ -862,7 +862,7 @@
 			]
 			shape: "hexagon"
 			size: 2.0d
-			subtitle: "도전과제"
+			subtitle: "업적"
 			tasks: [{
 				id: "7FAAD1441DAB60C3"
 				title: "한 번 읽고 클릭하세요"

@@ -938,7 +938,7 @@
 			]
 			shape: "hexagon"
 			size: 2.0d
-			subtitle: "도전과제"
+			subtitle: "업적"
 			tasks: [{
 				id: "1B9FD9860E832B8F"
 				title: "Click Once Read"

@@ -469,7 +469,7 @@
 				}
 			]
 			shape: "rsquare"
-			subtitle: "Main Quest"
+			subtitle: "메인 퀘스트"
 			tasks: [{
 				advancement: "deeperdarker:main/find_ancient_temple"
 				criterion: ""
@@ -477,18 +477,18 @@
 				id: "779882C7510983D8"
 				type: "advancement"
 			}]
-			title: "Untied Loose Ends"
+			title: "풀리지 않는 끝"
 			x: 10.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["6F0D75895E507FFD"]
 			description: [
-				"Although you've &eslain the dragon&r, you will still find remnants of the beast. Slay its &espawn&r to prevent any further devastation."
+				"&e비록 드래곤을 처치했지만&r, 여전히 그 짐승의 잔해가 남아 있을 것입니다. 더 이상의 파괴를 막기 위해 &e그녀의 새끼&r들을 처치하십시오."
 				""
-				"Note that you can &erespawn&r the Ender Dragon again using &eEnd Crystals&r! The method is the same as &eVanilla.&r"
+				"참고로, &e엔드 수정&r을 사용하면 엔더 드래곤을 &e다시 소환&r할 수 있습니다! 방법은 &e바닐라 버전과 동일&r합니다."
 				""
-				"&o&7Completion unlocks a Repeatable Quest in the Repeatables Chapter!&r&r"
+				"&o&7완료하면 Repeatables 퀘스트 챕터에서 반복 가능 퀘스트가 잠금 해제됩니다!&r&r"
 			]
 			id: "61FF2CADDF0013F6"
 			rewards: [
@@ -515,7 +515,7 @@
 					type: "command"
 				}
 			]
-			subtitle: "Endventure"
+			subtitle: "엔드벤처"
 			tasks: [{
 				entity: "realmrpg_wyrms:ender_wyrm"
 				icon: "simplehats:dragonskullender"
@@ -523,16 +523,16 @@
 				type: "kill"
 				value: 12L
 			}]
-			title: "Dragonspawn"
+			title: "드래곤 스폰"
 			x: 1.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["30FA1CCB6BBA7125"]
 			description: [
-				"Rumours have it that &eFarseer&r are prophetic creatures originating from the void."
+				"소문에 따르면 &e선견자&r는 공허에서 기원한 예언적인 존재라고 합니다."
 				""
-				"&o&7Completion unlocks a Repeatable Quest in the Repeatables Chapter!&r&r"
+				"&o&7완료하면 Repeatables 퀘스트 챕터에서 반복 가능 퀘스트가 잠금 해제됩니다!&r&r"
 			]
 			icon: "alexsmobs:farseer_arm"
 			id: "69FD852AE0306BD2"
@@ -574,7 +574,7 @@
 					type: "custom"
 				}
 			]
-			subtitle: "Endventure"
+			subtitle: "엔드벤처"
 			tasks: [{
 				entity: "alexsmobs:farseer"
 				icon: "ftb_ph:farseer"
@@ -582,7 +582,7 @@
 				type: "kill"
 				value: 2L
 			}]
-			title: "They Knew You Were Coming"
+			title: "그들은 당신이 오는 걸 알고 있었어"
 			x: 3.0d
 			y: 3.0d
 		}
@@ -616,7 +616,7 @@
 				"600F5339B6C0975C"
 				"6EBB1D7F4A2F96D4"
 			]
-			description: ["&eComplete&r all of the &equests&r in Act V to complete this achievement. Then show it off with your new hat!"]
+			description: ["&eAct V의 모든 퀘스트를 완료하면 이 업적을 달성할 수 있습니다. 그런 다음 새 모자를 쓰고 자랑해 보세요!"]
 			hide_dependency_lines: true
 			icon: "simplehats:rgbsunglasses"
 			id: "4ABF5C9676202847"
@@ -634,13 +634,13 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "Achievement"
+			subtitle: "업적"
 			tasks: [{
 				id: "3F2676327EA7C4ED"
 				title: "Click Once Read"
 				type: "checkmark"
 			}]
-			title: "Complete All Act V Quests!"
+			title: "모든 Act V 퀘스트 완료하기!"
 			x: 12.0d
 			y: 4.5d
 		}
@@ -648,20 +648,20 @@
 			dependencies: ["3944DD7AC4667137"]
 			dependency_requirement: "one_completed"
 			description: [
-				"Maps are &einstanced dungeons&r from Mine and Slash. To get one, you will need to find a Map or &ecraft a Map Creator&r, which will generate a &7Common&r &eMap&r. These can only be used &estarting at level 55&r."
+				"지도는 Mine and Slash 모드의 &e인스턴스 던전&r입니다. 지도를 얻으려면 지도를 찾거나 지도 제작기를 만들어야 하며, 지도 제작기는 일반 지도를 생성합니다. 이 지도는 레벨 55부터 사용할 수 있습니다."
 				""
-				"To access these instanced dungeons, you will also need to craft a &eMap Device&r. The Maps can be used on the Map Device block (once placed). You also will need to craft a &ePearl of Home&r, to ensure you can return safely."
+				"이러한 인스턴스 던전에 입장하려면 &e지도 디바이스&r를 제작해야 합니다. 제작한 지도는 설치된 지도 디바이스 블록에 사용할 수 있습니다. 또한 안전하게 돌아올 수 있도록 &e귀환의 진주&r도 제작해야 합니다."
 				""
-				"Maps will have an associated Rarity and Tier. The Rarity and Tier determine the difficulty of mobs, and quality of loot."
+				"지도에는 희귀도와 등급이 부여됩니다. 희귀도와 등급은 몬스터의 난이도와 획득하는 전리품의 품질을 결정합니다."
 				""
-				"&7Common&r - Tier 0-10"
-				"&aUncommon&r - Tier 11-20"
-				"&9Rare&r - Tier 21-40"
-				"&dEpic&r - Tier 41-60"
-				"&6Legendary&r - Tier 61-80"
-				"&5Mythic&r - Tier 81-100"
+				"&7일반&r - 티어 0-10"
+				"&a고급&r - 티어 11-20"
+				"&9희귀&r - 티어 21-40"
+				"&d영웅&r - 티어 41-60"
+				"&6전설&r - 티어 61-80"
+				"&5신화&r - 티어 81-100"
 				""
-				"Maps can also roll various affixes. &eAffixes&r are random modifiers that are applied either to the players (usually negative) or the mobs (usually positive)."
+				"지도에는 다양한 접두사가 붙을 수도 있습니다. &e접두사&r는 플레이어(대개 부정적) 또는 몬스터(대개 긍정적)에게 적용되는 무작위 수정자입니다."
 			]
 			icon: "dungeon_realm:dungeon_map"
 			id: "4FEFBA3770769DA9"
@@ -679,7 +679,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Level Methods"
+			subtitle: "레벨 올리는 방법"
 			tasks: [
 				{
 					id: "0ABCAE5B4B3DEF92"
@@ -692,7 +692,7 @@
 					type: "item"
 				}
 			]
-			title: "Maps"
+			title: "지도"
 			x: 6.0d
 			y: 0.0d
 		}
