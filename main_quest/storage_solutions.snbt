@@ -39,7 +39,7 @@
 		}
 		{
 			description: [
-				"&eSophisticated Backpacks&r 모드를 사용하면 배낭 하나로 원하는 모든 것을 할 수 있습니다. 음식 자동 먹기, 가방 내 제작 및 제련, 액체 및 경험치 액체 휴대 등 다양한 업그레이드 옵션이 있습니다. 전체 업그레이드 목록은 JEI에서 확인하세요."
+				"&e세련된 배낭(Sophisticated Backpacks)&r 모드를 사용하면 배낭 하나로 원하는 모든 것을 할 수 있습니다. 음식 자동 먹기, 가방 내 제작 및 제련, 액체 및 경험치 액체 휴대 등 다양한 업그레이드 옵션이 있습니다. 전체 업그레이드 목록은 JEI에서 확인하세요."
 				""
 				"배낭의 등급이 올라갈수록 업그레이드 슬롯과 인벤토리 공간이 늘어납니다.."
 				""
@@ -76,7 +76,7 @@
 		}
 		{
 			description: [
-				"&eSophisticated Storage&r는 Sophisticated Backpacks의 동반 모드입니다. 상자와 통은 철, 금, 다이아몬드에서 네더라이트로 업그레이드할 수 있으며, 아이템 슬롯과 업그레이드 슬롯의 개수도 증가합니다."
+				"&e세련된 수납(Sophisticated Storage)&r은 세련된 배낭(Sophisticated Backpacks)의 동반 모드입니다. 상자와 통은 철, 금, 다이아몬드에서 네더라이트로 업그레이드할 수 있으며, 아이템 슬롯과 업그레이드 슬롯의 개수도 증가합니다."
 				""
 				"바닐라 상자와 통은 기본 등급 업그레이드를 통해 고급 저장 장치로 업그레이드할 수 있습니다."
 				""
@@ -877,7 +877,7 @@
 				"4A3CBD5BF1BC9968"
 				"6EF2C5B82615DD1B"
 			]
-			description: ["&e외부 저장소&r를 사용하면 &e리파인드 스토리지&r를 &eSophisticated Storage&r의 블록과 같은 외부 저장소 블록에 연결할 수 있습니다!"]
+			description: ["&e외부 저장소&r를 사용하면 &e리파인드 스토리지&r를 &e세련된 수납(Sophisticated Storage)&r의 블록과 같은 외부 저장소 블록에 연결할 수 있습니다!"]
 			id: "4E4A3F37E8B476D5"
 			rewards: [{
 				auto: "enabled"
@@ -900,5 +900,5 @@
 			y: -3.75d
 		}
 	]
-	title: "창고 보관 해법"
+	title: "Storage Solutions"
 }

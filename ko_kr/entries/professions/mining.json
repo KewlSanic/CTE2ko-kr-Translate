@@ -1,23 +1,23 @@
 {
-    "name": "Mining",
+    "name": "채광",
     "icon": "minecraft:iron_pickaxe",
     "category": "patchouli:professions",
 	"sortnum":19,
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "$(br)Mining any types of ores will grant you Mining experience. However, you will only earn the full amount of experience from ores relative to your Mining level:$(2br)&cThat doesn't mean you won't receive any experience from items outside your level range, just less.&r"
+            "text": "$(br)어떤 종류의 광석을 채굴하든 채광 경험치를 얻을 수 있습니다: $(2br)&c하지만 채굴 레벨에 비례하는 광석에서만 경험치를 온전히 얻게 됩니다. 레벨 범위 밖의 아이템을 채굴해도 경험치를 전혀 얻지 못하는 것은 아니지만, 얻는 경험치가 적습니다.&r"
 },{            "type": "patchouli:text",
-            "text": "$(2br)&eLv. 1-20&r (&7Tier 0&r): Coal, Iron, Copper
-&eLv. 21-40&r (&aTier 1&r): Redstone, Lapis Lazuli, Gold, Quartz, Emerald
-&eLv. 41-60&r (&9Tier 2&r): Cloggrum, Diamond, Froststeel, Utherium
-&eLv. 61-80&r (&dTier 3&r): Regalium, Moonstone, Pyrope, Aquite
-&eLv. 81-100&r (&6Tier 4&r): Falsite, Ventium, Horizonite
-&eLv. 100&r (&5Tier 5&r): Charoite, Diopside"
+            "text": "&eLv. 1-20&r (&7Tier 0&r): 석탄, 철, 구리
+&eLv. 21-40&r (&aTier 1&r): 레드스톤, 청금석, 금, 석영, 에메랄드
+&eLv. 41-60&r (&9Tier 2&r): 클로그룸(Cloggrum), 다이아몬드, 빙철(Froststeel), 우테륨(Utherium)
+&eLv. 61-80&r (&dTier 3&r): 레갈륨(Regalium), 문스톤(Moonstone), 파이로프(Pyrope), 아쿠이트(Aquite)
+&eLv. 81-100&r (&6Tier 4&r): 펄사이트(Falsite), 벤티움(Ventium), 호라이즈나이트(Horizonite)
+&eLv. 100&r (&5Tier 5&r): Charoite, 디옵사이드(Diopside)"
 },{            "type": "patchouli:text",
             "text": "
 
-While mining, you will find Tiered Ore&r (&7Spritual&r, &aCelestial&r. &9Emyprean&r, &dAngelic&r, &6Divine&r, and &5Godly&r, which drop by chance depending on your level and the level range of the ore you are mining. This ore can be used in other Professions."
+채굴을 하다 보면 전문 기술 레벨과 채굴하는 광석의 등급 범위에 따라 일정 확률로 &e등급별 광석&r(&7영적인&r, &a천상의&r, &9창공의&r, &d천사의&r, &6신성한&r, and &5경건한&r) 을 획득할 수 있습니다. 이 광석은 다른 전문 기술에도 사용할 수 있습니다."
 },{            "type": "patchouli:text",
             "text": ""}
     ]

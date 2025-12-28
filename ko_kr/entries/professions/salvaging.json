@@ -1,18 +1,18 @@
 {
-    "name": "Salvaging",
+    "name": "분해",
     "icon": "mmorpg:stone/0",
     "category": "patchouli:professions",
 	"sortnum":19,
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "Salvaging is the act of deconstructing your gear into materials that can be used to craft Profession items, gear, or repair.
+            "text": "분해는 장비를 분해하여 전문 기술 아이템, 장비 제작 또는 수리에 사용할 수 있는 재료로 만드는 행동입니다.
 
-In order to use a Salvaging Station, you &lmust&r place a hopper above the station, and place your gear to be salvaged into the hopper. Salvaging in the Station can yield more results and experience than auto-salvaging."
+분해기(Station)를 사용하려면 스테이션 위에 &l호퍼를 설치&r하고 분해할 장비를 호퍼에 넣어야 합니다. 분해기(Station)에서 분해하면 자동 분해보다 더 많은 아이템과 경험치를 얻을 수 있습니다."
 },{            "type": "patchouli:text",
-            "text": "Your gear will be salvaged and you will receive materials as the output. &eWhen salvaging, you will receive &eStones&r of varying rarity. These are used to repair or craft gear. They can also be used to craft other items. The rarity of the stone depends on the rarity of the gear salvaged.
+            "text": "장비를 분해하면 재료를 얻게 됩니다. &e분해 시 다양한 희귀도의 &l짱돌&r을 획득할 수 있습니다. 이 짱돌은 장비를 수리하거나 제작하는 데 사용되며, 다른 아이템을 제작하는 데에도 사용할 수 있습니다. 짱돌의 희귀도는 분해한 장비의 희귀도에 따라 결정됩니다.
 
-&bYou can also salvage your gear via the Hub auto-salvaging feature, but you will earn less experience doing so.&r"
+&b허브(인벤토리)의 자동 장비 분해 기능을 통해 장비를 분해할 수도 있지만, 그렇게 하면 경험치를 덜 얻게 됩니다.&r"
 }
     ]
 }
