@@ -828,7 +828,7 @@
 					elevate_perms: true
 					icon: "minecraft:cookie"
 					id: "15C5A864548A27EF"
-					title: "클릭해서 자랑하기"
+					title: "Click here to brag"
 					type: "command"
 				}
 				{
@@ -844,7 +844,7 @@
 					count: 5
 					id: "55F803E942F12CD2"
 					item: "lightmanscurrency:coin_diamond"
-					title: "돈"
+					title: "Money"
 					type: "item"
 				}
 				{

@@ -35,7 +35,7 @@
 				elevate_perms: true
 				icon: "minecraft:cookie"
 				id: "3157148AF2774908"
-				title: "클릭해서 자랑하기"
+				title: "Click here to brag"
 				type: "command"
 			}
 			{
@@ -51,7 +51,7 @@
 			{
 				id: "082683F82C35A0B5"
 				item: "lightmanscurrency:coin_netherite"
-				title: "돈"
+				title: "Money"
 				type: "item"
 			}
 			{

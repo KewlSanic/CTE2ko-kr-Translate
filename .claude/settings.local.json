@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(grep:*)",
+      "Bash(xargs -I {} sh -c 'echo \"\"\"\"=== {} ===\"\"\"\" && grep -E \"\"\"\"^\\s*title:\"\"\"\" {} | grep -v \"\"\"\"title: \\\"\"\"\"[가-힣]\"\"\"\" | grep -v \"\"\"\"title: \\\"\"\"\"Click Once Read\\\"\"\"\"\"\"\"\" | grep -v \"\"\"\"title: \\\"\"\"\"[0-9]\"\"\"\" | head -20')"
+    ]
+  }
+}

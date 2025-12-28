@@ -366,7 +366,7 @@
 					elevate_perms: true
 					icon: "minecraft:cookie"
 					id: "5E89A5FC157054B3"
-					title: "클릭해서 자랑하기"
+					title: "Click here to brag"
 					type: "command"
 				}
 				{
@@ -382,7 +382,7 @@
 					count: 6
 					id: "314DD321EC8CEA73"
 					item: "lightmanscurrency:coin_diamond"
-					title: "돈"
+					title: "Money"
 					type: "item"
 				}
 				{
@@ -883,7 +883,7 @@
 					count: 2
 					id: "3C57DEEC8E181EEF"
 					item: "lightmanscurrency:coin_emerald"
-					title: "돈"
+					title: "Money"
 					type: "item"
 				}
 				{
@@ -1307,7 +1307,7 @@
 					count: 2
 					id: "7FC92D4FF998B4CA"
 					item: "lightmanscurrency:coin_emerald"
-					title: "돈"
+					title: "Money"
 					type: "item"
 				}
 				{
