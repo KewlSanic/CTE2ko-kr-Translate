@@ -10,13 +10,13 @@
 	quests: [
 		{
 			description: [
-				"&eFarmer's Delight&r overhauls the process of cooking. You can now create a &estove&r to heat a &epot or skillet&r that is placed ontop of it. "
+				"&e파머스 딜라이트(Farmer's Delight)&r는 요리 과정을 완전히 바꿔놓습니다. 이제 &e난로&r를 만들어 그 위에 &e조리용 냄비나 프라이팬&r을 올려놓고 가열할 수 있습니다."
 				""
-				"&ePots&r are able to make stews and combined foods that are held with bowls. You can also make Feasts which are foods that are placed, like cakes, that have multiple portions."
+				"&e냄비&r를 이용하면 그릇에 담아 먹는 스튜나 여러 재료를 섞은 음식을 만들 수 있습니다. 또한 케이크처럼 여러 명이 함께 먹을 수 있는 음식을 설치할 수 있는 '잔치'도 만들 수 있습니다."
 				""
-				"&eSkillets&r can cook food over campfires or stoves."
+				"&e프라이팬&r은 모닥불이나 난로 위에서 음식을 조리할 수 있습니다."
 				""
-				"&eCutting Boards &rare useful in and out of cooking. Not only can you &efillet fish and meats&r into strips, but also cut up various items such as wool into string or leather armor into leather. Cutting boards require &eknives&r primarily but some recipes will use pickaxes, axes, shears, etc."
+				"도마는 요리 안팎에서 매우 유용합니다. 생선이나 고기를 얇게 썰 뿐만 아니라, 양털을 실로 만들거나 가죽 갑옷을 가죽으로 자르는 등 다양한 용도로 사용할 수 있습니다. 도마를 사용하는 데는 주로 칼이 필요하지만, 일부 조합법에서는 곡괭이, 도끼, 가위 등을 사용하기도 합니다."
 			]
 			id: "1ABBB0CCEECA066F"
 			rewards: [{
@@ -29,7 +29,7 @@
 				title: "100 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Craft one of each item"
+			subtitle: "각 아이템을 하나씩 제작하세요"
 			tasks: [
 				{
 					id: "233009494ADD7158"
@@ -74,7 +74,7 @@
 			y: 0.0d
 		}
 		{
-			description: ["&eCrabber's Delight &rallows you to catch crabs and other treasures using &eCrab Pots&r. They require bait, usually fish, in them to catch anything. They can also be fished up with a fishing rod."]
+			description: ["&e크래버즈 딜라이트(Crabber's Delight)&r에서는 &e게 덫&r을 사용하여 게와 다른 보물들을 잡을 수 있습니다. 덫에는 보통 물고기 같은 미끼를 넣어야 무엇이든 잡을 수 있습니다. 낚싯대를 사용해서도 건져 올릴 수 있습니다."]
 			id: "3ADE97CD486AE65C"
 			rewards: [{
 				auto: "enabled"
