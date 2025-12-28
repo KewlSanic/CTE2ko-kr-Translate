@@ -17,13 +17,13 @@
 		{
 			dependencies: ["5B97985430859986"]
 			description: [
-				"Salvaging is the act of deconstructing your gear into materials that can be used to craft Profession items, gear, or repair."
+				"분해는 장비를 분해하여 전문 기술 아이템, 장비 제작 또는 수리에 사용할 수 있는 재료로 만드는 행동입니다."
 				""
-				"In order to use a Salvaging Station, you &lmust&r place a hopper above the station, and place your gear to be salvaged into the hopper. Salvaging in the Station can yield more results and experience than auto-salvaging."
+				"분해기(Station)를 사용하려면 스테이션 위에 &l호퍼를 설치&r하고 분해할 장비를 호퍼에 넣어야 합니다. 분해기(Station)에서 분해하면 자동 분해보다 더 많은 아이템과 경험치를 얻을 수 있습니다."
 				""
-				"Your gear will be salvaged and you will receive materials as the output. &eWhen salvaging, you will receive &eStones&r of varying rarity. These are used to repair or craft gear. They can also be used to craft other items. The rarity of the stone depends on the rarity of the gear salvaged."
+				"장비를 분해하면 재료를 얻게 됩니다. &e분해 시 다양한 희귀도의 &l짱돌&r을 획득할 수 있습니다. 이 짱돌은 장비를 수리하거나 제작하는 데 사용되며, 다른 아이템을 제작하는 데에도 사용할 수 있습니다. 짱돌의 희귀도는 분해한 장비의 희귀도에 따라 결정됩니다."
 				""
-				"&bYou can also salvage your gear via the Hub auto-salvaging feature, but you will earn less experience doing so.&r"
+				"&b허브(인벤토리)의 자동 장비 분해 기능을 통해 장비를 분해할 수도 있지만, 그렇게 하면 경험치를 덜 얻게 됩니다.&r"
 			]
 			id: "16525899DA8C3A74"
 			rewards: [
@@ -50,24 +50,24 @@
 				item: "mmorpg:salvaging_station"
 				type: "item"
 			}]
-			title: "Salvaging"
+			title: "분해"
 			x: -3.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["06E3D7523619E263"]
 			description: [
-				"You can craft &eCrafted Gear Souls&r for the following: armor, offhands, jewelry, and weapons. When crafting gear, there are a few ingredients:"
+				"&e제작된(Crafted) 장비 영혼&r을 사용하면 갑옷, 보조 무기, 장신구, 무기를 제작할 수 있습니다. 장비를 제작하려면 다음과 같은 재료가 필요합니다:"
 				""
-				"1. &eTiered Ore&r - earned from Mining, they are based on the item level you want to craft. The level ranges are the same as what you'd find in the Mining Profession."
+				"1. &e등급별 광석&r - 채광을 통해 획득할 수 있으며, 제작하려는 아이템 레벨에 따라 등급이 나뉩니다. 등급 범위는 채광 전문 기술에서 얻을 수 있는 것과 동일합니다."
 				""
-				"2. &eStones (Rarity)&r - the Stones determine the rarity of the gear you will craft. You can get these Stones while salvaging. The amount of Stones required depends on the rarity of the gear."
+				"2. &e짱돌 (희귀도)&r - 짱돌은 제작할 장비의 희귀도를 결정합니다. 짱돌은 분해를 통해 얻을 수 있으며, 필요한 짱돌의 양은 장비의 희귀도에 따라 다릅니다."
 				""
-				"3. &eIngots + Identifier Items&r - the items that determine whether you are crafting armor, offhands, jewelry, or weapons. Refer to &cJEI&r for recipes!"
+				"3. &e주괴 + Identifier Items&r - 어떤 갑옷, 보조 무기, 장신구 또는 무기를 제작할지 결정하는 재료입니다. 레시피는 &cJEI&r을 참조하세요!"
 				""
-				"4. &eMoney&r"
+				"4. &e동전&r"
 				""
-				"&lYou can always check the &cJEI&r &lto see what items are needed for &eCrafted Gear Soul&r&l.&r"
+				"&l&cJEI&r에서 &e제작된(Crafted) 장비 영혼&r&l 제작에 필요한 아이템을 언제든지 확인할 수 있습니다.&r"
 			]
 			id: "66D05E37DC634CC8"
 			rewards: [
@@ -105,7 +105,7 @@
 				item: "mmorpg:gear_crafting_station"
 				type: "item"
 			}]
-			title: "Gear Crafting"
+			title: "장비 제작"
 			x: -3.0d
 			y: -3.0d
 		}
@@ -116,23 +116,23 @@
 			]
 			dependency_requirement: "one_completed"
 			description: [
-				"You can cook foods which will provide hunger and saturation, but also provide stat boosts. When cooking, there are a few ingredients:"
+				"요리된 음식은 허기와 포만감을 채워줄 뿐만 아니라 능력치도 향상시킬 수 있습니다. 요리에는 몇 가지 재료가 필요합니다:"
 				""
-				"1. &eTiered Meat/Produce/Fish&r - earned from Bounty Hunting, Farming, and Fishing they are based on the item level you want to craft. The level ranges are the same as what you'd find in the gathering Professions. The type of food you use depends on what food you cook:"
+				"1. &e등급별 고기/농산물/생선&r - 현상금 사냥, 농사, 낚시를 통해 얻을 수 있으며, 제작하려는 아이템 레벨에 따라 등급이 나뉩니다. 레벨 범위는 채집 전문 기술에서 얻을 수 있는 것과 동일합니다. 사용하는 음식의 종류는 요리하려는 음식에 따라 달라집니다:"
 				""
-				"&cMeat&r: Health/Magic Shield Regen"
-				"&2Produce&r: Mana/Energy Regen"
-				"&bFish&r: EXP/Loot"
+				"&c고기&r: 체력/마법 보호막 회복"
+				"&2제작(Produce)&r: 마력/기력 회복"
+				"&b생선&r: 경험치/전리품"
 				""
-				"2. &c1&r &eStone (Rarity)&r - the Stones determine the rarity of the gear you will craft. You can get these Stones while salvaging."
+				"2. &c1&r &e짱돌 (희귀도)&r - 제작할 장비의 희귀도는 짱돌로 결정됩니다. 짱돌은 아이템을 분해하여 얻을 수 있습니다."
 				""
-				"3. &eOther Food Item&r - generally used as an additional ingredient that can also determine what food you're cooking. Refer to &cJEI&r for recipes!"
+				"3. &e다른 음식 재료&r - 일반적으로 요리에 추가되는 재료로 사용되며, 음식 레시피에도 영향을 미칠 수 있습니다. 레시피는 &cJEI&r을 참조하세요!"
 				""
-				"4. &eMoney&r"
+				"4. &e동전&r"
 				""
-				"&lYou can always check the &cJEI&r &lto see what items are needed for &eCooking&r&l.&r"
+				"&l&e요리&r&l에 필요한 재료가 무엇인지 확인하려면 &cJEI&r&l를 확인하세요.&r"
 				""
-				"&eRequires 1 dependency to be completed.&r"
+				"&e완료하려면 종속 퀘스트 1개가 필요합니다.&r"
 			]
 			id: "0402FA5F0E1D4835"
 			rewards: [
@@ -170,28 +170,28 @@
 				item: "mmorpg:cooking_station"
 				type: "item"
 			}]
-			title: "Cooking"
+			title: "요리"
 			x: 0.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["4E27A84CE1F030A1"]
 			description: [
-				"You can brew potions which can recover health and resources, or provide stat boosts. When brewing, there are a few ingredients:"
+				"체력과 자원(resources)을 회복하거나 능력치를 강화하는 물약을 제조할 수 있습니다. 물약을 제조하려면 몇 가지 재료가 필요합니다:"
 				""
-				"1. &eTiered Meat/Produce/Fish&r - earned from Bounty Hunting, Farming, and Fishing they are based on the item level you want to craft. The level ranges are the same as what you'd find in the gathering Professions. The type of food you use depends on what potion you brew:"
+				"1. &e등급별 고기/농작물/생선&r - Hubsandry, 농업, 낚시를 통해 획득하며, 제작하고자 하는 아이템 레벨에 따라 등급이 나뉩니다. 레벨 범위는 채집 전문 기술에서 볼 수 있는 것과 동일합니다:"
 				""
-				"&cMeat&r: Health/Resource Potion"
-				"&2Produce&r: Core Stat Potion"
-				"&bFish&r: Damage Buff Potion"
+				"&c고기&r: 체력/자원 물약"
+				"&2제작(Produce)&r: 핵심 능력치 물약"
+				"&b생선&r: 데미지 버프 물약"
 				""
-				"2. &c1&r &eStone (Rarity)&r - the Stones determine the rarity of the gear you will craft. You can get these Stones while salvaging."
+				"2. &c1&r &e짱돌 (희귀도)&r - 제작할 장비의 희귀도는 짱돌로 결정됩니다. 짱돌은 아이템을 분해하여 얻을 수 있습니다."
 				""
-				"3. 1-2 &eOther Food Items&r - used as an additional ingredient. Refer to &cJEI&r for recipes!"
+				"3. 1~2. &e다른 음식 재료&r - 추가 재료로 사용됨. 레시피는 &cJEI&r을 참조하세요!"
 				""
-				"4. &eMoney&r"
+				"4. &e동전&r"
 				""
-				"&lYou can always check the &cJEI&r &lto see what items are needed for &eAlchemy&r&l.&r"
+				"&l&e연금술(양조)&r&l에 필요한 재료가 무엇인지 확인하려면 &cJEI&r&l를 확인하세요.&r"
 			]
 			id: "69CEB39AA409EB41"
 			rewards: [
@@ -242,26 +242,26 @@
 				item: "mmorpg:alchemy_station"
 				type: "item"
 			}]
-			title: "Alchemy"
+			title: "연금술(양조)"
 			x: 3.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["06E3D7523619E263"]
 			description: [
-				"You can craft &eInfusions&r for the following: armor, offhands, jewelry, and weapons. When crafting the scrolls, there are a few ingredients:"
+				"갑옷, 보조 무기, 장신구, 무기에 &e주입&r할 수 있는 스크롤을 제작할 수 있습니다. 주입 스크롤 제작에는 다음과 같은 재료가 필요합니다:"
 				""
-				"1. &eTiered Ore&r - earned from Mining, they are based on the item level you want to craft. The level ranges are the same as what you'd find in the Mining Profession."
+				"1. &e등급별 광석&r - 채광을 통해 획득할 수 있으며, 제작하려는 아이템 레벨에 따라 등급이 다릅니다. 레벨 범위는 채광 전문 기술에서 얻을 수 있는 것과 동일합니다."
 				""
-				"2. &eStones (Rarity)&r - the Stones determine the rarity of the gear you will craft. You can get these Stones while salvaging."
+				"2. &e짱돌 (희귀도)&r - 짱돌은 제작할 장비의 희귀도를 결정합니다. 짱돌은 분해를 통해 얻을 수 있으며, 필요한 짱돌의 양은 장비의 희귀도에 따라 다릅니다."
 				""
-				"3. &eIngots + Identifier Items&r - the items that determine whether you are crafting armor, offhands, jewelry, or weapons. Refer to &cJEI&r for recipes"
+				"3. &e주괴 + Identifier Items&r - 어떤 갑옷, 보조 무기, 장신구 또는 무기를 제작할지 결정하는 재료입니다. 레시피는 &cJEI&r을 참조하세요!"
 				""
-				"4. &ePaper&r"
+				"4. &e종이&r"
 				""
-				"5. &eMoney&r"
+				"5. &e동전&r"
 				""
-				"&lYou can always check the &cJEI&r &lto see what items are needed for &eInfusions&r&l.&r"
+				"&l&e주입&r&l에 필요한 재료가 무엇인지 확인하려면 &cJEI&r&l를 확인하세요.&r"
 			]
 			id: "5DA0A1825512C2E3"
 			rewards: [
@@ -308,25 +308,25 @@
 				item: "mmorpg:enchanting_station"
 				type: "item"
 			}]
-			title: "Infusing"
+			title: "주입(Infusing)"
 			x: -1.5d
 			y: -3.0d
 		}
 		{
 			dependencies: ["5B97985430859986"]
 			description: [
-				"Mining any types of ores will grant you Mining experience. However, you will only earn the full amount of experience from ores relative to your Mining level:"
+				"어떤 종류의 광석을 채굴하든 채광 경험치를 얻을 수 있습니다. 하지만 채굴 레벨 범위에 맞는 광석에서만 경험치를 온전히 얻게 됩니다:"
 				""
-				"&eLv. 1-20&r (&7Tier 0&r): Coal, Iron, Copper"
-				"&eLv. 21-40&r (&aTier 1&r): Redstone, Lapis Lazuli, Gold, Quartz, Emerald"
-				"&eLv. 41-60&r (&9Tier 2&r): Cloggrum, Diamond, Froststeel, Utherium"
-				"&eLv. 61-80&r (&dTier 3&r): Regalium, Moonstone, Pyrope, Aquite"
-				"&eLv. 81-100&r (&6Tier 4&r): Falsite, Ventium, Horizonite"
-				"&eLv. 100&r (&5Tier 5&r): Charoite, Diopside"
+				"&eLv. 1-20&r (&7Tier 0&r): 석탄, 철, 구리"
+				"&eLv. 21-40&r (&aTier 1&r): 레드스톤, 청금석, 금, 석영, 에메랄드"
+				"&eLv. 41-60&r (&9Tier 2&r): 클로그룸(Cloggrum), 다이아몬드, 빙철(Froststeel), 우테륨(Utherium)"
+				"&eLv. 61-80&r (&dTier 3&r): 레갈륨(Regalium), 문스톤(Moonstone), 파이로프(Pyrope), 아쿠이트(Aquite)"
+				"&eLv. 81-100&r (&6Tier 4&r): 펄사이트(Falsite), 벤티움(Ventium), 호라이즈나이트(Horizonite)"
+				"&eLv. 100&r (&5Tier 5&r): Charoite, 디옵사이드(Diopside)"
 				""
-				"&cThat doesn't mean you won't receive any experience from items outside your level range, just less.&r"
+				"&c레벨 범위 밖의 아이템을 채굴해도 경험치를 전혀 얻지 못하는 것은 아니지만, 얻는 경험치가 적습니다.&r"
 				""
-				"While mining, you will find Tiered Ore&r (&7Spritual&r, &aCelestial&r. &9Emyprean&r, &dAngelic&r, &6Divine&r, and &5Godly&r, which drop by chance depending on your level and the level range of the ore you are mining. This ore can be used in other Professions."
+				"채굴을 하면서 전문 기술 레벨과 채굴하는 광석의 등급 범위에 따라 일정 확률로 &e등급별 광석&r(&7영적인&r, &a천상의&r, &9창공의&r, &d천사의&r, &6신성한&r, and &5경건한&r) 을 획득할 수 있습니다. 이 광석은 다른 전문 기술에도 사용할 수 있습니다."
 			]
 			id: "06E3D7523619E263"
 			rewards: [{
@@ -347,7 +347,7 @@
 				}
 				type: "item"
 			}]
-			title: "Mining"
+			title: "채굴"
 			x: -1.5d
 			y: -1.5d
 		}
