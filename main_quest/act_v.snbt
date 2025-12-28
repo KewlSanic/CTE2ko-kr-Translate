@@ -11,18 +11,18 @@
 		{
 			dependencies: ["75454F0A3C4C3596"]
 			description: [
-				"This is it! &eKill the Ender Dragon&r and put an \"end\" to this madness!"
+				"바로 이겁니다! &e엔더 드래곤을 무찌르고&r 이 광기를 \"끝냅시다!\""
 				""
-				"&oIt looks like you might be able to do something with the wing...&r"
+				"&o그녀가 떨군 날개를 이용해서 뭔가 할 수 있을 것 같네요...&r"
 				""
-				"&cThe Ender Dragon spawns at minimum level 50.&r"
+				"&c엔더 드래곤은 항상 최소 레벨 50에서 스폰됩니다.&r"
 				""
-				"The Ender Dragon Has:"
-				"&b+25% Physical Damage converted to Lightning Damage&r"
-				"&b+25% Physical Damage converted to Chaos Damage&r"
-				"&b+25% Elemental Resistance&r"
-				"&b+35% Chaos Resistance&r"
-				"&a7.5% Chance of Dropping End Rune&r"
+				"엔더 드래곤은 다음의 능력을 가지고 있습니다:"
+				"&b+25% 물리 번개 변환&r"
+				"&b+25% 물리 혼돈 변환&r"
+				"&b+25% 원소 저항&r"
+				"&b+35% 혼돈 저항&r"
+				"&a7.5% End 룬을 드롭할 확률&r"
 			]
 			icon: "minecraft:dragon_head"
 			id: "6F0D75895E507FFD"
@@ -68,7 +68,7 @@
 			]
 			shape: "rsquare"
 			size: 1.25d
-			subtitle: "Main Quest"
+			subtitle: "메인 퀘스트"
 			tasks: [{
 				entity: "minecraft:ender_dragon"
 				icon: "ftb_ph:ender_dragon"
@@ -76,20 +76,20 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "Dragon Quest"
+			title: "드래곤 퀘스트"
 			x: 1.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["6F0D75895E507FFD"]
 			description: [
-				"You received &einstructions&r from a village guard, scribbled on a loose piece of bamboo."
+				"당신은 마을 경비원이 대나무 조각에 휘갈겨 쓴 &e지시사항&r을 받았습니다."
 				""
-				"&o1. Arrive in The End.&r"
-				"&o2. Obtain End Crystals from the island.&r"
-				"&o3. Place the crystals on the -&r"
+				"&o1. 엔드에 도착.&r"
+				"&o2. 섬에서 엔드 크리스탈 획득.&r"
+				"&o3. 크리스탈을 -&r"
 				""
-				"The rest has been &erubbed off &rfrom your adventures."
+				"나머지는 당신의 모험에서 &e지워졌습니다.&r"
 			]
 			id: "531BDC3DFCE88A6E"
 			rewards: [
@@ -109,20 +109,20 @@
 					type: "item"
 				}
 			]
-			subtitle: "Main Quest"
+			subtitle: "메인 퀘스트"
 			tasks: [{
 				advancement: "minecraft:end/respawn_dragon"
 				criterion: ""
 				id: "1B0D7898F4168083"
 				type: "advancement"
 			}]
-			title: "Summoning Ritual"
+			title: "소환 의식"
 			x: 3.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["6F0D75895E507FFD"]
-			description: ["You've slain the dragon, but it seems like there's more to The End than you thought. It might be a good time to use your newly found &eElytra&r and &eexplore the outer islands&r."]
+			description: ["드래곤을 물리쳤지만, 엔드에는 생각보다 더 많은 것이 있는 것 같습니다. 새로 발견한 &e겉날개&r를 이용해 &e외곽 섬들을 탐험하기에&r 좋은 시기일 수 있습니다."]
 			id: "7EA6A0131C5FF143"
 			rewards: [
 				{
@@ -155,25 +155,25 @@
 					type: "command"
 				}
 			]
-			subtitle: "Endventure"
+			subtitle: "엔드벤처"
 			tasks: [{
 				advancement: "minecraft:end/enter_end_gateway"
 				criterion: ""
 				id: "04D2837E3F91A62E"
 				type: "advancement"
 			}]
-			title: "Beyond"
+			title: "그 너머에"
 			x: 3.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["6F0D75895E507FFD"]
 			description: [
-				"You learned that it wasn't the Ender Dragon that was causing the rifts to open. As vile as the beast was, it was just that - a vile beast."
+				"당신은 차원간 균열을 일으킨 것이 엔더 드래곤이 아니라는 것을 알게 되었습니다. 그 짐승이 아무리 사악하더라도 - 그저 사악한 짐승이었습니다."
 				""
-				"It seems there is more to The End than you thought... Some say another danger lurks in the void, and others say throwing a &eMysterious Worm&r into it will draw it out."
+				"엔드에는 당신이 생각했던 것보다 더 많은 것이 숨겨져 있는 것 같습니다... 어떤 이들은 공허 속에 또 다른 위험이 도사리고 있다고 하고, 또 어떤 이들은 &e기이한 벌레&r를 던져 넣으면 그 위험이 나타날 거라고 말했습니다."
 				""
-				"You can obtain a &eMysterious Worm&r by killing the &eEnder Dragon&r."
+				"&e엔더 드래곤&r을 처치하면 그녀 몸 안에 있던 기생충인 &e기이한 벌레&r를 얻을 수 있습니다."
 			]
 			id: "56A3604D9BAD661C"
 			rewards: [
@@ -208,27 +208,27 @@
 				}
 			]
 			shape: "rsquare"
-			subtitle: "Main Quest"
+			subtitle: "메인 퀘스트"
 			tasks: [{
 				id: "1FD4027C3E5A4B93"
 				item: "alexsmobs:mysterious_worm"
 				title: "Obtain a Mysterious Worm"
 				type: "item"
 			}]
-			title: "Genetic Modification"
+			title: "유전자 변형"
 			x: 3.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["56A3604D9BAD661C"]
 			description: [
-				"Be prepared, as this horrific creature has many parts to its body. Additionally, it will fire homing crystals at nearby players. If you get too close you'll get knocked back. Be careful not to get knocked off the island!"
+				"이 무시무시한 생물은 몸이 여러 부분으로 이루어져 있으니 단단히 준비하세요. 게다가 근처 플레이어에게 유도 수정체를 발사하기도 합니다. 너무 가까이 다가가면 뒤로 밀려날 수 있으니, 섬 밖으로 떨어지지 않도록 조심하세요!"
 				""
-				"&cThe Void Worm spawns at minimum level 55.&r"
+				"&c공허 벌레는 항상 최소 레벨 55에서 스폰됩니다.&r"
 				""
-				"The Void Worm Has:"
-				"&b+25% Elemental Resistance&r"
-				"&a5% Chance of Dropping End Rune&r"
+				"공허 벌레는 다음의 능력을 가지고 있습니다:"
+				"&b+25% 원소 저항&r"
+				"&a5% End 룬을 드롭할 확률&r"
 			]
 			icon: "alexsmobs:void_worm_eye"
 			id: "3944DD7AC4667137"
@@ -253,7 +253,7 @@
 			]
 			shape: "rsquare"
 			size: 1.25d
-			subtitle: "Main Quest"
+			subtitle: "메인 퀘스트"
 			tasks: [{
 				entity: "alexsmobs:void_worm"
 				icon: "ftb_ph:void_worm"
@@ -261,13 +261,13 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "Worm from the Void"
+			title: "공허에서 온 벌레"
 			x: 4.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["3944DD7AC4667137"]
-			description: ["There's a report of an underground creature wrecking havoc underground traders. Some call it a &e\"Warden\".&r Some say it can be found in the &eAncient City&r deep underneath."]
+			description: ["지하에 사는 괴물이 지하 상인들을 휩쓸고 다닌다는 보고가 있습니다. 어떤 이들은 그것을 &e\"워든\"이라고 부릅니다. 또 어떤 이들은 그것이 지하 깊숙한 곳에 있는 &e고대 도시&r에서 발견된다고 말합니다."]
 			id: "0424E768816CB314"
 			rewards: [
 				{
@@ -294,30 +294,30 @@
 				}
 			]
 			shape: "rsquare"
-			subtitle: "Main Quest"
+			subtitle: "메인 퀘스트"
 			tasks: [{
 				advancement: "deeperdarker:main/find_ancient_city"
 				criterion: ""
 				id: "73ECBABFC177A3AF"
 				type: "advancement"
 			}]
-			title: "Back Home"
+			title: "집으로"
 			x: 4.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["0424E768816CB314"]
 			description: [
-				"The &eWarden&r is completely blind, and relies on vibrations, smell, and touch to detect players. You can evade them by sneaking, or using diversions such as arrows. It has a powerful melee attack, and can release a devastating homing sonic boom attack."
+				"&e워든&r은 완전히 시각이 없으며, 진동, 냄새, 촉각에 의존하여 플레이어를 감지합니다. 은신하거나 화살과 같은 교란 수단을 사용하여 &e워든&r을 피할 수 있습니다. 강력한 근접 공격과 파괴적인 유도 음파 폭발 공격을 사용할 수 있습니다."
 				""
-				"&cThe Warden spawns at minimum level 60.&r"
+				"&c워든은 항상 최소 레벨 60에서 스폰됩니다.&r"
 				""
-				"The Warden Has:"
-				"&b+50% Physical to Chaos Damage&r"
-				"&b+50% Armor&r"
-				"&b+35% Elemental Resistance&r"
-				"&b+35% Chaos Resistance&r"
-				"&a10% Chance of Dropping Sid Rune&r"
+				"워든은 다음의 능력을 가지고 있습니다:"
+				"&b+50% 물리 혼돈 변환&r"
+				"&b+50% 방어&r"
+				"&b+35% 원소 저항&r"
+				"&b+35% 혼돈 저항&r"
+				"&a10% Sid 룬을 드롭할 확률&r"
 			]
 			icon: {
 				Count: 1
@@ -354,7 +354,7 @@
 			]
 			shape: "rsquare"
 			size: 1.25d
-			subtitle: "Main Quest"
+			subtitle: "메인 퀘스트"
 			tasks: [{
 				entity: "minecraft:warden"
 				icon: "ftb_ph:warden"
@@ -362,7 +362,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "Dimension Guardian"
+			title: "차원 수호자"
 			x: 6.0d
 			y: 3.0d
 		}
@@ -401,12 +401,12 @@
 				}
 			]
 			shape: "rsquare"
-			subtitle: "Main Quest"
+			subtitle: "메인 퀘스트"
 			tasks: [{
 				dimension: "deeperdarker:otherside"
 				icon: "deeperdarker:warden_carapace"
 				id: "1ACA80128E406BE5"
-				title: "Visit The Otherside"
+				title: "The Otherside 방문"
 				type: "dimension"
 			}]
 			title: "The Otherside"
@@ -416,9 +416,9 @@
 		{
 			dependencies: ["707C5CDB48B487F8"]
 			description: [
-				"Continue to &eexplore,&r and descend into the &edarkness...&r You never know what &egoodies&r you'll find."
+				"계속 &e탐험&r하고 &e어둠 속&r으로 내려가세요... 어떤 &e보물&r을 발견하게 될지 아무도 모릅니다."
 				""
-				"&b&oCongratulations on completing the main Campaign! Continue onto the Epilogue for completion or move on to explore what the worlds have to offer. Be sure to check out the Side Quests! Keep on leveling and customizing your character, and try to overcome the greatest challenges in Maps!&r&r"
+				"&b&o메인 캠페인을 완료하신 것을 축하드립니다! 에필로그를 통해 엔딩을 보거나, 다양한 세계를 탐험해 보세요. 사이드 퀘스트도 놓치지 마세요! 캐릭터 레벨을 올리고 꾸미면서, 맵에서 펼쳐지는 도전에 맞서 보세요!&r&r"
 			]
 			id: "6149D163ABF06A15"
 			rewards: [
