@@ -13,7 +13,7 @@
 				"18E09A4B9FC1B43F"
 				"29CADE48F14D6436"
 			]
-			description: ["Well these &eLemurians&r certainly don't belong here..."]
+			description: ["음... 이 &e도마뱀(Lemurians)&r들은 확실히 여기 출신이 아닌것 같군요..."]
 			id: "52DAC9E8213D2624"
 			rewards: [
 				{
@@ -39,7 +39,7 @@
 					type: "command"
 				}
 			]
-			subtitle: "Risk of Rain"
+			subtitle: "Risk of Rain이라고 들어보셨습니까?"
 			tasks: [{
 				entity: "riskofrain_mobs:lemurian_entity"
 				icon: "nightlights:octopus_purple"
@@ -47,16 +47,16 @@
 				type: "kill"
 				value: 24L
 			}]
-			title: "Otherworldly Beings II"
+			title: "이계의 존재들 II"
 			x: 0.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["29CADE48F14D6436"]
 			description: [
-				"Mosquitoes are annoying enough in the Overworld... These things are huge, they stick to your face, and are generally difficult to kill!"
+				"모기들은 오버월드에서도 짜증났는데 말이죠... 이 망할 것들은 큰데다가 당신의 얼굴에 달라붙어서, 죽이기도 힘듭니다!"
 				""
-				"These hideous, mutant flying insects are found in the &eforests of The Nether&r."
+				"이 끔찍한 돌연변이 비행 곤충들은 &e지옥의 숲(forests of The Nether)&r에서 발견 됩니다."
 			]
 			icon: "alexsmobs:mosquito_proboscis"
 			id: "322725A82ADAA810"
@@ -86,7 +86,7 @@
 					type: "command"
 				}
 			]
-			subtitle: "Crimson Forests"
+			subtitle: "진홍빛 숲"
 			tasks: [{
 				entity: "alexsmobs:crimson_mosquito"
 				icon: "ftb_ph:crimson_mosquito"
@@ -94,13 +94,13 @@
 				type: "kill"
 				value: 4L
 			}]
-			title: "Bloody Pests"
+			title: "피 맛좀 아는 놈들"
 			x: 1.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["45535AECCE43183A"]
-			description: ["Looks like your intuition was correct. The Nether Fortresses are crawling with weird enemies. The &eWither Skeleton&r seems to drop fragments of its skull, which seem to emanate some energy."]
+			description: ["당신의 감이 맞아 떨어진것 같습니다. 네더 요새는 이상한 적들로 들끓고 있습니다. &e위더 스켈레톤&r들은 약간의 에너지를 내뿜는듯한 머리 조각을 떨어뜨리는것 같습니다."]
 			icon: "minecraft:wither_skeleton_skull"
 			id: "63F4CAF1CA065949"
 			rewards: [
@@ -128,7 +128,7 @@
 				}
 			]
 			shape: "rsquare"
-			subtitle: "Main Quest"
+			subtitle: "메인 퀘스트"
 			tasks: [{
 				entity: "minecraft:wither_skeleton"
 				icon: "ftb_ph:wither_skeleton"
@@ -136,16 +136,16 @@
 				type: "kill"
 				value: 12L
 			}]
-			title: "Skull Collectors"
+			title: "원효대사 해골 수집가"
 			x: 3.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["18E09A4B9FC1B43F"]
 			description: [
-				"It seems not all creatures here are innately hostile. But we need to show them we mean business."
+				"이곳의 괴물중에도 처음부터 적대적이지 않은 괴물들도 있는것 같군요. 하지만 우리 측에서도 단호한 태도를 보여줘야할 필요가 있군요."
 				""
-				"It's time to take care of some &ePiglins&r and some &eHoglins&r. You'll find them most commonly in &eNether Wastes&r and &eCrimson Forests&r."
+				"&e피글린&r들과 &e호글린&r들을 손 봐줄 시간이군요. 그들은 &e네더 황무지&r와 &e진홍빛 숲&r에서 자주 발견 됩니다."
 			]
 			icon: "minecraft:piglin_head"
 			id: "29CADE48F14D6436"
@@ -174,7 +174,7 @@
 				}
 			]
 			shape: "rsquare"
-			subtitle: "Main Quest"
+			subtitle: "메인 퀘스트"
 			tasks: [
 				{
 					entity: "minecraft:piglin"
@@ -191,18 +191,18 @@
 					value: 4L
 				}
 			]
-			title: "Otherworldly Beings"
+			title: "이계의 존재들"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["45535AECCE43183A"]
 			description: [
-				"In The Nether, you may come across aggressive, fiery creatures. While the &eWyrm&r and &eBlaze&r seem powerful, it is almost certain that there are more powerful magma creatures given the size and depth of The Nether."
+				"네더에서는, 공격적이고 불타오르는 괴물들을 만날 것입니다. &e빨간 와이번&r과 &e블레이즈&r가 강력해보이나, 네더의 크기와 깊이로 봐선 더 강력한 마그마 괴물이 있을 것입니다."
 				""
-				"It might be best to be prepared against fire. Try finding and vanquishing these mobs to test yourself."
+				"불에 대한 대비책을 준비한 다음, 저 괴물들에게 시험삼아 당신을 시험해보세요."
 				""
-				"&o&7Completion unlocks a Repeatable Quest in the Repeatables Chapter!&r&r"
+				"&o&7완료하면 Repeatables 챕터에서 반복 퀘스트가 잠금 해제됩니다!&r&r"
 			]
 			icon: "minecraft:blaze_powder"
 			id: "1D01AD334C7C70F1"
@@ -225,7 +225,7 @@
 					type: "command"
 				}
 			]
-			subtitle: "Fiery Adventure"
+			subtitle: "내 앞에는 불길만이"
 			tasks: [
 				{
 					entity: "minecraft:blaze"
@@ -242,16 +242,16 @@
 					value: 4L
 				}
 			]
-			title: "Fiery Foes"
+			title: "앗 뜨거!"
 			x: 3.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["277A8C4C5D50ED00"]
 			description: [
-				"Surely you've already run into these flying critters... Something tells you that there are hundreds of these lurking around every corner."
+				"이미 날아다니는 괴물들을 마주했지만...  왠지 이런 괴물들이 곳곳에 수백 마리씩 숨어있을 것 같은 예감이 듭니다."
 				""
-				"They must come from something..."
+				"어디선가 계속 생겨나고 있을겁니다..."
 			]
 			icon: {
 				Count: 1
@@ -280,7 +280,7 @@
 					type: "command"
 				}
 			]
-			subtitle: "Fiery Adventure"
+			subtitle: "내 앞에는 불길만이"
 			tasks: [{
 				entity: "monsterplus:lava_squid"
 				icon: "ftb_ph:lava_squid"
@@ -288,18 +288,18 @@
 				type: "kill"
 				value: 18L
 			}]
-			title: "Flame Spitters"
+			title: "화염 히드라리스크들"
 			x: 4.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["1EA8FC97142B16A7"]
 			description: [
-				"This is that &ething.&r"
+				"저게 &e저것&r이군요."
 				""
-				"The Mother Lava Squid Has:"
-				"&b+50% Physical to Fire Damage&r"
-				"&a5% Chance of Dropping Net Rune&r"
+				"어미 용암 오징어는 다음의 능력을 가지고 있습니다:"
+				"&b+50% 물리피해-> 화염피해&r"
+				"&a5% Net 룬을 드롭할 확률&r"
 			]
 			icon: "simplehats:burning_m_bison"
 			id: "05AD0B9A77F0325F"
@@ -329,7 +329,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Fiery Adventure"
+			subtitle: "내 앞에는 불길만이"
 			tasks: [{
 				entity: "monsterplus:mother_lava_squid"
 				icon: "ftb_ph:lava_squid"
@@ -337,27 +337,27 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "The Mother"
+			title: "엄.마."
 			x: 4.5d
 			y: 4.5d
 		}
 		{
 			dependencies: ["75447684ADAD02D8"]
 			description: [
-				"Place &eSoul Sand&r in a T shape, topped with &e3 Wither Skeleton Skulls&r to summon the &eWither.&r"
+				"&e4개의 영혼모래&r를 T자 형태로 놓고, 3개의 위더 해골을 그 위에 놓아 &e위더&r를 소환하세요."
 				""
-				"This boss is very difficult, as it requires you to have a projectile weapon or spell to take care of its first phase. In the second phase, be prepared for the Wither to be up close and personal..."
+				"이 보스는 까다롭습니다. 1페이즈에는 원거리 무기 혹은 주문들로 상대해야 합니다. 2페이즈에는 위더가 근접해오기 때문에, 근접무기를 준비하세요."
 				""
-				"&o&eTip:&r &oHaving trouble defeating the Wither? Did you know that the higher level a mob is to you it takes less damage and deals more? This bonus starts at a 3 level differential.&r"
+				"&o&e팁:&r &o위더 잡기가 힘든가요? 몹 레벨이 당신보다 3 이상이라면 피해를 적게 받고, 더 많은 피해를 가합니다.&r"
 				""
-				"&cThe Wither spawns at minimum level 30.&r"
+				"&c위더는 항상 최소 30레벨에서 소환됩니다.&r"
 				""
-				"The Wither Has:"
-				"&b+50% Physical to Fire Damage&r"
-				"&b+20% Elemental Resistance&r"
-				"&a10% Chance of Dropping Net Rune&r"
+				"위더는 다음의 능력을 가지고 있습니다:"
+				"&b+50% 물리피해 -> 화염피해&r"
+				"&b+20% 원소저항&r"
+				"&a10% Net 룬을 드롭할 확률&r"
 				""
-				"&6This Quest Unlocks New Shops In the Campaign Shop."
+				"&6이 퀘스트를 완료하면 캠페인 상점에 새로운 상점이 추가됩니다."
 			]
 			icon: "minecraft:wither_rose"
 			id: "114D74DF8284ACC3"
@@ -388,7 +388,7 @@
 			]
 			shape: "rsquare"
 			size: 1.25d
-			subtitle: "Main Quest"
+			subtitle: "메인 퀘스트"
 			tasks: [{
 				entity: "minecraft:wither"
 				icon: "ftb_ph:wither"
@@ -396,23 +396,23 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "Dark Ritual"
+			title: "암흑의 소환 의식"
 			x: 6.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["277A8C4C5D50ED00"]
 			description: [
-				"Well, here is one of those big bads you've been tasked with removing. The &eWildfire&r is a powerful foe - you will need to be prepared."
+				"여기에 당신이 무찔러야 할 큰 놈들중 하나가 있네요. &e와일드파이어(Wildfire)&r는 강력한 적입니다 - 준비를 단단히 하세요."
 				""
-				"The plates spinning around the &eWildfire&r need to be popped off before it can receive any damage."
+				"&e와일드파이어&r주변에 회전하는 방패들은 보스에게 피해를 가하기 전에 터뜨려야 합니다."
 				""
-				"You can find &eWildfire&r in &eCitadels.&r Alternatively, you can use a &eGateway of the Hellish Fortress&r."
+				"&e와일드파이어는&r &e네더 성채&r에서 발견할 수 있습니다. 아니면, &e네더 요새 관문&r을 사용해서 소환 할 수도 있죠."
 				""
-				"The Wildfire Has:"
-				"&b+50% Physical to Fire Damage&r"
-				"&b+25% Burn Chance&r"
-				"&a5% Chance of Dropping Net Rune&r"
+				"와일드파이어는 다음의 능력을 가지고 있습니다:"
+				"&b+50% 물리피해->화염피해&r"
+				"&b+25% 발화 확률&r"
+				"&a5% Net 룬을 드롭할 확률&r"
 			]
 			icon: {
 				Count: 1
@@ -448,7 +448,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Fiery Adventure"
+			subtitle: "내 앞은 불길만이"
 			tasks: [{
 				entity: "friendsandfoes:wildfire"
 				icon: "ftb_ph:wildfire"
@@ -456,16 +456,16 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "Ruler of Flames"
+			title: "화염의 군주"
 			x: 6.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["114D74DF8284ACC3"]
 			description: [
-				"You've reported your achievements to the village guard and received your rewards. It's time to move onto the next dimension - the &eUndergarden&r. A moist, sticky, and mostly habitable dimension with some curious creatures... They might not be mutated, but it's worth taking a look anyway."
+				"당신은 마을 경비대에 당신의 성과를 보고하고 보상을 받았습니다. 다음 차원으로 갈 시간이군요 - &e언더가든(Undergarden)&r으로! 습기 차고, 끈적끈적거리지만, 대체로 사람이 살 수 있는 차원이죠. 신기한 생물들도 빠질 수 없죠... 그것들은 돌연변이는 아니지만, 눈 여겨 볼 필요는 있습니다."
 				""
-				"Craft a &eCatalyst&r using your &eNether Star&r, and access the Undergarden by making a portal with &eStone Bricks in the same shape as the Nether Portal&r. Activate it using the Catalyst."
+				"&e네더의 별&r를 사용해서 &e촉매(Catalyst)&r를 만든다음, &e석재벽돌로 네더 차원문과 같은 형태로 만든 다음 촉매로 점화&r 하면 언더가든으로 들어갈 수 있습니다."
 				""
 				"{image:cte2:textures/undergarden.png width:160 height:140 align:center}"
 			]
@@ -490,7 +490,7 @@
 				}
 			]
 			shape: "rsquare"
-			subtitle: "Main Quest"
+			subtitle: "메인 퀘스트"
 			tasks: [
 				{
 					id: "4F61CA02549D0BF8"
@@ -505,7 +505,7 @@
 					type: "dimension"
 				}
 			]
-			title: "Travel Catalyst"
+			title: "여행용 촉매"
 			x: 7.5d
 			y: 0.0d
 		}
@@ -516,9 +516,9 @@
 			]
 			dependency_requirement: "one_completed"
 			description: [
-				"You've seen in Nether Fortresses clues to another structure. \"The Citadel\" is etched into the walls of the Fortress in various locations. Maybe you can find the &eCitadel&r and investigate."
+				"네더 요새에서 또 다른 구조물에 대한 단서를 보셨을 겁니다. \"네더 성채(The Citadel)\" 는 네더 요새 벽 곳곳에 새겨져 있습니다. &e네더 성채&r룰 찾고 탐사 할 수 있겠죠."
 				""
-				"&eRequires 1 dependency to be completed.&r"
+				"&e하위 퀘스트 1개를 완료해야 합니다.&r"
 			]
 			id: "277A8C4C5D50ED00"
 			min_required_dependencies: 1
@@ -545,20 +545,20 @@
 					type: "command"
 				}
 			]
-			subtitle: "Fiery Adventure"
+			subtitle: "내 앞은 불길만이"
 			tasks: [{
 				advancement: "friendsandfoes:nether/find_citadel"
 				criterion: ""
 				id: "6E38DD14F2F2B52D"
 				type: "advancement"
 			}]
-			title: "A Castle in the Dark"
+			title: "어둠속의 성채"
 			x: 4.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["322725A82ADAA810"]
-			description: ["If you find yourself dying frequently, you can craft a &eRespawn Anchor&r. To craft one, you will need to first find some &eCrying Obsidian&r!"]
+			description: ["너무 자주 죽는다면, &e리스폰 정박기&r를 만들어 보세요. 하나를 만들기 위해서는, 우선 &e우는 흑요석&r을 찾아야 할겁니다!"]
 			id: "0A37821899EAE5B4"
 			rewards: [
 				{
@@ -579,23 +579,23 @@
 					type: "command"
 				}
 			]
-			subtitle: "Crimson Forests"
+			subtitle: "진홍빛 숲"
 			tasks: [{
 				advancement: "minecraft:nether/obtain_crying_obsidian"
 				criterion: ""
 				id: "79B01E4A345318F7"
 				type: "advancement"
 			}]
-			title: "Dried Up Tears"
+			title: "그만 좀 울어"
 			x: 1.5d
 			y: -3.0d
 		}
 		{
 			dependencies: ["29CADE48F14D6436"]
 			description: [
-				"Occasionally, you'll see large, looming structures in The Nether. How is that possible? Is there civilization here?"
+				"가끔, 당신은 네더에서 거대하고 위압적인 구조물을 볼 수 있을 겁니다. 그게 어떻게 가능한걸까요? 집이라도 짓고 살았나?"
 				""
-				"Maybe finding one of these structures and exploring it will provide you clues on where to find powerful creatures."
+				"이 구조물들을 찾아서 탐사하는 것이 강력한 괴물들을 찾는 단서가 될 수도 있겠죠."
 			]
 			id: "45535AECCE43183A"
 			rewards: [{
@@ -609,29 +609,29 @@
 				type: "command"
 			}]
 			shape: "rsquare"
-			subtitle: "Main Quest"
+			subtitle: "메인 퀘스트"
 			tasks: [{
 				advancement: "minecraft:nether/find_fortress"
 				criterion: ""
 				id: "110553725D320A0F"
 				type: "advancement"
 			}]
-			title: "Nether Fortress"
+			title: "네더 요새"
 			x: 1.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["29CD881773D976E5"]
 			description: [
-				"If the &eCrimson Mosquito&r drinks the blood of a &eMungus&r which is coated in &eWarped Fungus&r, then the mosquito will turn blue and start to grow in size - eventually turning into a &eWarped Mosco&r."
+				"&e진홍빛 모기&r가 &e뒤틀린 균&r으로 뒤덮힌 &e멍구스(Mungus)&r의 피를 마시면, 모기가 푸른색으로 변한 다음 크기가 커지기 시작 합니다 - 그러다가 &e뒤틀린 모스코(Warped Mosco)&r로 변하게 되죠."
 				""
-				"Alternatively, you can feed a &eCrimson Mosquito with Warped Mixture&r. Unsure where to get that? You can &epurchase it from the Trading Terminal/Barter Board&r!"
+				"대신, &e진홍빛 모기에게 뒤틀린 혼합물&r을 먹일 수도 있습니다. 어디서 얻을 지 모르겠다고요? &e거래 터미널/물물교환 게시판(Trading Terminal/Barter Board)에서 구매&r할 수 있습니다!"
 				""
-				"That sounds like a very mutagenic process..."
+				"매우 위험한 돌연변이 생성 과정같네요..."
 				""
-				"The Warped Mosco Has:"
-				"&b+40% Armor&r"
-				"&a10% Chance of Dropping Net Rune&r"
+				"뒤틀린 모스코는 다음의 능력을 가지고 있습니다:"
+				"&b+40% 방어&r"
+				"&a10% Net 룬을 드롭할 확률&r"
 			]
 			icon: "alexsmobs:warped_muscle"
 			id: "37167129D6D6A280"
@@ -661,7 +661,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Crimson Forests"
+			subtitle: "진홍빛 숲"
 			tasks: [{
 				entity: "alexsmobs:warped_mosco"
 				icon: "ftb_ph:warped_mosco"
@@ -669,18 +669,18 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "Forest Chad"
+			title: "진홍빛 숲의 기가 차드"
 			x: 4.5d
 			y: -3.0d
 		}
 		{
 			dependencies: ["1EA8FC97142B16A7"]
 			description: [
-				"&eGear Soul Extractors&r can be used on gear. You will get the \"stats\" of the gear back as a soul, destroying the base item in the process. You can then use the soul on another piece of gear!"
+				"&e장비 영혼 추출기&r는 장비에 사용 가능 합니다. 장비의 \"스텟\"을 영혼의 형태로 얻지만, 그 과정에서 장비가 파괴됩니다. 다른 장비에 그 영혼을 사용 가능합니다!"
 				""
-				"Conversely, &eGear Soul Cleaners&r are used to get rid of the stats of the gear while keeping the base item."
+				"반대로, &e장비 영혼 제거기&r는 기반 장비를 보존 하면서 스텟만 제거 하는데 사용됩니다."
 				""
-				"&eGem Extractors&r are used to remove &eGems&r from your socketed gear. There is no penalty for doing so, but the extractor will be consumed. There is also a &eRune Extractor&r, but using that will cost &e1 Gear Potential&r."
+				"&e보석 추출기&는 &e보석&r을 삽입된 장비로 부터 제거 하는데 사용됩니다. 제거 하는데 패널티는 없지만, 추출기가 소모 됩니다. &e룬 추출기&r도 있지만, &e1의 장비 잠재력&r을 사용합니다."
 			]
 			icon: "minecraft:paper"
 			id: "60D44B70BB06539B"
@@ -704,29 +704,29 @@
 					type: "item"
 				}
 			]
-			subtitle: "Lost Page"
+			subtitle: "잃어버린 페이지"
 			tasks: [{
 				id: "5222FCC05296547A"
 				title: "Click Once Read"
 				type: "checkmark"
 			}]
-			title: "Gear Soul Extractors"
+			title: "장비 영혼 추출기들"
 			x: 6.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["4343A66299F26319"]
 			description: [
-				"The &eNether Keeper&r is a powerful foe found in the &eKeeping Castle&r of The Nether. Keeping Castles can be found in &eNether Wastes and Crimson Forests underground&r. You can summon it by placing a &eNether Star in the altar&r."
+				"&e네더 문지기(Nether Keeper)&r는 네더의 &eKeeping Castle&r에서 발견 됩니다. Keeping Castles은 &e네더 황무지와 진홍빛 숲 지하&r에서 발견할 수 있습니다. &e네더의 별을 제단&r에 놓아서 문지기를 소환할 수 있습니다."
 				""
-				"&cNote that these structures cannot be found conventionally with the Explorer's Compass. You may need to find them manually.&r"
+				"&c이 구조물들은 탐험가의 나침반(Explorer's Compass)으로 찾을 수 없습니다&r. 직접 찾으러 다녀야 합니다.&r"
 				""
 				"{image:cte2:textures/nether_keeper.png width:192 height:108 align:center}"
 				""
-				"The Nether Keeper Has:"
-				"&b+50% Physical to Fire Damage&r"
-				"&b+40% Armor&r"
-				"&a15% Chance of Dropping Net Rune&r"
+				"네더 문지기는 다음의 능력을 가지고 있습니다:"
+				"&b+50% 물리피해 -> 화염피해&r"
+				"&b+40% 방어&r"
+				"&a15% Net 룬을 드롭할 확률&r"
 			]
 			id: "4B57F45BE30AA5F2"
 			rewards: [
@@ -779,7 +779,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Big Baddies"
+			subtitle: "큰 형님들"
 			tasks: [{
 				id: "3D45F31ADFFF1165"
 				item: {
@@ -791,7 +791,7 @@
 				}
 				type: "item"
 			}]
-			title: "Defenders of the Nether II"
+			title: "네더의 수호자 II"
 			x: 7.5d
 			y: -3.0d
 		}
@@ -803,7 +803,7 @@
 				"37167129D6D6A280"
 				"3F61325EA08B6DAA"
 			]
-			description: ["Defeat all of the mini-bosses of Act II to complete this achievement. Then show it off with your hot new hat!"]
+			description: ["Act II의 모든 미니보스들을 처치하면 이 업적을 얻을 수 있습니다. 그리고 새로운 모자를 뽐내보세요!"]
 			hide_dependency_lines: true
 			icon: "simplehats:fakefire"
 			id: "389CFAF34A692969"
@@ -821,19 +821,19 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "Achievement"
+			subtitle: "업적"
 			tasks: [{
 				id: "5285A75C058C5073"
 				title: "Click Once Read"
 				type: "checkmark"
 			}]
-			title: "Defeat All Act II Mini-Bosses!"
+			title: "Act II의 모든 미니보스들을 처치하세요!"
 			x: 7.5d
 			y: 4.5d
 		}
 		{
 			dependencies: ["52DAC9E8213D2624"]
-			description: ["Magnets are incredibly useful for dungeons and exploring as they will siphon any dropped items towards you. Hold one in hand and crouch + right-click to configure its range and filters. Can even be upgraded to have a far larger range!"]
+			description: ["자석은 드롭된 아이템을 빨아 들이기 때문에 던전과 탐험에 매우 유용합니다. 한 손에 들고 &e쉬프트 + 우클릭&r해서 흡수거리와 필터를 설정 할 수 있습니다. 업그레이드를 통해 흡수 거리를 늘릴 수 있습니다!"]
 			id: "25F1A1475A6E6F1D"
 			rewards: [{
 				auto: "enabled"
@@ -845,7 +845,7 @@
 				title: "1000 Experience"
 				type: "command"
 			}]
-			subtitle: "Magnets"
+			subtitle: "자석"
 			tasks: [{
 				id: "2A9C784EEF5930E4"
 				item: {
@@ -855,26 +855,26 @@
 				}
 				type: "item"
 			}]
-			title: "How Do They Work?"
+			title: "아이템 넌 내꺼야!"
 			x: 1.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["322725A82ADAA810"]
 			description: [
-				"&eLightman's Currency&r is a mod that adds those coins you get for killing things. You can use these coins to sometimes trade with villagers, purchase Support and Augment gems at the end of each Act, or set up shops and trade with other players."
+				"&e라이트 맨의 재화(Lightman's Currency)&r는 사냥으로 주는 돈을 추가하는 모드입니다. 당신은 이 돈으로 주민과 거래하거나, Act의 마지막부분에서 서포트젬이나 증강젬들을 구매하거나, 상점을 운영해서 다른 플레이어들과 거래할 수 있습니다."
 				""
-				"Even in singleplayer, you can purchase items from the trader. Craft to Exile 2 has some default items that can be bought regardless of world. Set up a &eTrading Terminal/Barter Board&r to check it out!"
+				"싱글플레이어에서도, 상인에게서 물품을 구매할 수 있습니다. Craft to Exile 2는 어느세계든 상관 없이 기본 아이템을 구비하고 있습니다. &e거래터미널/물물교환 게시판&r을 만들어서 확인해 보세요!"
 				""
-				"Examples of things you can buy:"
-				"- Mine and Slash Profession Materials"
-				"- Painting Palette and Music Sheet"
-				"- Rare Resources"
-				"- Common Blocks (Dirt, Stone, etc.)"
+				"구매 가능한 것들:"
+				"- 마인 앤 슬래쉬 전문기술 재료들"
+				"- 페인팅 팔레트와 악보"
+				"- 희귀한 자원"
+				"- 일반 블록들 (Dirt, Stone, etc.)"
 				""
-				"If you're playing in multiplayer, you can even purchase &eFLAN claim blocks&r using the FLAN buy option."
+				"다른사람과 플레이 하고 있다면, &eFLAN claim blocks&r도 FLAN모드의 구매 옵션을 통해 구매 가능합니다."
 				""
-				"&oFor more information, refer to \"&eLightman's Currency&r\" quest in the &eJolly Cooperation&r chapter!&r"
+				"&o더 많은 정보를 위해서는, &eJolly Cooperation&r 챕터에서 \"&eLightman's Currency&r\" 퀘스트를 찾아보세요!&r"
 			]
 			id: "29CD881773D976E5"
 			rewards: [{
@@ -882,19 +882,19 @@
 				item: "lightmanscurrency:coin_gold"
 				type: "item"
 			}]
-			subtitle: "Currency"
+			subtitle: "재화에 관한 것들"
 			tasks: [{
 				id: "165EE02B3146E124"
 				item: "lightmanscurrency:terminal"
 				type: "item"
 			}]
-			title: "Buying Happiness"
+			title: "행복을 구매하세요"
 			x: 3.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["114D74DF8284ACC3"]
-			description: ["Craft a &eTarget Dummy&r and place it down. You can hit it to view your damage per second! You can also enable the &5Damage Chat-Log&r option in the &eFeatures&r tab of the &eMNS Hub&r to view &eexact damage value breakdowns&r."]
+			description: ["&e표적 더미&r를 만들어서 설치하세요. 더미를 때려서 당신의 DPS를 확인할 수 있습니다! &e마인 앤 슬래쉬 허브&r의 &e설정&r 탭에서 &5피해량 로그 메시지&r옵션을 켜서 &e정확한 데미지 수치&r를 볼 수 있습니다."]
 			id: "12B20146ED616389"
 			rewards: [{
 				auto: "enabled"
@@ -906,24 +906,25 @@
 				title: "1000 Experience"
 				type: "command"
 			}]
-			subtitle: "DPS Meter"
+			subtitle: "DPS 미터기"
 			tasks: [{
 				id: "201D6D22A54727D4"
 				item: "dummmmmmy:target_dummy"
 				type: "item"
 			}]
+			title: "표적 더미"
 			x: 7.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["1D01AD334C7C70F1"]
 			description: [
-				"&eCurrencies&r are various items that can be used directly on your Gear. They will modify your Gear and empower them."
+				"&e재화&r는 당신의 장비에 바로 사용가능합니다. 당신의 장비에 변화를 가져다 주거나 강화시킵니다."
 				""
-				"Each Gear comes with a set amount of &ePotential&r. Using a Currency on the Gear will reduce the Gear's &ePotential&r. Once the Potential has reached 0, Currency with Potential Cost may no longer be applied to it. Not all Currencies use Potential, however, and may be used at any time."
+				"각각 장비는 지정된 &e잠재력&r이 주어집니다. 장비에 재화를 사용하면 장비의 &e잠재력&r을 소모합니다. 잠재력이 0이 됬다면, 그 장비에는 더이상 잠재력을 소비하는 재화를 사용할 수 없습니다. 하지만, 모든 재화가 잠재력을 소비하지는 않고, 잠재력을 소비하지 않는 재화들은 어느때나 사용 가능합니다."
 				""
 				""
-				"Certain Currencies, such as the &eOrb of Chaos,&r can add very powerful effects, but may cause negative effects to your Gear. &cWith the Orb of Chaos, there is a 25% chance that your item will turn into Coal&r."
+				"&e혼돈의 오브&r같은 특정 재화는 매우 강력한 효과를 부여할 수 있지만, 장비에 부정적인 효과를 부여할 수도 있습니다. &c혼돈의 오브는 25% 확률로 장비를 석탄으로 만들어버리는 것과 같은 효과 말이죠&r."
 			]
 			icon: "minecraft:paper"
 			id: "68EB4F5B367C3C47"
@@ -940,34 +941,34 @@
 					type: "choice"
 				}
 			]
-			subtitle: "Lost Page"
+			subtitle: "잃어버린 페이지"
 			tasks: [{
 				id: "5B5346C72F51EAD5"
 				title: "Click Once Read"
 				type: "checkmark"
 			}]
-			title: "More On Currencies"
+			title: "재화에 관한 더 많은 것들"
 			x: 3.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["45535AECCE43183A"]
 			description: [
-				"You may have noticed some &eNether&r mobs dealing more &cFire Damage.&r Mobs native to a specific dimension tend to have an affinity towards a specific element. For example, in the Nether, some mobs will deal a combination of Fire and Physical Damage."
+				"몇몇 &e네더&r의 몹들이 &c화염 피해&r를 입히는것을 종종 봤을겁니다. 특정 차원에 나오는 몹들은 특정 원소에 대해 친화력을 가지는 경향이 있습니다. 예를 들어서 네더에서는, 몇몇 몹들은 물리와 화염피해를 섞은 피해를 줍니다."
 				""
-				"&oAlso note, this doesn't mean they will take less damage from the element they have an affinity for.&r"
+				"&o또 참고하자면, 어느 한 원소에 친화력이 있다고 그 원소피해에 경감이 있는것은 아닙니다.&r"
 				""
-				"&nElemental Affinities&r"
+				"&n원소 친화력&r"
 				""
-				"&lOverworld:&r &7None&r"
-				"&lNether:&r &cFire&r"
-				"&lUndergarden:&r &5Chaos&r"
-				"&lAquamirae&r Mobs: &bCold&r"
-				"&lEverbright:&r &bCold&r + &eLightning&r"
-				"&lEverdawn:&r &cFire&r + &5Chaos&r"
-				"&lThe End:&r &cFire&r + &eLightning&r + &5Chaos&r"
-				"&lThe Otherside:&r &5Chaos&r"
-				"&lThe Twilight Forest:&r &7None&r"
+				"&l오버월드:&r &7없음&r"
+				"&l네더:&r &c화염&r"
+				"&l언더가든:&r &5혼돈&r"
+				"&laquamirae&r 몹들: &b냉기&r"
+				"&l에버브라이트:&r &bCold&r + &e번개&r"
+				"&l에버다운:&r &cFire&r + &5혼돈&r"
+				"&l디 엔드:&r &cFire&r + &e번개&r + &5혼돈&r"
+				"&l아더 사이드:&r &5혼돈&r"
+				"&l황혼의 숲:&r &7없음&r"
 			]
 			icon: "minecraft:paper"
 			id: "3F61325EA08B6DAA"
@@ -990,24 +991,24 @@
 					type: "item"
 				}
 			]
-			subtitle: "Lost Page"
+			subtitle: "잃어버린 페이지"
 			tasks: [{
 				id: "5CE8B1EB861233D7"
 				title: "Click Once Read"
 				type: "checkmark"
 			}]
-			title: "Mob Affinities"
+			title: "몹들의 원소 친화력"
 			x: 3.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["29CADE48F14D6436"]
 			description: [
-				"Mine and Slash Professions can sometimes be tedious to level... Did you know that gaining experience through combat gives you &eRested Profession Experience&r? This experience pools and will be consumed when performing Profession activities to enhance your experience gained."
+				"마인 앤 슬래쉬의 전문기술은 올리기에 지루하게 느껴질 때가 있습니다... 전투 경험치를 얻는것으로 &e휴식 전문기술 경험치가 쌓인다&r는것을 알고 있나요? 이 경험치는 전문기술 경험치를 얻을때 자동으로 소비됩니다."
 				""
-				"Similarly, performing Profession activities will give you &eRested Combat Experience&r!"
+				"비슷하게, 전문기술 경험치를 얻을때도 &e휴식 전투 경험치도 쌓입니다&r!"
 				""
-				"You can view how much Rested Experience you have in the Mine and Slash Hub by mousing over the Profession icon."
+				"마인 앤 슬래쉬 허브에서 전문기술 아이콘에서 얼마나 많은 휴식 경험치가 있는지 확인 할 수 있습니다."
 			]
 			icon: "minecraft:paper"
 			id: "256EB6DAF1808F35"
@@ -1016,26 +1017,26 @@
 				item: "mmorpg:currency/enchant_reroll"
 				type: "item"
 			}]
-			subtitle: "Lost Page"
+			subtitle: "잃어버린 페이지"
 			tasks: [{
 				id: "41373A88D8FE08D7"
 				title: "Click Once Read"
 				type: "checkmark"
 			}]
-			title: "A Moment's Respite"
+			title: "잠깐의 휴식"
 			x: 0.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["114D74DF8284ACC3"]
 			description: [
-				"&eAscendancy&r is a way to further grow your character by completing challenging tasks. To start, you must &ecomplete the \"Defenders of the Nether\" quest&r, which will unlock the &eAscendancy Chapter&r."
+				"&e전직&r은 어려운 과제를 완료해서 당신의 캐릭터를 더 강하게 키울 수 있는 방법입니다. 시작하기 위해서는, &e\"네더의 수호자\" 퀘스트를 완료 하면&r &e전직 챕터(Ascendancy Chapter)&r가 열립니다."
 				""
-				"The first quest you complete will earn you 1 Ascendancy point, just enough to choose your specialization. With each subsequent challenge you complete, you will earn more Ascendancy points!"
+				"첫 퀘스트는 1 전직 포인트를 줍니다. 전직을 하기에 딱 충분한 포인트입니다. 더 많은 후속 퀘스트들을 완료한다면, 더 많은 전직 포인트를 얻을 수 있습니다!"
 				""
-				"These points are capped at 7, and you can use these points similar to Talent points in the Ascendancy tab of the &eMine and Slash Hub&r."
+				"전직 포인트는 7 포인트에 제한되어있습니다, 그리고 이 포인트들을 &e마인 앤 슬래쉬&r 전직 탭에서 특성 포인트 처럼 사용할 수 있습니다."
 				""
-				"You can only select one Ascendancy tree at a time. To select another tree, you must first respec and retrieve all of your points in your current tree."
+				"전직 트리는 한번에 하나만 선택 가능합니다. 다른 전직 트리를 선택 하기 위해서는, 전직 포인트를 회수 한 다음 재분배 해야 합니다."
 			]
 			icon: "minecraft:paper"
 			id: "3C2D7F2998CC495F"
@@ -1056,19 +1057,19 @@
 					type: "command"
 				}
 			]
-			subtitle: "Lost Page"
+			subtitle: "잃어버린 페이지"
 			tasks: [{
 				id: "24A37C91BE150CC6"
 				title: "Click Once Read"
 				type: "checkmark"
 			}]
-			title: "Ascendancy"
+			title: "전직"
 			x: 6.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["45535AECCE43183A"]
-			description: ["Craft a hearty meal to keep yourself alive! Eating foods will give you bonus stats for a set duration."]
+			description: ["체력 음식을 만들어서 생존을 이어가세요! 음식을 먹으면 일정한 기간동안 추가 스탯을 얻습니다."]
 			id: "75349B31576A3930"
 			rewards: [{
 				auto: "enabled"
@@ -1080,7 +1081,7 @@
 				title: "1250 Experience"
 				type: "command"
 			}]
-			subtitle: "M\\&S Professions"
+			subtitle: "마인 앤 슬래쉬 전문기술"
 			tasks: [{
 				id: "08BE1394EA5B782D"
 				item: {
@@ -1093,13 +1094,13 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Food For Thought"
+			title: "옴뇸뇸뇸"
 			x: 1.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["1EA8FC97142B16A7"]
-			description: ["Try your hand at crafting a custom weapon to help with your adventure!"]
+			description: ["제작대에서 자신만의 무기를 만들어 보세요!"]
 			id: "575DEFDB9962966C"
 			rewards: [{
 				auto: "enabled"
@@ -1111,7 +1112,7 @@
 				title: "2000 Experience"
 				type: "command"
 			}]
-			subtitle: "M\\&S Professions"
+			subtitle: "마인 앤 슬래쉬 전문기술"
 			tasks: [{
 				id: "21E5841575537E9D"
 				item: {
@@ -1124,17 +1125,17 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "The Sharpest"
+			title: "뚝딱 뚝딱"
 			x: 6.0d
 			y: 4.5d
 		}
 		{
 			dependencies: ["52DAC9E8213D2624"]
 			description: [
-				"&ePhantom Creepers&r spawn in &eWarped Forests&r and &eThe End&r. They split upon contact, so you'll need to handle them with care!"
+				"&e유령 크리퍼(Phantom Creepers)&r들은 &e뒤틀린 숲&r과 &e디 엔드&r에서 스폰합니다. 그들은 접촉하면 분열 하니, 다가갈때는 주의 하세요!"
 				""
-				"The Phantom Creeper Has:"
-				"&b+25% Dodge Rating&r"
+				"유령 크리퍼는 다음의 능력을 가지고 있습니다:"
+				"&b+25% 회피율&r"
 			]
 			icon: "born_in_chaos_v1:phantom_bomb"
 			id: "3B1B7EC7FF90C8E4"
@@ -1148,7 +1149,7 @@
 				title: "1500 Experience"
 				type: "command"
 			}]
-			subtitle: "Explosive, Invisible Bombs"
+			subtitle: "안보이는 지뢰"
 			tasks: [{
 				entity: "born_in_chaos_v1:phantom_creeper_copy"
 				icon: "ftb_ph:phantom_creeper"
@@ -1156,7 +1157,7 @@
 				type: "kill"
 				value: 10L
 			}]
-			title: "Otherworldly Beings III"
+			title: "이계의 존재 III"
 			x: 0.0d
 			y: 3.0d
 		}
@@ -1166,11 +1167,11 @@
 				"75447684ADAD02D8"
 			]
 			description: [
-				"&cThis quest requires the completion of:&r"
+				"&c이 퀘스트는 다음의 퀘스트를 완료 해야 합니다:&r"
 				""
-				"{ \"text\": \"Chococrafts and Mounts\", \"color\": \"yellow\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"730BE78211A1573B\" } }"
+				"{ \"text\": \"Chococrafts 와 탈것\", \"color\": \"yellow\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"730BE78211A1573B\" } }"
 				""
-				"The Chocopedia mentions a breed that exists in the Nether that can fly..."
+				" 초코피디아(Chocopedia)는 네더에 있는 날 수 있는 탈것에 대해 이야기 합니다..."
 			]
 			id: "6A023A63B5FEE4A0"
 			rewards: [
@@ -1191,7 +1192,7 @@
 					type: "choice"
 				}
 			]
-			subtitle: "Wild Chocobos"
+			subtitle: "야생의 초코보가 나타났다!"
 			tasks: [
 				{
 					id: "14037C63F43DB96D"
@@ -1210,23 +1211,23 @@
 					type: "item"
 				}
 			]
-			title: "Aerial Exploration"
+			title: "공중의 탐험"
 			x: 4.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["3C2D7F2998CC495F"]
 			description: [
-				"The &eAwful Ghast&r can be found in the &eAwful Dungeons&r of The Nether. Awful Dungeons can be found in &eSoul Sand Valleys and Warped Forests&r where they appear as floating circular structures. You can summon it by placing a &eNether Star in the altar&r."
+				"&e역겨운 가스트(Awful Ghast)&r는 네더의 &e역겨운 던전(Awful Dungeons)&r에서 발견할 수 있습니다. 역겨운 던전은 &e영혼 모래 골짜기와 뒤틀린 숲&r에서 떠있는 원형 구조물로 나타납니다. &e네더의 별을 제단에 놓아 역겨운 가스트를 소환할 수 있습니다&r."
 				""
-				"&cNote that these structures cannot be found conventionally with the Explorer's Compass. You may need to find them manually.&r"
+				"&c이 구조물들은 탐험가의 나침반(Explorer's Compass)으로 찾을 수 없습니다&r. 직접 찾으러 다녀야 합니다.&r"
 				""
 				"{image:cte2:textures/awful_ghast.png width:192 height:108 align:center}"
 				""
-				"The Awful Ghast Has:"
-				"&b+50% Physical to Fire Damage&r"
-				"&b+30% Elemental Resistance&r"
-				"&a15% Chance of Dropping Net Rune&r"
+				"역겨운 가스트는 다음의 능력을 가지고 있습니다:"
+				"&b+50% 물리피해 -> 화염피해&r"
+				"&b+30% 원소 저항&r"
+				"&a15% Net 룬을 드롭할 확률&r"
 			]
 			id: "4343A66299F26319"
 			rewards: [{
@@ -1240,22 +1241,22 @@
 				type: "command"
 			}]
 			shape: "diamond"
-			subtitle: "Big Baddies"
+			subtitle: "큰 형님들"
 			tasks: [{
 				id: "02751A7FE39DD1D0"
 				item: "stalwart_dungeons:awful_crystal"
 				type: "item"
 			}]
-			title: "Defenders of the Nether"
+			title: "네더의 수호자"
 			x: 7.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["63F4CAF1CA065949"]
 			description: [
-				"Smithing templates are items used in &eSmithing Tables&r to alter tools and armor. They are consumed when used, but can be duplicated using an existing template, its material and diamonds."
+				"대장장이 형판은 &e대장장이 작업대&r에서 도구와 갑옷을 강화하는데 사용합니다. 사용시에 사라지지만, 형판과 네더랙과 다이아몬드로 복제가 가능합니다."
 				""
-				"Netherite upgrade smithing templates are required to upgrade diamond equipment with a &eNetherite Ingot&r. They are only found in &eBastion Remnants&r, and are guaranteed only in treasure rooms."
+				"네더라이트 업그레이드 대장장이 형판은 다이아몬드 장비를 네더라이트로 강화하는데 &e네더라이트 주괴가 필요합니다&r. &e피글린 요새&r에서 발견되며, 보물방에서 확정적으로 나옵니다."
 			]
 			id: "75447684ADAD02D8"
 			rewards: [
@@ -1288,17 +1289,17 @@
 				}
 			]
 			shape: "rsquare"
-			subtitle: "Main Quest"
+			subtitle: "메인 퀘스트"
 			tasks: [{
 				id: "02B914E0382A57F7"
 				item: "minecraft:netherite_upgrade_smithing_template"
 				type: "item"
 			}]
-			title: "Preparation"
+			title: "너는 아직 준비가 안됬다 애송이"
 			x: 4.5d
 			y: 0.0d
 		}
 	]
-	subtitle: ["Lv. 10-30"]
+	subtitle: ["레벨. 10-30"]
 	title: "Act II"
 }
