@@ -15,9 +15,9 @@
 				""
 				"{ \"text\": \"Defenders of the Nether II\", \"color\": \"yellow\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4B57F45BE30AA5F2\" } } "
 				""
-				"&e이 전직 포인트는 어느 캐릭터 간에 공유됩니다(캐릭터 메뉴 참조).&r"
+				"&e이 전직 포인트는 어느 캐릭터 간에 공유됩니다(허브의 캐릭터 메뉴를 참조하세요).&r"
 				""
-				"&cAct IV에서 잠금 해제되는 보상 메뉴의 "메인 캠페인 퀘스트 초기화"를 통해 퀘스트를 초기화하더라도, 해당 퀘스트는 완료된 상태로 유지됩니다.&r"
+				"&c아래의 '메인 캠페인 퀘스트 초기화'(Act IV에서 잠금 해제)를 통해 퀘스트를 초기화하더라도, 해당 퀘스트는 완료된 상태로 유지됩니다.&r"
 			]
 			id: "17F9635AF7CDEA18"
 			rewards: [{
@@ -36,7 +36,7 @@
 				icon: "minecraft:book"
 				id: "1A4E5F840A029C7F"
 				stat: "minecraft:walk_one_cm"
-				title: "Defenders of the Nether II 퀘스트 완료"
+				title: "완료: Defenders of the Nether II"
 				type: "stat"
 				value: 1
 			}]
@@ -53,9 +53,9 @@
 				""
 				"{ \"text\": \"Slippery Swimmer\", \"color\": \"yellow\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"46DB9530C236A4AD\" } } "
 				""
-				"&e이 전직 포인트는 어느 캐릭터 간에 공유됩니다(캐릭터 메뉴 참조).&r"
+				"&e이 전직 포인트는 어느 캐릭터 간에 공유됩니다(허브의 캐릭터 메뉴를 참조하세요).&r"
 				""
-				"&cAct IV에서 잠금 해제되는 보상 메뉴의 "메인 캠페인 퀘스트 초기화"를 통해 퀘스트를 초기화하더라도, 해당 퀘스트는 완료된 상태로 유지됩니다.&r"
+				"&c아래의 '메인 캠페인 퀘스트 초기화'(Act IV에서 잠금 해제)를 통해 퀘스트를 초기화하더라도, 해당 퀘스트는 완료된 상태로 유지됩니다.&r"
 			]
 			id: "7E712A56BE4C40B7"
 			rewards: [{
@@ -87,7 +87,7 @@
 				}
 				id: "5042FB25C4207F1B"
 				stat: "minecraft:walk_one_cm"
-				title: "Slippery Swimmer 퀘스트 완료"
+				title: "완료: Slippery Swimmer"
 				type: "stat"
 				value: 1
 			}]
@@ -104,9 +104,9 @@
 				""
 				"{ \"text\": \"They Knew You Were Coming\", \"color\": \"yellow\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"69FD852AE0306BD2\" } } "
 				""
-				"&e이 전직 포인트는 어느 캐릭터 간에 공유됩니다(캐릭터 메뉴 참조).&r"
+				"&e이 전직 포인트는 어느 캐릭터 간에 공유됩니다(허브의 캐릭터 메뉴를 참조하세요).&r"
 				""
-				"&cAct IV에서 잠금 해제되는 보상 메뉴의 "메인 캠페인 퀘스트 초기화"를 통해 퀘스트를 초기화하더라도, 해당 퀘스트는 완료된 상태로 유지됩니다.&r"
+				"&c아래의 '메인 캠페인 퀘스트 초기화'(Act IV에서 잠금 해제)를 통해 퀘스트를 초기화하더라도, 해당 퀘스트는 완료된 상태로 유지됩니다.&r"
 			]
 			id: "05F71CA8CB6A9B71"
 			rewards: [{
@@ -134,7 +134,7 @@
 				}
 				id: "59D4B5D606051069"
 				stat: "minecraft:walk_one_cm"
-				title: "Complete: They Knew You Were Coming"
+				title: "완료: They Knew You Were Coming"
 				type: "stat"
 				value: 1
 			}]
@@ -160,9 +160,9 @@
 				""
 				"{ \"text\": \"The Galvanic Stronghold\", \"color\": \"dark_purple\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6B2C722AC00A07C0\" } } "
 				""
-				"&e이 전직 포인트는 어느 캐릭터 간에 공유됩니다(캐릭터 메뉴 참조).&r"
+				"&e이 전직 포인트는 어느 캐릭터 간에 공유됩니다(허브의 캐릭터 메뉴를 참조하세요).&r"
 				""
-				"&cAct IV에서 잠금 해제되는 보상 메뉴의 "메인 캠페인 퀘스트 초기화"를 통해 퀘스트를 초기화하더라도, 해당 퀘스트는 완료된 상태로 유지됩니다.&r"
+				"&c아래의 '메인 캠페인 퀘스트 초기화'(Act IV에서 잠금 해제)를 통해 퀘스트를 초기화하더라도, 해당 퀘스트는 완료된 상태로 유지됩니다.&r"
 			]
 			id: "087DA043F088CC11"
 			rewards: [{
@@ -175,13 +175,13 @@
 				title: "2 Ascendancy Points"
 				type: "command"
 			}]
-			subtitle: "Ascendant"
+			subtitle: "전직"
 			tasks: [{
 				disable_toast: true
 				icon: "handcrafted:stackable_book"
 				id: "1BE3C1B048BD304B"
 				stat: "minecraft:walk_one_cm"
-				title: "Complete: Epilogue Elemental Bosses"
+				title: "완료: Epilogue Elemental Bosses"
 				type: "stat"
 				value: 1
 			}]
