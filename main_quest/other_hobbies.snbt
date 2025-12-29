@@ -1120,11 +1120,11 @@
 		}
 		{
 			description: [
-				"&eDoggy Talents Next&r에서는 강아지와 교감하고, 레벨업하고, 돌볼 수 있습니다. 술래잡기, 공 던지기 놀이, 강아지 찾기, 쓰러진 강아지를 소생시키고, 유용한 재능을 가르칠 수도 있습니다."
+				"&eDoggy Talents Next&r에서는 반려견과 교감하고, 레벨업하고, 돌볼 수 있습니다. 술래잡기, 공 던지기 놀이, 반려견 찾기, 쓰러진 반려견을 소생시키고, 유용한 재능을 가르칠 수도 있습니다."
 				""
-				"&e늑대를 길들인 다음&r 훈련용 간식을 사용하세요. 막대기로 개를 마우스 오른쪽 버튼 클릭하여 메뉴를 엽니다. 더 많은 옵션은 화면 하단의 GUI에서 찾을 수 있습니다. "
+				"&e늑대를 길들인 다음&r 훈련용 간식을 사용하세요. 막대기로 반려견을 마우스 오른쪽 버튼 클릭하여 메뉴를 엽니다. 더 많은 옵션은 화면 하단의 GUI에서 찾을 수 있습니다. "
 				""
-				"반려견에게 &e위치추적 목줄&r을 부착하고 &e개 위치 추적기(Canine Locator)&r를 제작하면 절대 반려견을 잃어버릴 일이 없습니다. &e뼈&r를 사용하면 반려견을 머리 위에 올려놓을 수도 있습니다. &e전도 뼈(Conducting Bone)&e를 사용하면 전 세계 어디에서든 반려견을 당신에게 순간 이동시킬 수 있습니다."
+				"반려견에게 &e위치추적 목줄&r을 부착하고 &e반려견 위치 추적기(Canine Locator)&r를 제작하면 절대 반려견을 잃어버릴 일이 없습니다. &e뼈&r를 사용하면 반려견을 머리 위에 올려놓을 수도 있습니다. &e전도 뼈(Conducting Bone)&e를 사용하면 전 세계 어디에서든 반려견을 당신에게 순간 이동시킬 수 있습니다."
 				""
 				"&n행동 모드&r"
 				""
@@ -1184,22 +1184,22 @@
 		{
 			dependencies: ["77DED163AD398568"]
 			description: [
-				"강아지를 돌보려면 &e애견 침대, 애견 욕조, 밥그릇&r이 필요합니다. &e애견 침대&r를 강아지와 연결하려면 애견 침대를 마우스 오른쪽 버튼 클릭한 다음 강아지를 클릭하세요. &e밥그릇&r은 강아지를 그릇에서 1블록 이내로 데려가면 연결됩니다. 음식을 그릇에 넣어두면 강아지는 &e배고플 때&r 그릇에서 밥을 먹습니다."
+				"반려견을 돌보려면 &e애견 침대, 애견 욕조, 밥그릇&r이 필요합니다. &e애견 침대&r를 반려견과 연결하려면 애견 침대를 마우스 오른쪽 버튼 클릭한 다음 반려견을 클릭하세요. &e밥그릇&r은 반려견을 그릇에서 1블록 이내로 데려가면 연결됩니다. 음식을 그릇에 넣어두면 반려견은 &e배고플 때&r 그릇에서 밥을 먹습니다."
 				""
-				"The &eWhistle&r is your main method of commanding your dog. &eRight-click&r it to use the currently selected command and &ecrouch + right-click&r to select the command. "
+				"개피리는 반려견에게 명령을 내리는 주요 방법입니다. 개피리를 마우스 오른쪽 버튼 클릭하면 현재 선택된 명령을 사용하고, 웅크린 자세에서 마우스 오른쪽 버튼 클릭하면 명령을 선택할 수 있습니다. "
 				""
-				"Your dog has &ehunger&r (the middle number above it's head) which drains from &ehealing and talents&r. Once it reaches &e0&r, the dog will start to &edie.&r"
+				"당신의 반려견은 &e배고픔&r(머리 위의 가운데 숫자)을 가지고 있는데, 이는 &e치유와 재능&r에서 소모됩니다. &e배고픔&r이 &e0&r에 도달하면 반려견은 &e죽어가기&r 시작할 것입니다."
 				""
-				"&nWhistle Commands&r"
+				"&n개피리 명령&r"
 				""
-				"&eStand/Ok?&r: dogs stand/teleport to you."
-				"&eHeel&r: all standing dogs come to you."
-				"&eStay&r: all standing dogs sit."
-				"&eTo Bed&r: all dogs return to their bed if they have one."
-				"&eGo Behind&r: all standing dogs teleport behind you."
-				"&eTactical&r: command all dogs in Tactical Mode to attack the target you aim at with the whistle."
-				"&eHowl&r: aim at a dog and use to make them howl."
-				"&eRide With Me&r: aim at a vehicle, such as a boat, and the dog will get in."
+				"&e일어나&r: 반려견들이 당신에게 다가오거나 순간이동합니다."
+				"&e이리와&r: 서 있는 모든 반려견들이 당신에게 옵니다."
+				"&e앉아&r: 서 있던 반려견들이 모두 앉습니다."
+				"&eTo Bed&r: 반려견들은 침대가 있으면 모두 침대로 돌아갑니다."
+				"&eGo Behind&r: 서 있던 모든 반려견들이 당신 뒤로 순간이동합니다."
+				"&eTactical&r: 명령대로 모드에서 모든 반려견에게 개피리으로 조준한 목표물을 공격하도록 명령하세요.."
+				"&e소리 질러&r: 반려견을 바라보고 하울링하게 만드세요."
+				"&eRide With Me&r: 보트와 같은 차량을 바라보면 반려견이 안으로 들어갈 것입니다."
 			]
 			id: "1BAD2923BF4081F3"
 			rewards: [{
@@ -1212,7 +1212,7 @@
 				title: "100 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Craft one of each"
+			subtitle: "각각 하나씩 만드세요"
 			tasks: [
 				{
 					id: "4343B7F7B6C39F6A"
@@ -1244,24 +1244,24 @@
 					type: "item"
 				}
 			]
-			title: "Home Preparation"
+			title: "집 준비"
 			x: 9.0d
 			y: 1.0d
 		}
 		{
 			dependencies: ["1BAD2923BF4081F3"]
 			description: [
-				"While &eincapacitated&r, your dog will need to be &etransported to it's bed&r and given some &eBand-Aids&r to speed up the healing process. Their hunger will be set to 0, and will gradually &eregenerate to 64&r. When it hits 64, the dog will &erevive&r. Use a &eBone&r on the dog to pick them up."
+				"&e움직이지 못하는 동안에는 반려견을 침대로 옮겨주고&r, 회복 속도를 높이기 위해 &e반창고(Band-Aid)&r를 붙여주세요. 반려견의 허기는 0으로 설정되며, &e점차 64까지 회복&r됩니다. 허기가 64가 되면 반려견은 &e소생&r합니다. 반려견를 안아 올릴 때는 &e뼈다귀&r를 사용하세요."
 				""
-				"Any dogs that &ehaven’t been linked&r to the bed can still be revived on an unclaimed bed by using a &eTotem of Undying&r."
+				"&e침대에 연결되지 않은 반려견들&r도 &e불사의 토템&r을 사용하면 주인이 없는 침대에서 되살릴 수 있습니다."
 				""
-				"If enough &eBand-Aids&r are applied, the dog can begin to &ewalk.&r Note that any &edamage&r the dog takes will still cause the hunger to reset and remove the &eBand-Aids&r. Dogs &ecannot teleport when incapacitated&r. &eTotems of Undying&r will instantly revive all nearby dogs."
+				"충분한 &e반창고(Band-Aid)&r를 붙이면 반려견은 &e걷기&r 시작할 수 있습니다. 단, 반려견이 &e피해&r를 입으면 허기가 초기화되고 붙인 &e반창고(Band-Aid)&r가 제거됩니다. 개는 &e무력화된 상태&r에서는 &e순간이동&r할 수 없습니다. &e불사의 토템&r은 주변의 모든 반려견을 즉시 소생시킵니다."
 				""
-				"Your dog will &eplay tag&r if you throw a &eSnowball&r at them. Use a &eThrowing Stick or Throwing Bone&r to play fetch."
+				"반려견에게 눈덩이를 던져주면 &e술래잡기&r를 할 겁니다. &e막대 장난감나 뼈다귀 장난감&r을 사용해서 공놀이를 해보세요."
 				""
-				"The &eEnergizer Bone&r gives your dog some minor &ebuffs,&r such as &espeed,&r which is great when using them as a &emount.&r The &eBreeding Bone&r can breed two dogs of opposite gender."
+				"&e애견용 껌&r은 반려견에게 &e속도&r와 같은 소소한 &e버프&r를 제공하여 &e마운트&r로 사용할 때 유용합니다. &e짝짓기용 뼈다귀&r는 암수 한 쌍의 반려견을 교배시킬 수 있습니다."
 				""
-				"The &eMagnifying Bone&r will &eincrease&r your dogs size while the &eShrinking Mallet&r will &eshrink&r your dog until they're a &epuppy.&r"
+				"&e확대 뼈(Magnifying Bone)&r는 반려견의 크기를 &e커지게&r 하고, &e축소 망치(Shrinking Mallet)&r는 반려견를 &e강아지&r 크기로 &e줄입니다&r."
 			]
 			id: "2DED343BD83179E3"
 			rewards: [{
@@ -1274,22 +1274,22 @@
 				title: "100 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Craft one of each"
+			subtitle: "각각 하나씩 만드세요"
 			tasks: [{
 				id: "2D51AC345728136C"
 				item: "doggytalents:bandaid"
 				type: "item"
 			}]
-			title: "Taking Care of Your Dog"
+			title: "반려견 돌보기"
 			x: 9.0d
 			y: -0.5d
 		}
 		{
 			dependencies: ["2DED343BD83179E3"]
 			description: [
-				"Your dog will require &ehigher tiered treats&r to &elevel up&r. Their max level is &e60.&r This is &4NOT&r Mine and Slash leveling up. "
+				"반려견의 &e레벨을 올리려면 더 높은 등급의 간식&r이 필요합니다. 최대 레벨은 &e60&r입니다. 이건 Mine and Slash의 레벨 시스템이 &4아닙니다.&r"
 				""
-				"Your dog can be &ecustomized&r with &ecostumes, dyable capes, collars, etc&r. Some will allow the dog to drop &especial music discs&r if they kill a mob while wearing it."
+				"반려견은 &e다양한 의상, 염색 가능한 망토, 목걸이 등&r으로 꾸밀 수 있습니다. 특정 액세서리는 반려견이 착용한 채 몬스터를 처치하면 &e특별한 음악 디스크를 떨어뜨리도록 설계&r되어 있기도 합니다."
 			]
 			id: "46CE10AA0F5E648A"
 			rewards: [
@@ -1318,7 +1318,7 @@
 			]
 			shape: "diamond"
 			size: 1.5d
-			subtitle: "Challenge"
+			subtitle: "챌린지"
 			tasks: [
 				{
 					id: "1739E3CF4C2FEC23"
@@ -1336,7 +1336,7 @@
 					type: "item"
 				}
 			]
-			title: "Cynologist"
+			title: "견종 전문가"
 			x: 9.0d
 			y: -2.0d
 		}
