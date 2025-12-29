@@ -20,9 +20,9 @@
 				"30B56119C4EA7398"
 			]
 			description: [
-				"Your next task is to investigate &eThe End&r, and to slay the &eEnder Dragon&r. To get there, locate a &eStronghold&r, where you might find an &eEnd Portal Frame&r. You can activate the portal by slotting in &eEye of Enders&r into the frame."
+				"당신의 다음 목적지는 &e디 엔드(The End)&r입니다. 그리고 거기서 &e엔더드래곤&r을 잡아야 하죠. 그곳에 가려면, &e엔드 차원문&r이 있는 &e요새(Stronghold)&r를 찾아야 합니다. 포탈을 활성화 하려면 엔드 차원문 틀에 각각 &e엔더의 눈&r을 설치하면 됩니다."
 				""
-				"&eRequires ALL dependencies to be completed.&r"
+				"&e모든 하위 퀘스트를 완료해야 합니다.&r"
 			]
 			id: "75454F0A3C4C3596"
 			rewards: [{
@@ -36,25 +36,25 @@
 				type: "command"
 			}]
 			shape: "rsquare"
-			subtitle: "Main Quest"
+			subtitle: "메인 퀘스트"
 			tasks: [{
 				advancement: "minecraft:story/enter_the_end"
 				criterion: ""
 				id: "20FC7F4ADCE826EB"
 				type: "advancement"
 			}]
-			title: "The End"
+			title: "디 엔드(The End)"
 			x: 10.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["0998037F5701A2D7"]
 			description: [
-				"You've found the Gatekeeper... He's willing to give you information, but for a price."
+				"당신은 문지기(Gatekeeper)를 찾았습니다... 그는 합당한 가격에 정보를 주려고 하는군요."
 				""
-				"You were able to learn from him (for free) that he's familiar with 2 alternate dimensions: the &eEverbright&r and the &eEverdawn&r. According to the Gatekeeper, it's possible to access these dimensions from the Overworld!"
+				"당신은 (공짜로) 그가 2개의 다른 차원을 알고 있다는 정보를 알아냈습니다: &e에버브라이트(Everbright)&r와 &e에버다운&r입니다. 문지기에 따르면, 오버월드에서도 이 차원들에 접근할 수 있다는군요!"
 				""
-				"It also looks like he has some sort of &elighter for sale&r. Apparently it's needed to access the dimensions. Maybe it's fine to humour him and buy the lighter, but you'll need more information than that. Perhaps &esnooping around the house&r might prove fruitful..."
+				"그러고보니 그가 &e라이터 같은 것을 팔고 있는것 같군요&r. 보아하니 라이터가 있어야 차원에 입장 할 수 있는 것 같습니다. 라이터만 사도 될 것 같지만, 하지만 그것보단 정보가 더 필요할 겁니다. 아마도 &e집 근처를 수색하는것&r도 괜찮을지 모르겠네요..."
 			]
 			id: "01B3ED0D457F7A7C"
 			rewards: [
@@ -77,7 +77,7 @@
 				}
 			]
 			shape: "rsquare"
-			subtitle: "Main Quest"
+			subtitle: "메인 퀘스트"
 			tasks: [{
 				id: "18AAB8BD2E919933"
 				item: {
@@ -89,18 +89,18 @@
 				}
 				type: "item"
 			}]
-			title: "Wanderlust Ignition"
+			title: "떠돌이 방화범"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["01B3ED0D457F7A7C"]
 			description: [
-				"&cOnly Requires 1 task to complete.&r"
+				"&c퀘스트를 완료하는데 1가지 과제만 완료하면 됩니다.&r"
 				""
-				"Instead of relying on the portals that spawn in the &eGatekeeper's House&r, you can craft them yourself."
+				"&e문지기의 집(Gatekeeper's House)&r에 나타나는 차원문에 의존하기 보다는, 직접 만들 수 있습니다."
 				""
-				"You can even buy the blocks from the &eTrading Terminal/Barter Board&r!"
+				"&e거래 터미널/물물교환 게시판(Trading Terminal/Barter Board)&r에서 블록을 구매할 수도 있습니다!"
 			]
 			id: "467EF949DCDD7863"
 			rewards: [{
@@ -113,7 +113,7 @@
 				title: "12500 Experience"
 				type: "command"
 			}]
-			subtitle: "Deterministic Portal"
+			subtitle: "차원문 결정장애자"
 			tasks: [
 				{
 					count: 10L
@@ -128,13 +128,13 @@
 					type: "item"
 				}
 			]
-			title: "Deterministic Portals"
+			title: "차원문 결정장애자"
 			x: 0.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["10ABAF144ABC131E"]
-			description: ["BRRrrr, it is really cold in this dimension... But you made it! The &eEverbright&r is a dimension in perpetual frost. Now would be a good time to refer to the &9Blue Journal&r..."]
+			description: ["엣취, 이 차원은 매우 춥군요... 그래도 도착 했군요! &e에버브라이트(Everbright)&r는 영구적인 추위가 있는 곳입니다. &9파랑 일지(Blue Journal)&r를 꺼낼 때가 됬군요..."]
 			id: "44D0530C2718FC69"
 			rewards: [
 				{
@@ -161,7 +161,7 @@
 				}
 			]
 			shape: "rsquare"
-			subtitle: "Main Quest"
+			subtitle: "메인 퀘스트"
 			tasks: [{
 				dimension: "blue_skies:everbright"
 				icon: "blue_skies:everbright_portal"
@@ -169,13 +169,13 @@
 				title: "Visit The Everbright"
 				type: "dimension"
 			}]
-			title: "The Everbright"
+			title: "에버브라이트(The Everbright)"
 			x: 4.5d
 			y: -3.0d
 		}
 		{
 			dependencies: ["10ABAF144ABC131E"]
-			description: ["Yowza, it is really warm and humid in this dimension... But you made it! The &eEverdawn&r is a dimension filled with creature mutations and high heat. Now would be a good time to refer to the &9Blue Journal&r..."]
+			description: ["으악, 이 차원은 덥고 습하네요... 그래도 도착 했군요! &e에버다운(Everdawn)&r는 돌연변이 괴물들로 가득찬 매우 더운 차원입니다. &9파랑 일지(Blue Journal)&r를 꺼낼 때가 됬군요..."]
 			id: "260297A19CCA9015"
 			rewards: [
 				{
@@ -202,7 +202,7 @@
 				}
 			]
 			shape: "rsquare"
-			subtitle: "Main Quest"
+			subtitle: "메인 퀘스트"
 			tasks: [{
 				dimension: "blue_skies:everdawn"
 				icon: "blue_skies:everdawn_portal"
@@ -210,13 +210,13 @@
 				title: "Visit The Everdawn"
 				type: "dimension"
 			}]
-			title: "The Everdawn"
+			title: "에버다운(The Everdawn)"
 			x: 4.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["01B3ED0D457F7A7C"]
-			description: ["The Gatekeeper is also keen on giving away his &ejournal&r. It looks really old and musty, but according to the keeper, it contains a lot of &einformation&r on the dimensions."]
+			description: ["문지기(The Gatekeeper)는 자신의 &e일지&r도 나눠주고 싶어 하는군요. 문지기에 따르면, 낡고 먼지투성이처럼 보이지만 이 차원에 대한 &e많은 정보&r를 담고 있는것 같습니다."]
 			id: "10ABAF144ABC131E"
 			rewards: [
 				{
@@ -238,32 +238,32 @@
 				}
 			]
 			shape: "rsquare"
-			subtitle: "Main Quest"
+			subtitle: "메인 퀘스트"
 			tasks: [{
 				id: "4436206A9CCFCCC9"
 				item: "blue_skies:blue_journal"
 				type: "item"
 			}]
-			title: "Your Personal Blue Skies Guide"
+			title: "개인용 Blue Skies 가이드 "
 			x: 1.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["44D0530C2718FC69"]
 			description: [
-				"To access the Everbright's &eNature Dungeon,&r you will first need to find the dimension's &eBlinding Dungeon&r... According to the Gatekeeper, you'll be able to &efind the Summoner&r in the Everbright's Blinding Dungeon."
+				"에버브라이트의 &e자연의 던전(Nature Dungeon)&r에 진입하기 위해서는, 이 차원의 &e눈부신 던전(Blinding Dungeon)&r을 찾아야 합니다... 문지기에 의하면, 눈부신 던전에서 &e소환사(The Summoner)를 찾을 수 있을겁니다&r."
 				""
-				"Be careful with the Summoner, as the Summoner fights with lightning and energy attacks, and has golems to guard themselves! According to the Gatekeeper, the Summoner becomes &estronger in the presence of more enemies&r (players)."
+				"소환사를 상대할때는 조심하세요, 소환사는 번개와 에너지 공격을합니다. 그리고 자기자신을 보호하기위해 골렘을 소환합니다! 문지기에 의하면, 소환사는 &e플레이어의 수가 많아지면 강해집니다&r."
 				""
-				"Defeat the Summoner, and you will be able to access the Nature Dungeon!"
+				"소환사를 처치하면, 자연의 던전에 접근할 수 있을겁니다!"
 				""
-				"You can also &eresummon&r the Summoner, by using the &eEthereal Arc&r obtained from it on a &eBlinding Keystone (Everbright)&r."
+				"당신은 소환사를 &e공기 아크(Ethereal Arc)&r를 &e에버브라이트의 맹인석 쐐기돌(Blinding Keystone)&r에 사용해서 &e재소환&r 할수도 있습니다."
 				""
-				"&cThe Summoner spawns at minimum level 45.&r"
+				"&c소환사는 항상 최소 45레벨에서 소환됩니다.&r"
 				""
-				"The Summoner Has:"
-				"&b+50% Physical to Lightning Damage&r"
-				"&a10% Chance of Dropping Bri Rune&r"
+				"소환사는 다음의 능력을 가지고 있습니다:"
+				"&b+50% 물리피해 -> 번개피해&r"
+				"&a10% Bri 룬을 드롭할 확률&r"
 			]
 			icon: {
 				Count: 1
@@ -306,7 +306,7 @@
 				}
 			]
 			shape: "rsquare"
-			subtitle: "Main Quest"
+			subtitle: "메인 퀘스트"
 			tasks: [
 				{
 					icon: "blue_skies:bright_blinding_keystone"
@@ -329,27 +329,27 @@
 					value: 1L
 				}
 			]
-			title: "A New Headquarters"
+			title: "새로운 본사"
 			x: 7.5d
 			y: -3.0d
 		}
 		{
 			dependencies: ["260297A19CCA9015"]
 			description: [
-				"To access the Everdawn's &ePoison Dungeon,&r you will first need to find the dimension's &eBlinding Dungeon&r... According to the Gatekeeper, you'll be able to &efind the Alchemist&r in the Everdawn's Blinding Dungeon."
+				"에버다운의 &e독성 던전(Poison Dungeon)&r에 진입하기 위해서는, 이 차원의 &e눈부신 던전(Blinding Dungeon)&r을 찾아야 합니다... 문지기에 의하면, 눈부신 던전에서 &e연금술사(The Alchemist)를 찾을 수 있을겁니다&r."
 				""
-				"Watch out for potions and physical constructs as you fight the Alchemist. A lot of the Alchemist's attacks are telegraphed, but missing these cues may cost you an arm! According to the Gatekeeper, the Alchemist becomes &estronger in the presence of more enemies&r (players)."
+				"연금술사와 싸울때는 포션과 물리적 구조물을 조심하세요. 연금술사의 공격들은 징조를 보여주지만, 이것들을 보지못한다면 두드려 맞을 수도 있습니다! 문지기에 의하면, 연금술사는 &e플레이어의 수가 많아지면 강해집니다&r."
 				""
-				"Defeat the Alchemist, and you will be able to access the Poison Dungeon!"
+				"연금술사를 처치하면, 독성 던전에 진입할 수 있을겁니다!"
 				""
-				"You can also &eresummon&r the Alchemist by using the &eDusk Arc&r obtained from it on a &eBlinding Keystone (Everdawn)&r."
+				"당신은 연금술사를 &e황혼 아크(Dusk Arc)&r를 &e에버다운의 맹인석 쐐기돌(Blinding Keystone)&r에 사용해서 &e재소환&r 할수도 있습니다."
 				""
-				"&cThe Alchemist spawns at minimum level 45.&r"
+				"&c연금술사는 항상 최소 45레벨에서 소환됩니다.&r"
 				""
-				"The Alchemist Has:"
-				"&b+50% Physical to Chaos Damage&r"
-				"&c+100% Projectile Damage Received&r"
-				"&a10% Chance of Dropping Daw Rune&r"
+				"연금술사는 다음의 능력을 가지고 있습니다:"
+				"&b+50% 물리피해 -> 혼돈피해&r"
+				"&c+100% 받는 투사체 피해 증가&r"
+				"&a10% Daw 룬을 드롭할 확률&r"
 			]
 			icon: {
 				Count: 1
@@ -390,7 +390,7 @@
 				}
 			]
 			shape: "rsquare"
-			subtitle: "Main Quest"
+			subtitle: "메인 퀘스트"
 			tasks: [
 				{
 					icon: "blue_skies:dawn_blinding_keystone"
@@ -411,33 +411,33 @@
 					value: 1L
 				}
 			]
-			title: "A New Laboratory"
+			title: "새로운 실험실"
 			x: 7.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["5F455D8A504B112D"]
 			description: [
-				"You've defeated the Summoner, and in their dying moments, they tell you about the Nature Dungeon."
+				"당신은 소환사를 처치했습니다, 그리고 죽어가는 와중에 소환사는 자연의 던전(Nature Dungeon)에 대해 이야기 합니다."
 				""
-				"The Nature Dungeon is a &emassive green labyrinth&r consisting of &e4 floors.&r Each floor will contain &e1 of 4 keys&r and a staircase leading up to the next floor."
+				"자연의 던전(Nature Dungeon)은 &e총 4층으로 이루어진 거대한 초록색 미궁&r이고, 찾을 때는 거대한 초록색 피라미드처럼 보일 것 입니다. 각 층에는 &e4개의 열쇠 중 1개&r와 &e다음층으로 향하는 계단&r이 숨겨져 있습니다."
 				""
-				"Resting at the top of the floor you will find the &eStarlit Crusher&r. This slow-moving tree packs a punch, but opportunities to stun the tree may arise if you're using a &ospear&r. According to the Gatekeeper, the Starlit Crusher becomes &estronger in the presence of more enemies&r (players)."
+				"던전의 최상층에 도달하면 &e별빛 으스러트리(Starlit Crusher)&r라는 나무가 하나가 당신을 기다리고 있을겁니다. 이 나무는 느리지만 강력한 공격을 합니다, 하지만 당신이 &e창(spear)&r을 쓰고 있다면 보스를 기절 시킬 기회를 엿볼 수 있을겁니다. 문지기에 의하면, 별빛 파괴자는 &e플레이어의 수가 많아지면 강해집니다&r."
 				""
-				"Should you find a Nature Dungeon that's &ealready been cleared&r, you can go back to the &eGatekeeper&r and &epurchase the required keys&r."
+				"&e던전을 완료 했다면&r, &e문지기&r에게 돌아가서 &e필요한 열쇠를 구매할 수 있습니다&r."
 				""
-				"You can also &eresummon&r the Starlit Crusher by using the &eNature Arc&r obtained from it on a &eNature Keystone&r."
+				"별빛 으스러트리는 보스를 처치해서 나온 &e자연 아크(Nature Arc)&r &e자연석 쐐기돌(Nature Keystone)&r에 사용하여 &e재소환&r 가능 합니다."
 				""
-				"&cThe Starlit Crusher spawns at minimum level 50.&r"
+				"&c별빛 으스러트리는 항상 최소 50레벨.&r"
 				""
-				"The Starlit Crusher Has:"
-				"&b+50% Physical to Lightning Damage&r"
-				"&b+50% Electrify Chance&r"
-				"&b+25% Shock Chance&r"
-				"&a25% Chance of Dropping Bri Rune&r"
+				"별빛 으스러트리는 다음의 능력을 가지고 있습니다:"
+				"&b+50% 물리피해 -> 번개피해&r"
+				"&b+50% 감전 확률&r"
+				"&b+25% 충격 확률&r"
+				"&a25% Bri 룬을 드롭할 확률&r"
 				""
-				"&6This Quest Will Unlock New Shops In the Campaign Shop when the Quest: "
-				"&a\"Caught in a Web\"&r &6is complete"
+				"&6이 퀘스트와 다음의 퀘스트를 완료하면 캠페인 상점에 새로운 상점이 추가됩니다: "
+				"&a\"잡았다 요놈\"&r"
 			]
 			icon: "blue_skies:nature_key"
 			id: "30B56119C4EA7398"
@@ -474,7 +474,7 @@
 			]
 			shape: "rsquare"
 			size: 1.25d
-			subtitle: "Main Quest"
+			subtitle: "메인 퀘스트"
 			tasks: [
 				{
 					icon: "blue_skies:nature_key"
@@ -497,32 +497,32 @@
 					value: 1L
 				}
 			]
-			title: "An Uprooting"
+			title: "망할 나무 뿌리 뽑기"
 			x: 9.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["63DA191A8533F1AE"]
 			description: [
-				"You've defeated the Alchemist, and in their dying moments, they tell you about the Poison Dungeon."
+				"당신은 연금술사를 처치했습니다, 그리고 죽어가는 와중에 연금술사는 맹독 던전(Poison Dungeon)에 대해 이야기 합니다."
 				""
-				"The Poison Dungeon is a &elarge underground maze&r consisting of &e4 floors.&r Each floor will contain &e1 of 4 keys&r and a staircase leading down to the next floor. You will find a &elarge, hollowed maple tree covered in cobwebs on the surface&r."
+				"맹독 던전(Poison dungeon)은 &e총 4층으로 이루어진 거대한 지도 미로&r이고, 찾을 때는 거미줄이 쳐지고 속이 빈 거대한 단풍 나무를 찾으면 됩니다. 각 층에는 &e4개의 열쇠 중 1개&r와 &e다음층으로 향하는 계단&r이 숨겨져 있습니다."
 				""
-				"Lurking in the lowest depths, you will find the &eArachnarch&r in her lair. This venomous foe lunges at targets and sprays poison from the ceiling above, but opportunities to stun the spider may arise if you're using a &oshield&r. According to the Gatekeeper, the Arachnarch becomes &estronger in the presence of more enemies&r (players)."
+				"던전의 최하층에 도달하면 그녀의 방에서 기다리는 &e아라크나크&r를 찾을 수 있을겁니다. 맹독을 가진 이 보스는 적을 찌르고, 천장에서 독을 흩뿌립니다, 하지만 당신이 &e방패(shield)&r을 쓰고 있다면 보스를 기절 시킬 기회를 엿볼 수 있을겁니다. 문지기에 의하면, 아라크나크는 &e플레이어의 수가 많아지면 강해집니다&r"
 				""
-				"Should you find a Poison Dungeon that's &ealready been cleared&r, you can go back to the &eGatekeeper&r and &epurchase the required keys&r."
+				"&e던전을 완료 했다면&r, &e문지기&r에게 돌아가서 &e필요한 열쇠를 구매할 수 있습니다&r."
 				""
-				"You can also &eresummon&r the Arachnarch by using the &ePoisonous Arc&r obtained from it on a &ePoison Keystone&r."
+				"아라크나크는 보스를 처치해서 나온 &e맹독 아크(Poisonous Arc)&r를 &e맹독석 쐐기돌(Poison Keystone)&r에 사용하여 &e재소환&r 가능 합니다."
 				""
-				"&cThe Arachnarch spawns at minimum level 50.&r"
+				"&c아라크나크는 항상 최소 50레벨에서 소환됩니다.&r"
 				""
-				"The Arachnarch Has:"
-				"&b+50% Physical to Chaos Damage&r"
-				"&b+33% Poison Chance&r"
-				"&a25% Chance of Dropping Daw Rune&r"
+				"아라크나크는 다음의 능력을 가지고 있습니다:"
+				"&b+50% 물리피해 -> 혼돈피해&r"
+				"&b+33% 중독 확률&r"
+				"&a25% Daw 룬을 드롭할 확률&r"
 				""
-				"&6This Quest Will Unlock New Shops In the Campaign Shop when the Quest: "
-				"&a\"An Uprooting\"&r &6is complete"
+				"&6이 퀘스트와 다음의 퀘스트를 완료하면 캠페인 상점에 새로운 상점이 추가됩니다: "
+				"&a\"망할 나무 뿌리 뽑기\"&r &6is complete"
 			]
 			icon: "blue_skies:poison_key"
 			id: "09CFBF8766DA4706"
@@ -559,7 +559,7 @@
 			]
 			shape: "rsquare"
 			size: 1.25d
-			subtitle: "Main Quest"
+			subtitle: "메인 퀘스트"
 			tasks: [
 				{
 					icon: "blue_skies:poison_key"
@@ -603,7 +603,7 @@
 					type: "item"
 				}
 			]
-			title: "Caught in a Web"
+			title: "잡았다 요놈"
 			x: 9.0d
 			y: 1.5d
 		}
@@ -614,9 +614,9 @@
 			]
 			dependency_requirement: "one_completed"
 			description: [
-				"The Gatekeeper did mention there would be civilization in the Everbright and Everdawn. You'll just need to find it."
+				"문지기는 에버브라이틍와 에버다운에 문명이 있을것이라고 이야기합니다. 찾으면 나오겠죠."
 				""
-				"&eRequires 1 dependency to be completed.&r"
+				"&e하위 퀘스트 1개를 완료 해야합니다.&r"
 			]
 			icon: "minecraft:campfire"
 			id: "5B4E23F4CD32950F"
@@ -645,7 +645,7 @@
 					type: "command"
 				}
 			]
-			subtitle: "Villages"
+			subtitle: "마을"
 			tasks: [
 				{
 					icon: "minecraft:soul_campfire"
@@ -662,16 +662,16 @@
 					type: "structure"
 				}
 			]
-			title: "Encampment"
+			title: "야영지"
 			x: 4.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["5B4E23F4CD32950F"]
 			description: [
-				"Apparently if you find a &eNightwatcher&r, they can provide you with a &eBag of Spoils&r which will let you &epickpocket villagers&r... Seems like a criminal activity that would be frowned upon by them..."
+				"&e야경꾼(Nightwatcher)&r을 발견하게 된다면, &e주민들에게서 소매치기를 가능하게 해주는&r &e전리품 가방(Bag of Spoils)&r을 줍니다. 그들이 못마땅하게 여길 만한 범죄 행위인 것 같네요...."
 				""
-				"That is, if they catch you."
+				"그들이 당신을 찾는다면 말이죠."
 			]
 			id: "08D0C45FA283D50A"
 			rewards: [
@@ -704,13 +704,13 @@
 					type: "command"
 				}
 			]
-			subtitle: "Villages"
+			subtitle: "마을"
 			tasks: [{
 				id: "39EE9E362FC12FBB"
 				item: "blue_skies:bag_of_spoils"
 				type: "item"
 			}]
-			title: "Pickpocketing"
+			title: "꺄악 도둑이야!"
 			x: 6.0d
 			y: 0.0d
 		}
@@ -721,9 +721,9 @@
 			]
 			dependency_requirement: "one_completed"
 			description: [
-				"These dimensions seem to have plenty of natural resources. It might be worthwhile to harvest some to craft with."
+				"이 차원들은 풍부한 천연자원이 있는것 같군요. 제작에 쓸 몇개만 좀 가져가면 되겠네요."
 				""
-				"&eRequires 1 dependency to be completed.&r"
+				"&e하위 퀘스트 1개를 완료 해야합니다.&r"
 			]
 			id: "1E4735F6982A43ED"
 			rewards: [
@@ -756,7 +756,7 @@
 					type: "choice"
 				}
 			]
-			subtitle: "MINE and Slash"
+			subtitle: "마인 앤 슬래쉬"
 			tasks: [
 				{
 					count: 16L
@@ -783,13 +783,13 @@
 					type: "item"
 				}
 			]
-			title: "Mark My Words..."
+			title: "내 말을 기록해 둬..."
 			x: 7.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["1E4735F6982A43ED"]
-			description: ["According to the &9Blue Book&r, &5Falsite&r can be found in the &eEverbright&r and possesses a &estrengthening property&r. &6Horizonite&r can be found in the &eEverdawn&r and contains a &ehigh amount of heat&r."]
+			description: ["&9푸른 책(Blue Book)[aka Blue Journal]&r에 따르면, &5주광석(Falsite)&r은 &e에버브라이트&r에서 발견할 수 있고 &e강력한 힘을 가졌습니다&r. &6지평금(Horizonite)&r은 &e에버다운&r에서 발견할 수 있고 &e열함유량이 많습니다&r."]
 			id: "1FC3745ADFF992F2"
 			rewards: [
 				{
@@ -816,7 +816,7 @@
 					type: "custom"
 				}
 			]
-			subtitle: "MINE and Slash"
+			subtitle: "마인 앤 슬래쉬"
 			tasks: [
 				{
 					count: 4L
@@ -831,16 +831,16 @@
 					type: "item"
 				}
 			]
-			title: "There's Trouble Brewin'"
+			title: "말장난 광물들"
 			x: 9.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["44D0530C2718FC69"]
 			description: [
-				"You've noticed sticks of different properties while exploring in the Everbright. Perhaps it's even possible to use these sticks to craft spears."
+				"에버브라이트를 모험하면서 특이한 여러 막대기들을 보았을겁니다. 아마도 이것들을 사용해서 창을 만들 수 있을것 같군요."
 				""
-				"It might be a good idea to refer to the &9Blue Journal&r for the different types of sticks. I'm sure the Gatekeeper noticed this too."
+				"&9푸른 일지(Blue Journal)&r에 적으면 괜찮겠군요. 문지기도 이것을 알아챘을 겁니다."
 			]
 			id: "74FCB46359C566CA"
 			rewards: [
@@ -862,7 +862,7 @@
 					type: "command"
 				}
 			]
-			subtitle: "Ever Exploration"
+			subtitle: "에버 탐험기"
 			tasks: [{
 				id: "49FFE6F489219E0E"
 				item: {
@@ -874,16 +874,16 @@
 				}
 				type: "item"
 			}]
-			title: "Spears and Sticks"
+			title: "창과 막대기"
 			x: 4.5d
 			y: -4.5d
 		}
 		{
 			dependencies: ["260297A19CCA9015"]
 			description: [
-				"You've noticed sticks of different properties while exploring in the Everdawn. Perhaps it's even possible to use these sticks to craft spears."
+				"에버다운을 모험하면서 특이한 여러 막대기들을 보았을겁니다. 아마도 이것들을 사용해서 창을 만들 수 있을것 같군요."
 				""
-				"It might be a good idea to refer to the &9Blue Journal&r for the different types of sticks. I'm sure the Gatekeeper noticed this too."
+				"&9푸른 일지(Blue Journal)&r에 적으면 괜찮겠군요. 문지기도 이것을 알아챘을 겁니다."
 			]
 			id: "07B675A69ECAD9D0"
 			rewards: [
@@ -905,7 +905,7 @@
 					type: "command"
 				}
 			]
-			subtitle: "Ever Exploration"
+			subtitle: "에버 탐험기"
 			tasks: [{
 				id: "42B8F5AE130930FB"
 				item: {
@@ -917,18 +917,18 @@
 				}
 				type: "item"
 			}]
-			title: "Sticks and Spears"
+			title: "창과 막대기"
 			x: 4.5d
 			y: 4.5d
 		}
 		{
 			dependencies: ["44D0530C2718FC69"]
 			description: [
-				"The Everbright seems to be home to many foreign creatures. You can't really tell if they're mutations or natively weird."
+				"에버브라이트는 외래생물의 집 쯤 되는것 같습니다. 그들이 돌연변이인지 태생부터 이상한건지 모르겠네요."
 				""
-				"Creatures here seem to be covered in ice..."
+				"이곳의 괴물들은 얼음에 뒤덮혀 있는것 같군요..."
 				""
-				"&o&7Completion unlocks a Repeatable Quest in the Repeatables Chapter!&r&r"
+				"&o&7완료하면 Repeatables 챕터에서 반복 퀘스트가 잠금 해제됩니다!&r&r"
 			]
 			icon: "blue_skies:frose"
 			id: "61FABF4C4DB118C8"
@@ -965,7 +965,7 @@
 					type: "custom"
 				}
 			]
-			subtitle: "Ever Exploration"
+			subtitle: "에버 탐험기"
 			tasks: [
 				{
 					entity: "blue_skies:armored_frost_spirit"
@@ -988,18 +988,18 @@
 					value: 8L
 				}
 			]
-			title: "Frozen in Time"
+			title: "얼어붙은 시간"
 			x: 6.0d
 			y: -4.5d
 		}
 		{
 			dependencies: ["260297A19CCA9015"]
 			description: [
-				"The Everdawn seems to be home to many foreign creatures. You can't really tell if they're mutations or natively weird."
+				"에버다운은 외래생물의 집 쯤 되는것 같습니다. 그들이 돌연변이인지 태생부터 이상한건지 모르겠네요."
 				""
-				"Here, they seem to be similar to insects you'd find in the Overworld."
+				"여기에서는, 그것들은 오버월드에 있는 곤충들과 비슷한것 같군요."
 				""
-				"&o&7Completion unlocks a Repeatable Quest in the Repeatables Chapter!&r&r"
+				"&o&7완료하면 Repeatables 챕터에서 반복 퀘스트가 잠금 해제됩니다!&r&r"
 			]
 			icon: {
 				Count: 1
@@ -1042,7 +1042,7 @@
 					type: "custom"
 				}
 			]
-			subtitle: "Ever Exploration"
+			subtitle: "에버 탐험기"
 			tasks: [
 				{
 					entity: "blue_skies:emberback"
@@ -1059,7 +1059,7 @@
 					value: 8L
 				}
 			]
-			title: "Creepy Crawlies"
+			title: "소름끼치는 벌레들"
 			x: 6.0d
 			y: 4.5d
 		}
@@ -1094,7 +1094,7 @@
 				"1A18C9F2B0E6E37B"
 				"54D98C5CCDE624EF"
 			]
-			description: ["&eComplete&r all of the &equests&r in Act IV to complete this achievement. Then show it off with your new hat!"]
+			description: ["&eAct IV의 모든 퀘스트를 완료하면 이 업적을 얻을 수 있습니다. 그리고 새로운 모자를 뽐내보세요!"]
 			hide_dependency_lines: true
 			icon: "simplehats:questbook"
 			id: "713453058246129A"
@@ -1112,22 +1112,22 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "Achievement"
+			subtitle: "업적"
 			tasks: [{
 				id: "0980095FE80FC990"
 				title: "Click Once Read"
 				type: "checkmark"
 			}]
-			title: "Complete All Act IV Quests!"
+			title: "Act IV의 모든 퀘스트를 완료하세요!"
 			x: 10.5d
 			y: 6.0d
 		}
 		{
 			dependencies: ["10ABAF144ABC131E"]
 			description: [
-				"In the Everbright and Everdawn dimensions, you will find &enew tameables and new potential mounts&r."
+				"에버브라이트와 에버다운 차원에서, 당신은 &e새로운 쓸만한 탈것들을 길들일 수 있습니다&r."
 				""
-				"It might be fun to find a &eReindeer&r, &eCamel&r, or even a &eCosmic Fox&r."
+				"&e순록(Reindeer)&r, &e낙타(Camel)&r를 발견하거나, 아니면 &e코스믹 여우(Cosmic Fox)&r를 발견할 수도 있죠."
 			]
 			icon: "minecraft:paper"
 			id: "5145DB1D393B6681"
@@ -1145,22 +1145,22 @@
 					type: "item"
 				}
 			]
-			subtitle: "Lost Page"
+			subtitle: "잃어버린 페이지"
 			tasks: [{
 				id: "5410793780654A4C"
 				title: "Click Once Read"
 				type: "checkmark"
 			}]
-			title: "Mounts"
+			title: "이랴~"
 			x: 1.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["5F455D8A504B112D"]
 			description: [
-				"The &eSnowcap Oven&r can utilize the special hot and cold properites of the &eSnowcap Mushroom as a fuel source&r."
+				"&e관설 난로(Snowcap Oven)&r는 &e관설버섯(Snowcap Mushroom)의 열과 냉기의 특성을 이용해서 연료로 이용할 수도 있습니다&r."
 				""
-				"Cooking with Snowcap Mushrooms will result in a &ecold byproduct&r that may be used elsewhere."
+				"관설 버섯을 연료로 사용하면, 어딘가에 사용가능한 &e차가운 부산물&r을 뱉습니다."
 			]
 			id: "517A65DD1CDCA89F"
 			rewards: [{
@@ -1173,20 +1173,20 @@
 				title: "15500 Experience"
 				type: "command"
 			}]
-			subtitle: "Ever Exploration"
+			subtitle: "에버 탐험기"
 			tasks: [{
 				advancement: "blue_skies:everbright/craft_snowcap_oven"
 				criterion: ""
 				id: "20A4DC3C89497906"
 				type: "advancement"
 			}]
-			title: "The Wrong Kind"
+			title: "이게 아니야!!"
 			x: 7.5d
 			y: -4.5d
 		}
 		{
 			dependencies: ["63DA191A8533F1AE"]
-			description: ["The &eHorizonite Forge&r can &esmelt things without any fuel&r due to the natural heat of the block. It does have a &erecharge time&r, but the forge can be recharged quicker using anything made of Horizonite or Sunstone."]
+			description: ["&e지평금 용광로(Horizonite Forge)&r는 블록의 열 덕분에 &e연료 없이 제련을 할 수 있습니다&r. 하지만 &e재충전 시간&r이 필요합니다, 그렇지만 지평금이나 태양석으로 만들어진 것이라면 더 빠르게 재충전 됩니다."]
 			id: "6954FEF58C12CA7F"
 			rewards: [{
 				auto: "enabled"
@@ -1198,25 +1198,25 @@
 				title: "15500 Experience"
 				type: "command"
 			}]
-			subtitle: "Ever Exploration"
+			subtitle: "에버 탐험"
 			tasks: [{
 				advancement: "blue_skies:everdawn/craft_horizonite_forge"
 				criterion: ""
 				id: "166DEBA8C0BA4181"
 				type: "advancement"
 			}]
-			title: "Really Hot Flames"
+			title: "존1나게 뜨거운 불꽃"
 			x: 7.5d
 			y: 4.5d
 		}
 		{
 			dependencies: ["75454F0A3C4C3596"]
 			description: [
-				"The &eCodex&r is an accessory/gear item that you can equip, which starts dropping at level 50. The &eCodex&r provides powerful stats to the player depending on the diversity of gear equipped."
+				"&e징조(Codex)&r는 50레벨부터 드롭되기 시작하며, 당신이 착용할 수 있는 장비 입니다. &e징조&r는 플레이어가 착용하고있는 장비의 희귀도의 다양함에 따라 강력한 스텟을 줍니다.."
 				""
-				"The bottom lists the requirements, such as: having 2 &cUniques&r, 1 piece of Normal gear (&7Common&r -> &5Mythic&r), and 2 &eRunewords&r equipped."
+				"가장 아래에는 요구조건이 적혀있습니다, 예를 들자면: 2개의 &c유니크&r, 1개의 일반 희귀도 장비(Common이 아니고 옆의 등급에 포함되는 장비) (&7일반&r -> &5신화&r), 그리고 &e룬워드&r 장비가 필요하죠."
 				""
-				"Depending on the number of these you have equipped, the &eCodex&r provides more stats which can be seen in the tooltip."
+				"이러한 착용된 장비의 수 만큼, &e징조&r는 툴팁에 적혀있는것처럼 더 많은 스텟을 줍니다."
 			]
 			icon: "minecraft:paper"
 			id: "65FD2E8334B1DF1C"
@@ -1232,19 +1232,19 @@
 				}
 				type: "item"
 			}]
-			subtitle: "Lost Page"
+			subtitle: "잃어버린 페이지"
 			tasks: [{
 				id: "272F644A9E6BED12"
 				title: "Click Once Read"
 				type: "checkmark"
 			}]
-			title: "Book of Records"
+			title: "기록용 책"
 			x: 10.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["10ABAF144ABC131E"]
-			description: ["If you're having trouble defending yourself from Elemental Damage, consider crafting a new Shield, Tome, or Totem!"]
+			description: ["원소피해로부터 살아남기 힘들다면, 새 방패(Shield)나, 고서(Tome) 혹은 토템(Totem)을 만들어 보세요!"]
 			id: "450D4FC0C8C994AD"
 			rewards: [
 				{
@@ -1263,7 +1263,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "M\\&S Professions"
+			subtitle: "마인 앤 슬래쉬 전문기술"
 			tasks: [{
 				id: "0C231DE25B40FE7B"
 				item: {
@@ -1276,13 +1276,13 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Defensive Traits"
+			title: "단단해져라"
 			x: 1.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["63DA191A8533F1AE"]
-			description: ["Increase your Core Attributes to gain an edge on your enemies..."]
+			description: ["당신의 핵심 스텟을 포션으로 올려 무딘 날을 새것처럼 만드세요..."]
 			id: "6EE535C73A769B4D"
 			rewards: [{
 				auto: "enabled"
@@ -1294,7 +1294,7 @@
 				title: "17000 Experience"
 				type: "command"
 			}]
-			subtitle: "M\\&S Professions"
+			subtitle: "마인 앤 슬래쉬 전문기술"
 			tasks: [
 				{
 					id: "6C08F041B2EF03B6"
@@ -1333,13 +1333,13 @@
 					type: "item"
 				}
 			]
-			title: "Alchemist's Brew"
+			title: "크으 이 포션 맛있네!"
 			x: 9.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["44D0530C2718FC69"]
-			description: ["Find more creatures in the Everbright dimension for research!"]
+			description: ["연구를 위해서 에버브라이트에서 더 많은 생명체들을 발견하세요!"]
 			id: "598F0B2047B2ED63"
 			rewards: [
 				{
@@ -1359,7 +1359,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Ever Exploration"
+			subtitle: "에버 탐험기"
 			tasks: [
 				{
 					entity: "blue_skies:diophyde_prowler"
@@ -1389,13 +1389,13 @@
 					value: 4L
 				}
 			]
-			title: "Frozen Predators"
+			title: "얼어붙은 포식자들"
 			x: 6.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["260297A19CCA9015"]
-			description: ["Find more creatures in the Everdawn dimension for research!"]
+			description: ["연구를 위해서 에버다운에서 더 많은 생명체들을 발견하세요!"]
 			id: "1AD4461B780DE1AF"
 			rewards: [
 				{
@@ -1414,7 +1414,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Ever Exploration"
+			subtitle: "에버 모험기"
 			tasks: [
 				{
 					entity: "blue_skies:nyctofly"
@@ -1431,21 +1431,21 @@
 					value: 8L
 				}
 			]
-			title: "Pestilence"
+			title: "역병"
 			x: 6.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["10ABAF144ABC131E"]
 			description: [
-				"The &eSupreme Bonescaller&r is a more powerful version of the &eBonescaller&r. It boasts increased defenses and has two combat phases. You can find them in &eDark Towers&r in the &eBlue Skies dimensions&r and &eThe End&r."
+				"&e우월한 뼈를 부르는자(Supreme Bonescaller)&r는 &e뼈를 부르는자(Bonescaller)&r의 강화버젼 입니다. 더욱더 증가된 방어력과 2개의 전투 페이즈가 있습니다.  &e암흑의 탑(Dark Towers)&r은 &e블루스카이즈(Blue Skies) 차원&r과 &e디 엔드(The End)&r에서 발견할 수 있습니다."
 				""
-				"&cThe Surpeme Bonescaller spawns at minimum level 45 and Mythic Rarity.&r"
+				"&c우월한 뼈를 부르는자는 항상 최소 45레벨에서 신화의 수식어를 단 체로 소환됩니다.&r"
 				""
-				"The Supreme Bonescaller Has:"
-				"&b+25% Armor&r"
-				"&b+40% Elemental Resistance&r"
-				"&b+75% Chaos Resistance&r"
+				"우월한 뼈를 부르는자는 다음의 능력을 가지고 있습니다:"
+				"&b+25% 방어&r"
+				"&b+40% 원소저항&r"
+				"&b+75% 혼돈저항&r"
 			]
 			icon: {
 				Count: 1
@@ -1485,7 +1485,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Ever Exploration"
+			subtitle: "에버 모험기"
 			tasks: [{
 				entity: "born_in_chaos_v1:supreme_bonescaller_stage_2"
 				icon: "ftb_ph:bonescaller"
@@ -1493,23 +1493,23 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "Unexpected Guests"
+			title: "초대받지 않은 손놈"
 			x: 3.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["5F455D8A504B112D"]
 			description: [
-				"The &eNightmare Stalker&r is an extremely dangerous spirit. The beginning of the Stalker's spawn is accompanied by a characteristic sound and a message in the chat. It also appears completely invisible - all you can see are two glowing eyes. While the Stalker is invisible, he moves much faster. When he receives damage, he loses invisibility."
+				"&e악몽의 추적자(Nightmare Stalker)&r는 극도로 위험한 영혼입니다. 추적자(Stalker)는 특징적인 소리와 채팅에 메세지와 함께 소환됩니다. 그리고 이 영혼은 투명한 것 같군요 - 보이는것은 빛나는 두 눈 뿐입니다. 추적자가 투명할때는, 엄청 빠르게 이동 합니다. 하지만 피해를 받으면, 투명화가 풀립니다."
 				""
-				"The Nightmare Stalker notices the player from a great distance (up to 70 blocks), and immediately starts to stalk its victim. When attacking a victim, the stalker produces a piercing scream and causes blindness in its target, plunging them into complete darkness."
+				"악몽의 추적자는 최대 70블럭에서부터 플레이어를 알아챕니다, 그리고 플레이어를 쫓아가기 시작하죠. 플레이어를 공격할 때는, 추적자는 목표에게 찢어질듯한 비명을 지르고 실명을 걸어 완벽한 암흑을 선사합니다."
 				""
-				"&cThe Nightmare Stalker spawns at minimum level 35.&r"
+				"&c악몽의 추적자는 항상 최소 35레벨에서 소환됩니다.&r"
 				""
-				"The Nightmare Stalker Has:"
-				"&b+25% Bleed Chance&r"
-				"&b+50% Dodge Rating&r"
-				"&b+50% Elemental Resistance&r"
+				"악몽의 추적자는 다음의 능력을 가지고 있습니다:"
+				"&b+25% 출혈확률&r"
+				"&b+50% 회피율&r"
+				"&b+50% 원소저항&r"
 			]
 			icon: "born_in_chaos_v1:nightmare_stalker_skull"
 			id: "1A18C9F2B0E6E37B"
@@ -1537,7 +1537,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Ever Exploration"
+			subtitle: "에버 탐험기"
 			tasks: [{
 				entity: "born_in_chaos_v1:nightmare_stalker"
 				icon: "ftb_ph:nightmare_stalker"
@@ -1545,21 +1545,21 @@
 				type: "kill"
 				value: 2L
 			}]
-			title: "The Stalker"
+			title: "추적자"
 			x: 9.0d
 			y: -4.5d
 		}
 		{
 			dependencies: ["63DA191A8533F1AE"]
 			description: [
-				"The &eLifestealer&r is a fearsome undead creature. After receiving enough damage, he reveals his true form by screaming. The &eLifestealer&r also periodically begins to cause a dark splash that pushes the player and all nearby creatures to the side, causing them damage."
+				"&e생명강탈자(Lifestealer)&r는 공포의 언데드 괴물 입니다. 충분한 피해를 받으면, 소리지르면서 원래의 형태를 드러냅니다. &e생명강탈자&r는 주기적으로 주변의 모든것을 밀어버리고 피해를 주는 어둠의 파동을 뿜어냅니다."
 				""
-				"&cThe Lifestealer spawns at minimum level 35.&r"
+				"&c생명강탈자는 항상 최소 35레벨에서 소환됩니다.&r"
 				""
-				"The Lifestealer Has:"
-				"&b+2% Attack Hit Health Leech&r"
-				"&b+50% Elemental Resistance&r"
-				"&b+50% Chaos Resistance&r"
+				"생명강탈자는 다음의 능력을 가지고 있습니다 Has:"
+				"&b+2% 생명력 흡수&r"
+				"&b+50% 원소저항&r"
+				"&b+50% 혼돈저항&r"
 			]
 			icon: "born_in_chaos_v1:lifestealer_skull"
 			id: "54D98C5CCDE624EF"
@@ -1587,7 +1587,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Ever Exploration"
+			subtitle: "에버 탐험기"
 			tasks: [{
 				entity: "born_in_chaos_v1:lifestealer_true_form"
 				icon: "ftb_ph:life_stealer"
@@ -1595,13 +1595,13 @@
 				type: "kill"
 				value: 2L
 			}]
-			title: "Vitality Drainer"
+			title: "쮸와아아아압"
 			x: 9.0d
 			y: 4.5d
 		}
 		{
 			dependencies: ["5F455D8A504B112D"]
-			description: ["Need a bit of an EXP boost? Consider eating &eExperience Gain Seafood&r crafted through Professions!"]
+			description: ["경험치 부스트가 필요하세요? 전문기술로 만든 &e경험치 생선(Experience Gain Seafood)&r을 만드세요!"]
 			id: "221133BF7C60E9C3"
 			rewards: [
 				{
@@ -1620,7 +1620,7 @@
 					type: "command"
 				}
 			]
-			subtitle: "M\\&S Professions"
+			subtitle: "마인 앤 슬래시 전문기술"
 			tasks: [{
 				id: "261373246C850AB3"
 				item: {
@@ -1633,7 +1633,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Everbright Aquarium"
+			title: "에버브라이트 아쿠아리움"
 			x: 9.0d
 			y: -3.0d
 		}

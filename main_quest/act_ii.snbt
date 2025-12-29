@@ -242,7 +242,7 @@
 					value: 4L
 				}
 			]
-			title: "앗 뜨거!"
+			title: "타오르는 녀석들"
 			x: 3.0d
 			y: 1.5d
 		}
@@ -680,7 +680,7 @@
 				""
 				"반대로, &e장비 영혼 제거기&r는 기반 장비를 보존 하면서 스텟만 제거 하는데 사용됩니다."
 				""
-				"&e보석 추출기&는 &e보석&r을 삽입된 장비로 부터 제거 하는데 사용됩니다. 제거 하는데 패널티는 없지만, 추출기가 소모 됩니다. &e룬 추출기&r도 있지만, &e1의 장비 잠재력&r을 사용합니다."
+				"&e보석 추출기&r는 &e보석&r을 삽입된 장비로 부터 제거 하는데 사용됩니다. 제거 하는데 패널티는 없지만, 추출기가 소모 됩니다. &e룬 추출기&r도 있지만, &e1의 장비 잠재력&r을 사용합니다."
 			]
 			icon: "minecraft:paper"
 			id: "60D44B70BB06539B"
@@ -1169,7 +1169,7 @@
 			description: [
 				"&c이 퀘스트는 다음의 퀘스트를 완료 해야 합니다:&r"
 				""
-				"{ \"text\": \"Chococrafts 와 탈것\", \"color\": \"yellow\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"730BE78211A1573B\" } }"
+				"{ \"text\": \"Chococrafts 와 이동수단\", \"color\": \"yellow\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"730BE78211A1573B\" } }"
 				""
 				" 초코피디아(Chocopedia)는 네더에 있는 날 수 있는 탈것에 대해 이야기 합니다..."
 			]

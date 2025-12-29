@@ -202,7 +202,7 @@
 			description: [
 				"아래에 언급된 퀘스트를 완료하면 반복 가능한 퀘스트가 잠금 해제됩니다!"
 				""
-				"{ \"text\": \"소름끼치는 벌래들\", \"color\": \"yellow\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1B6034E8571F3AFA\" } }"
+				"{ \"text\": \"소름끼치는 벌레들\", \"color\": \"yellow\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1B6034E8571F3AFA\" } }"
 			]
 			id: "42CC9D6AB01A1B7C"
 			rewards: [{
