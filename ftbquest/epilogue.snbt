@@ -68,7 +68,7 @@
 				}
 			]
 			size: 1.25d
-			subtitle: "Cold"
+			subtitle: "냉기"
 			tasks: [{
 				entity: "bosses_of_mass_destruction:lich"
 				icon: "bosses_of_mass_destruction:ancient_anima"
