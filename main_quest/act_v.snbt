@@ -616,7 +616,7 @@
 				"600F5339B6C0975C"
 				"6EBB1D7F4A2F96D4"
 			]
-			description: ["&eAct V의 모든 퀘스트를 완료하면 이 업적을 달성할 수 있습니다. 그런 다음 새 모자를 쓰고 자랑해 보세요!"]
+			description: ["&eAct V의 모든 퀘스트를 완료&r하면 이 업적을 달성할 수 있습니다. 그런 다음 새 모자를 쓰고 자랑해 보세요!"]
 			hide_dependency_lines: true
 			icon: "simplehats:rgbsunglasses"
 			id: "4ABF5C9676202847"
@@ -731,7 +731,7 @@
 		{
 			dependencies: ["7EA6A0131C5FF143"]
 			description: [
-				"이제 &e겉날개&r에 &배너, 염료, 망토, 갑옷 장식 대장장이 형판, 그리고 발광 오징어 먹물을 사용하여 맞춤 제작할 수 있습니다.&r"
+				"이제 &e겉날개&r에 &e배너, 염료, 망토, 갑옷 장식 대장장이 형판, 그리고 발광 오징어 먹물을 사용하여 맞춤 제작할 수 있습니다.&r"
 				""
 				"깃발, 염료, 갑옷 장식, 야광 먹물 오징어 등 모든 종류를 &e조합&r하여 겉날개 전체에 &e적용&r하세요."
 				""
@@ -882,7 +882,7 @@
 		}
 		{
 			dependencies: ["707C5CDB48B487F8"]
-			description: ["&e메아리치는 숲&e에서 당신은 영혼을 잃은 생명체들을 만나게 될 것입니다. 한때 인간으로 여겨졌던 그들은 이제 예전 모습의 껍데기만 남았습니다."]
+			description: ["&e메아리치는 숲&r에서 당신은 영혼을 잃은 생명체들을 만나게 될 것입니다. 한때 인간으로 여겨졌던 그들은 이제 예전 모습의 껍데기만 남았습니다."]
 			id: "0C894EBBB7C6F380"
 			rewards: [{
 				auto: "enabled"
@@ -973,7 +973,7 @@
 				item: "dungeon_realm:uber_fragment"
 				type: "item"
 			}]
-			subtitle: "Lost Page"
+			subtitle: "잃어버린 페이지"
 			tasks: [{
 				id: "719DDCB789B36A34"
 				title: "Click Once Read"
