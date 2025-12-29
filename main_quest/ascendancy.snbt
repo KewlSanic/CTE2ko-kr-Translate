@@ -87,7 +87,7 @@
 				}
 				id: "5042FB25C4207F1B"
 				stat: "minecraft:walk_one_cm"
-				title: "완료: Slippery Swimmer"
+				title: "완료: 미끄러운 수영선수"
 				type: "stat"
 				value: 1
 			}]
@@ -102,7 +102,7 @@
 			description: [
 				"임무에 언급된 &eAct V&r 퀘스트를 완료하면 전직 포인트를 자동으로 획득할 수 있습니다!"
 				""
-				"{ \"text\": \"They Knew You Were Coming\", \"color\": \"yellow\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"69FD852AE0306BD2\" } } "
+				"{ \"text\": \"그들은 당신이 오는 걸 알고 있었어\", \"color\": \"yellow\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"69FD852AE0306BD2\" } } "
 				""
 				"&e이 전직 포인트는 어느 캐릭터 간에 공유됩니다(허브의 캐릭터 메뉴를 참조하세요).&r"
 				""
@@ -134,7 +134,7 @@
 				}
 				id: "59D4B5D606051069"
 				stat: "minecraft:walk_one_cm"
-				title: "완료: They Knew You Were Coming"
+				title: "완료: 그들은 당신이 오는 걸 알고 있었어"
 				type: "stat"
 				value: 1
 			}]
@@ -152,13 +152,13 @@
 			description: [
 				"아래 언급된 &e4개의 Epilogue&r 퀘스트를 완료하면 전직 포인트를 자동으로 획득할 수 있습니다!"
 				""
-				"{ \"text\": \"The Frozen Tower\", \"color\": \"aqua\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"07EBFDA1B8808DAF\" } } "
+				"{ \"text\": \"얼어붙은 탑\", \"color\": \"aqua\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"07EBFDA1B8808DAF\" } } "
 				""
-				"{ \"text\": \"The Ardent Depths\", \"color\": \"red\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"005E75571665043C\" } } "
+				"{ \"text\": \"주님의 따듯한 손\", \"color\": \"red\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"005E75571665043C\" } } "
 				""
-				"{ \"text\": \"The Sprawling Vinelands\", \"color\": \"green\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"56B2B51011037E61\" } } "
+				"{ \"text\": \"광활한 포도밭\", \"color\": \"green\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"56B2B51011037E61\" } } "
 				""
-				"{ \"text\": \"The Galvanic Stronghold\", \"color\": \"dark_purple\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6B2C722AC00A07C0\" } } "
+				"{ \"text\": \"갈바닉 요새\", \"color\": \"dark_purple\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6B2C722AC00A07C0\" } } "
 				""
 				"&e이 전직 포인트는 어느 캐릭터 간에 공유됩니다(허브의 캐릭터 메뉴를 참조하세요).&r"
 				""
@@ -189,5 +189,5 @@
 			y: 0.0d
 		}
 	]
-	title: "Ascendancy"
+	title: "전직"
 }

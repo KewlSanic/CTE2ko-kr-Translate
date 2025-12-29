@@ -368,7 +368,7 @@
 		}
 		{
 			dependencies: ["6B5AFF6897A7AE6D"]
-			description: ["Wow, who'd have thought? The &eWarden&r seemed to be protecting a gateway to a new &eundiscovered dimension&r. What's on &eThe Otherside&r?"]
+			description: ["와우, 누가 이런 생각을 했을까요? &e워든&r은 &e미지의 새로운 차원&r으로 통하는 관문을 지키고 있었던 것 같습니다. &e다른 세계&r에는 뭐가 있을까요?"]
 			id: "707C5CDB48B487F8"
 			rewards: [
 				{
@@ -406,10 +406,10 @@
 				dimension: "deeperdarker:otherside"
 				icon: "deeperdarker:warden_carapace"
 				id: "1ACA80128E406BE5"
-				title: "The Otherside 방문"
+				title: "아더사이드 방문"
 				type: "dimension"
 			}]
-			title: "The Otherside"
+			title: "그 건너편"
 			x: 7.5d
 			y: 3.0d
 		}
@@ -616,7 +616,7 @@
 				"600F5339B6C0975C"
 				"6EBB1D7F4A2F96D4"
 			]
-			description: ["&eAct V의 모든 퀘스트를 완료하면 이 업적을 달성할 수 있습니다. 그런 다음 새 모자를 쓰고 자랑해 보세요!"]
+			description: ["&eAct V의 모든 퀘스트를 완료&r하면 이 업적을 달성할 수 있습니다. 그런 다음 새 모자를 쓰고 자랑해 보세요!"]
 			hide_dependency_lines: true
 			icon: "simplehats:rgbsunglasses"
 			id: "4ABF5C9676202847"
@@ -679,7 +679,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "레벨 올리는 방법"
+			subtitle: "레벨 빠르게 올리는 방법"
 			tasks: [
 				{
 					id: "0ABCAE5B4B3DEF92"
@@ -699,11 +699,11 @@
 		{
 			dependencies: ["4FEFBA3770769DA9"]
 			description: [
-				"Now that you have the necessary materials, try taking on a &eMap!&r"
+				"이제 필요한 재료를 모두 갖추셨으니, &e지도!&r에 도전해 보세요!"
 				""
-				"As you're killing mobs and exploring the Map, you will notice your kill percent increasing. This kill percent can be considered as an exploration metric. The higher your exploration, the better the rewards will be for killing the &eMap Boss&r. As you explore more, your exploration rarity will start to go up, starting with &auncommon&r exploration as the first milestone."
+				"몹을 처치하고 지도를 탐험하다 보면 처치율이 올라가는 것을 확인할 수 있습니다. 이 처치율은 탐험 지표로 볼 수 있으며, 탐험량이 높을수록 &e지도 보스&r를 처치했을 때 더 좋은 보상을 받을 수 있습니다. 탐험량이 많아질수록 탐험 등급도 올라가는데, 첫 번째 단계는 &a고급 등급&r 탐험입니다."
 				""
-				"You will need to find the teleporter block to warp you to the &cBoss Room&r. This block can spawn anywhere within the map. Kill the &cBoss&r to gain access to a specialized &cReward Room&r, &dwhere the loot improves depending on your progress percent&r!"
+				"&c보스 방&r으로 이동하려면 순간 이동 블록을 찾아야 합니다. 이 블록은 맵 어디에든 나타날 수 있습니다. &c보스&r를 처치하면 특별한 &c보상 방&r에 입장할 수 있으며, &d보상 방에서는 진행률에 따라 더 좋은 전리품을 얻을 수 있습니다!&r"
 			]
 			id: "201E621A52FFCE65"
 			rewards: [{
@@ -716,7 +716,7 @@
 				title: "17500 Experience"
 				type: "command"
 			}]
-			subtitle: "Level Methods"
+			subtitle: "레벨 빠르게 올리는 방법"
 			tasks: [{
 				dimension: "dungeon_realm:dungeon"
 				icon: "dungeon_realm:map_device"
@@ -724,20 +724,20 @@
 				title: "Enter A Map"
 				type: "dimension"
 			}]
-			title: "Dimensional Conundrum"
+			title: "차원의 수수께끼"
 			x: 7.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["7EA6A0131C5FF143"]
 			description: [
-				"&eElytras&r can now be customized with &ebanners, dyes, capes, armor trims, and glow squid ink&r."
+				"이제 &e겉날개&r에 &e현수막, 염료, 망토, 갑옷 장식 대장장이 형판, 그리고 발광 오징어 먹물을 사용하여 맞춤 제작할 수 있습니다.&r"
 				""
-				"&eCombine&r a full elytra with any banners, dyes, armor trims, and/or glow ink squid to &eapply&r it to the whole elytra. "
+				"현수막, 염료, 갑옷 장식, 야광 먹물 오징어 등 모든 종류를 &e조합&r하여 겉날개 전체에 &e적용&r하세요."
 				""
-				"Place a &efull elytra&r into a crafting grid to seperate it into &etwo elytra wings&r which allows you to customize them seperately and then craft them back &etogether.&r"
+				"&e완전한 겉날개&r를 제작대에 넣으면 &e두 개의 겉날개 날개&r로 분리되어 각각 따로 커스터마이징한 후 다시 &e합쳐서&r 만들 수 있습니다."
 				""
-				"You can also hide your &ecape&r from appearing on your elytra by just crafting it with a piece of &epaper.&r"
+				"또한, &e종이 한개&r를 사용하여 겉날개와 제작하면 겉날개에 &e망토&r가 나타나지 않도록 숨길 수 있습니다."
 			]
 			id: "4E2506271B43A29C"
 			rewards: [
@@ -759,7 +759,7 @@
 					type: "custom"
 				}
 			]
-			subtitle: "Endventure"
+			subtitle: "엔드벤처"
 			tasks: [{
 				id: "27EE139609297829"
 				item: {
@@ -771,13 +771,13 @@
 				}
 				type: "item"
 			}]
-			title: "Customizable Elytras"
+			title: "커스터마이징 가능한 겉날개"
 			x: 4.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["6F0D75895E507FFD"]
-			description: ["&eEnderiophages&r can be found where &eChorus Fruit grows&r. These things spread &edisease&r and should be taken care of as soon as possible! Enderiophages can be built by placing an &eEnd Rod with a Capsid on top and placing an Eye of Ender inside&r."]
+			description: ["&e엔데리오파지&r는 &e후렴과 열매가 자라는 곳&r에서 발견됩니다. 이 생물들은 &e질병&r을 퍼뜨리므로 가능한 한 빨리 제거해야 합니다! 엔데리오파지는 &e캡시드가 달린 엔드 막대기를 세우고 그 안에 엔더의 눈을 넣으면 만들 수 있습니다.&r"]
 			id: "30FA1CCB6BBA7125"
 			rewards: [{
 				auto: "enabled"
@@ -789,7 +789,7 @@
 				title: "16500 Experience"
 				type: "command"
 			}]
-			subtitle: "Endventure"
+			subtitle: "엔드벤처"
 			tasks: [{
 				entity: "alexsmobs:enderiophage"
 				icon: "alexsmobs:enderiophage_rocket"
@@ -797,13 +797,13 @@
 				type: "kill"
 				value: 8L
 			}]
-			title: "Viral Disaster"
+			title: "바이러스 재앙"
 			x: 1.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["707C5CDB48B487F8"]
-			description: ["&eShriek Worms&r are terrifying creatures found on &eThe Otherside&r. Should you &estep on Infested Sculk&r, you'll be met with a surprise."]
+			description: ["&e쉬리크 웜(Shriek Worms)&r은 &e아더사이드&r에서 발견되는 무시무시한 생물입니다. &e감염된 스컬크(Infested Sculk)를 밟으면&r 깜짝 놀라게 될 것입니다."]
 			id: "081AD91A178C3A3F"
 			rewards: [{
 				auto: "enabled"
@@ -829,16 +829,16 @@
 				type: "kill"
 				value: 12L
 			}]
-			title: "Death Traps"
+			title: "죽음의 덫"
 			x: 7.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["707C5CDB48B487F8"]
 			description: [
-				"&eStalkers&r are creepy and powerful entities that can be found on &eThe Otherside&r. They're attracted to harsh noises, so if you're looking to find one, maybe &ebreak some jars&r?"
+				"&e스토커(Stalkers)&r는 &e아더사이드&r에서 발견되는 섬뜩하고 강력한 존재입니다. 그들은 거친 소리에 끌리므로, 스토커를 찾고 싶다면 근처에 있는 &e병을 깨뜨려 보는 것&r도 방법일 수 있습니다."
 				""
-				"If you're not having any luck, consider the &eGateway of Darkness&r."
+				"운이 따라주지 않는다면, &e어둠의 관문(Gateway of Darkness)&r을 고려해 보세요."
 			]
 			icon: "alexsmobs:froststalker_horn"
 			id: "6DEBCC2B2DAE67AD"
@@ -876,13 +876,13 @@
 				type: "kill"
 				value: 2L
 			}]
-			title: "Uncanny Presence"
+			title: "기괴한 존재감"
 			x: 9.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["707C5CDB48B487F8"]
-			description: ["In &eEchoing Forests&r, you'll find creatures that have lost their souls. Once thought to be human, now a husk of its former self."]
+			description: ["&e메아리치는 숲&r에서 당신은 영혼을 잃은 생명체들을 만나게 될 것입니다. 한때 인간으로 여겨졌던 그들은 이제 예전 모습의 껍데기만 남았습니다."]
 			id: "0C894EBBB7C6F380"
 			rewards: [{
 				auto: "enabled"
@@ -908,14 +908,14 @@
 				type: "kill"
 				value: 32L
 			}]
-			title: "The Hopeless"
+			title: "희망 없는 이들"
 			x: 7.5d
 			y: 4.5d
 		}
 		{
 			can_repeat: false
 			dependencies: ["30FA1CCB6BBA7125"]
-			description: ["Catch the Ender Flu effect. Cure it by eating many &eChorus Fruit&r or &edrinking Milk&r. The clock is ticking..."]
+			description: ["엔더 독감에 걸렸습니다. &e후렴과 과일&r을 많이 먹거나 &e우유를 마시면&r 치료할 수 있습니다. 시간이 얼마 남지 않았습니다..."]
 			id: "010FF3BF22DA9AED"
 			rewards: [
 				{
@@ -936,35 +936,35 @@
 					type: "item"
 				}
 			]
-			subtitle: "Endventure"
+			subtitle: "엔드벤처"
 			tasks: [{
 				advancement: "alexsmobs:alexsmobs/ender_flu"
 				criterion: ""
 				id: "6EA193412C2E12A0"
 				type: "advancement"
 			}]
-			title: "A Race Against the Clock"
+			title: "시간과의 싸움"
 			x: 1.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["201E621A52FFCE65"]
 			description: [
-				"Within Mine and Slash Maps, there are additional events that can occur."
+				"Mine and Slash의 맵에서는 추가적인 이벤트가 발생할 수 있습니다."
 				""
-				"&eAncient Obelisk&r: chests have a chance to spawn special wave-based Maps that can be used on &eObelisks&r! "
+				"&e고대의 오벨리스크(Ancient Obelisk)&r: 상자에서 특별한 웨이브 기반 지도가 나올 확률이 있으며, 이 지도는 &e오벨리스크(Obelisks)&r에서 사용할 수 있습니다!"
 				""
-				"&eProphecy Event&r: find altars in Maps that can apply curses to yourself. The more curses you have on yourself, the more &eProphecy Coins&r you can earn from killing mobs. Use these Coins to purchase rewards in Maps via the Hub! Note that &6Legendary&r and &5Mythic&r rewards only appear starting in Tier 20 and 40 maps, respectively."
+				"&e예언 이벤트(Prophecy Event)&r: 지도에서 자신에게 저주를 걸 수 있는 제단을 찾으세요. 저주가 많을수록 몬스터를 처치하여 더 많은 &e예언 코인(Prophecy Coins)&r을 획득할 수 있습니다. 이 코인을 사용하여 허브에서 지도 보상을 구매하세요! 참고로, &4전설&r 및 &5신화&r 보상은 각각 20단계 및 40단계 지도부터 등장합니다."
 				""
-				"&eHarvest Event&r: find portals in Maps that will bring you to a new Harvest room. Kill mobs in these rooms to earn &eChaotic Gems&r, which are used to craft special currencies!"
+				"&e수확 이벤트(Harvest Event)&r: 지도에서 포털을 찾아 새로운 수확의 방으로 이동하세요. 이 방에서 몬스터를 처치하면 특별한 화폐를 제작하는 데 사용되는 &e혼돈의 보석(Chaotic Gems)&r을 얻을 수 있습니다!"
 				""
-				"&eRelics&r: find Relics from killing Bosses that can be slotted into the &eMap Device&r to juice up your Maps! Interact with the Map Device using a Relic Key to slot Relics in!"
+				"&e유물(Relics)&r: 보스를 처치하여 유물을 획득하고, 이 유물을 &e지도 디바이스&r에 장착하여 지도의 성능을 강화하세요! 유물 열쇠를 사용하여 지도 장치에 유물을 장착할 수 있습니다!"
 				""
-				"&n&cUber Bosses&r&r"
+				"&n&c우버 보스(Uber Bosses)&r&r"
 				""
-				"Additionally, &cBosses&r in &6Legendary&r and &5Mythic&r Maps have a chance to drop &eUber Fragments&r. When combined, they turn into &eDungeon Map Uber Upgrades&r. You can use these on Maps to face &eUber Bosses&r - very powerful creatures that drop lots of loot. They can even drop special &eUnique Jewels&r!"
+				"또한, &6전설&r 및  &5신화&r 지도에 등장하는 &c보스&r는 일정 확률로 &e우버 조각(Uber Fragments)&r을 드롭합니다. 이 조각들을 조합하면 &e던전 지도 우버 업그레이드&r를 얻을 수 있습니다. 이 업그레이드를 지도에 사용하면 강력한 몬스터인 &e우버 보스&r를 상대할 수 있으며, 우버 보스는 많은 전리품을 드롭합니다. 심지어 특별한 &e유니크 보석(Unique Jewels)&r을 드롭하기도 합니다.&r!"
 				""
-				"The pool of Uber Bosses consist of old bosses you faced during the campaign, and some new ones!"
+				"우버 보스 목록에는 캠페인 도중에 상대했던 기존 보스들과 몇몇 새로운 보스들이 포함되어 있습니다!"
 			]
 			icon: "minecraft:paper"
 			id: "28759D610FF8B6BE"
@@ -973,19 +973,19 @@
 				item: "dungeon_realm:uber_fragment"
 				type: "item"
 			}]
-			subtitle: "Lost Page"
+			subtitle: "잃어버린 페이지"
 			tasks: [{
 				id: "719DDCB789B36A34"
-				title: "Click Once Read"
+				title: "한번 읽고 누르세요"
 				type: "checkmark"
 			}]
-			title: "More Map Content"
+			title: "지도 콘텐츠 더 보기"
 			x: 9.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["0424E768816CB314"]
-			description: ["Despite it's expensive ingredients, the &eDisenchanter&r allows you to take all the enchantments off of an item for a &edurability cost&r."]
+			description: ["비싼 재료가 필요하긴 하지만, &e마법 해제기(Disenchanter)&r는 &e내구도 소모&r를 대가로 아이템에서 모든 마법을 제거할 수 있게 해줍니다."]
 			id: "5596C3E03B25B9C8"
 			rewards: [
 				{
@@ -1005,7 +1005,7 @@
 					type: "loot"
 				}
 			]
-			subtitle: "Utilities"
+			subtitle: "유틸리티"
 			tasks: [{
 				id: "613E6DBC63B51865"
 				item: "disenchanting:disenchanter"
@@ -1017,11 +1017,11 @@
 		{
 			dependencies: ["7EA6A0131C5FF143"]
 			description: [
-				"Two new structures can be found in the End: &eEnd Tower and Catacombs&r. You can find fun new loot in these structures, as well as &ePurpur Golems&r!"
+				"엔드 차원에 새로운 구조물 두 개, &e엔드 타워&r와 &e지하 묘지&r가 생겼습니다. 이 구조물에서는 재미있는 신규 아이템과 &e보라색 골렘&r을 찾을 수 있습니다!"
 				""
-				"The Purpur Golem Has:"
-				"&b+30% Armor&r"
-				"&b+25% Chaos Resistance&r"
+				"푸르푸르 골렘(Purpur Golem)는 다음의 능력을 가지고 있습니다:"
+				"&b+30% 방어&r"
+				"&b+25% 혼돈 저항&r"
 			]
 			id: "68ADEBE337D75CA7"
 			rewards: [
@@ -1042,7 +1042,7 @@
 					type: "choice"
 				}
 			]
-			subtitle: "Outer End"
+			subtitle: "엔드의 외부"
 			tasks: [{
 				entity: "outer_end:purpur_golem"
 				icon: "stalwart_dungeons:purpur_bricks_wall"
@@ -1050,13 +1050,13 @@
 				type: "kill"
 				value: 3L
 			}]
-			title: "Structures Beyond Reach"
+			title: "도달할 수 없는 구조물"
 			x: 4.5d
 			y: -3.0d
 		}
 		{
 			dependencies: ["7EA6A0131C5FF143"]
-			description: ["You'll find &eStalkers, Entombed&r, and many other vicious creatures of the void in new End biomes. Check out the &eAzure Forest, Crystal Crag, and Primordial Pools&r!"]
+			description: ["새로운 엔드 바이옴에서 &e추적자(Stalkers)&r, &e매몰된 자(Entombed)&r를 비롯한 수많은 흉포한 공허의 생물들을 만나보실 수 있습니다. &e푸른 숲(Azure Forest), 수정 암벽(Crystal Crag), 원시 웅덩이(Primordial Pools)&r를 확인해 보세요!"]
 			icon: "outer_end:cooked_stalker_meat"
 			id: "594A647C82F46BD8"
 			rewards: [
@@ -1082,7 +1082,7 @@
 					type: "command"
 				}
 			]
-			subtitle: "Outer End"
+			subtitle: "엔드의 외부"
 			tasks: [
 				{
 					entity: "outer_end:stalker"
@@ -1099,19 +1099,19 @@
 					value: 8L
 				}
 			]
-			title: "Residents of the Void"
+			title: "공허의 거주자들"
 			x: 3.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["68ADEBE337D75CA7"]
 			description: [
-				"The Shelterer is an interesting creature that can be found in the &eEnd Dungeon&r. By releasing it with a &eNether Star&r on its &eAltar&r, it will be able to lock itself in an energetic shulker box."
+				"보호자(Shelterer)는 &e엔드 던전&r에서 발견할 수 있는 흥미로운 생물입니다. 보호자의 &e제단&r에 &e네더의 별&r을 올려놓고 풀어주면, 보호자는 에너지가 넘치는 셜커 상자 안에 스스로 갇히게 됩니다."
 				""
-				"The Shelterer Has:"
-				"&b+100% Health&r"
-				"&b+25% Damage Supression Chance&r"
-				"&a15% Chance of Dropping End Rune&r"
+				"보호자(Shelterer)는 다음의 능력을 가지고 있습니다:"
+				"&b+100% 체력&r"
+				"&b+25% 피해 억제 확률&r"
+				"&a15% End 룬을 드롭할 확률&r"
 			]
 			id: "373410F7773044D4"
 			rewards: [
@@ -1133,7 +1133,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Endventure"
+			subtitle: "엔드벤처"
 			tasks: [{
 				entity: "stalwart_dungeons:shelterer_without_armor"
 				icon: "stalwart_dungeons:shelterer_altar"
@@ -1141,7 +1141,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "Boxed In"
+			title: "셜커에 갇힌"
 			x: 6.0d
 			y: -3.0d
 		}
@@ -1151,12 +1151,12 @@
 				"68ADEBE337D75CA7"
 			]
 			description: [
-				"After slaying &ePhantom Creepers&r in the &eNether&r, you've found yourself face-to-face with them again in &eThe End&r!"
+				"네더에서 &e유령 크리퍼&r를 처치한 후, &e엔드&r에서 다시 그들과 마주하게 되었습니다!"
 				""
-				"&ePhantom Creepers&r spawn in &eWarped Forests&r and &eThe End&r. They split upon contact, so you'll need to handle them with care!"
+				"&e유령 크리퍼(Phantom Creepers)&r들은 &e뒤틀린 숲&r과 &e엔드&r에서 스폰합니다. 그들은 접촉하면 분열 하니, 다가갈때는 주의 하세요!"
 				""
-				"The Phantom Creeper Has:"
-				"&b+25% Dodge Rating&r"
+				"유령 크리퍼는 다음의 능력을 가지고 있습니다:"
+				"&b+25% 회피율&r"
 			]
 			id: "600F5339B6C0975C"
 			rewards: [
@@ -1177,7 +1177,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Endventure"
+			subtitle: "엔드벤처"
 			tasks: [{
 				entity: "born_in_chaos_v1:phantom_creeper_copy"
 				icon: "born_in_chaos_v1:phantom_bomb"
@@ -1185,24 +1185,24 @@
 				type: "kill"
 				value: 50L
 			}]
-			title: "Otherworldly Beings IV"
+			title: "이계의 존재 IV"
 			x: 4.5d
 			y: -4.5d
 		}
 		{
 			dependencies: ["6149D163ABF06A15"]
 			description: [
-				"You feel like you've seen an indentation that might fit the &eVoid Worm Eye&r perfectly... Where was it again?.. In the &ebadlands&r back home? Some &eAncient Ruins&r? Maybe I can call on it with a &eGateway of the Remnant&r."
+				"어디선가 &e공허 벌레 눈&r이 딱 들어맞을 만한 움푹 들어간 곳을 본 것 같은데... 어디였더라? 고향의 &e악지(Badlands)&r였나? 아니면 &e고대 유적(Ancient Ruins)&r이었나? &e잔해의 관문(Gateway of the Remnant)&r으로 불러낼 수 있을지도 몰라."
 				""
-				"&cOssukage spawns at minimum level of 60.&r"
+				"&c오수카게(Ossukage)는 항상 최소 레벨 60에서 스폰됩니다.&r"
 				""
-				"Ossukage Has:"
-				"&b+8 Armor Penetration (Scales)&r"
-				"&b+30% Accuracy&r"
-				"&b+20% Critical Hit&r"
-				"&b+50% Critical Damage&r"
-				"&b+30% Elemental Resistance&r"
-				"&b+20% Move Speed&r"
+				"오수카게(Ossukage)는 다음의 능력을 가지고 있습니다:"
+				"&b+8 방어 관통력 (척도)&r"
+				"&b+30% 정확성&r"
+				"&b+20% 치명타&r"
+				"&b+50% 치명타 피해&r"
+				"&b+30% 원소 저항&r"
+				"&b+20% 이동 속도&r"
 			]
 			id: "6EBB1D7F4A2F96D4"
 			rewards: [{
@@ -1215,7 +1215,7 @@
 				title: "30000 Experience"
 				type: "command"
 			}]
-			subtitle: "Home Sweet Home"
+			subtitle: "집이 최고야"
 			tasks: [{
 				entity: "remnant_bosses:ossukage"
 				icon: "remnant_bosses:ossukage_sword"
@@ -1223,7 +1223,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "Samurai Warrior"
+			title: "사무라이 전사"
 			x: 12.0d
 			y: 3.0d
 		}
