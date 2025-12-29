@@ -962,7 +962,7 @@
 				type: "command"
 			}]
 			size: 1.5d
-			subtitle: "Obtain one of each"
+			subtitle: "각각 하나씩 구하세요"
 			tasks: [
 				{
 					id: "3D59503141381E06"
