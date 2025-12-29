@@ -368,7 +368,7 @@
 		}
 		{
 			dependencies: ["6B5AFF6897A7AE6D"]
-			description: ["Wow, who'd have thought? The &eWarden&r seemed to be protecting a gateway to a new &eundiscovered dimension&r. What's on &eThe Otherside&r?"]
+			description: ["와우, 누가 이런 생각을 했을까요? &e워든&r은 &e미지의 새로운 차원&r으로 통하는 관문을 지키고 있었던 것 같습니다. &e다른 세계&r에는 뭐가 있을까요?"]
 			id: "707C5CDB48B487F8"
 			rewards: [
 				{
@@ -406,10 +406,10 @@
 				dimension: "deeperdarker:otherside"
 				icon: "deeperdarker:warden_carapace"
 				id: "1ACA80128E406BE5"
-				title: "The Otherside 방문"
+				title: "아더사이드 방문"
 				type: "dimension"
 			}]
-			title: "The Otherside"
+			title: "그 건너편"
 			x: 7.5d
 			y: 3.0d
 		}
@@ -803,7 +803,7 @@
 		}
 		{
 			dependencies: ["707C5CDB48B487F8"]
-			description: ["&e쉬리크 웜(Shriek Worms)&r은 &eThe Otherside&r에서 발견되는 무시무시한 생물입니다. &e감염된 스컬크(Infested Sculk)를 밟으면&r 깜짝 놀라게 될 것입니다."]
+			description: ["&e쉬리크 웜(Shriek Worms)&r은 &e아더사이드&r에서 발견되는 무시무시한 생물입니다. &e감염된 스컬크(Infested Sculk)를 밟으면&r 깜짝 놀라게 될 것입니다."]
 			id: "081AD91A178C3A3F"
 			rewards: [{
 				auto: "enabled"
@@ -836,7 +836,7 @@
 		{
 			dependencies: ["707C5CDB48B487F8"]
 			description: [
-				"&e스토커(Stalkers)&r는 &eThe Otherside&r에서 발견되는 섬뜩하고 강력한 존재입니다. 그들은 거친 소리에 끌리므로, 스토커를 찾고 싶다면 근처에 있는 &e병을 깨뜨려 보는 것&r도 방법일 수 있습니다."
+				"&e스토커(Stalkers)&r는 &e아더사이드&r에서 발견되는 섬뜩하고 강력한 존재입니다. 그들은 거친 소리에 끌리므로, 스토커를 찾고 싶다면 근처에 있는 &e병을 깨뜨려 보는 것&r도 방법일 수 있습니다."
 				""
 				"운이 따라주지 않는다면, &e어둠의 관문(Gateway of Darkness)&r을 고려해 보세요."
 			]
