@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>설치 가이드 - Craft to Exile 2</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet" />
+		<link rel="stylesheet" href="index.css" />
+	</head>
+	<body>
+		<header class="page-header">
+			<div class="page-header-content">
+				<div class="breadcrumb">
+					<a href="index.html">홈</a>
+					<span> / 설치 가이드</span>
+				</div>
+				<h1>설치 가이드</h1>
+				<p>Craft to Exile 2 모드팩을 설치하는 방법을 안내합니다</p>
+			</div>
+		</header>
+
+		<main class="content">
+			<h2>기본 요구사항</h2>
+			<table>
+				<tr>
+					<th>항목</th>
+					<th>요구사항</th>
+				</tr>
+				<tr>
+					<td>마인크래프트 계정</td>
+					<td>유효한 Minecraft 계정 필요 (크랙 버전 미지원)</td>
+				</tr>
+				<tr>
+					<td>Java</td>
+					<td>Java 17 설치 필요</td>
+				</tr>
+				<tr>
+					<td>RAM</td>
+					<td>4-8GB 권장</td>
+				</tr>
+			</table>
+
+			<h2>Java 성능 최적화 설정</h2>
+			<p>런처의 JVM 인자(Arguments)에 다음 설정을 추가하면 성능이 향상됩니다:</p>
+			<pre><code>-XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=32M</code></pre>
+			<div class="info-box info">
+				<div class="info-box-title">참고</div>
+				<p>기존 JVM 인자를 위 설정으로 대체하세요.</p>
+			</div>
+
+			<h2>설치 방법</h2>
+
+			<h3>방법 1: CurseForge (가장 쉬운 방법)</h3>
+			<ol>
+				<li><a href="https://www.curseforge.com/download/app" target="_blank">CurseForge 앱</a> 다운로드 및 설치</li>
+				<li>앱 실행 후 <strong>Minecraft</strong> 선택</li>
+				<li>검색창에 <strong>"Craft to Exile 2"</strong> 입력</li>
+				<li><strong>Install</strong> 클릭</li>
+				<li>첫 실행 시 필요한 컴포넌트가 자동 설치됨</li>
+			</ol>
+
+			<h3>방법 2: Prism Launcher</h3>
+			<ol>
+				<li><a href="https://prismlauncher.org/" target="_blank">Prism Launcher</a> 다운로드 및 설치</li>
+				<li>Java 17 설정 확인</li>
+				<li>RAM 할당: <strong>4096-8192 MB</strong> 설정</li>
+				<li><strong>CurseForge</strong> 탭에서 <strong>"Craft to Exile 2"</strong> 검색</li>
+				<li>다운로드 및 설치</li>
+				<li>차단된 모드가 있다면 Downloads 폴더에 저장</li>
+			</ol>
+			<div class="info-box info">
+				<div class="info-box-title">참고</div>
+				<p>Prism Launcher는 오픈소스 런처로, 다양한 커스터마이징이 가능합니다.</p>
+			</div>
+
+			<h3>방법 3: ATLauncher</h3>
+			<ol>
+				<li><a href="https://atlauncher.com/" target="_blank">ATLauncher</a> 다운로드 및 설치</li>
+				<li>Microsoft/Minecraft 계정으로 로그인</li>
+				<li><strong>Packs</strong> → <strong>CurseForge</strong> 탭 이동</li>
+				<li><strong>"Craft to Exile 2"</strong> 검색</li>
+				<li>다운로드 클릭</li>
+				<li>설치 중 모드 링크 열기가 필요할 수 있음 (수동 다운로드)</li>
+			</ol>
+
+			<h3>방법 4: GDLauncher</h3>
+			<ol>
+				<li><a href="https://gdlauncher.com/" target="_blank">GDLauncher</a> 다운로드 및 설치</li>
+				<li>런처가 자동으로 Java 및 RAM 할당 (4-8GB)</li>
+				<li><strong>"Twitch"</strong> 탭에서 <strong>"Craft to Exile 2"</strong> 검색</li>
+				<li>설치 클릭</li>
+				<li>완전 자동 설정으로 바로 플레이 가능</li>
+			</ol>
+
+			<h2>RAM 할당 방법</h2>
+
+			<h3>CurseForge</h3>
+			<ol>
+				<li>설정(Settings) → Minecraft</li>
+				<li><strong>Allocated Memory</strong> 슬라이더 조정 (6-8GB 권장)</li>
+			</ol>
+
+			<h3>Prism Launcher</h3>
+			<ol>
+				<li>설정(Settings) → Java</li>
+				<li><strong>Maximum memory allocation</strong> 설정</li>
+			</ol>
+
+			<h3>ATLauncher</h3>
+			<ol>
+				<li>Settings → Java/Minecraft</li>
+				<li><strong>Maximum Memory/RAM</strong> 조정</li>
+			</ol>
+
+			<h3>GDLauncher</h3>
+			<ol>
+				<li>인스턴스 우클릭 → Manage</li>
+				<li>Override Java Memory 체크</li>
+				<li>RAM 할당량 설정</li>
+			</ol>
+
+			<h2>설치 후 확인사항</h2>
+			<ul>
+				<li><strong>첫 실행</strong>: 첫 실행 시 로딩 시간이 오래 걸릴 수 있습니다 (5-10분)</li>
+				<li><strong>셰이더 설정</strong>: 기본적으로 셰이더가 꺼져 있습니다. Options → Video Settings → Shader Packs에서 활성화 가능</li>
+				<li><strong>키 설정 확인</strong>: Controls에서 주요 키 바인딩 확인</li>
+			</ul>
+
+			<div class="info-box warning">
+				<div class="info-box-title">문제 발생 시</div>
+				<p>설치 중 문제가 발생하면 <a href="troubleshooting.html">문제 해결 가이드</a>를 참고하세요.</p>
+			</div>
+
+			<nav class="page-nav">
+				<a href="index.html" class="prev">
+					<span class="page-nav-label">이전</span>
+					<span class="page-nav-title">홈으로</span>
+				</a>
+				<a href="server-setup.html" class="next">
+					<span class="page-nav-label">다음</span>
+					<span class="page-nav-title">서버 설정</span>
+				</a>
+			</nav>
+		</main>
+
+		<footer>
+			<div class="footer-links">
+				<a href="index.html">홈</a>
+				<a href="installation.html">설치</a>
+				<a href="mine-and-slash.html">게임플레이</a>
+				<a href="bosses.html">보스</a>
+				<a href="troubleshooting.html">문제 해결</a>
+			</div>
+			<p class="footer-copyright">
+				이 가이드는 <a href="https://github.com/mahjerion/Craft-to-Exile-2/wiki">Craft to Exile 2 공식 위키</a>를 기반으로 번역되었습니다.
+			</p>
+		</footer>
+	</body>
+</html>

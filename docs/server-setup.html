@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>서버 설정 가이드 - Craft to Exile 2</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet" />
+		<link rel="stylesheet" href="index.css" />
+	</head>
+	<body>
+		<header class="page-header">
+			<div class="page-header-content">
+				<div class="breadcrumb">
+					<a href="index.html">홈</a>
+					<span> / 서버 설정</span>
+				</div>
+				<h1>서버 설정 가이드</h1>
+				<p>서버 설정, 업데이트, LAN 플레이, 관리 명령어 안내</p>
+			</div>
+		</header>
+
+		<main class="content">
+			<h2>공식 서버</h2>
+			<p>다음 공식 서버에서 바로 플레이할 수 있습니다:</p>
+			<table>
+				<tr>
+					<th>서버 이름</th>
+					<th>주소</th>
+				</tr>
+				<tr>
+					<td>Oriath</td>
+					<td><code>crafttoexile2-oriath.g.akliz.net</code></td>
+				</tr>
+				<tr>
+					<td>Wraeclast</td>
+					<td><code>crafttoexile2-wraeclast.g.akliz.net</code></td>
+				</tr>
+				<tr>
+					<td>Tristram</td>
+					<td><code>crafttoexile2-tristram.g.akliz.net</code></td>
+				</tr>
+				<tr>
+					<td>Harrogath</td>
+					<td><code>crafttoexile2-harrogath.g.akliz.net</code></td>
+				</tr>
+				<tr>
+					<td>POE Servers</td>
+					<td><code>poeservers.ddns.net:25566</code></td>
+				</tr>
+			</table>
+
+			<h2>서버 요구사항</h2>
+			<table>
+				<tr>
+					<th>항목</th>
+					<th>요구사항</th>
+				</tr>
+				<tr>
+					<td>RAM</td>
+					<td>최소 4-8GB 할당 권장</td>
+				</tr>
+				<tr>
+					<td>Java</td>
+					<td>Java 17 64-bit</td>
+				</tr>
+				<tr>
+					<td>자동 재시작</td>
+					<td>6시간마다 자동 재시작 권장 (성능 유지)</td>
+				</tr>
+			</table>
+			<div class="info-box warning">
+				<div class="info-box-title">중요</div>
+				<p>정기적인 재시작 없이는 성능 저하가 발생합니다.</p>
+			</div>
+
+			<h2>개인 PC에서 서버 호스팅</h2>
+			<h3>설정 단계</h3>
+			<ol>
+				<li><strong>Java 17 64-bit 설치</strong> - <a href="https://adoptium.net/" target="_blank">Adoptium</a> 또는 <a href="https://www.oracle.com/java/technologies/downloads/" target="_blank">Oracle</a>에서 다운로드</li>
+				<li><strong>서버 파일 추출</strong> - CurseForge에서 서버 파일 다운로드 후 원하는 폴더에 추출</li>
+				<li><strong>서버 실행</strong>
+					<ul>
+						<li>Windows: <code>run.bat</code> 실행</li>
+						<li>Linux/Mac: <code>run.sh</code> 실행</li>
+					</ul>
+				</li>
+				<li><strong>EULA 동의</strong> - <code>eula.txt</code> 파일을 열고 <code>eula=false</code>를 <code>eula=true</code>로 변경</li>
+				<li><strong>명령 블록 활성화</strong> - <code>server.properties</code>에서 <code>enable-command-block=true</code> 설정</li>
+				<li><strong>포트 포워딩</strong> - 라우터에서 25565 포트 포워딩 설정 (외부 접속용)</li>
+			</ol>
+
+			<h2>LAN 플레이 (Essential 모드)</h2>
+			<p>Essential 모드를 사용하면 서버 없이 친구와 함께 플레이할 수 있습니다.</p>
+			<ol>
+				<li>Essential 모드가 이미 포함되어 있음</li>
+				<li>게임 내에서 친구 추가</li>
+				<li>월드 열기 → 친구 초대</li>
+			</ol>
+
+			<h2>서버 업데이트</h2>
+			<div class="info-box danger">
+				<div class="info-box-title">중요: 백업 먼저!</div>
+				<p><code>world</code> 폴더와 <code>server.properties</code>를 반드시 백업하세요.</p>
+			</div>
+			<h3>업데이트 절차</h3>
+			<ol>
+				<li>기존 폴더 삭제: <code>config</code>, <code>defaultconfig</code>, <code>kubejs</code>, <code>mods</code>, <code>scripts</code></li>
+				<li>새 모드팩 버전에서 위 폴더들을 복사</li>
+				<li>백업해둔 <code>server.properties</code> 복원</li>
+				<li>서버 재시작</li>
+			</ol>
+
+			<h2>관리자 명령어</h2>
+			<table>
+				<tr>
+					<th>명령어</th>
+					<th>설명</th>
+				</tr>
+				<tr>
+					<td><code>/flan bypass</code></td>
+					<td>클레임(점유) 영역 강제 진입</td>
+				</tr>
+				<tr>
+					<td><code>/spark profiler open</code></td>
+					<td>렉 원인 분석 도구 실행</td>
+				</tr>
+				<tr>
+					<td><code>/cu inventory read &lt;플레이어&gt;</code></td>
+					<td>플레이어 인벤토리 확인</td>
+				</tr>
+				<tr>
+					<td><code>/pregen start &lt;반경&gt;</code></td>
+					<td>월드 청크 미리 생성</td>
+				</tr>
+			</table>
+
+			<h2>성능 최적화 팁</h2>
+			<ul>
+				<li><strong>청크 미리 생성</strong>: <code>/pregen</code> 명령어로 플레이 영역 청크를 미리 생성</li>
+				<li><strong>정기 재시작</strong>: 6시간마다 자동 재시작 스크립트 설정</li>
+				<li><strong>플레이어 제한</strong>: 서버 사양에 맞게 최대 플레이어 수 제한</li>
+				<li><strong>뷰 거리 조정</strong>: <code>server.properties</code>에서 <code>view-distance</code> 조정 (8-10 권장)</li>
+			</ul>
+
+			<nav class="page-nav">
+				<a href="installation.html" class="prev">
+					<span class="page-nav-label">이전</span>
+					<span class="page-nav-title">설치 가이드</span>
+				</a>
+				<a href="mine-and-slash.html" class="next">
+					<span class="page-nav-label">다음</span>
+					<span class="page-nav-title">Mine & Slash</span>
+				</a>
+			</nav>
+		</main>
+
+		<footer>
+			<div class="footer-links">
+				<a href="index.html">홈</a>
+				<a href="installation.html">설치</a>
+				<a href="mine-and-slash.html">게임플레이</a>
+				<a href="bosses.html">보스</a>
+				<a href="troubleshooting.html">문제 해결</a>
+			</div>
+			<p class="footer-copyright">
+				이 가이드는 <a href="https://github.com/mahjerion/Craft-to-Exile-2/wiki">Craft to Exile 2 공식 위키</a>를 기반으로 번역되었습니다.
+			</p>
+		</footer>
+	</body>
+</html>
