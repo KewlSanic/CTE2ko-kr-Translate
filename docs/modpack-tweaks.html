@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>모드팩 수정 - Craft to Exile 2</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet" />
+		<link rel="stylesheet" href="index.css" />
+	</head>
+	<body>
+		<header class="page-header">
+			<div class="page-header-content">
+				<div class="breadcrumb">
+					<a href="index.html">홈</a>
+					<span> / 모드팩 수정</span>
+				</div>
+				<h1>모드팩 수정 가이드</h1>
+				<p>HUD, 음악, 모드 설정 커스터마이징</p>
+			</div>
+		</header>
+
+		<main class="content">
+			<h2>HUD 위치 조정</h2>
+
+			<h3>Mine & Slash 바 위치 변경</h3>
+			<p>Mine & Slash 바(체력, 마나, 에너지 바)의 위치를 변경할 수 있습니다.</p>
+			<ol>
+				<li><strong>Options</strong> → <strong>Mod Options</strong> 이동</li>
+				<li><strong>Mine & Slash</strong> 선택</li>
+				<li><strong>HUD Position</strong> 옵션에서 선택:
+					<ul>
+						<li><strong>Bottom Center</strong>: 화면 하단 중앙</li>
+						<li><strong>Over Vanilla</strong>: 바닐라 UI 위에 표시</li>
+						<li>기타 옵션</li>
+					</ul>
+				</li>
+			</ol>
+
+			<h3>Combat Roll 아이콘 위치</h3>
+			<p>Combat Roll 아이콘은 드래그로 위치 변경이 가능합니다.</p>
+			<ol>
+				<li>게임 플레이 중 해당 아이콘에 마우스 커서 이동</li>
+				<li>드래그하여 원하는 위치로 이동</li>
+			</ol>
+
+			<h3>Inventory HUD+ 구성</h3>
+			<p>Inventory HUD+ 모드의 각 구성 요소를 개별적으로 위치 변경할 수 있습니다.</p>
+			<ol>
+				<li><strong>Options</strong> → <strong>Mod Options</strong> → <strong>Inventory HUD+</strong></li>
+				<li>각 구성 요소(갑옷, 아이템, 상태 효과 등) 위치 개별 설정</li>
+			</ol>
+
+			<h2>음악 변경</h2>
+
+			<h3>바닐라 음악으로 변경하기</h3>
+			<p>모드팩의 커스텀 음악 대신 바닐라 마인크래프트 음악을 사용하려면:</p>
+			<ol>
+				<li><strong>바닐라 음악 리소스팩</strong> 다운로드</li>
+				<li>다음 경로로 파일 복사:
+					<pre><code>.minecraft/config/openloader/resources</code></pre>
+				</li>
+				<li>기존 음악 리소스팩을 덮어쓰기</li>
+				<li>게임 재시작</li>
+			</ol>
+
+			<h2>모드 제거</h2>
+
+			<h3>몹 파밍 제한 제거</h3>
+			<p>몹 파밍 제한 기능을 원하지 않는 경우:</p>
+			<ol>
+				<li><code>/mods/</code> 폴더 이동</li>
+				<li>관련 jar 파일 삭제 (파일명 확인 필요)</li>
+				<li>게임 재시작</li>
+			</ol>
+			<div class="info-box warning">
+				<div class="info-box-title">주의</div>
+				<p>멀티플레이어에서는 서버와 클라이언트 모두에서 동일하게 제거해야 합니다.</p>
+			</div>
+
+			<h3>비활성화된 아이템 다시 활성화</h3>
+			<p>일부 아이템이 의도적으로 비활성화되어 있습니다. 다시 활성화하려면:</p>
+			<ol>
+				<li>다음 파일 열기:
+					<pre><code>scripts/disabled.zs</code></pre>
+					또는
+					<pre><code>kubejs/scripts/disabled.js</code></pre>
+				</li>
+				<li>해당 아이템 관련 줄을 주석 처리하거나 삭제</li>
+				<li>게임 재시작 또는 <code>/reload</code> 명령어 실행</li>
+			</ol>
+
+			<h2>데이터팩 커스터마이징</h2>
+
+			<h3>데이터팩 위치</h3>
+			<p>Mine & Slash 관련 데이터팩은 다음 경로에 있습니다:</p>
+			<pre><code>configs/openloader/data/cte_mns</code></pre>
+
+			<h3>수정 가능한 항목</h3>
+			<table>
+				<tr>
+					<th>항목</th>
+					<th>설명</th>
+				</tr>
+				<tr>
+					<td>통계</td>
+					<td>아이템/몹 스탯 조정</td>
+				</tr>
+				<tr>
+					<td>아이템</td>
+					<td>아이템 속성 변경</td>
+				</tr>
+				<tr>
+					<td>드롭률</td>
+					<td>드롭 확률 조정</td>
+				</tr>
+				<tr>
+					<td>밸런스</td>
+					<td>전체적인 게임 밸런스</td>
+				</tr>
+			</table>
+
+			<h3>데이터팩 수정 방법</h3>
+			<ol>
+				<li>해당 폴더의 JSON 파일 열기</li>
+				<li>원하는 값 수정</li>
+				<li>게임 재시작 또는 <code>/reload</code></li>
+			</ol>
+			<div class="info-box info">
+				<div class="info-box-title">팁</div>
+				<p>수정 전 원본 파일을 백업해두세요.</p>
+			</div>
+
+			<h2>키 바인딩 변경</h2>
+
+			<h3>Mine & Slash 키 바인딩</h3>
+			<ol>
+				<li><strong>Options</strong> → <strong>Controls</strong> → <strong>Key Binds</strong></li>
+				<li><strong>Mine & Slash</strong> 카테고리 찾기</li>
+				<li>원하는 키로 변경</li>
+			</ol>
+
+			<h3>주요 기본 키</h3>
+			<table>
+				<tr>
+					<th>기능</th>
+					<th>기본 키</th>
+				</tr>
+				<tr>
+					<td>스킬 메뉴</td>
+					<td>K</td>
+				</tr>
+				<tr>
+					<td>특성 메뉴</td>
+					<td>N</td>
+				</tr>
+				<tr>
+					<td>허브 메뉴</td>
+					<td>H</td>
+				</tr>
+				<tr>
+					<td>분해 메뉴</td>
+					<td>G</td>
+				</tr>
+			</table>
+
+			<h2>그래픽 설정 최적화</h2>
+
+			<h3>권장 설정 (성능 중심)</h3>
+			<table>
+				<tr>
+					<th>설정</th>
+					<th>권장값</th>
+				</tr>
+				<tr>
+					<td>Render Distance</td>
+					<td>8 청크</td>
+				</tr>
+				<tr>
+					<td>Simulation Distance</td>
+					<td>6 청크</td>
+				</tr>
+				<tr>
+					<td>Graphics</td>
+					<td>Fast</td>
+				</tr>
+				<tr>
+					<td>Particles</td>
+					<td>Minimal</td>
+				</tr>
+				<tr>
+					<td>Entity Distance</td>
+					<td>75%</td>
+				</tr>
+				<tr>
+					<td>Smooth Lighting</td>
+					<td>Off</td>
+				</tr>
+			</table>
+
+			<h3>권장 설정 (품질 중심)</h3>
+			<table>
+				<tr>
+					<th>설정</th>
+					<th>권장값</th>
+				</tr>
+				<tr>
+					<td>Render Distance</td>
+					<td>12-16 청크</td>
+				</tr>
+				<tr>
+					<td>Simulation Distance</td>
+					<td>8-10 청크</td>
+				</tr>
+				<tr>
+					<td>Graphics</td>
+					<td>Fancy</td>
+				</tr>
+				<tr>
+					<td>Particles</td>
+					<td>All</td>
+				</tr>
+				<tr>
+					<td>Entity Distance</td>
+					<td>100%</td>
+				</tr>
+				<tr>
+					<td>Smooth Lighting</td>
+					<td>Maximum</td>
+				</tr>
+			</table>
+
+			<h2>설정 파일 직접 편집</h2>
+
+			<h3>설정 파일 위치</h3>
+			<table>
+				<tr>
+					<th>모드</th>
+					<th>파일 경로</th>
+				</tr>
+				<tr>
+					<td>Mine & Slash</td>
+					<td><code>config/minesandslash-common.toml</code></td>
+				</tr>
+				<tr>
+					<td>Curios</td>
+					<td><code>config/curios-common.toml</code></td>
+				</tr>
+				<tr>
+					<td>일반 설정</td>
+					<td><code>options.txt</code></td>
+				</tr>
+			</table>
+
+			<h3>편집 시 주의사항</h3>
+			<ul>
+				<li>게임 종료 상태에서 편집</li>
+				<li>수정 전 파일 백업</li>
+				<li>올바른 형식 유지 (TOML, JSON 등)</li>
+			</ul>
+
+			<h2>추가 리소스</h2>
+			<ul>
+				<li><a href="https://discord.gg/crafttoexile" target="_blank">공식 Discord</a> - 커스터마이징 관련 질문</li>
+				<li><a href="https://www.curseforge.com/minecraft/modpacks/craft-to-exile-2" target="_blank">CurseForge 페이지</a> - 최신 업데이트 확인</li>
+			</ul>
+
+			<nav class="page-nav">
+				<a href="controller-steamdeck.html" class="prev">
+					<span class="page-nav-label">이전</span>
+					<span class="page-nav-title">컨트롤러 & 스팀덱</span>
+				</a>
+				<a href="index.html" class="next">
+					<span class="page-nav-label">홈으로</span>
+					<span class="page-nav-title">메인 페이지</span>
+				</a>
+			</nav>
+		</main>
+
+		<footer>
+			<div class="footer-links">
+				<a href="index.html">홈</a>
+				<a href="installation.html">설치</a>
+				<a href="mine-and-slash.html">게임플레이</a>
+				<a href="bosses.html">보스</a>
+				<a href="troubleshooting.html">문제 해결</a>
+			</div>
+			<p class="footer-copyright">
+				이 가이드는 <a href="https://github.com/mahjerion/Craft-to-Exile-2/wiki">Craft to Exile 2 공식 위키</a>를 기반으로 번역되었습니다.
+			</p>
+		</footer>
+	</body>
+</html>

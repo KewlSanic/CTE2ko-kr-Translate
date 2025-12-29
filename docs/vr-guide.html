@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>VR 가이드 - Craft to Exile 2</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet" />
+		<link rel="stylesheet" href="index.css" />
+	</head>
+	<body>
+		<header class="page-header">
+			<div class="page-header-content">
+				<div class="breadcrumb">
+					<a href="index.html">홈</a>
+					<span> / VR 가이드</span>
+				</div>
+				<h1>VR 가이드</h1>
+				<p>VR 헤드셋으로 플레이하는 방법 및 설정</p>
+			</div>
+		</header>
+
+		<main class="content">
+			<div class="info-box danger">
+				<div class="info-box-title">중요 경고사항</div>
+				<p>게임 종료 전에 반드시 <strong>메인 메뉴에서 VR을 꺼야</strong> 합니다. 다음 로그인 시 다시 활성화하세요. 그렇지 않으면 게임 내 GUI가 표시되지 않을 수 있습니다.</p>
+			</div>
+
+			<h2>시스템 요구사항</h2>
+
+			<h3>필수 소프트웨어</h3>
+			<ul>
+				<li><strong>SteamVR</strong> 설치 및 Steam 실행 필수</li>
+				<li><strong>VR 헤드셋</strong> (Oculus, Vive, Index 등)</li>
+			</ul>
+
+			<h3>Java 설정</h3>
+			<p><strong>Java 21</strong> 사용 권장</p>
+			<ol>
+				<li><a href="https://www.oracle.com/java/technologies/downloads/" target="_blank">Oracle</a>에서 Java 21 다운로드</li>
+				<li>런처 설정에서 <code>javaw.exe</code> 경로 선택</li>
+			</ol>
+
+			<h3>권장 JVM 인자</h3>
+			<pre><code>-XX:+UseZGC -XX:+ZGenerational</code></pre>
+
+			<h3>RAM 할당</h3>
+			<ul>
+				<li><strong>권장</strong>: 4-8GB</li>
+				<li>성능 문제 발생 시 8GB로 증가</li>
+			</ul>
+
+			<h2>첫 시작 설정</h2>
+
+			<h3>렌더링 설정</h3>
+			<ol>
+				<li>첫 시작 시 <strong>전체화면 모드</strong>로 실행</li>
+				<li>렌더링 거리를 낮게 설정</li>
+				<li>안정화 후 점진적으로 설정 조정</li>
+			</ol>
+
+			<h3>셰이더 사용 시 권장 설정</h3>
+			<table>
+				<tr>
+					<th>설정</th>
+					<th>권장값</th>
+				</tr>
+				<tr>
+					<td>Anti-aliasing</td>
+					<td>낮음 또는 끄기</td>
+				</tr>
+				<tr>
+					<td>Shadows</td>
+					<td>낮음</td>
+				</tr>
+				<tr>
+					<td>Desktop Mirroring</td>
+					<td>낮음 또는 끄기</td>
+				</tr>
+			</table>
+
+			<h2>VR 활성화 방법</h2>
+			<ol>
+				<li>PC에서 게임을 활성화 상태로 유지 (컨트롤러가 작동하려면 필수)</li>
+				<li>좌측 컨트롤러로 메뉴 열기</li>
+				<li><strong>Options</strong> → <strong>VR Settings</strong> 이동</li>
+				<li>VR 모드 활성화</li>
+			</ol>
+
+			<h2>게임 내 VR 설정</h2>
+			<table>
+				<tr>
+					<th>설정</th>
+					<th>설명</th>
+				</tr>
+				<tr>
+					<td>이동 방식</td>
+					<td>텔레포트, 자유 이동 등 선택</td>
+				</tr>
+				<tr>
+					<td>컨트롤러 설정</td>
+					<td>손 위치, 조작 방식 조정</td>
+				</tr>
+				<tr>
+					<td>라디얼 메뉴</td>
+					<td>빠른 아이템/스킬 접근 설정</td>
+				</tr>
+				<tr>
+					<td>화면 설정</td>
+					<td>HUD 위치 및 크기 조정</td>
+				</tr>
+			</table>
+
+			<h3>이동 방식 옵션</h3>
+			<ul>
+				<li><strong>텔레포트</strong>: 멀미 감소, 포인트 앤 클릭 이동</li>
+				<li><strong>자유 이동</strong>: 조이스틱으로 자유롭게 이동 (멀미 주의)</li>
+				<li><strong>룸스케일</strong>: 실제 공간에서 움직임</li>
+			</ul>
+
+			<h2>컨트롤러 바인딩</h2>
+
+			<h3>SteamVR에서 바인딩 편집</h3>
+			<ol>
+				<li>SteamVR 메뉴 열기</li>
+				<li><strong>Settings</strong> → <strong>Controllers</strong> → <strong>Manage Controller Bindings</strong></li>
+				<li><strong>Vivecraft</strong> 선택</li>
+				<li><strong>Edit</strong> 클릭하여 바인딩 수정</li>
+			</ol>
+
+			<h3>기본 컨트롤러 조작</h3>
+			<table>
+				<tr>
+					<th>버튼</th>
+					<th>기능</th>
+				</tr>
+				<tr>
+					<td>트리거</td>
+					<td>공격/상호작용</td>
+				</tr>
+				<tr>
+					<td>그립</td>
+					<td>대체 동작/라디얼 메뉴</td>
+				</tr>
+				<tr>
+					<td>조이스틱</td>
+					<td>이동/회전</td>
+				</tr>
+				<tr>
+					<td>메뉴 버튼</td>
+					<td>인벤토리/일시정지</td>
+				</tr>
+			</table>
+			<div class="info-box info">
+				<div class="info-box-title">라디얼 메뉴 접근</div>
+				<p><strong>Grip 버튼</strong>을 눌러 대체 바인딩 세트에 접근하고, 라디얼 메뉴로 빠른 아이템/스킬 전환이 가능합니다.</p>
+			</div>
+
+			<h2>성능 최적화</h2>
+
+			<h3>VR 전용 최적화 팁</h3>
+			<ul>
+				<li><strong>Render Distance 줄이기</strong>: 8 청크 이하 권장</li>
+				<li><strong>셰이더 사용 주의</strong>: 고사양 VR 셰이더는 성능에 큰 영향</li>
+				<li><strong>Reprojection 활성화</strong>: SteamVR에서 Motion Smoothing 활성화</li>
+				<li><strong>백그라운드 앱 종료</strong>: 시스템 리소스 확보</li>
+			</ul>
+
+			<h3>멀미 감소 팁</h3>
+			<ul>
+				<li>텔레포트 이동 방식 사용</li>
+				<li>FOV 비네팅 활성화</li>
+				<li>짧은 세션으로 시작하여 점진적으로 늘리기</li>
+				<li>안정적인 프레임레이트 유지</li>
+			</ul>
+
+			<h2>일반적인 VR 문제</h2>
+
+			<h3>GUI가 보이지 않음</h3>
+			<ul>
+				<li>게임 종료 전 VR 모드를 끄지 않아서 발생</li>
+				<li>해결: 메인 메뉴에서 VR 모드 껐다가 다시 켜기</li>
+			</ul>
+
+			<h3>컨트롤러가 작동하지 않음</h3>
+			<ul>
+				<li>PC에서 게임 창이 활성화 상태인지 확인</li>
+				<li>SteamVR 재시작</li>
+			</ul>
+
+			<h3>낮은 프레임레이트</h3>
+			<ul>
+				<li>그래픽 설정 낮추기</li>
+				<li>RAM 할당 확인</li>
+				<li>백그라운드 프로그램 종료</li>
+			</ul>
+
+			<h3>추적 문제</h3>
+			<ul>
+				<li>VR 플레이 공간의 조명 확인</li>
+				<li>베이스 스테이션/센서 위치 조정</li>
+			</ul>
+
+			<nav class="page-nav">
+				<a href="shaders-optifine.html" class="prev">
+					<span class="page-nav-label">이전</span>
+					<span class="page-nav-title">셰이더 & 옵티파인</span>
+				</a>
+				<a href="controller-steamdeck.html" class="next">
+					<span class="page-nav-label">다음</span>
+					<span class="page-nav-title">컨트롤러 & 스팀덱</span>
+				</a>
+			</nav>
+		</main>
+
+		<footer>
+			<div class="footer-links">
+				<a href="index.html">홈</a>
+				<a href="installation.html">설치</a>
+				<a href="mine-and-slash.html">게임플레이</a>
+				<a href="bosses.html">보스</a>
+				<a href="troubleshooting.html">문제 해결</a>
+			</div>
+			<p class="footer-copyright">
+				이 가이드는 <a href="https://github.com/mahjerion/Craft-to-Exile-2/wiki">Craft to Exile 2 공식 위키</a>를 기반으로 번역되었습니다.
+			</p>
+		</footer>
+	</body>
+</html>

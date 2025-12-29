@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>셰이더 & 옵티파인 - Craft to Exile 2</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet" />
+		<link rel="stylesheet" href="index.css" />
+	</head>
+	<body>
+		<header class="page-header">
+			<div class="page-header-content">
+				<div class="breadcrumb">
+					<a href="index.html">홈</a>
+					<span> / 셰이더 & 옵티파인</span>
+				</div>
+				<h1>셰이더 & 옵티파인 가이드</h1>
+				<p>셰이더 설정 및 그래픽 최적화 방법</p>
+			</div>
+		</header>
+
+		<main class="content">
+			<h2>셰이더 (Shaders)</h2>
+
+			<h3>기본 지원</h3>
+			<p>이 모드팩에는 <strong>Oculus</strong> 모드가 포함되어 있어 별도 설치 없이 바로 셰이더를 사용할 수 있습니다.</p>
+
+			<h3>기본 포함 셰이더</h3>
+			<table>
+				<tr>
+					<th>셰이더 이름</th>
+					<th>특징</th>
+				</tr>
+				<tr>
+					<td>Complementary Unbound</td>
+					<td>고품질 그래픽, 다양한 설정 옵션</td>
+				</tr>
+				<tr>
+					<td>Complementary Reimagined</td>
+					<td>최적화된 성능, 아름다운 조명</td>
+				</tr>
+			</table>
+
+			<h3>셰이더 활성화 방법</h3>
+			<ol>
+				<li><strong>Options</strong> → <strong>Video Settings</strong> → <strong>Shader Packs</strong> 이동</li>
+				<li>원하는 셰이더 선택</li>
+				<li><strong>Done</strong> 클릭</li>
+			</ol>
+
+			<h3>추가 셰이더 설치</h3>
+			<ol>
+				<li><a href="https://modrinth.com/shaders" target="_blank">Modrinth</a> 또는 <a href="https://www.curseforge.com/minecraft/search?class=shaders" target="_blank">CurseForge</a>에서 셰이더 다운로드</li>
+				<li><code>.minecraft/shaderpacks</code> 폴더에 파일 추가</li>
+				<li>게임 내 Shader Packs 메뉴에서 선택</li>
+			</ol>
+
+			<h3>권장 셰이더</h3>
+			<table>
+				<tr>
+					<th>셰이더</th>
+					<th>성능</th>
+					<th>설명</th>
+				</tr>
+				<tr>
+					<td>Complementary Reimagined</td>
+					<td>중간</td>
+					<td>균형 잡힌 성능과 품질</td>
+				</tr>
+				<tr>
+					<td>Complementary Unbound</td>
+					<td>높음</td>
+					<td>최고 품질의 그래픽</td>
+				</tr>
+				<tr>
+					<td>BSL Shaders</td>
+					<td>중간</td>
+					<td>인기 있는 범용 셰이더</td>
+				</tr>
+				<tr>
+					<td>Sildur's Vibrant</td>
+					<td>낮음-중간</td>
+					<td>가벼운 셰이더</td>
+				</tr>
+			</table>
+
+			<h2>옵티파인 (Optifine)</h2>
+
+			<div class="info-box danger">
+				<div class="info-box-title">사용 비권장</div>
+				<p>개발팀은 <strong>옵티파인 설치를 권장하지 않습니다</strong>.</p>
+			</div>
+
+			<h3>비권장 이유</h3>
+			<ul>
+				<li><strong>렌더링 시스템 충돌</strong>: 렌더링 시스템 개편으로 인해 블록과 아이템이 보이지 않을 수 있음</li>
+				<li><strong>게임 크래시 위험</strong>: 다른 모드와의 호환성 문제로 크래시 발생 가능</li>
+				<li><strong>문제 진단 어려움</strong>: 옵티파인이 설치된 경우 문제 원인 파악이 어려움</li>
+			</ul>
+
+			<h3>대체 솔루션</h3>
+			<p>모드팩에는 이미 옵티파인의 주요 기능이 포함되어 있습니다:</p>
+			<table>
+				<tr>
+					<th>기능</th>
+					<th>대체 모드</th>
+				</tr>
+				<tr>
+					<td>셰이더</td>
+					<td>Oculus</td>
+				</tr>
+				<tr>
+					<td>FPS 카운터</td>
+					<td>기본 포함</td>
+				</tr>
+				<tr>
+					<td>그래픽 설정</td>
+					<td>Embeddium/Rubidium</td>
+				</tr>
+				<tr>
+					<td>성능 최적화</td>
+					<td>다수의 최적화 모드</td>
+				</tr>
+			</table>
+			<div class="info-box info">
+				<div class="info-box-title">참고</div>
+				<p>포함된 성능 최적화 모드들은 바닐라 및 옵티파인보다 빠른 성능을 제공합니다.</p>
+			</div>
+
+			<h2>셰이더 성능 최적화</h2>
+			<p>셰이더 사용 시 성능이 낮다면 다음 설정을 조정하세요:</p>
+
+			<h3>셰이더 내부 설정</h3>
+			<ol>
+				<li><strong>Shader Options</strong> 메뉴 열기</li>
+				<li>다음 항목 조정:
+					<ul>
+						<li><strong>Shadow Quality</strong>: 낮춤</li>
+						<li><strong>Shadow Distance</strong>: 줄임</li>
+						<li><strong>Bloom</strong>: 끄기</li>
+						<li><strong>Motion Blur</strong>: 끄기</li>
+						<li><strong>Volumetric Lighting</strong>: 끄기 또는 낮춤</li>
+					</ul>
+				</li>
+			</ol>
+
+			<h3>게임 비디오 설정</h3>
+			<table>
+				<tr>
+					<th>설정</th>
+					<th>권장값</th>
+				</tr>
+				<tr>
+					<td>Render Distance</td>
+					<td>8-10 청크</td>
+				</tr>
+				<tr>
+					<td>Simulation Distance</td>
+					<td>6-8 청크</td>
+				</tr>
+				<tr>
+					<td>Graphics</td>
+					<td>Fast</td>
+				</tr>
+				<tr>
+					<td>Smooth Lighting</td>
+					<td>Minimum</td>
+				</tr>
+				<tr>
+					<td>Entity Shadows</td>
+					<td>Off</td>
+				</tr>
+			</table>
+
+			<h2>일반적인 셰이더 문제</h2>
+
+			<h3>화면이 깜빡임</h3>
+			<ul>
+				<li>다른 셰이더로 변경</li>
+				<li>그래픽 드라이버 업데이트</li>
+			</ul>
+
+			<h3>블록 텍스처 오류</h3>
+			<ul>
+				<li>셰이더 설정에서 PBR 텍스처 끄기</li>
+				<li>다른 셰이더 시도</li>
+			</ul>
+
+			<h3>낮은 FPS</h3>
+			<ul>
+				<li>셰이더 품질 설정 낮추기</li>
+				<li>그림자 해상도 줄이기</li>
+				<li>Render Distance 줄이기</li>
+			</ul>
+
+			<nav class="page-nav">
+				<a href="troubleshooting.html" class="prev">
+					<span class="page-nav-label">이전</span>
+					<span class="page-nav-title">문제 해결</span>
+				</a>
+				<a href="vr-guide.html" class="next">
+					<span class="page-nav-label">다음</span>
+					<span class="page-nav-title">VR 가이드</span>
+				</a>
+			</nav>
+		</main>
+
+		<footer>
+			<div class="footer-links">
+				<a href="index.html">홈</a>
+				<a href="installation.html">설치</a>
+				<a href="mine-and-slash.html">게임플레이</a>
+				<a href="bosses.html">보스</a>
+				<a href="troubleshooting.html">문제 해결</a>
+			</div>
+			<p class="footer-copyright">
+				이 가이드는 <a href="https://github.com/mahjerion/Craft-to-Exile-2/wiki">Craft to Exile 2 공식 위키</a>를 기반으로 번역되었습니다.
+			</p>
+		</footer>
+	</body>
+</html>
