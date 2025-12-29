@@ -1503,11 +1503,11 @@
 		{
 			dependencies: ["09AFF8CC33BD244B"]
 			description: [
-				"Upon killing the &eNaga&r, a &eRespawn Monument&r will appear. You can activate the block to respawn the boss by placing &eBlocks of Ironwood&r in a circle around the monument like so:"
+				"&e나가&r를 처치하면 &e리스폰 받침대&r가 나타납니다. 리스폰 받침대 주변에 &e철목 블록&r을 다음과 같이 원형으로 배치하면 보스를 부활시킬 수 있습니다:"
 				""
 				"{image:cte2:textures/Naga-Respawn.png width:160 height:140 align:center}"
 				""
-				"Then, on the monument itself, place a &eWither Skeleton Skull&r facing &eNorth&r. &cIt MUST face North!&r"
+				"그런 다음 리스폰 받침대 자체에 &e위더 스켈레톤 머리&r를 &e북쪽&r 방향으로 놓으세요. &c반드시 북쪽을 향해야 합니다!&r"
 			]
 			id: "249CFC4219E590E5"
 			rewards: [{
@@ -1516,7 +1516,7 @@
 				item: "lightmanscurrency:coin_gold"
 				type: "item"
 			}]
-			subtitle: "Respawning"
+			subtitle: "부활"
 			tasks: [{
 				advancement: "dimasic_server:nagaresp"
 				criterion: ""
@@ -1529,11 +1529,11 @@
 		{
 			dependencies: ["1F3C2718AE550D5C"]
 			description: [
-				"Upon killing the &eLich&r, a &eRespawn Monument&r will appear. You can activate the block to respawn the boss by placing &eBlocks of Gold&r in a circle around the monument like so:"
+				"&e나가&r를 처치하면 &e리스폰 받침대&r가 나타납니다. 리스폰 받침대 주변에 &e금 블록&r을 다음과 같이 원형으로 배치하면 보스를 부활시킬 수 있습니다::"
 				""
 				"{image:cte2:textures/Lich_respawn.png width:160 height:140 align:center}"
 				""
-				"Then, on the monument itself, place a &eWither Skeleton Skull&r facing &eNorth&r. &cIt MUST face North!&r"
+				"그런 다음 리스폰 받침대 자체에 &e위더 스켈레톤 머리&r를 &e북쪽&r 방향으로 놓으세요. &c반드시 북쪽을 향해야 합니다!&r"
 			]
 			id: "478246DF0A50447C"
 			rewards: [{
@@ -1542,7 +1542,7 @@
 				item: "lightmanscurrency:coin_gold"
 				type: "item"
 			}]
-			subtitle: "Respawning"
+			subtitle: "부활"
 			tasks: [{
 				advancement: "dimasic_server:lichresp"
 				criterion: ""
@@ -1555,11 +1555,11 @@
 		{
 			dependencies: ["5BB55F41502BE69C"]
 			description: [
-				"Upon killing the &eUr-Ghast&r, a &eRespawn Monument&r will appear. You can activate the block to respawn the boss by placing &eCrying Obsidian&r in a circle around the monument like so:"
+				"&e유어 가스트&r를 처치하면 &e리스폰 받침대&r가 나타납니다. 리스폰 받침대 주변에 &e우는 흑요석&r을 다음과 같이 원형으로 배치하면 보스를 부활시킬 수 있습니다:"
 				""
 				"{image:cte2:textures/Ur-Ghast_Respawn.png width:160 height:140 align:center}"
 				""
-				"Then, on the monument itself, place a &eWither Skeleton Skull&r facing &eNorth&r. &cIt MUST face North!&r"
+				"그런 다음 리스폰 받침대 자체에 &e위더 스켈레톤 머리&r를 &e북쪽&r 방향으로 놓으세요. &c반드시 북쪽을 향해야 합니다!&r"
 			]
 			id: "52FABBC48E005524"
 			rewards: [{
@@ -1568,7 +1568,7 @@
 				item: "lightmanscurrency:coin_gold"
 				type: "item"
 			}]
-			subtitle: "Respawning"
+			subtitle: "부활"
 			tasks: [{
 				advancement: "dimasic_server:urghastresp"
 				criterion: ""
@@ -1581,11 +1581,11 @@
 		{
 			dependencies: ["1E2D94E70E2A1134"]
 			description: [
-				"Upon killing the &eSnow Queen&r, a &eRespawn Monument&r will appear. You can activate the block to respawn the boss by placing &eBlocks of Lapis Lazuli&r in a circle around the monument like so:"
+				"&e눈의 여왕&r을 처치하면 &e리스폰 받침대&r가 나타납니다. 리스폰 받침대 주변에 &e청금석 블록&r을 다음과 같이 원형으로 배치하면 보스를 부활시킬 수 있습니다:"
 				""
 				"{image:cte2:textures/Snow-Queen_Respawn.png width:160 height:140 align:center}"
 				""
-				"Then, on the monument itself, place a &eWither Skeleton Skull&r facing &eNorth&r. &cIt MUST face North!&r"
+				"그런 다음 리스폰 받침대 자체에 &e위더 스켈레톤 머리&r를 &e북쪽&r 방향으로 놓으세요. &c반드시 북쪽을 향해야 합니다!&r"
 			]
 			id: "15CD2A688D39C87D"
 			rewards: [{
@@ -1594,7 +1594,7 @@
 				item: "lightmanscurrency:coin_gold"
 				type: "item"
 			}]
-			subtitle: "Respawning"
+			subtitle: "부활"
 			tasks: [{
 				advancement: "dimasic_server:snawqueenresp"
 				criterion: ""
@@ -1607,11 +1607,11 @@
 		{
 			dependencies: ["18C4B8D73A50CFAC"]
 			description: [
-				"Upon killing the &eHydra&r, a &eRespawn Monument&r will appear. You can activate the block to respawn the boss by placing &eAncient Debris&r in a circle around the monument like so:"
+				"&e히드라&r를 처치하면 &e리스폰 받침대&r가 나타납니다. 리스폰 받침대 주변에 &e고대 잔해&r를 다음과 같이 원형으로 배치하면 보스를 부활시킬 수 있습니다:"
 				""
 				"{image:cte2:textures/Hydra_Respawn.png width:160 height:140 align:center}"
 				""
-				"Then, on the monument itself, place a &eWither Skeleton Skull&r facing &eNorth&r. &cIt MUST face North!&r"
+				"그런 다음 리스폰 받침대 자체에 &e위더 스켈레톤 머리&r를 &e북쪽&r 방향으로 놓으세요. &c반드시 북쪽을 향해야 합니다!&r"
 			]
 			id: "1DD47026109BE225"
 			rewards: [{
@@ -1620,7 +1620,7 @@
 				item: "lightmanscurrency:coin_gold"
 				type: "item"
 			}]
-			subtitle: "Respawning"
+			subtitle: "부활"
 			tasks: [{
 				advancement: "dimasic_server:hydraresp"
 				criterion: ""
@@ -1638,7 +1638,7 @@
 				"1F3C2718AE550D5C"
 				"09AFF8CC33BD244B"
 			]
-			description: ["Defeat all of the &eTwilight Forest&r bosses in the Epilogue to complete this achievement. Then show it off with your new hat!"]
+			description: ["Epilogue에서 &e황혼의 숲&r의 모든 보스를 처치하면 이 업적을 달성할 수 있습니다. 그리고 새 모자를 쓰고 자랑해 보세요!"]
 			hide_dependency_lines: true
 			icon: "simplehats:pog"
 			id: "481C3C4D8D5AF5B8"
@@ -1662,19 +1662,19 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "Achievement"
+			subtitle: "업적"
 			tasks: [{
 				id: "4405B159442E256A"
 				title: "Click Once Read"
 				type: "checkmark"
 			}]
-			title: "Defeat All Twilight Forest Bosses!"
+			title: "모든 황혼의 숲 보스 처치하기!"
 			x: 13.5d
 			y: 6.0d
 		}
 		{
 			dependencies: ["15B1E394B4FBB981"]
-			description: ["Nestled among the hills and fir trees of the &eSnowy Forest&r, the &eYeti Cave&r appears as a square-shaped hill. Four entrances allow access to the ice-covered insides, where packed ice hangs from stalactites and covers the floor. Many fierce &eYetis&r make their home in these frigid caves, lorded over by an &eAlpha Yeti&r."]
+			description: ["&eSnowy Forest&r의 언덕과 전나무 숲 사이에 자리 잡은 &eYeti Cave&r는 네모난 언덕처럼 보입니다. 네 개의 입구를 통해 얼음으로 뒤덮인 동굴 내부로 들어갈 수 있는데, 동굴 안에는 단단한 얼음이 종유석에 매달려 있고 바닥도 얼음으로 덮여 있습니다. 수많은 &e예티&r들이 이 얼어붙은 동굴에 서식하며, &e알파 예티&r가 이곳을 지배합니다."]
 			id: "4B93763BFB5F5E0D"
 			rewards: [
 				{
@@ -1699,16 +1699,16 @@
 				title: "Find a Yeti Cave"
 				type: "structure"
 			}]
-			title: "A Cold, Humble Abode"
+			title: "차갑고 초라한 거처"
 			x: 7.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["77E6AE329E337151"]
 			description: [
-				"&oFind certain structures and kill bosses? Seems easy enough... You pull out your Explorer's Compass and- wait what? It doesn't work?&r"
+				"&o특정 구조물을 찾고 보스를 처치해야 한다고요? 쉬워 보이는데요... Explorer's Compass를 꺼내 들었는데... 잠깐, 왜 작동하지 않는거죠?&r"
 				""
-				"In the Twilight Forest, you'll need to rely on your navigation skills. You'll need to rely on Twilight Forest the &eMap Focus&r!"
+				"황혼의 숲에서는 길 찾기 능력이 필수적입니다. &e마법의 지도&r의 도움을 받아야 합니다!"
 			]
 			icon: "twilightforest:magic_map"
 			id: "5081032C6E395EA9"
@@ -1723,7 +1723,7 @@
 				title: "Click Once Read"
 				type: "checkmark"
 			}]
-			title: "Nomadic Travels"
+			title: "유목민 여행"
 			x: 3.0d
 			y: 1.5d
 		}
