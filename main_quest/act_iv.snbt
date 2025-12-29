@@ -20,7 +20,7 @@
 				"30B56119C4EA7398"
 			]
 			description: [
-				"당신의 다음 목적지는 &e디 엔드(The End)&r입니다. 그리고 거기서 &e엔더드래곤&r을 잡아야 하죠. 그곳에 가려면, &e엔드 차원문&r이 있는 &e요새(Stronghold)&r를 찾아야 합니다. 포탈을 활성화 하려면 엔드 차원문 틀에 각각 &e엔더의 눈&r을 설치하면 됩니다."
+				"당신의 다음 목적지는 &e엔더&r입니다. 그리고 거기서 &e엔더드래곤&r을 잡아야 하죠. 그곳에 가려면, &e엔드 차원문&r이 있는 &e요새(Stronghold)&r를 찾아야 합니다. 포탈을 활성화 하려면 엔드 차원문 틀에 각각 &e엔더의 눈&r을 설치하면 됩니다."
 				""
 				"&e모든 하위 퀘스트를 완료해야 합니다.&r"
 			]
@@ -43,7 +43,7 @@
 				id: "20FC7F4ADCE826EB"
 				type: "advancement"
 			}]
-			title: "디 엔드(The End)"
+			title: "엔드"
 			x: 10.5d
 			y: 0.0d
 		}
@@ -1438,7 +1438,7 @@
 		{
 			dependencies: ["10ABAF144ABC131E"]
 			description: [
-				"&e우월한 뼈를 부르는자(Supreme Bonescaller)&r는 &e뼈를 부르는자(Bonescaller)&r의 강화버젼 입니다. 더욱더 증가된 방어력과 2개의 전투 페이즈가 있습니다.  &e암흑의 탑(Dark Towers)&r은 &e블루스카이즈(Blue Skies) 차원&r과 &e디 엔드(The End)&r에서 발견할 수 있습니다."
+				"&e우월한 뼈를 부르는자(Supreme Bonescaller)&r는 &e뼈를 부르는자(Bonescaller)&r의 강화버전 입니다. 더욱더 증가된 방어력과 2개의 전투 페이즈가 있습니다.  &e암흑의 탑(Dark Towers)&r은 &e블루스카이즈(Blue Skies) 차원&r과 &e엔드&r에서 발견할 수 있습니다."
 				""
 				"&c우월한 뼈를 부르는자는 항상 최소 45레벨에서 신화의 수식어를 단 체로 소환됩니다.&r"
 				""
