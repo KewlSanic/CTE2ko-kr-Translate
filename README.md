@@ -1,12 +1,12 @@
 CTE2 모드팩의 한국어 번역 파일 입니다.
 
 완료 항목:
-Patchouli books
+-- Patchouli books
 - Professions
 - Disabled crafts
 - Dimensions
 
-FTB Quests
+-- FTB Quests
 - Prologue
 - Act I
 - Act II
