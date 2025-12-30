@@ -6,7 +6,7 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "    $(c:/ftbquests open_book 6A8C03172A7F61C3)&c$(l)---> 퀘스트 열기 <--- $(/c)$(br)&r당신의 여정중에, 당신은 더 강력한 장비를 찾게될 것입니다. 장비의 힘은 3가지 방법으로 정의될 수 있습니다:"
+            "text": "    $(c:/ftbquests open_book 6A8C03172A7F61C3)&c$(l)---> 퀘스트 열기(클릭!) <--- $(/c)$(br)&r당신의 여정중에, 당신은 더 강력한 장비를 찾게될 것입니다. 장비의 힘은 3가지 방법으로 정의될 수 있습니다:"
         },{
             "type": "patchouli:spotlight",
             "title":"장비의 레벨",

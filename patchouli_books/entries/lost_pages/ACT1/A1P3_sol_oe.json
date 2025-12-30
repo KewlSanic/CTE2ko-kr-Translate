@@ -6,7 +6,7 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "    $(c:/ftbquests open_book 4AF5F24C4B770EA5)&c$(l)---> 퀘스트 열기 <--- $(/c)$(br)&r살아남기 힘드신가요?$(2br)&e Spice of Life: Onion Edition&r은 모든 음식에 &e'다양성'&r 요소를 추가합니다. 다양한 음식을 먹으면 &e이득&r을 얻습니다. &e당신의 MineMenu에서 음식 책(Food Book)을 찾아서 음식 다양성과 이득을 확인할 수 있습니다.(기본 키 셋팅 : H)"
+            "text": "    $(c:/ftbquests open_book 4AF5F24C4B770EA5)&c$(l)---> 퀘스트 열기(클릭!) <--- $(/c)$(br)&r살아남기 힘드신가요?$(2br)&e Spice of Life: Onion Edition&r은 모든 음식에 &e'다양성'&r 요소를 추가합니다. 다양한 음식을 먹으면 &e이득&r을 얻습니다. &e당신의 MineMenu에서 음식 책(Food Book)을 찾아서 음식 다양성과 이득을 확인할 수 있습니다.(기본 키 셋팅 : H)"
         },{
             "type": "patchouli:text",
             "text": " &e다양한 음식을 섭취해서 체력과, 블록 설치 사거리, 이동속도 등을 늘려보세요!&r &e도시락가방(Lunchbag)&r을 만들어서 가지고 있는 음식을 한번에 보관할 수도 있습니다.&e도시락가방을 손에 들고 쉬프트 우클릭&r을 하면 and right clicking to eat with it."

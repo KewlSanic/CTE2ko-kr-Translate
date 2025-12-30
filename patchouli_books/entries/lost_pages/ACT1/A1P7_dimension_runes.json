@@ -6,7 +6,7 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "$(c:/ftbquests open_book 2C9B55C8C05E20E2)&c$(l)---> Open Quest Page <--- $(/c)$(br)&rIn Craft to Exile 2, you can find &eDimension-specific Runes&r that can be used to slot into your gear, or craft powerful Runewords.$(br)There are &e7 of these Runes&r in total, and they can only be obtained from Dimension Bosses such as the Invoker or End Dragon. 
+            "text": "$(c:/ftbquests open_book 2C9B55C8C05E20E2)&c$(l)---> 퀘스트 열기(클릭!) <--- $(/c)$(br)&rIn Craft to Exile 2, you can find &eDimension-specific Runes&r that can be used to slot into your gear, or craft powerful Runewords.$(br)There are &e7 of these Runes&r in total, and they can only be obtained from Dimension Bosses such as the Invoker or End Dragon. 
 "},{
   "type": "patchouli:spotlight",
   "item": "tag:mmorpg:runes,mmorpg:runes/owd",

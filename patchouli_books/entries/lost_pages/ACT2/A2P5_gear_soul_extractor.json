@@ -1,17 +1,17 @@
 {
-    "name": "Gear Soul Extractors",
+    "name": "장비 영혼 추출기(Gear Soul Extractors)",
     "icon": "mmorpg:soul_extractor/epic",
     "category": "patchouli:A1lost_pages",
 	"sortnum":12,
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "$(c:/ftbquests open_book 60D44B70BB06539B)&c$(l)---> Open Quest Page <--- $(/c)$(br)&r&eGear Soul Extractors&r can be used on gear. You will get the 'stats' of the gear back as a soul, destroying the base item in the process. You can then use the soul on another piece of gear!
+            "text": "$(c:/ftbquests open_book 60D44B70BB06539B)&c$(l)---> 퀘스트 열기(클릭!) <--- $(/c)$(br)&r&e장비 영혼 추출기&r는 장비에 사용할 수 있습니다. 장비의 '능력치'를 영혼 형태로 되돌려 받게 되며, 이 과정에서 기본 장비는 파괴됩니다. 이렇게 얻은 영혼은 다른 장비에 사용할 수 있습니다!
 
-Conversely, &eGear Soul Cleaners&r are used to get rid of the stats of the gear while keeping the base item."},
+반대로, &e장비 영혼 제거기&r는 기본 아이템은 유지하면서 장비의 능력치를 제거하는 데 사용됩니다."},
 {            "type": "patchouli:spotlight",
   "item": "mmorpg:soul_cleaner,mmorpg:soul_extractor/uncommon,mmorpg:currency/extract_gem,mmorpg:currency/extract_rune",
-            "text": "&eGem Extractors&r are used to remove &eGems&r from your socketed gear. There is no penalty for doing so, but the extractor will be consumed. There is also a &eRune Extractor&r, but using that will cost &e1 Gear Potential&r."
+            "text": "&e젬 추출기&r는 장비 소켓에서 &e젬&r을 제거하는 데 사용됩니다. 젬을 제거해도 불이익은 없지만, 추출기는 소모됩니다. 룬 추출기도 있지만, 사용하면 장비 &e잠재력 1&r이 소모됩니다."
 		}
     ]
 }
