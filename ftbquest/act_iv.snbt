@@ -175,7 +175,7 @@
 		}
 		{
 			dependencies: ["10ABAF144ABC131E"]
-			description: ["으악, 이 차원은 덥고 습하네요... 그래도 도착 했군요! &e에버다운(Everdawn)&r는 돌연변이 괴물들로 가득찬 매우 더운 차원입니다. &9파랑 일지(Blue Journal)&r를 꺼낼 때가 됬군요..."]
+			description: ["윽, 이 차원은 덥고 습하네요... 그래도 도착 했군요! &e에버다운(Everdawn)&r는 돌연변이 괴물들로 가득찬 매우 더운 차원입니다. &9파랑 일지(Blue Journal)&r를 꺼낼 때가 됬군요..."]
 			id: "260297A19CCA9015"
 			rewards: [
 				{
@@ -428,7 +428,7 @@
 				""
 				"별빛 으스러트리는 보스를 처치해서 나온 &e자연 아크(Nature Arc)&r &e자연석 쐐기돌(Nature Keystone)&r에 사용하여 &e재소환&r 가능 합니다."
 				""
-				"&c별빛 으스러트리는 항상 최소 50레벨.&r"
+				"&c별빛 으스러트리는 항상 최소 50레벨에서 스폰됩니다.&r"
 				""
 				"별빛 으스러트리는 다음의 능력을 가지고 있습니다:"
 				"&b+50% 물리 번개 변환&r"
@@ -522,7 +522,7 @@
 				"&a25% Daw 룬을 드랍할 확률&r"
 				""
 				"&6이 퀘스트와 다음의 퀘스트를 완료하면 캠페인 상점에 새로운 상점이 추가됩니다: "
-				"&a\"망할 나무 뿌리 뽑기\"&r &6is complete"
+				"&a\"망할 나무 뿌리 뽑기\"&r"
 			]
 			icon: "blue_skies:poison_key"
 			id: "09CFBF8766DA4706"
@@ -1198,7 +1198,7 @@
 				title: "15500 Experience"
 				type: "command"
 			}]
-			subtitle: "에버 탐험"
+			subtitle: "에버 탐험기"
 			tasks: [{
 				advancement: "blue_skies:everdawn/craft_horizonite_forge"
 				criterion: ""
