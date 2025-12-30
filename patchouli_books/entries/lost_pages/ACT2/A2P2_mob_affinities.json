@@ -8,7 +8,7 @@
             "type": "patchouli:text",
             "text": "$(c:/ftbquests open_book 3F61325EA08B6DAA)&c$(l)---> 퀘스트 열기(클릭!) <--- $(/c)$(br)&r&e네더&r의 몬스터들이 &c화염 피해&r를 더 많이 입히는 것을 이미 눈치챘을지도 모릅니다. 특정 차원에 서식하는 몬스터들은 특정 속성에 대한 친화력을 갖는 경향이 있습니다. 예를 들어, 네더에서는 일부 몬스터들이 화염 피해와 물리 피해를 혼합해서 입힙니다. &o하지만 해당 몬스터가 친화력을 가진 속성의 저항을 가진다는 의미는 아닙니다.&r"},
 {            "type": "patchouli:text",
-            "text": "&n원소 친화성 목록(Elemental Affinities)&r
+            "text": "&n원소 친화성 목록$(br)(Elemental Affinities)&r
 
 &l오버월드:&r &7없음&r
 &l네더:&r &c화염&r
