@@ -1,0 +1,1643 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "act_iv"
+	group: "1E3C4B5FFAE48A39"
+	icon: {
+		Count: 1
+		id: "blue_skies:bluebright_spear"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "0CEC2D7B2260686B"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"09CFBF8766DA4706"
+				"30B56119C4EA7398"
+			]
+			description: [
+				"당신의 다음 목적지는 &e엔더&r입니다. 그리고 거기서 &e엔더드래곤&r을 잡아야 하죠. 그곳에 가려면, &e엔드 차원문&r이 있는 &e요새(Stronghold)&r를 찾아야 합니다. 포탈을 활성화 하려면 엔드 차원문 틀에 각각 &e엔더의 눈&r을 설치하면 됩니다."
+				""
+				"&e모든 하위 퀘스트를 완료해야 합니다.&r"
+			]
+			id: "75454F0A3C4C3596"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give exp @p 19000"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "4D18B65191DEAB27"
+				silent: true
+				title: "19000 Experience"
+				type: "command"
+			}]
+			shape: "rsquare"
+			subtitle: "메인 퀘스트"
+			tasks: [{
+				advancement: "minecraft:story/enter_the_end"
+				criterion: ""
+				id: "20FC7F4ADCE826EB"
+				type: "advancement"
+			}]
+			title: "엔드"
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0998037F5701A2D7"]
+			description: [
+				"당신은 문지기(Gatekeeper)를 찾았습니다... 그는 합당한 가격에 정보를 주려고 하는군요."
+				""
+				"당신은 (공짜로) 그가 2개의 다른 차원을 알고 있다는 정보를 알아냈습니다: &e에버브라이트(Everbright)&r와 &e에버다운&r입니다. 문지기에 따르면, 오버월드에서도 이 차원들에 접근할 수 있다는군요!"
+				""
+				"그러고보니 그가 &e라이터 같은 것을 팔고 있는것 같군요&r. 보아하니 라이터가 있어야 차원에 입장 할 수 있는 것 같습니다. 라이터만 사도 될 것 같지만, 하지만 그것보단 정보가 더 필요할 겁니다. 아마도 &e집 근처를 수색하는것&r도 괜찮을지 모르겠네요..."
+			]
+			id: "01B3ED0D457F7A7C"
+			rewards: [
+				{
+					count: 6
+					id: "72738BFF8A4EC51A"
+					item: "lightmanscurrency:coin_iron"
+					title: "Money"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 10000"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "16AD0ECACA8534A4"
+					silent: true
+					title: "10000 Experience"
+					type: "command"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "메인 퀘스트"
+			tasks: [{
+				id: "18AAB8BD2E919933"
+				item: {
+					Count: 1
+					id: "blue_skies:zeal_lighter"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "떠돌이 방화범"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["01B3ED0D457F7A7C"]
+			description: [
+				"&c퀘스트를 완료하는데 1가지 과제만 완료하면 됩니다.&r"
+				""
+				"&e문지기의 집(Gatekeeper's House)&r에 나타나는 차원문에 의존하기 보다는, 직접 만들 수 있습니다."
+				""
+				"&e거래 터미널/물물교환 게시판(Trading Terminal/Barter Board)&r에서 블록을 구매할 수도 있습니다!"
+			]
+			id: "467EF949DCDD7863"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give exp @p 12500"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "1C5BD6EBA4C93030"
+				silent: true
+				title: "12500 Experience"
+				type: "command"
+			}]
+			subtitle: "차원문 결정장애자"
+			tasks: [
+				{
+					count: 10L
+					id: "11CAD902CC783BD8"
+					item: "blue_skies:lunar_stonebrick"
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "3A7BB8BB2C556636"
+					item: "blue_skies:turquoise_stonebrick"
+					type: "item"
+				}
+			]
+			title: "차원문 결정장애자"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["10ABAF144ABC131E"]
+			description: ["엣취, 이 차원은 매우 춥군요... 그래도 도착 했군요! &e에버브라이트(Everbright)&r는 영구적인 추위가 있는 곳입니다. &9푸른 일지(Blue Journal)&r를 꺼낼 때가 됬군요..."]
+			id: "44D0530C2718FC69"
+			rewards: [
+				{
+					id: "6835CDD0FE491A5B"
+					item: {
+						Count: 1
+						id: "mmorpg:chest/rare_gear"
+						tag: {
+							mmorpg_loot_chest: "{\"num\":5,\"rar\":\"rare\",\"lvl\":40,\"id\":\"gear\",\"key\":\"\"}"
+						}
+					}
+					title: "Rare Gear Loot Chest (Lv. 40)"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 14500"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "13C6B993CC7FEA59"
+					silent: true
+					title: "14500 Experience"
+					type: "command"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "메인 퀘스트"
+			tasks: [{
+				dimension: "blue_skies:everbright"
+				icon: "blue_skies:everbright_portal"
+				id: "79AF45CD5E5AF2BC"
+				title: "Visit The Everbright"
+				type: "dimension"
+			}]
+			title: "에버브라이트(The Everbright)"
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["10ABAF144ABC131E"]
+			description: ["윽, 이 차원은 덥고 습하네요... 그래도 도착 했군요! &e에버다운(Everdawn)&r는 돌연변이 괴물들로 가득찬 매우 더운 차원입니다. &9파랑 일지(Blue Journal)&r를 꺼낼 때가 됬군요..."]
+			id: "260297A19CCA9015"
+			rewards: [
+				{
+					id: "191758AAA5952A15"
+					item: {
+						Count: 1
+						id: "mmorpg:chest/rare_gear"
+						tag: {
+							mmorpg_loot_chest: "{\"num\":5,\"rar\":\"rare\",\"lvl\":40,\"id\":\"gear\",\"key\":\"\"}"
+						}
+					}
+					title: "Rare Gear Loot Chest (Lv. 40)"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 14500"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "1F5AACD729066105"
+					silent: true
+					title: "14500 Experience"
+					type: "command"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "메인 퀘스트"
+			tasks: [{
+				dimension: "blue_skies:everdawn"
+				icon: "blue_skies:everdawn_portal"
+				id: "6B78A3B8F87B2FEC"
+				title: "Visit The Everdawn"
+				type: "dimension"
+			}]
+			title: "에버다운(The Everdawn)"
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["01B3ED0D457F7A7C"]
+			description: ["문지기(The Gatekeeper)는 자신의 &e일지&r도 나눠주고 싶어 하는군요. 문지기에 따르면, 낡고 먼지투성이처럼 보이지만 이 차원에 대한 &e많은 정보&r를 담고 있는것 같습니다."]
+			id: "10ABAF144ABC131E"
+			rewards: [
+				{
+					count: 3
+					id: "4E3CA8022FAD70C9"
+					item: "mmorpg:stone/3"
+					title: "Epic Stones"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 13500"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "03BD8073B19FA10A"
+					silent: true
+					title: "13500 Experience"
+					type: "command"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "메인 퀘스트"
+			tasks: [{
+				id: "4436206A9CCFCCC9"
+				item: "blue_skies:blue_journal"
+				type: "item"
+			}]
+			title: "개인용 Blue Skies 가이드 "
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["44D0530C2718FC69"]
+			description: [
+				"에버브라이트의 &e자연의 던전(Nature Dungeon)&r에 진입하기 위해서는, 이 차원의 &e눈부신 던전(Blinding Dungeon)&r을 찾아야 합니다... 문지기에 의하면, 눈부신 던전에서 &e소환사(The Summoner)를 찾을 수 있을겁니다&r."
+				""
+				"소환사를 상대할때는 조심하세요, 소환사는 번개와 에너지 공격을합니다. 그리고 자기자신을 보호하기위해 골렘을 소환합니다! 문지기에 의하면, 소환사는 &e플레이어의 수가 많아지면 강해집니다&r."
+				""
+				"소환사를 처치하면, 자연의 던전에 접근할 수 있을겁니다!"
+				""
+				"당신은 소환사를 &e공기 아크(Ethereal Arc)&r를 &e에버브라이트의 맹인석 쐐기돌(Blinding Keystone)&r에 사용해서 &e재소환&r 할수도 있습니다."
+				""
+				"&c소환사는 항상 최소 45레벨에서 소환됩니다.&r"
+				""
+				"소환사는 다음의 능력을 가지고 있습니다:"
+				"&b+50% 물리 번개 변환&r"
+				"&a10% Bri 룬을 드랍할 확률&r"
+			]
+			icon: {
+				Count: 1
+				id: "mmorpg:weapon/staff/iron"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5F455D8A504B112D"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 20000"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "0CEFB91DE0714449"
+					silent: true
+					title: "20000 Experience"
+					type: "command"
+				}
+				{
+					id: "5D645D17422CCBDF"
+					item: {
+						Count: 1
+						id: "gateways:gate_pearl"
+						tag: {
+							gateway: "gateways:basic/enderman"
+						}
+					}
+					type: "item"
+				}
+				{
+					advancement: "blue_skies:everbright/kill_summoner"
+					auto: "enabled"
+					criterion: ""
+					icon: "blue_skies:nature_key"
+					id: "4D94668F2507A9AB"
+					title: "Unlock Poison Dungeon"
+					type: "advancement"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "메인 퀘스트"
+			tasks: [
+				{
+					icon: "blue_skies:bright_blinding_keystone"
+					id: "055FC215AAF81A94"
+					structure: "blue_skies:everbright_blinding_dungeon"
+					title: "Find a Blinding Dungeon (Everbright)"
+					type: "structure"
+				}
+				{
+					entity: "blue_skies:summoner"
+					icon: {
+						Count: 1
+						id: "mmorpg:weapon/staff/iron"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "0CCF277C1EE31264"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "새로운 본사"
+			x: 7.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["260297A19CCA9015"]
+			description: [
+				"에버다운의 &e독성 던전(Poison Dungeon)&r에 진입하기 위해서는, 이 차원의 &e눈부신 던전(Blinding Dungeon)&r을 찾아야 합니다... 문지기에 의하면, 눈부신 던전에서 &e연금술사(The Alchemist)를 찾을 수 있을겁니다&r."
+				""
+				"연금술사와 싸울때는 포션과 물리적 구조물을 조심하세요. 연금술사의 공격들은 징조를 보여주지만, 이것들을 보지못한다면 두드려 맞을 수도 있습니다! 문지기에 의하면, 연금술사는 &e플레이어의 수가 많아지면 강해집니다&r."
+				""
+				"연금술사를 처치하면, 독성 던전에 진입할 수 있을겁니다!"
+				""
+				"당신은 연금술사를 &e황혼 아크(Dusk Arc)&r를 &e에버다운의 맹인석 쐐기돌(Blinding Keystone)&r에 사용해서 &e재소환&r 할수도 있습니다."
+				""
+				"&c연금술사는 항상 최소 45레벨에서 소환됩니다.&r"
+				""
+				"연금술사는 다음의 능력을 가지고 있습니다:"
+				"&b+50% 물리 혼돈 변환&r"
+				"&c+100% 받는 투사체 피해 증가&r"
+				"&a10% Daw 룬을 드랍할 확률&r"
+			]
+			icon: {
+				Count: 1
+				id: "twilightforest:greater_potion_flask"
+				tag: { }
+			}
+			id: "63DA191A8533F1AE"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 20000"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "2B451560B8BFF45C"
+					silent: true
+					title: "20000 Experience"
+					type: "command"
+				}
+				{
+					id: "36DC7DA698607017"
+					item: {
+						Count: 1
+						id: "gateways:gate_pearl"
+						tag: {
+							gateway: "gateways:basic/witch"
+						}
+					}
+					type: "item"
+				}
+				{
+					advancement: "blue_skies:everdawn/kill_alchemist"
+					auto: "enabled"
+					criterion: ""
+					icon: "blue_skies:poison_key"
+					id: "0CB10A03E8C6EAFA"
+					title: "Unlock Poison Dungeon"
+					type: "advancement"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "메인 퀘스트"
+			tasks: [
+				{
+					icon: "blue_skies:dawn_blinding_keystone"
+					id: "117C1E4EBD07991B"
+					structure: "blue_skies:everdawn_blinding_dungeon"
+					title: "Find a Blinding Dungeon (Everdawn)"
+					type: "structure"
+				}
+				{
+					entity: "blue_skies:alchemist"
+					icon: {
+						Count: 1
+						id: "twilightforest:greater_potion_flask"
+						tag: { }
+					}
+					id: "6A4EFDD37A70252D"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "새로운 실험실"
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5F455D8A504B112D"]
+			description: [
+				"당신은 소환사를 처치했습니다, 그리고 죽어가는 와중에 소환사는 자연의 던전(Nature Dungeon)에 대해 이야기 합니다."
+				""
+				"자연의 던전(Nature Dungeon)은 &e총 4층으로 이루어진 거대한 초록색 미궁&r이고, 찾을 때는 거대한 초록색 피라미드처럼 보일 것 입니다. 각 층에는 &e4개의 열쇠 중 1개&r와 &e다음층으로 향하는 계단&r이 숨겨져 있습니다."
+				""
+				"던전의 최상층에 도달하면 &e별빛 으스러트리(Starlit Crusher)&r라는 나무가 하나가 당신을 기다리고 있을겁니다. 이 나무는 느리지만 강력한 공격을 합니다, 하지만 당신이 &e창(spear)&r을 쓰고 있다면 보스를 기절 시킬 기회를 엿볼 수 있을겁니다. 문지기에 의하면, 별빛 파괴자는 &e플레이어의 수가 많아지면 강해집니다&r."
+				""
+				"&e던전을 완료 했다면&r, &e문지기&r에게 돌아가서 &e필요한 열쇠를 구매할 수 있습니다&r."
+				""
+				"별빛 으스러트리는 보스를 처치해서 나온 &e자연 아크(Nature Arc)&r &e자연석 쐐기돌(Nature Keystone)&r에 사용하여 &e재소환&r 가능 합니다."
+				""
+				"&c별빛 으스러트리는 항상 최소 50레벨에서 스폰됩니다.&r"
+				""
+				"별빛 으스러트리는 다음의 능력을 가지고 있습니다:"
+				"&b+50% 물리 번개 변환&r"
+				"&b+50% 감전 확률&r"
+				"&b+25% 충격 확률&r"
+				"&a25% Bri 룬을 드랍할 확률&r"
+				""
+				"&6이 퀘스트와 다음의 퀘스트를 완료하면 캠페인 상점에 새로운 상점이 추가됩니다: "
+				"&a\"잡았다 요놈\"&r"
+			]
+			icon: "blue_skies:nature_key"
+			id: "30B56119C4EA7398"
+			rewards: [
+				{
+					id: "663B62B336DCAB4D"
+					item: {
+						Count: 1
+						id: "mmorpg:chest/rare_gear"
+						tag: {
+							mmorpg_loot_chest: "{\"num\":5,\"rar\":\"rare\",\"lvl\":50,\"id\":\"gear\",\"key\":\"\"}"
+						}
+					}
+					title: "Rare Gear Loot Chest (Lv. 50)"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 25000"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "135D273C25E842F5"
+					silent: true
+					title: "25000 Experience"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					icon: "ftb_ph:talent"
+					id: "1A38E3424A25A4F8"
+					title: "1 Talent Point"
+					type: "custom"
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "메인 퀘스트"
+			tasks: [
+				{
+					icon: "blue_skies:nature_key"
+					id: "522F544ED0AF2DF1"
+					structure: "blue_skies:nature_dungeon"
+					title: "Find a Nature Dungeon"
+					type: "structure"
+				}
+				{
+					entity: "blue_skies:starlit_crusher"
+					icon: {
+						Count: 1
+						id: "blue_skies:starlit_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "7AE9182E6A246E5E"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "망할 나무 뿌리 뽑기"
+			x: 9.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["63DA191A8533F1AE"]
+			description: [
+				"당신은 연금술사를 처치했습니다, 그리고 죽어가는 와중에 연금술사는 맹독 던전(Poison Dungeon)에 대해 이야기 합니다."
+				""
+				"맹독 던전(Poison dungeon)은 &e총 4층으로 이루어진 거대한 지도 미로&r이고, 찾을 때는 거미줄이 쳐지고 속이 빈 거대한 단풍 나무를 찾으면 됩니다. 각 층에는 &e4개의 열쇠 중 1개&r와 &e다음층으로 향하는 계단&r이 숨겨져 있습니다."
+				""
+				"던전의 최하층에 도달하면 그녀의 방에서 기다리는 &e아라크나크&r를 찾을 수 있을겁니다. 맹독을 가진 이 보스는 적을 찌르고, 천장에서 독을 흩뿌립니다, 하지만 당신이 &e방패(shield)&r을 쓰고 있다면 보스를 기절 시킬 기회를 엿볼 수 있을겁니다. 문지기에 의하면, 아라크나크는 &e플레이어의 수가 많아지면 강해집니다&r"
+				""
+				"&e던전을 완료 했다면&r, &e문지기&r에게 돌아가서 &e필요한 열쇠를 구매할 수 있습니다&r."
+				""
+				"아라크나크는 보스를 처치해서 나온 &e맹독 아크(Poisonous Arc)&r를 &e맹독석 쐐기돌(Poison Keystone)&r에 사용하여 &e재소환&r 가능 합니다."
+				""
+				"&c아라크나크는 항상 최소 50레벨에서 소환됩니다.&r"
+				""
+				"아라크나크는 다음의 능력을 가지고 있습니다:"
+				"&b+50% 물리 혼돈 변환&r"
+				"&b+33% 중독 확률&r"
+				"&a25% Daw 룬을 드랍할 확률&r"
+				""
+				"&6이 퀘스트와 다음의 퀘스트를 완료하면 캠페인 상점에 새로운 상점이 추가됩니다: "
+				"&a\"망할 나무 뿌리 뽑기\"&r"
+			]
+			icon: "blue_skies:poison_key"
+			id: "09CFBF8766DA4706"
+			rewards: [
+				{
+					id: "64F2BD6B14DAA4BD"
+					item: {
+						Count: 1
+						id: "mmorpg:chest/rare_gear"
+						tag: {
+							mmorpg_loot_chest: "{\"num\":5,\"rar\":\"rare\",\"lvl\":50,\"id\":\"gear\",\"key\":\"\"}"
+						}
+					}
+					title: "Rare Gear Loot Chest (Lv. 50)"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 25000"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "3376346B940F53CB"
+					silent: true
+					title: "25000 Experience"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					icon: "ftb_ph:talent"
+					id: "1161AA2AFCD41DBA"
+					title: "1 Talent Point"
+					type: "custom"
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "메인 퀘스트"
+			tasks: [
+				{
+					icon: "blue_skies:poison_key"
+					id: "7A4081191F33BB95"
+					structure: "blue_skies:poison_dungeon"
+					title: "Find a Poison Dungeon"
+					type: "structure"
+				}
+				{
+					id: "646496939A074529"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "blue_skies:poison_arc"
+									tag: {
+										ArcLevel: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "blue_skies:poison_arc"
+									tag: {
+										ArcLevel: 1
+									}
+								}
+								{
+									Count: 1b
+									id: "blue_skies:poison_arc"
+									tag: {
+										ArcLevel: 2
+									}
+								}
+							]
+						}
+					}
+					title: "Poisonous Arc (Any Rarity)"
+					type: "item"
+				}
+			]
+			title: "잡았다 요놈"
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"260297A19CCA9015"
+				"44D0530C2718FC69"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"문지기는 에버브라이틍와 에버다운에 문명이 있을것이라고 이야기합니다. 찾으면 나오겠죠."
+				""
+				"&e하위 퀘스트 1개를 완료 해야합니다.&r"
+			]
+			icon: "minecraft:campfire"
+			id: "5B4E23F4CD32950F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6122CD63934C4191"
+					table_id: 1620634734402786827L
+					type: "choice"
+				}
+				{
+					count: 2
+					id: "6DF34A2B450D376D"
+					item: "mmorpg:material/farming/2"
+					title: "Empyrean Produce"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 18000"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "45C316F7912839EF"
+					silent: true
+					title: "18000 Experience"
+					type: "command"
+				}
+			]
+			subtitle: "마을"
+			tasks: [
+				{
+					icon: "minecraft:soul_campfire"
+					id: "15376BBADD49A823"
+					structure: "blue_skies:village_brightlands"
+					title: "Find a Village (Brightlands)"
+					type: "structure"
+				}
+				{
+					icon: "minecraft:campfire"
+					id: "0C04E46B1BF636C0"
+					structure: "blue_skies:village_crystal_dunes"
+					title: "Find a Village (Crystal Dunes)"
+					type: "structure"
+				}
+			]
+			title: "야영지"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5B4E23F4CD32950F"]
+			description: [
+				"&e야경꾼(Nightwatcher)&r을 발견하게 된다면, &e주민들에게서 소매치기를 가능하게 해주는&r &e전리품 가방(Bag of Spoils)&r을 줍니다. 그들이 못마땅하게 여길 만한 범죄 행위인 것 같네요...."
+				""
+				"그들이 당신을 찾는다면 말이죠."
+			]
+			id: "08D0C45FA283D50A"
+			rewards: [
+				{
+					id: "747892111AA9DE5D"
+					item: "lightmanscurrency:coin_diamond"
+					title: "Money"
+					type: "item"
+				}
+				{
+					id: "3F2B997D92FBF0E8"
+					item: {
+						Count: 1
+						id: "mmorpg:chest/common_gear"
+						tag: {
+							mmorpg_loot_chest: "{\"num\":5,\"rar\":\"common\",\"lvl\":40,\"id\":\"rune\",\"key\":\"\"}"
+						}
+					}
+					title: "Common Rune Loot Chest (Lv. 40)"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 19250"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "0AC5615867DF791F"
+					silent: true
+					title: "19250 Experience"
+					type: "command"
+				}
+			]
+			subtitle: "마을"
+			tasks: [{
+				id: "39EE9E362FC12FBB"
+				item: "blue_skies:bag_of_spoils"
+				type: "item"
+			}]
+			title: "꺄악 도둑이야!"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"5F455D8A504B112D"
+				"63DA191A8533F1AE"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"이 차원들은 풍부한 천연자원이 있는것 같군요. 제작에 쓸 몇개만 좀 가져가면 되겠네요."
+				""
+				"&e하위 퀘스트 1개를 완료 해야합니다.&r"
+			]
+			id: "1E4735F6982A43ED"
+			rewards: [
+				{
+					id: "5245C2D702472E51"
+					item: {
+						Count: 1
+						id: "mmorpg:chest/common_gear"
+						tag: {
+							mmorpg_loot_chest: "{\"num\":5,\"rar\":\"common\",\"lvl\":40,\"id\":\"gem\",\"key\":\"\"}"
+						}
+					}
+					title: "Common Gem Loot Chest (Lv. 40)"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 17000"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "12683C844A99C4C0"
+					silent: true
+					title: "17000 Experience"
+					type: "command"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "73C52769AE1DD28B"
+					table_id: 8429304065672909682L
+					type: "choice"
+				}
+			]
+			subtitle: "Mine and Slash"
+			tasks: [
+				{
+					count: 16L
+					id: "0D98593995337F43"
+					item: "blue_skies:pyrope_gem"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "1DBB927107811622"
+					item: "blue_skies:aquite"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "209A546373165BD4"
+					item: "blue_skies:diopside_gem"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "512F2C3EB9850B9A"
+					item: "blue_skies:charoite"
+					type: "item"
+				}
+			]
+			title: "내 말을 기록해 둬..."
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1E4735F6982A43ED"]
+			description: ["&9푸른 책(Blue Book)[aka Blue Journal]&r에 따르면, &5규장석(Falsite)&r은 &e에버브라이트&r에서 발견할 수 있고 &e강력한 힘을 가졌습니다&r. &6지평금(Horizonite)&r은 &e에버다운&r에서 발견할 수 있고 &e열함유량이 많습니다&r."]
+			id: "1FC3745ADFF992F2"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "405DBCD14DC27672"
+					table_id: 6715256251723704267L
+					type: "choice"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 20000"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "05E99D1E12995F08"
+					silent: true
+					title: "20000 Experience"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					icon: "ftb_ph:talent"
+					id: "2C1C7C596F1EF10F"
+					title: "1 Talent Point"
+					type: "custom"
+				}
+			]
+			subtitle: "Mine and Slash"
+			tasks: [
+				{
+					count: 4L
+					id: "6CA7D8E2785CCC34"
+					item: "blue_skies:falsite_ingot"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "765E2AC8712160F0"
+					item: "blue_skies:horizonite_ingot"
+					type: "item"
+				}
+			]
+			title: "말장난 광물들"
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["44D0530C2718FC69"]
+			description: [
+				"에버브라이트를 모험하면서 특이한 여러 막대기들을 보았을겁니다. 아마도 이것들을 사용해서 창을 만들 수 있을것 같군요."
+				""
+				"&9푸른 일지(Blue Journal)&r에 적으면 괜찮겠군요. 문지기도 이것을 알아챘을 겁니다."
+			]
+			id: "74FCB46359C566CA"
+			rewards: [
+				{
+					count: 4
+					id: "02D0D9F28BBFB03A"
+					item: "mmorpg:material/mining/2"
+					title: "Empyrean Ores"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 13000"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "3AB0CC5DDBEF85A8"
+					silent: true
+					title: "13000 Experience"
+					type: "command"
+				}
+			]
+			subtitle: "에버 탐험기"
+			tasks: [{
+				id: "49FFE6F489219E0E"
+				item: {
+					Count: 1
+					id: "blue_skies:bluebright_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "창과 막대기"
+			x: 4.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["260297A19CCA9015"]
+			description: [
+				"에버다운을 모험하면서 특이한 여러 막대기들을 보았을겁니다. 아마도 이것들을 사용해서 창을 만들 수 있을것 같군요."
+				""
+				"&9푸른 일지(Blue Journal)&r에 적으면 괜찮겠군요. 문지기도 이것을 알아챘을 겁니다."
+			]
+			id: "07B675A69ECAD9D0"
+			rewards: [
+				{
+					count: 4
+					id: "217FA3CB78CE7CDD"
+					item: "mmorpg:material/mining/2"
+					title: "Empyrean Ores"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 13000"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "5AE408B538326E95"
+					silent: true
+					title: "13000 Experience"
+					type: "command"
+				}
+			]
+			subtitle: "에버 탐험기"
+			tasks: [{
+				id: "42B8F5AE130930FB"
+				item: {
+					Count: 1
+					id: "blue_skies:lunar_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "창과 막대기"
+			x: 4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["44D0530C2718FC69"]
+			description: [
+				"에버브라이트는 외계생물의 집 쯤 되는것 같습니다. 그들이 돌연변이인지 태생부터 이상한건지 모르겠네요."
+				""
+				"이곳의 괴물들은 얼음에 뒤덮혀 있는것 같군요..."
+				""
+				"&o&7완료하면 Repeatables 챕터에서 반복 퀘스트가 잠금 해제됩니다!&r&r"
+			]
+			icon: "blue_skies:frose"
+			id: "61FABF4C4DB118C8"
+			rewards: [
+				{
+					count: 4
+					id: "1B63036807317E5D"
+					item: {
+						Count: 1
+						id: "mmorpg:potion/health/5"
+						tag: {
+							level: 1
+							tier: 0
+						}
+					}
+					title: "Mythic Restoration Potions"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 15500"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "59D7A4D19D910329"
+					silent: true
+					title: "15500 Experience"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					icon: "ftb_ph:talent"
+					id: "305B94587B94BCCD"
+					title: "1 Talent Point"
+					type: "custom"
+				}
+			]
+			subtitle: "에버 탐험기"
+			tasks: [
+				{
+					entity: "blue_skies:armored_frost_spirit"
+					icon: {
+						Count: 1
+						id: "undergarden:froststeel_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "46FBFA9B9E2C3F30"
+					type: "kill"
+					value: 8L
+				}
+				{
+					entity: "blue_skies:crynocerous"
+					icon: "simplehats:unicornhorn"
+					id: "17317C9793765AA5"
+					type: "kill"
+					value: 8L
+				}
+			]
+			title: "얼어붙은 시간"
+			x: 6.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["260297A19CCA9015"]
+			description: [
+				"에버다운은 외래생물의 집 쯤 되는것 같습니다. 그들이 돌연변이인지 태생부터 이상한건지 모르겠네요."
+				""
+				"여기에서는, 그것들은 오버월드에 있는 곤충들과 비슷한것 같군요."
+				""
+				"&o&7완료하면 Repeatables 챕터에서 반복 퀘스트가 잠금 해제됩니다!&r&r"
+			]
+			icon: {
+				Count: 1
+				id: "aquaculture:worm"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "1B6034E8571F3AFA"
+			rewards: [
+				{
+					count: 4
+					id: "67D36AD44F7589CE"
+					item: {
+						Count: 1
+						id: "mmorpg:potion/health/5"
+						tag: {
+							level: 1
+							tier: 0
+						}
+					}
+					title: "Mythic Restoration Potions"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 15500"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "4058C769C50CDB26"
+					silent: true
+					title: "15500 Experience"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					icon: "ftb_ph:talent"
+					id: "4C24F2B02FA87DA8"
+					title: "1 Talent Point"
+					type: "custom"
+				}
+			]
+			subtitle: "에버 탐험기"
+			tasks: [
+				{
+					entity: "blue_skies:emberback"
+					icon: "minecraft:fire_coral_fan"
+					id: "76455A4279BE87D4"
+					type: "kill"
+					value: 8L
+				}
+				{
+					entity: "blue_skies:infested_swarmer"
+					icon: "botania:mycelium_seeds"
+					id: "4E4337946DE5B20B"
+					type: "kill"
+					value: 8L
+				}
+			]
+			title: "소름끼치는 벌레들"
+			x: 6.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"5145DB1D393B6681"
+				"517A65DD1CDCA89F"
+				"08D0C45FA283D50A"
+				"5B4E23F4CD32950F"
+				"467EF949DCDD7863"
+				"5F455D8A504B112D"
+				"07B675A69ECAD9D0"
+				"6954FEF58C12CA7F"
+				"44D0530C2718FC69"
+				"1B6034E8571F3AFA"
+				"61FABF4C4DB118C8"
+				"74FCB46359C566CA"
+				"1FC3745ADFF992F2"
+				"09CFBF8766DA4706"
+				"75454F0A3C4C3596"
+				"1E4735F6982A43ED"
+				"260297A19CCA9015"
+				"01B3ED0D457F7A7C"
+				"10ABAF144ABC131E"
+				"63DA191A8533F1AE"
+				"30B56119C4EA7398"
+				"6EE535C73A769B4D"
+				"450D4FC0C8C994AD"
+				"2C0463FD0D5CBF91"
+				"1AD4461B780DE1AF"
+				"598F0B2047B2ED63"
+				"1A18C9F2B0E6E37B"
+				"54D98C5CCDE624EF"
+			]
+			description: ["&eAct IV의 모든 퀘스트를 완료하면 이 업적을 얻을 수 있습니다. 그리고 새로운 모자를 뽐내보세요!"]
+			hide_dependency_lines: true
+			icon: "simplehats:questbook"
+			id: "713453058246129A"
+			rewards: [
+				{
+					id: "6237206235CF02D4"
+					item: "simplehats:questbook"
+					type: "item"
+				}
+				{
+					id: "67A86F3F2026EE49"
+					item: "lightmanscurrency:coin_emerald"
+					title: "Money"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "업적"
+			tasks: [{
+				id: "0980095FE80FC990"
+				title: "Click Once Read"
+				type: "checkmark"
+			}]
+			title: "Act IV의 모든 퀘스트를 완료하세요!"
+			x: 10.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["10ABAF144ABC131E"]
+			description: [
+				"에버브라이트와 에버다운 차원에서, 당신은 &e새로운 쓸만한 탈것들을 길들일 수 있습니다&r."
+				""
+				"&e순록(Reindeer)&r, &e낙타(Camel)&r를 발견하거나, 아니면 &e코스믹 여우(Cosmic Fox)&r를 발견할 수도 있죠."
+			]
+			icon: "minecraft:paper"
+			id: "5145DB1D393B6681"
+			rewards: [
+				{
+					id: "587FD04ECDD9103E"
+					item: "minecraft:saddle"
+					title: "Saddle"
+					type: "item"
+				}
+				{
+					id: "19FC818B02F0178A"
+					item: "blue_skies:camel_saddle"
+					title: "Camel Saddle"
+					type: "item"
+				}
+			]
+			subtitle: "잃어버린 페이지"
+			tasks: [{
+				id: "5410793780654A4C"
+				title: "Click Once Read"
+				type: "checkmark"
+			}]
+			title: "이랴~"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5F455D8A504B112D"]
+			description: [
+				"&e관설 난로(Snowcap Oven)&r는 &e관설버섯(Snowcap Mushroom)의 열과 냉기의 특성을 이용해서 연료로 이용할 수도 있습니다&r."
+				""
+				"관설 버섯을 연료로 사용하면, 어딘가에 사용가능한 &e차가운 부산물&r을 뱉습니다."
+			]
+			id: "517A65DD1CDCA89F"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give exp @p 15500"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "621213B3B25F0F08"
+				silent: true
+				title: "15500 Experience"
+				type: "command"
+			}]
+			subtitle: "에버 탐험기"
+			tasks: [{
+				advancement: "blue_skies:everbright/craft_snowcap_oven"
+				criterion: ""
+				id: "20A4DC3C89497906"
+				type: "advancement"
+			}]
+			title: "이게 아니야!!"
+			x: 7.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["63DA191A8533F1AE"]
+			description: ["&e지평금 용광로(Horizonite Forge)&r는 블록의 열 덕분에 &e연료 없이 제련을 할 수 있습니다&r. 하지만 &e재충전 시간&r이 필요합니다, 그렇지만 지평금이나 태양석으로 만들어진 것이라면 더 빠르게 재충전 됩니다."]
+			id: "6954FEF58C12CA7F"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give exp @p 15500"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "4D85B77A38196A19"
+				silent: true
+				title: "15500 Experience"
+				type: "command"
+			}]
+			subtitle: "에버 탐험기"
+			tasks: [{
+				advancement: "blue_skies:everdawn/craft_horizonite_forge"
+				criterion: ""
+				id: "166DEBA8C0BA4181"
+				type: "advancement"
+			}]
+			title: "존1나게 뜨거운 불꽃"
+			x: 7.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["75454F0A3C4C3596"]
+			description: [
+				"&e코덱스(Codex)&r는 50레벨부터 드롭되기 시작하며, 당신이 착용할 수 있는 장비 입니다. &e코덱스&r는 플레이어가 착용하고있는 장비의 희귀도의 다양함에 따라 강력한 스텟을 줍니다.."
+				""
+				"가장 아래에는 요구조건이 적혀있습니다, 예를 들자면: 2개의 &c유니크&r, 1개의 일반 희귀도 장비(Common이 아니고 옆의 등급에 포함되는 장비) (&7일반&r -> &5신화&r), 그리고 &e룬워드&r 장비가 필요하죠."
+				""
+				"이러한 착용된 장비의 수 만큼, &e코덱스&r는 툴팁에 적혀있는것처럼 더 많은 스텟을 줍니다."
+			]
+			icon: "minecraft:paper"
+			id: "65FD2E8334B1DF1C"
+			rewards: [{
+				id: "5A57B86994265B51"
+				item: {
+					Count: 1
+					id: "mmorpg:omen"
+					tag: {
+						Damage: 0
+						mmorpg_omen: "{\"id\":\"blood\",\"lvl\":50,\"rar\":\"common\",\"rarities\":{\"NORMAL\":1,\"UNIQUE\":2,\"RUNED\":2},\"slot_req\":[{\"slot\":\"helmet\",\"rtype\":\"NORMAL\"}],\"aff\":[{\"p\":15,\"id\":\"jewel_corrupt_critical_damage\",\"rar\":\"common\",\"ty\":\"jewel_corruption\"},{\"p\":15,\"id\":\"gear_corruptphysical_resist\",\"rar\":\"common\",\"ty\":\"chaos_stat\"}]}"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "잃어버린 페이지"
+			tasks: [{
+				id: "272F644A9E6BED12"
+				title: "Click Once Read"
+				type: "checkmark"
+			}]
+			title: "기록용 책"
+			x: 10.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["10ABAF144ABC131E"]
+			description: ["원소피해로부터 살아남기 힘들다면, 새 방패(Shield)나, 고서(Tome) 혹은 토템(Totem)을 만들어 보세요!"]
+			id: "450D4FC0C8C994AD"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 15500"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "4AACF55C8A2C99F6"
+					silent: true
+					title: "15500 Experience"
+					type: "command"
+				}
+				{
+					id: "7FBC362CFB278857"
+					item: "mmorpg:runes/wir"
+					type: "item"
+				}
+			]
+			subtitle: "Mine and Slash 전문기술"
+			tasks: [{
+				id: "0C231DE25B40FE7B"
+				item: {
+					Count: 1
+					id: "mmorpg:stat_soul/family/offhand/epic"
+					tag: {
+						tier: 2
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "단단해져라"
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["63DA191A8533F1AE"]
+			description: ["당신의 핵심 스텟을 포션으로 올려 무딘 날을 새것처럼 만드세요..."]
+			id: "6EE535C73A769B4D"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give exp @p 17000"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "42CE0F3820716AC1"
+				silent: true
+				title: "17000 Experience"
+				type: "command"
+			}]
+			subtitle: "Mine and Slash 전문기술"
+			tasks: [
+				{
+					id: "6C08F041B2EF03B6"
+					item: {
+						Count: 1
+						id: "mmorpg:buff_potion/rare_str"
+						tag: {
+							tier: 2
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "41860D352A0DD737"
+					item: {
+						Count: 1
+						id: "mmorpg:buff_potion/rare_int"
+						tag: {
+							tier: 2
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "0305F8AC4688B17B"
+					item: {
+						Count: 1
+						id: "mmorpg:buff_potion/rare_dex"
+						tag: {
+							tier: 2
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+			]
+			title: "크으 이 포션 맛있네!"
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["44D0530C2718FC69"]
+			description: ["연구를 위해서 에버브라이트에서 더 많은 생명체들을 발견하세요!"]
+			id: "598F0B2047B2ED63"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 16000"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "64EAE736F49AFC28"
+					silent: true
+					title: "16000 Experience"
+					type: "command"
+				}
+				{
+					count: 6
+					id: "503861109D4D7FED"
+					item: "mmorpg:stone/2"
+					type: "item"
+				}
+			]
+			subtitle: "에버 탐험기"
+			tasks: [
+				{
+					entity: "blue_skies:diophyde_prowler"
+					icon: {
+						Count: 1
+						id: "blue_skies:diopside_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "0B8B2A75937FF714"
+					type: "kill"
+					value: 8L
+				}
+				{
+					entity: "blue_skies:polargeist"
+					icon: "blue_skies:polar_posy"
+					id: "158CA09D8BFF3AF7"
+					type: "kill"
+					value: 8L
+				}
+				{
+					entity: "blue_skies:whistleshell_crab"
+					icon: "crabbersdelight:crab"
+					id: "08F1BF19E13526CD"
+					type: "kill"
+					value: 4L
+				}
+			]
+			title: "얼어붙은 포식자들"
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["260297A19CCA9015"]
+			description: ["연구를 위해서 에버다운에서 더 많은 생명체들을 발견하세요!"]
+			id: "1AD4461B780DE1AF"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 15000"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "02163ADE8B5C9F55"
+					silent: true
+					title: "15000 Experience"
+					type: "command"
+				}
+				{
+					id: "74C089C57AD843CE"
+					item: "mmorpg:stone/3"
+					type: "item"
+				}
+			]
+			subtitle: "에버 모험기"
+			tasks: [
+				{
+					entity: "blue_skies:nyctofly"
+					icon: "moresnifferflowers:dragonfly"
+					id: "697C724F5CE76BE1"
+					type: "kill"
+					value: 8L
+				}
+				{
+					entity: "blue_skies:venom_spider"
+					icon: "minecraft:spider_eye"
+					id: "77D0AB1F0A381EBD"
+					type: "kill"
+					value: 8L
+				}
+			]
+			title: "역병"
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["10ABAF144ABC131E"]
+			description: [
+				"&e우월한 뼈를 부르는자(Supreme Bonescaller)&r는 &e뼈를 부르는자(Bonescaller)&r의 강화버전 입니다. 더욱더 증가된 방어력과 2개의 전투 페이즈가 있습니다.  &e암흑의 탑(Dark Towers)&r은 &e블루스카이즈(Blue Skies) 차원&r과 &e엔드&r에서 발견할 수 있습니다."
+				""
+				"&c우월한 뼈를 부르는자는 항상 최소 45레벨에서 신화의 수식어를 단 체로 소환됩니다.&r"
+				""
+				"우월한 뼈를 부르는자는 다음의 능력을 가지고 있습니다:"
+				"&b+25% 방어&r"
+				"&b+40% 원소저항&r"
+				"&b+75% 혼돈저항&r"
+			]
+			icon: {
+				Count: 1
+				id: "born_in_chaos_v1:bonescaller_staff"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "2C0463FD0D5CBF91"
+			rewards: [
+				{
+					id: "6978150D4E3B4209"
+					item: {
+						Count: 1
+						id: "mmorpg:chest/common_gear"
+						tag: {
+							mmorpg_loot_chest: "{\"num\":5,\"rar\":\"rare\",\"lvl\":40,\"id\":\"gear\",\"key\":\"\"}"
+						}
+					}
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 18500"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "69FC5BBDE8AC3CE0"
+					silent: true
+					title: "18500 Experience"
+					type: "command"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "009CF5E5B0150E77"
+					table_id: 8429304065672909682L
+					type: "choice"
+				}
+			]
+			shape: "diamond"
+			subtitle: "에버 모험기"
+			tasks: [{
+				entity: "born_in_chaos_v1:supreme_bonescaller_stage_2"
+				icon: "ftb_ph:bonescaller"
+				id: "3ECCEC2AC662CA2A"
+				type: "kill"
+				value: 1L
+			}]
+			title: "초대받지 않은 손놈"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5F455D8A504B112D"]
+			description: [
+				"&e악몽의 추적자(Nightmare Stalker)&r는 극도로 위험한 영혼입니다. 추적자(Stalker)는 특징적인 소리와 채팅에 메세지와 함께 소환됩니다. 그리고 이 영혼은 투명한 것 같군요 - 보이는것은 빛나는 두 눈 뿐입니다. 추적자가 투명할때는, 엄청 빠르게 이동 합니다. 하지만 피해를 받으면, 투명화가 풀립니다."
+				""
+				"악몽의 추적자는 최대 70블럭에서부터 플레이어를 알아챕니다, 그리고 플레이어를 쫓아가기 시작하죠. 플레이어를 공격할 때는, 추적자는 목표에게 찢어질듯한 비명을 지르고 실명을 걸어 완벽한 암흑을 선사합니다."
+				""
+				"&c악몽의 추적자는 항상 최소 35레벨에서 소환됩니다.&r"
+				""
+				"악몽의 추적자는 다음의 능력을 가지고 있습니다:"
+				"&b+25% 출혈확률&r"
+				"&b+50% 회피율&r"
+				"&b+50% 원소저항&r"
+			]
+			icon: "born_in_chaos_v1:nightmare_stalker_skull"
+			id: "1A18C9F2B0E6E37B"
+			rewards: [
+				{
+					id: "3125555512B95F56"
+					item: {
+						Count: 1
+						id: "mmorpg:chest/common_gear"
+						tag: {
+							mmorpg_loot_chest: "{\"num\":5,\"rar\":\"epic\",\"lvl\":50,\"id\":\"gear\",\"key\":\"\"}"
+						}
+					}
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 25500"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "25E48201F98C883C"
+					silent: true
+					title: "25500 Experience"
+					type: "command"
+				}
+			]
+			shape: "diamond"
+			subtitle: "에버 탐험기"
+			tasks: [{
+				entity: "born_in_chaos_v1:nightmare_stalker"
+				icon: "ftb_ph:nightmare_stalker"
+				id: "4BF8629E04C358A2"
+				type: "kill"
+				value: 2L
+			}]
+			title: "추적자"
+			x: 9.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["63DA191A8533F1AE"]
+			description: [
+				"&e생명강탈자(Lifestealer)&r는 공포의 언데드 괴물 입니다. 충분한 피해를 받으면, 소리지르면서 원래의 형태를 드러냅니다. &e생명강탈자&r는 주기적으로 주변의 모든것을 밀어버리고 피해를 주는 어둠의 파동을 뿜어냅니다."
+				""
+				"&c생명강탈자는 항상 최소 35레벨에서 소환됩니다.&r"
+				""
+				"생명강탈자는 다음의 능력을 가지고 있습니다 Has:"
+				"&b+2% 생명력 흡수&r"
+				"&b+50% 원소저항&r"
+				"&b+50% 혼돈저항&r"
+			]
+			icon: "born_in_chaos_v1:lifestealer_skull"
+			id: "54D98C5CCDE624EF"
+			rewards: [
+				{
+					id: "686DF000293C6267"
+					item: {
+						Count: 1
+						id: "mmorpg:chest/common_gear"
+						tag: {
+							mmorpg_loot_chest: "{\"num\":5,\"rar\":\"epic\",\"lvl\":50,\"id\":\"gear\",\"key\":\"\"}"
+						}
+					}
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 25500"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "5E4FECB2A3D5C667"
+					silent: true
+					title: "25500 Experience"
+					type: "command"
+				}
+			]
+			shape: "diamond"
+			subtitle: "에버 탐험기"
+			tasks: [{
+				entity: "born_in_chaos_v1:lifestealer_true_form"
+				icon: "ftb_ph:life_stealer"
+				id: "2B03EB693EBBE6F3"
+				type: "kill"
+				value: 2L
+			}]
+			title: "쮸와아아아압"
+			x: 9.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5F455D8A504B112D"]
+			description: ["경험치 부스트가 필요하세요? 전문기술로 만든 &e경험치 생선(Experience Gain Seafood)&r을 만드세요!"]
+			id: "221133BF7C60E9C3"
+			rewards: [
+				{
+					id: "58E05252C5F75132"
+					item: "mmorpg:material/fishing/2"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 17000"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "2C39F5BECE4AE2FF"
+					silent: true
+					title: "17000 Experience"
+					type: "command"
+				}
+			]
+			subtitle: "Mine and Slash 전문기술"
+			tasks: [{
+				id: "261373246C850AB3"
+				item: {
+					Count: 1
+					id: "mmorpg:seafood/legendary_exp"
+					tag: {
+						tier: 2
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "에버브라이트 아쿠아리움"
+			x: 9.0d
+			y: -3.0d
+		}
+	]
+	subtitle: ["레벨. 35-55"]
+	title: "Act IV"
+}

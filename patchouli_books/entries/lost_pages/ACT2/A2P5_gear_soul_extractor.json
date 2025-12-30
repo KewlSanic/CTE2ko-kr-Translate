@@ -1,0 +1,17 @@
+{
+    "name": "장비 영혼 추출기(Extractors)",
+    "icon": "mmorpg:soul_extractor/epic",
+    "category": "patchouli:A1lost_pages",
+	"sortnum":12,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(c:/ftbquests open_book 60D44B70BB06539B)&c$(l)---> 퀘스트 열기(클릭!) <--- $(/c)$(br)&r&e장비 영혼 추출기&r는 장비에 사용할 수 있습니다. 장비의 '능력치'를 영혼 형태로 되돌려 받게 되며, 이 과정에서 기본 장비는 파괴됩니다. 이렇게 얻은 영혼은 다른 장비에 사용할 수 있습니다!
+
+반대로, &e장비 영혼 제거기&r는 기본 아이템은 유지하면서 장비의 능력치를 제거하는 데 사용됩니다."},
+{            "type": "patchouli:spotlight",
+  "item": "mmorpg:soul_cleaner,mmorpg:soul_extractor/uncommon,mmorpg:currency/extract_gem,mmorpg:currency/extract_rune",
+            "text": "&e보석 추출기&r는 장비 소켓에서 &e보석&r을 제거하는 데 사용됩니다. 보석을 제거해도 불이익은 없지만, 추출기는 소모됩니다. 룬 추출기도 있지만, 사용하면 장비 &e잠재력 1&r이 소모됩니다."
+		}
+    ]
+}
