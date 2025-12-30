@@ -664,9 +664,9 @@
 		}
 		{
 			description: [
-				"텔레패스(TelePass)를 제작하여 자신에게 연결하세요. 그러면 다른 플레이어가 해당 텔레패스를 사용하여 당신에게 즉시 텔레포트할 수 있습니다."
+				"&e텔레패스(TelePass)&r를 제작하여 자신에게 연결하세요. 그러면 다른 플레이어가 해당 텔레패스를 사용하여 당신에게 즉시 텔레포트할 수 있습니다."
 				""
-				"금 텔레패스(Gold TelePass)는 일회용이고, 다이아몬드 텔레패스(Diamond TelePass)는 내구성이 있습니다. 둘 다 마법 부여가 가능합니다."
+				"&e금 텔레패스(Gold TelePass)&r는 &e일회용&r이고, &e다이아몬드 텔레패스(Diamond TelePass)&r는 내구성이 있습니다. 둘 다 마법 부여가 가능합니다."
 			]
 			id: "0152DC99C57C0731"
 			rewards: [{
@@ -909,7 +909,7 @@
 			y: -6.0d
 		}
 		{
-			description: ["DPS 오버레이를 사용하면 DPS를 확인할 수 있습니다. &eShift + ]&r 키를 눌러 오버레이를 불러오고, &eShift + \[&r!" 키를 눌러 이동시키세요.]
+			description: ["DPS 오버레이를 사용하면 DPS를 확인할 수 있습니다. &eShift + ]&r 키를 눌러 오버레이를 불러오고, &eShift + [&r 키를 눌러 이동시키세요."]
 			icon: "born_in_chaos_v1:evilometer"
 			id: "41B73C0882D4CAA4"
 			rewards: [{
